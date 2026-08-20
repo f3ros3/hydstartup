@@ -96,7 +96,11 @@ export default function App() {
   };
 
   useEffect(() => {
-    localStorage.setItem('hyd_portal_theme', theme);
+    try {
+      localStorage.setItem('hyd_portal_theme', theme);
+    } catch (e) {
+      console.warn('Storage unavailable:', e);
+    }
     const root = document.documentElement;
     if (theme === 'dark') {
       root.classList.add('dark');
@@ -152,11 +156,19 @@ export default function App() {
   });
 
   useEffect(() => {
-    localStorage.setItem('hyd_bookmarked_jobs', JSON.stringify(bookmarkedIds));
+    try {
+      localStorage.setItem('hyd_bookmarked_jobs', JSON.stringify(bookmarkedIds));
+    } catch (e) {
+      console.warn('Storage unavailable:', e);
+    }
   }, [bookmarkedIds]);
 
   useEffect(() => {
-    localStorage.setItem('hyd_custom_jobs', JSON.stringify(customJobs));
+    try {
+      localStorage.setItem('hyd_custom_jobs', JSON.stringify(customJobs));
+    } catch (e) {
+      console.warn('Storage unavailable:', e);
+    }
   }, [customJobs]);
 
   // Combined jobs list
