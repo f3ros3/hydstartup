@@ -25,10 +25,10 @@ Live Interactive Platform featuring real-time cluster map (T-Hub, HITEC City, Ga
 ## 🚀 Quickstart
 `ash
 # Clone the repository
-git clone https://github.com/f3ros3/hystartup.git
+git clone https://github.com/f3ros3/hydstartup.git
 
 # Navigate to project
-cd hystartup
+cd hydstartup
 
 # Install dependencies
 npm install
