@@ -50,7 +50,7 @@ function MapController({ targetCenter, targetZoom, selectedCompany }) {
   return null;
 }
 
-// Generate custom Leaflet DivIcon with Real Company Logo
+// Generate custom Leaflet DivIcon with Real Company Logo (Performance Optimized)
 function createCustomMarkerIcon(company, isSelected) {
   const color = company.color || '#10B981';
   const logoText = company.logoText || company.name.substring(0, 2).toUpperCase();
@@ -58,12 +58,12 @@ function createCustomMarkerIcon(company, isSelected) {
   const logoUrl = getCompanyLogoUrl(company);
 
   const html = `
-    <div class="relative group cursor-pointer" style="transform: translate(-50%, -50%);">
-      ${company.isHiring ? `<div class="absolute -inset-1.5 rounded-2xl bg-[${color}]/40 animate-ping opacity-75"></div>` : ''}
-      <div class="relative flex items-center justify-center w-11 h-11 rounded-2xl bg-white border-2 shadow-2xl transition-all duration-300 ${
+    <div class="relative group cursor-pointer select-none" style="transform: translate(-50%, -50%); will-change: transform;">
+      ${isSelected ? `<div class="absolute -inset-1 rounded-2xl bg-emerald-500/40 animate-ping opacity-75"></div>` : ''}
+      <div class="relative flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white border-2 shadow-lg transition-transform duration-200 ${
         isSelected
-          ? 'scale-125 ring-4 ring-emerald-400 border-emerald-500 z-50 shadow-emerald-500/60'
-          : 'border-slate-800 hover:scale-115 hover:border-emerald-400 shadow-black/90'
+          ? 'scale-125 ring-3 ring-emerald-400 border-emerald-500 z-50 shadow-emerald-500/50'
+          : 'border-slate-800 hover:scale-110 shadow-black/60'
       }" style="border-color: ${isSelected ? '#10B981' : color};">
         
         ${
@@ -71,22 +71,23 @@ function createCustomMarkerIcon(company, isSelected) {
             ? `<img 
                 src="${logoUrl}" 
                 alt="${company.name}" 
-                class="w-6 h-6 object-contain rounded-md"
+                class="w-5 h-5 sm:w-6 sm:h-6 object-contain rounded-md"
                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                loading="lazy"
               />
-              <span class="text-xs font-black tracking-tighter" style="display:none; color: ${color};">${logoText}</span>`
-            : `<span class="text-xs font-black tracking-tighter" style="color: ${color};">${logoText}</span>`
+              <span class="text-[11px] font-black tracking-tighter" style="display:none; color: ${color};">${logoText}</span>`
+            : `<span class="text-[11px] font-black tracking-tighter" style="color: ${color};">${logoText}</span>`
         }
 
         ${
           jobsCount > 0
-            ? `<span class="absolute -top-2 -right-2 bg-emerald-500 text-slate-950 text-[10px] font-black px-1.5 py-0.5 rounded-full border-2 border-[#0B0F19] shadow-md">
+            ? `<span class="absolute -top-1.5 -right-1.5 bg-emerald-500 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded-full border-2 border-[#0B0F19] shadow-sm">
                 ${jobsCount}
               </span>`
             : ''
         }
       </div>
-      <div class="absolute top-12 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#0B0F19]/95 text-slate-100 text-[10px] font-extrabold px-2 py-0.5 rounded-md border border-slate-700 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity shadow-2xl z-50">
+      <div class="hidden sm:block absolute top-12 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#0B0F19]/95 text-slate-100 text-[10px] font-extrabold px-2 py-0.5 rounded-md border border-slate-700 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity shadow-xl z-50">
         ${company.name}
       </div>
     </div>
@@ -95,9 +96,9 @@ function createCustomMarkerIcon(company, isSelected) {
   return L.divIcon({
     className: 'custom-leaflet-marker',
     html: html,
-    iconSize: [44, 44],
-    iconAnchor: [22, 22],
-    popupAnchor: [0, -24]
+    iconSize: [40, 40],
+    iconAnchor: [20, 20],
+    popupAnchor: [0, -20]
   });
 }
 
@@ -134,6 +135,7 @@ export default function MapView({
         center={defaultCenter}
         zoom={12}
         scrollWheelZoom={true}
+        preferCanvas={true}
         className="w-full h-full z-0"
       >
         {/* CartoDB Tiles */}
@@ -141,6 +143,9 @@ export default function MapView({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>'
           url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
           maxZoom={19}
+          keepBuffer={6}
+          updateWhenZooming={false}
+          updateWhenIdle={true}
         />
 
         <MapController

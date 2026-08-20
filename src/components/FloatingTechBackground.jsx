@@ -399,7 +399,8 @@ export default function FloatingTechBackground() {
                 color: tech.color,
                 animationDelay: tech.delay,
                 animationDuration: tech.duration,
-                filter: 'drop-shadow(0 0 25px currentColor)',
+                filter: typeof window !== 'undefined' && window.innerWidth < 768 ? 'none' : 'drop-shadow(0 0 20px currentColor)',
+                willChange: 'transform',
               }}
             >
               {tech.svg}

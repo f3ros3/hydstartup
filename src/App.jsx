@@ -140,9 +140,9 @@ export default function App() {
   const [bookmarkedIds, setBookmarkedIds] = useState(() => {
     try {
       const saved = localStorage.getItem('hyd_bookmarked_jobs');
-      return saved ? JSON.parse(saved) : ['job-db-1', 'job-sr-1'];
+      return saved ? JSON.parse(saved) : [];
     } catch {
-      return ['job-db-1', 'job-sr-1'];
+      return [];
     }
   });
 
