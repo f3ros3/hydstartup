@@ -431,18 +431,20 @@ export default function App() {
               }`}
               style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${splitRatio}%` : '100%' }}
             >
-              <MapView
-                companies={filteredCompanies}
-                selectedCompany={selectedCompany}
-                onSelectCompany={(c) => setSelectedCompany(c)}
-                onSelectJobForCompany={handleViewCompanyJobs}
-                onOpenCompanyDetails={(c) => {
-                  setSelectedCompany(c);
-                  setIsCompanyModalOpen(true);
-                }}
-                activeHubCenter={activeHubCenter}
-                activeHubZoom={activeHubZoom}
-              />
+              {(mobileSplitTab === 'map' || (typeof window !== 'undefined' && window.innerWidth >= 1024)) && (
+                <MapView
+                  companies={filteredCompanies}
+                  selectedCompany={selectedCompany}
+                  onSelectCompany={(c) => setSelectedCompany(c)}
+                  onSelectJobForCompany={handleViewCompanyJobs}
+                  onOpenCompanyDetails={(c) => {
+                    setSelectedCompany(c);
+                    setIsCompanyModalOpen(true);
+                  }}
+                  activeHubCenter={activeHubCenter}
+                  activeHubZoom={activeHubZoom}
+                />
+              )}
             </div>
 
             {/* Draggable Divider Handle (Desktop Only) */}
