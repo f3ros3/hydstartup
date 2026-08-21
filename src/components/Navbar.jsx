@@ -61,13 +61,10 @@ export default function Navbar({
             className="flex flex-col items-center justify-center text-center cursor-pointer select-none flex-1 px-1" 
             onClick={() => setViewMode('split')}
           >
-            <div className="flex items-center justify-center gap-1.5 sm:gap-3">
+            <div className="flex items-center justify-center">
               <h1 className="text-xl sm:text-3xl lg:text-4xl xl:text-[2.65rem] font-black tracking-tight dark:text-white text-slate-950 whitespace-nowrap">
                 HydStartup<span className="dark:text-emerald-400 text-orange-600">Arena</span>
               </h1>
-              <span className="hidden sm:inline-block text-[11px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full dark:bg-emerald-500/20 dark:text-emerald-300 dark:border-emerald-500/40 bg-orange-500/20 text-orange-700 border border-orange-500/40 backdrop-blur-md">
-                HYD MAP
-              </span>
             </div>
             <p className="text-[10px] sm:text-sm lg:text-[15px] dark:text-slate-200 text-slate-800 font-extrabold tracking-wide -mt-0.5 sm:mt-0.5 whitespace-nowrap">
               One Stop for All Tech Job

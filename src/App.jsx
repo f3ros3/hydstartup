@@ -10,6 +10,7 @@ import CompanyDetailsModal from './components/CompanyDetailsModal';
 import PostJobModal from './components/PostJobModal';
 import BookmarksDrawer from './components/BookmarksDrawer';
 import AnalyticsModal from './components/AnalyticsModal';
+import NewsletterSection from './components/NewsletterSection';
 import FloatingTechBackground from './components/FloatingTechBackground';
 import { InstagramIcon } from './components/Icons';
 
@@ -246,18 +247,45 @@ export default function App() {
 
       return true;
     }).sort((a, b) => {
-      if (sortBy === 'salary') {
-        const getSalaryNum = (str) => {
-          const match = (str || '').match(/(\d+)/);
-          return match ? parseInt(match[0], 10) : 0;
-        };
-        return getSalaryNum(b.salaryRange) - getSalaryNum(a.salaryRange);
+      const getSalaryMax = (str) => {
+        const matches = (str || '').match(/(\d+)/g);
+        if (!matches) return 0;
+        return parseInt(matches[matches.length - 1], 10);
+      };
+
+      const getSalaryMin = (str) => {
+        const matches = (str || '').match(/(\d+)/g);
+        if (!matches) return 0;
+        return parseInt(matches[0], 10);
+      };
+
+      const getExpNum = (str) => {
+        const match = (str || '').match(/(\d+)/);
+        return match ? parseInt(match[0], 10) : 0;
+      };
+
+      switch (sortBy) {
+        case 'salary_desc':
+        case 'salary':
+          return getSalaryMax(b.salaryRange) - getSalaryMax(a.salaryRange);
+        case 'salary_asc':
+          return getSalaryMin(a.salaryRange) - getSalaryMin(b.salaryRange);
+        case 'company_asc':
+        case 'company':
+          return (a.companyName || '').localeCompare(b.companyName || '');
+        case 'company_desc':
+          return (b.companyName || '').localeCompare(a.companyName || '');
+        case 'experience_asc':
+          return getExpNum(a.experience) - getExpNum(b.experience);
+        case 'experience_desc':
+          return getExpNum(b.experience) - getExpNum(a.experience);
+        case 'recent_asc':
+          return (b.postedDaysAgo || 0) - (a.postedDaysAgo || 0);
+        case 'recent_desc':
+        case 'recent':
+        default:
+          return (a.postedDaysAgo || 0) - (b.postedDaysAgo || 0);
       }
-      if (sortBy === 'company') {
-        return a.companyName.localeCompare(b.companyName);
-      }
-      // 'recent'
-      return (a.postedDaysAgo || 0) - (b.postedDaysAgo || 0);
     });
   }, [allJobs, companyMap, searchQuery, selectedRole, selectedIndustry, selectedExp, selectedWorkMode, selectedHub, companyTypeFilter, sortBy]);
 
@@ -414,32 +442,28 @@ export default function App() {
         {viewMode === 'split' && (
           <div 
             ref={splitContainerRef}
-            className="relative flex flex-col lg:flex-row gap-0 lg:gap-3 h-auto lg:h-[calc(100vh-270px)] min-h-[580px] select-none"
+            className="relative flex flex-col lg:flex-row gap-4 lg:gap-3 h-auto lg:h-[calc(100vh-270px)] min-h-0 lg:min-h-[580px] select-none"
           >
             
-            {/* Left Pane: Interactive Hyderabad Map (Adjustable Width) */}
+            {/* Left Pane: Interactive Hyderabad Map (Adjustable Width on Desktop / Full Width Top on Mobile) */}
             <div 
-              className={`h-[420px] lg:h-full flex flex-col transition-[width] ${
+              className={`h-[360px] sm:h-[420px] lg:h-full w-full flex flex-col transition-[width] shrink-0 ${
                 isDraggingSplit ? 'duration-0 pointer-events-none' : 'duration-150'
-              } ${
-                mobileSplitTab === 'jobs' ? 'hidden lg:flex' : 'flex'
               }`}
               style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${splitRatio}%` : '100%' }}
             >
-              {(mobileSplitTab === 'map' || (typeof window !== 'undefined' && window.innerWidth >= 1024)) && (
-                <MapView
-                  companies={filteredCompanies}
-                  selectedCompany={selectedCompany}
-                  onSelectCompany={(c) => setSelectedCompany(c)}
-                  onSelectJobForCompany={handleViewCompanyJobs}
-                  onOpenCompanyDetails={(c) => {
-                    setSelectedCompany(c);
-                    setIsCompanyModalOpen(true);
-                  }}
-                  activeHubCenter={activeHubCenter}
-                  activeHubZoom={activeHubZoom}
-                />
-              )}
+              <MapView
+                companies={filteredCompanies}
+                selectedCompany={selectedCompany}
+                onSelectCompany={(c) => setSelectedCompany(c)}
+                onSelectJobForCompany={handleViewCompanyJobs}
+                onOpenCompanyDetails={(c) => {
+                  setSelectedCompany(c);
+                  setIsCompanyModalOpen(true);
+                }}
+                activeHubCenter={activeHubCenter}
+                activeHubZoom={activeHubZoom}
+              />
             </div>
 
             {/* Draggable Divider Handle (Desktop Only) */}
@@ -464,12 +488,10 @@ export default function App() {
               </div>
             </div>
 
-            {/* Right Pane: Searchable Jobs & Startup Stream (Adjustable Width) */}
+            {/* Right Pane: Searchable Jobs & Startup Stream (Adjustable Width on Desktop / Follows Map on Mobile) */}
             <div 
-              className={`h-[560px] lg:h-full flex flex-col dark:bg-[#0E1526]/85 bg-white/90 backdrop-blur-md rounded-3xl border dark:border-slate-800 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl transition-[width] ${
+              className={`h-auto lg:h-full w-full min-h-[500px] flex flex-col dark:bg-[#0E1526]/85 bg-white/90 backdrop-blur-md rounded-3xl border dark:border-slate-800 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl transition-[width] ${
                 isDraggingSplit ? 'duration-0' : 'duration-150'
-              } ${
-                mobileSplitTab === 'map' ? 'hidden lg:flex' : 'flex'
               }`}
               style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${100 - splitRatio}%` : '100%' }}
             >
@@ -638,6 +660,9 @@ export default function App() {
         )}
 
       </main>
+
+      {/* Newsletter Subscription Section */}
+      <NewsletterSection />
 
       {/* FOOTER: Created by Tech With Shaik & Copyright Notice (Transparent Background) */}
       <footer className="relative z-10 mt-12 bg-transparent dark:bg-slate-950/20 bg-white/20 backdrop-blur-[3px] border-t dark:border-slate-800/40 border-slate-200/40 py-8 px-4 sm:px-8 text-center text-xs dark:text-slate-400 text-slate-600 transition-colors">

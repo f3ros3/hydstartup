@@ -646,4 +646,1131 @@ export const HYDERABAD_JOBS = [
     requirements: ["Experience with battery management systems, lithium-ion chemistries, and automotive CAN protocols."],
     perks: ["Startup equity", "Electric vehicle test drive perks", "Healthcare"]
   }
+,
+  {
+    "id": "job-ds-1",
+    "companyId": "dhruva-space",
+    "companyName": "Dhruva Space",
+    "title": "Satellite Systems Software Engineer",
+    "roleCategory": "Engineering",
+    "industry": "SpaceTech & Aerospace",
+    "experience": "2-5 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹16 - ₹28 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "skills": [
+      "Embedded C",
+      "C++",
+      "FreeRTOS",
+      "Satellite Bus",
+      "Telemetry",
+      "Python"
+    ],
+    "description": "Design and verify satellite flight computer firmware and communications subsystem protocols for Dhruva's P-30 nanosatellite platform.",
+    "responsibilities": [
+      "Develop embedded flight software for onboard command and data handling.",
+      "Conduct functional and environmental acceptance testing of flight electronics.",
+      "Collaborate with ISRO payload integration teams."
+    ],
+    "requirements": [
+      "B.Tech/M.Tech in Aerospace, Electronics, or Computer Science.",
+      "Hands-on experience with FreeRTOS, microcontrollers (STM32/ARM), and C/C++."
+    ],
+    "perks": [
+      "Direct launch satellite mission badge",
+      "ESOP equity",
+      "Full medical health plan"
+    ]
+  },
+  {
+    "id": "job-ds-2",
+    "companyId": "dhruva-space",
+    "companyName": "Dhruva Space",
+    "title": "RF & Ground Station Communication Engineer",
+    "roleCategory": "Engineering",
+    "industry": "SpaceTech & Aerospace",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹18 - ₹30 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "skills": [
+      "RF Engineering",
+      "S-Band/X-Band",
+      "SDR",
+      "GNU Radio",
+      "MATLAB",
+      "Antenna Design"
+    ],
+    "description": "Architect high-gain UHF/S/X-band transceiver pipelines and automated ground station tracking antenna arrays.",
+    "responsibilities": [
+      "Design RF front-ends, power amplifiers, and low-noise receivers.",
+      "Perform link budget calculations and orbital Doppler compensation."
+    ],
+    "requirements": [
+      "Degree in RF Engineering, Communications, or Electronics.",
+      "Strong background with SDRs (USRP), spectrum analyzers, and RF test equipment."
+    ],
+    "perks": [
+      "Satellite telemetry operations",
+      "ESOPs",
+      "Health benefits"
+    ]
+  },
+  {
+    "id": "job-md-1",
+    "companyId": "marut-drones",
+    "companyName": "Marut Drones",
+    "title": "Robotics & Autonomous Navigation Engineer",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "2-5 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹14 - ₹24 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "skills": [
+      "ROS / ROS2",
+      "Computer Vision",
+      "Python",
+      "C++",
+      "PX4 Autopilot",
+      "SLAM"
+    ],
+    "description": "Develop autonomous obstacle avoidance and precision LiDAR/visual SLAM algorithms for agricultural and medical payload drones.",
+    "responsibilities": [
+      "Integrate PX4/Ardupilot flight controllers with companion edge computers (NVIDIA Jetson).",
+      "Deploy real-time path planning and GPS-denied navigation algorithms."
+    ],
+    "requirements": [
+      "Experience with ROS/ROS2, OpenCV, and autonomous mobile robotics.",
+      "Hands-on flight testing and sensor fusion experience."
+    ],
+    "perks": [
+      "Drone pilot certification subsidy",
+      "Startup stock options",
+      "Exciting field missions"
+    ]
+  },
+  {
+    "id": "job-md-2",
+    "companyId": "marut-drones",
+    "companyName": "Marut Drones",
+    "title": "AI Computer Vision Engineer (Crop Analytics)",
+    "roleCategory": "AI / ML",
+    "industry": "AI & DeepTech",
+    "experience": "1-4 yrs",
+    "experienceLevel": "Junior (1-3 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹12 - ₹20 LPA",
+    "postedDaysAgo": 4,
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "skills": [
+      "PyTorch",
+      "TensorFlow",
+      "YOLOv8",
+      "OpenCV",
+      "Multispectral Imagery",
+      "Python"
+    ],
+    "description": "Build deep learning models for multispectral aerial image segmentation, crop disease detection, and yield estimation.",
+    "responsibilities": [
+      "Train edge-optimized neural networks for real-time aerial survey inference.",
+      "Build automated GIS orthomosaic stitching pipelines."
+    ],
+    "requirements": [
+      "Proficiency in PyTorch/TensorFlow and object detection architectures.",
+      "Experience processing drone multispectral or satellite imagery."
+    ],
+    "perks": [
+      "Cutting-edge AI research",
+      "Flexible work",
+      "Health cover"
+    ]
+  },
+  {
+    "id": "job-gr-1",
+    "companyId": "grene-robotics",
+    "companyName": "Grene Robotics",
+    "title": "Lead Autonomous Systems Architect (C++ / Rust)",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "6-10 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹35 - ₹55 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "C++20",
+      "Rust",
+      "Distributed Systems",
+      "Radar/Sensor Fusion",
+      "ZeroMQ",
+      "Linux"
+    ],
+    "description": "Architect the core real-time distributed command and control engine for the Indrajaal Autonomous Defense Dome System.",
+    "responsibilities": [
+      "Build microsecond-latency threat detection and sensor fusion pipelines (Radar, LiDAR, RF, EO/IR).",
+      "Lead a team of 8 systems engineers building defense-grade autonomous tracking software."
+    ],
+    "requirements": [
+      "6+ years building low-latency distributed systems in modern C++ or Rust.",
+      "Strong background in multithreading, concurrency, and real-time networking."
+    ],
+    "perks": [
+      "Defense innovation leadership",
+      "High-tier equity grant",
+      "Premium health insurance"
+    ]
+  },
+  {
+    "id": "job-gr-2",
+    "companyId": "grene-robotics",
+    "companyName": "Grene Robotics",
+    "title": "Senior AI Threat Detection Engineer",
+    "roleCategory": "AI / ML",
+    "industry": "AI & DeepTech",
+    "experience": "3-7 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹24 - ₹40 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "Deep Learning",
+      "Sensor Fusion",
+      "Python",
+      "C++",
+      "PyTorch",
+      "TensorRT",
+      "Edge AI"
+    ],
+    "description": "Train and deploy edge AI models for real-time aerial target identification and threat trajectory prediction.",
+    "responsibilities": [
+      "Optimize deep learning models for high-throughput GPU inference with TensorRT.",
+      "Conduct field trial data analysis and continuous model re-training."
+    ],
+    "requirements": [
+      "Strong track record in deep learning, object tracking, and sensor fusion.",
+      "Proficiency with Python, C++, and TensorRT."
+    ],
+    "perks": [
+      "Generous ESOPs",
+      "National security impact projects",
+      "Comprehensive insurance"
+    ]
+  },
+  {
+    "id": "job-rh-1",
+    "companyId": "red-health",
+    "companyName": "RED.Health (StanPlus)",
+    "title": "Senior Backend Engineer (Go / Node.js)",
+    "roleCategory": "Engineering",
+    "industry": "HealthTech / Bio",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹20 - ₹32 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "jubilee-hills",
+    "area": "Jubilee Hills, Hyderabad",
+    "skills": [
+      "Go",
+      "Node.js",
+      "WebSockets",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "AWS"
+    ],
+    "description": "Build 99.999% available emergency dispatch systems and live ambulance telemetry streams serving millions across India.",
+    "responsibilities": [
+      "Architect high-concurrency GPS streaming and automated closest-ambulance routing algorithms.",
+      "Integrate hospital ER beds, vital monitors, and paramedic mobile apps."
+    ],
+    "requirements": [
+      "3+ years with Go or Node.js in high-scale production distributed systems.",
+      "Experience with real-time architectures (WebSockets, gRPC, Kafka)."
+    ],
+    "perks": [
+      "Life-saving product impact",
+      "ESOP equity",
+      "Full family health coverage"
+    ]
+  },
+  {
+    "id": "job-rh-2",
+    "companyId": "red-health",
+    "companyName": "RED.Health (StanPlus)",
+    "title": "Lead Mobile Engineer (React Native)",
+    "roleCategory": "Engineering",
+    "industry": "HealthTech / Bio",
+    "experience": "4-8 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹26 - ₹38 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "jubilee-hills",
+    "area": "Jubilee Hills, Hyderabad",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Redux",
+      "Background GPS",
+      "Offline Sync",
+      "WebSockets"
+    ],
+    "description": "Lead the development of the 911 paramedic response app and consumer emergency SOS application.",
+    "responsibilities": [
+      "Design battery-efficient background geolocation tracking and instant alert audio triggers.",
+      "Ensure ultra-reliable offline-first sync during network dropouts."
+    ],
+    "requirements": [
+      "4+ years building high-reliability production React Native apps for iOS & Android.",
+      "Experience with native bridging (Java/Kotlin, Swift/Obj-C)."
+    ],
+    "perks": [
+      "ESOP equity",
+      "Generous medical benefits",
+      "Flexible hybrid schedule"
+    ]
+  },
+  {
+    "id": "job-pe-1",
+    "companyId": "pure-ev",
+    "companyName": "PURE EV",
+    "title": "Embedded Battery Management (BMS) Firmware Engineer",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "2-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹14 - ₹25 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "address": "Begumpet Tech Center, Hyderabad",
+    "skills": [
+      "Embedded C",
+      "BMS Firmware",
+      "CAN Bus",
+      "State of Charge (SoC)",
+      "Microchip/ST",
+      "Safety Standards"
+    ],
+    "description": "Develop smart lithium-ion BMS algorithms, thermal runaway protection, and telemetry for next-gen electric vehicles.",
+    "responsibilities": [
+      "Implement battery cell balancing, over-voltage/current protection, and thermal algorithms.",
+      "Perform hardware debugging and battery pack endurance testing."
+    ],
+    "requirements": [
+      "Experience in embedded C firmware for automotive or battery systems (ISO 26262 knowledge is a plus)."
+    ],
+    "perks": [
+      "EV employee discount",
+      "Health insurance",
+      "Annual performance bonus"
+    ]
+  },
+  {
+    "id": "job-em-1",
+    "companyId": "eto-motors",
+    "companyName": "ETO Motors",
+    "title": "IoT Fleet Management Full Stack Engineer",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "2-5 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹15 - ₹24 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Node.js",
+      "React",
+      "AWS IoT Core",
+      "MQTT",
+      "PostgreSQL",
+      "TailwindCSS"
+    ],
+    "description": "Build real-time EV fleet telemetry dashboards, charging station reservations, and battery health analytics platforms.",
+    "responsibilities": [
+      "Develop responsive web interfaces for fleet operators and enterprise clients.",
+      "Process high-volume MQTT telematics streams from thousands of electric vehicles."
+    ],
+    "requirements": [
+      "2+ years experience in Full Stack development with Node.js and React.",
+      "Familiarity with IoT protocols and cloud data pipelines."
+    ],
+    "perks": [
+      "Clean energy mission",
+      "Hybrid work flexibility",
+      "Medical insurance"
+    ]
+  },
+  {
+    "id": "job-kk-1",
+    "companyId": "keka-hr",
+    "companyName": "Keka HR",
+    "title": "Principal Software Engineer (.NET Core + Microservices)",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "7-12 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹38 - ₹55 LPA + ESOPs",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      ".NET Core",
+      "C#",
+      "Microservices",
+      "Kafka",
+      "Redis",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "description": "Architect the next generation of Keka's distributed payroll engine processing $1B+ in annual salary payouts across 8,000+ enterprises.",
+    "responsibilities": [
+      "Drive microservice decomposition, performance benchmarking, and zero-downtime deployments.",
+      "Mentor senior engineers and set engineering architectural standards."
+    ],
+    "requirements": [
+      "7+ years architecting enterprise B2B SaaS in .NET Core / C#.",
+      "Deep expertise with distributed caching, event sourcing, and cloud databases."
+    ],
+    "perks": [
+      "Significant ESOP grant",
+      "Top-tier compensation",
+      "Flexible work",
+      "Generous health insurance"
+    ]
+  },
+  {
+    "id": "job-kk-2",
+    "companyId": "keka-hr",
+    "companyName": "Keka HR",
+    "title": "Senior Product Designer (UI/UX)",
+    "roleCategory": "Design",
+    "industry": "SaaS / Enterprise",
+    "experience": "4-7 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹22 - ₹34 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Figma",
+      "Design Systems",
+      "User Research",
+      "Prototyping",
+      "B2B SaaS"
+    ],
+    "description": "Lead the UI/UX evolution of Keka's People Analytics and performance management modules to deliver consumer-grade experiences.",
+    "responsibilities": [
+      "Create intuitive user journeys, wireframes, and high-fidelity prototypes.",
+      "Conduct user testing sessions with HR leaders and employees."
+    ],
+    "requirements": [
+      "4+ years in product design with a portfolio demonstrating complex SaaS workflows made simple.",
+      "Mastery of Figma and design system components."
+    ],
+    "perks": [
+      "ESOP equity",
+      "Modern creative environment",
+      "Wellness allowances"
+    ]
+  },
+  {
+    "id": "job-zn-1",
+    "companyId": "zenoti",
+    "companyName": "Zenoti",
+    "title": "Staff Backend Engineer (Cloud Scale)",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "8-14 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹45 - ₹65 LPA + Stock Grants",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "C#",
+      ".NET",
+      "AWS",
+      "Kafka",
+      "PostgreSQL",
+      "Distributed Systems",
+      "Redis"
+    ],
+    "description": "Scale Zenoti's global cloud platform supporting 20,000+ luxury salons, spas, and medspas across 50 countries.",
+    "responsibilities": [
+      "Architect multi-tenant high-availability booking, POS, and automated marketing engines.",
+      "Lead performance optimization for peak appointment traffic spikes."
+    ],
+    "requirements": [
+      "8+ years of backend engineering in high-throughput enterprise SaaS.",
+      "Strong background in C#/.NET or Java, cloud architecture, and database scaling."
+    ],
+    "perks": [
+      "Unicorn stock equity",
+      "International travel opportunities",
+      "Premium medical coverage"
+    ]
+  },
+  {
+    "id": "job-zn-2",
+    "companyId": "zenoti",
+    "companyName": "Zenoti",
+    "title": "Lead AI Engineer (Smart Booking Copilots)",
+    "roleCategory": "AI / ML",
+    "industry": "SaaS / Enterprise",
+    "experience": "5-9 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹36 - ₹52 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "GenAI",
+      "LLMs",
+      "RAG",
+      "LangChain",
+      "AWS Bedrock",
+      "PyTorch"
+    ],
+    "description": "Build conversational AI scheduling agents, predictive no-show algorithms, and dynamic pricing intelligence engines.",
+    "responsibilities": [
+      "Deploy production LLM agents handling millions of customer appointment chats.",
+      "Collaborate with product leaders to turn GenAI ideas into enterprise features."
+    ],
+    "requirements": [
+      "5+ years in ML engineering with strong hands-on expertise in LLMs, RAG, and NLP.",
+      "Proficiency with Python, vector databases, and cloud AI deployments."
+    ],
+    "perks": [
+      "Generous stock options",
+      "Global conference sponsorship",
+      "Wellness stipend"
+    ]
+  },
+  {
+    "id": "job-ko-1",
+    "companyId": "kore-ai",
+    "companyName": "Kore.ai",
+    "title": "Senior Conversational AI Architect",
+    "roleCategory": "AI / ML",
+    "industry": "AI & DeepTech",
+    "experience": "5-9 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹32 - ₹50 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "NLP",
+      "LLMs",
+      "Python",
+      "Node.js",
+      "LangChain",
+      "Dialogflow / Bot Framework",
+      "Kubernetes"
+    ],
+    "description": "Design and implement autonomous agentic AI assistants and enterprise search copilots for Fortune 500 banks and healthcare providers.",
+    "responsibilities": [
+      "Architect complex multi-agent dialogue workflows and intent classification pipelines.",
+      "Optimize prompt engineering, context windows, and guardrails for enterprise compliance."
+    ],
+    "requirements": [
+      "5+ years in conversational AI, NLP, and LLM orchestration.",
+      "Experience building production-grade enterprise bots."
+    ],
+    "perks": [
+      "Gartner Leader brand prestige",
+      "ESOP equity",
+      "Comprehensive health coverage"
+    ]
+  },
+  {
+    "id": "job-ko-2",
+    "companyId": "kore-ai",
+    "companyName": "Kore.ai",
+    "title": "Senior Full Stack Engineer (React + Node.js)",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹22 - ₹35 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "Docker",
+      "TailwindCSS"
+    ],
+    "description": "Build no-code/low-code visual bot builder interfaces, conversation flow designers, and real-time analytics dashboards.",
+    "responsibilities": [
+      "Develop high-performance drag-and-drop canvas components in React.",
+      "Integrate backend REST and WebSocket APIs for live simulation debugging."
+    ],
+    "requirements": [
+      "3+ years with modern React, TypeScript, and Node.js.",
+      "Experience building rich interactive web applications."
+    ],
+    "perks": [
+      "Fast-track career growth",
+      "Hybrid work",
+      "Annual learning allowance"
+    ]
+  },
+  {
+    "id": "job-oz-1",
+    "companyId": "ozonetel",
+    "companyName": "Ozonetel Communications",
+    "title": "Senior VoIP / WebRTC Software Engineer",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-7 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹20 - ₹34 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "skills": [
+      "WebRTC",
+      "SIP",
+      "FreeSWITCH",
+      "Kamailio",
+      "Python",
+      "C++",
+      "Linux"
+    ],
+    "description": "Architect carrier-grade cloud telephony infrastructure processing millions of concurrent real-time voice and video channels.",
+    "responsibilities": [
+      "Optimize VoIP media servers and real-time speech analytics streaming pipelines.",
+      "Troubleshoot low-latency SIP routing, audio jitter, and packet loss."
+    ],
+    "requirements": [
+      "3+ years in telephony protocols (SIP, RTP, WebRTC) and VoIP switches (FreeSWITCH/Kamailio).",
+      "Proficiency in Python or C++ on Linux."
+    ],
+    "perks": [
+      "Telecom pioneer experience",
+      "Performance bonuses",
+      "Medical coverage"
+    ]
+  },
+  {
+    "id": "job-qt-1",
+    "companyId": "quantela",
+    "companyName": "Quantela",
+    "title": "IoT Cloud Platform Architect (Java + Kafka)",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "6-11 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹30 - ₹48 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Kafka",
+      "Elasticsearch",
+      "IoT / MQTT",
+      "Azure",
+      "Microservices"
+    ],
+    "description": "Lead the engineering of Quantela's smart city command centers digitizing traffic, smart lighting, and emergency sirens across 100+ global cities.",
+    "responsibilities": [
+      "Design petabyte-scale IoT telemetry ingestion pipelines.",
+      "Ensure sub-second response times for municipal emergency incident dispatch."
+    ],
+    "requirements": [
+      "6+ years in Java enterprise backends with deep Kafka and distributed database expertise.",
+      "Experience with IoT device protocols and cloud architecture."
+    ],
+    "perks": [
+      "Smart City global impact",
+      "Stock options",
+      "Health insurance"
+    ]
+  },
+  {
+    "id": "job-qz-1",
+    "companyId": "qualizeal",
+    "companyName": "QualiZeal",
+    "title": "Lead SDET / AI Test Automation Architect",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "5-9 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹24 - ₹38 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Playwright",
+      "Selenium",
+      "Java",
+      "Python",
+      "CI/CD",
+      "Performance Testing",
+      "AI Testing Tools"
+    ],
+    "description": "Design autonomous AI-driven test automation frameworks for global Fortune 500 clients.",
+    "responsibilities": [
+      "Build self-healing test automation architectures using Playwright and GenAI.",
+      "Lead a team of 10+ QA engineers across multiple client engagements."
+    ],
+    "requirements": [
+      "5+ years in test automation architecture with Java/Python and Playwright/Selenium.",
+      "Experience with CI/CD integration (Jenkins/GitHub Actions)."
+    ],
+    "perks": [
+      "Fastest growing tech firm award",
+      "Bonus incentives",
+      "Hybrid flexibility"
+    ]
+  },
+  {
+    "id": "job-pd-1",
+    "companyId": "pando-ai",
+    "companyName": "Pando AI",
+    "title": "Senior Backend Engineer (Python / Go)",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹22 - ₹36 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Kafka",
+      "AWS",
+      "Docker"
+    ],
+    "description": "Build automated freight pricing, logistics optimization algorithms, and dispatch microservices for enterprise supply chains.",
+    "responsibilities": [
+      "Implement route optimization and dynamic freight bidding engines.",
+      "Scale backend APIs handling millions of daily shipment milestones."
+    ],
+    "requirements": [
+      "3+ years with Python or Go building high-throughput SaaS backends.",
+      "Strong relational database design (PostgreSQL) and caching patterns."
+    ],
+    "perks": [
+      "Top Silicon Valley VC backed",
+      "ESOP equity",
+      "Comprehensive insurance"
+    ]
+  },
+  {
+    "id": "job-im-1",
+    "companyId": "innominds",
+    "companyName": "Innominds",
+    "title": "Edge AI & Computer Vision Specialist",
+    "roleCategory": "AI / ML",
+    "industry": "AI & DeepTech",
+    "experience": "4-8 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹24 - ₹38 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "skills": [
+      "PyTorch",
+      "C++",
+      "TensorRT",
+      "OpenCV",
+      "Edge Computing",
+      "NVIDIA Jetson",
+      "Python"
+    ],
+    "description": "Develop edge AI vision inspection models and smart surveillance algorithms for automotive and industrial automation clients.",
+    "responsibilities": [
+      "Quantize and deploy neural networks on resource-constrained edge hardware.",
+      "Interface camera sensors with real-time video processing pipelines."
+    ],
+    "requirements": [
+      "4+ years with Computer Vision, PyTorch, C++, and edge optimization.",
+      "Experience with NVIDIA Jetson, Qualcomm, or Intel edge platforms."
+    ],
+    "perks": [
+      "R&D innovation lab access",
+      "Medical insurance",
+      "Annual bonus"
+    ]
+  },
+  {
+    "id": "job-cs-1",
+    "companyId": "ctrls-datacenters",
+    "companyName": "CtrlS Datacenters",
+    "title": "Lead Cloud Infrastructure & Kubernetes Architect",
+    "roleCategory": "Engineering",
+    "industry": "Cloud & Infrastructure",
+    "experience": "6-12 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹30 - ₹48 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Kubernetes",
+      "OpenStack",
+      "BGP / SDN",
+      "Linux Kernel",
+      "Terraform",
+      "Ansible",
+      "Ceph"
+    ],
+    "description": "Architect hyperscale bare-metal and container infrastructure across Asia's largest Rated-4 datacenter campuses.",
+    "responsibilities": [
+      "Manage multi-region OpenStack and Kubernetes cluster deployments.",
+      "Ensure 99.995% datacenter uptime SLA and automated disaster recovery."
+    ],
+    "requirements": [
+      "6+ years in large-scale Linux system administration and cloud infrastructure engineering.",
+      "CKA/CKS certifications preferred."
+    ],
+    "perks": [
+      "Hyperscale datacenter leadership",
+      "Performance bonuses",
+      "Health cover"
+    ]
+  },
+  {
+    "id": "job-c4-1",
+    "companyId": "cloud4c",
+    "companyName": "Cloud4C Services",
+    "title": "Senior DevOps & Cloud Migration Engineer (AWS / Azure)",
+    "roleCategory": "Engineering",
+    "industry": "Cloud & Infrastructure",
+    "experience": "4-8 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹22 - ₹36 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "skills": [
+      "AWS",
+      "Azure",
+      "Terraform",
+      "Kubernetes",
+      "CI/CD",
+      "Python",
+      "Monitoring (Prometheus)"
+    ],
+    "description": "Drive mission-critical cloud migrations and Site Reliability Engineering for global banking and enterprise customers across 26 countries.",
+    "responsibilities": [
+      "Build Infrastructure as Code (IaC) modules using Terraform.",
+      "Design automated CI/CD deployment pipelines with zero downtime."
+    ],
+    "requirements": [
+      "4+ years with AWS or Azure cloud architectures and DevOps toolchains.",
+      "Strong scripting skills in Python or Bash."
+    ],
+    "perks": [
+      "Global client projects",
+      "Certification fee reimbursement",
+      "Health plan"
+    ]
+  },
+  {
+    "id": "job-hs-1",
+    "companyId": "highspot-hyd",
+    "companyName": "Highspot Hyderabad",
+    "title": "Senior Full Stack Software Engineer (React + TypeScript)",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-7 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹28 - ₹45 LPA + RSU Equity",
+    "postedDaysAgo": 1,
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Clojure",
+      "GraphQL",
+      "CSS-in-JS",
+      "AWS"
+    ],
+    "description": "Build delightful, lightning-fast content management and sales enablement UI components for over 500,000 global sales professionals.",
+    "responsibilities": [
+      "Design responsive frontend modules with high accessibility and performance standards.",
+      "Collaborate directly with product and design teams in Seattle and Hyderabad."
+    ],
+    "requirements": [
+      "3+ years with modern React, TypeScript, and robust testing frameworks.",
+      "Passion for craftsmanship and clean frontend architectures."
+    ],
+    "perks": [
+      "US Unicorn RSUs",
+      "Premium health cover",
+      "Flexible hybrid schedule",
+      "Modern Knowledge City office"
+    ]
+  },
+  {
+    "id": "job-tr-1",
+    "companyId": "turing-hyd",
+    "companyName": "Turing.com (Hyderabad Hub)",
+    "title": "Senior AI / LLM Evaluation Specialist",
+    "roleCategory": "AI / ML",
+    "industry": "AI & DeepTech",
+    "experience": "2-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Remote",
+    "salaryRange": "₹24 - ₹42 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "LLMs",
+      "RLHF",
+      "Data Annotation",
+      "Code Generation Benchmarks",
+      "FastAPI"
+    ],
+    "description": "Benchmark, evaluate, and fine-tune leading foundation models and coding copilots for top Silicon Valley AI labs.",
+    "responsibilities": [
+      "Design complex reasoning and code generation evaluation suites for frontier LLMs.",
+      "Implement RLHF pipelines and dataset curation workflows."
+    ],
+    "requirements": [
+      "Strong coding proficiency in Python and solid understanding of transformer architectures.",
+      "B.Tech/M.Tech in CS or equivalent experience."
+    ],
+    "perks": [
+      "100% remote flexibility",
+      "Silicon Valley pay scale",
+      "Continuous AI upskilling"
+    ]
+  },
+  {
+    "id": "job-pg-1",
+    "companyId": "pega-hyd",
+    "companyName": "Pegasystems Hyderabad",
+    "title": "Principal Software Engineer (Java Core Platform)",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "7-12 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹38 - ₹58 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "PostgreSQL",
+      "Kubernetes",
+      "AWS",
+      "Distributed Systems"
+    ],
+    "description": "Develop the core engine of Pega Infinity, powering AI-guided decisioning and workflow automation for the world's leading enterprises.",
+    "responsibilities": [
+      "Architect scalable core Java services handling millions of daily business transactions.",
+      "Drive platform modernizations towards containerized cloud-native architectures."
+    ],
+    "requirements": [
+      "7+ years with Java, concurrent programming, and distributed systems architecture.",
+      "Strong problem-solving and algorithmic skills."
+    ],
+    "perks": [
+      "Raheja Mindspace campus perks",
+      "Comprehensive family medical cover",
+      "Stock purchase plan"
+    ]
+  },
+  {
+    "id": "job-br-1",
+    "companyId": "broadridge-hyd",
+    "companyName": "Broadridge Financial Solutions",
+    "title": "Senior Capital Markets Java Developer",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "4-8 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹24 - ₹38 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "skills": [
+      "Java 17+",
+      "Spring Boot",
+      "Kafka",
+      "Oracle / PostgreSQL",
+      "Microservices",
+      "AWS"
+    ],
+    "description": "Build mission-critical securities trading and wealth management transaction processing engines handling trillions in global capital flows.",
+    "responsibilities": [
+      "Develop ultra-low latency transaction processing microservices.",
+      "Ensure regulatory compliance and high cryptographic security standards."
+    ],
+    "requirements": [
+      "4+ years with Java, Spring Boot, and relational databases.",
+      "Experience with financial messaging (FIX/SWIFT) or capital markets is a big plus."
+    ],
+    "perks": [
+      "DivyaSree Orion campus",
+      "Annual bonus",
+      "Health and wellness allowances"
+    ]
+  },
+  {
+    "id": "job-vc-1",
+    "companyId": "vivriti-hyd",
+    "companyName": "Vivriti Capital (Tech Hub)",
+    "title": "Lead FinTech Backend Architect (Java / Kotlin)",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "6-10 yrs",
+    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹34 - ₹50 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "skills": [
+      "Java",
+      "Kotlin",
+      "Spring Boot",
+      "Kafka",
+      "PostgreSQL",
+      "AWS",
+      "FinTech APIs"
+    ],
+    "description": "Architect automated loan syndication, credit underwriting engines, and banking API gateways.",
+    "responsibilities": [
+      "Design scalable microservices supporting multi-billion rupee debt disbursements.",
+      "Lead a team of backend developers building FinTech platforms."
+    ],
+    "requirements": [
+      "6+ years in backend engineering with strong distributed systems design in Java/Kotlin.",
+      "FinTech or banking API integration experience."
+    ],
+    "perks": [
+      "ESOP equity",
+      "Performance bonuses",
+      "Health coverage"
+    ]
+  },
+  {
+    "id": "job-pm-1",
+    "companyId": "paymatrix",
+    "companyName": "Paymatrix",
+    "title": "Full Stack FinTech Engineer (Node.js + React)",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "2-5 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "₹16 - ₹26 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Node.js",
+      "React",
+      "PostgreSQL",
+      "Payment Gateways",
+      "AWS",
+      "Security"
+    ],
+    "description": "Build intuitive payment portals, card reward management, and automated invoice collections for SMEs.",
+    "responsibilities": [
+      "Integrate multiple payment aggregators with seamless retry and webhook handling.",
+      "Build responsive dashboards for consumer and merchant portals."
+    ],
+    "requirements": [
+      "2+ years with modern JavaScript/TypeScript on both frontend and backend.",
+      "Familiarity with PCI-DSS compliance and financial APIs."
+    ],
+    "perks": [
+      "Muthoot group backing",
+      "Performance incentives",
+      "Flexible work"
+    ]
+  },
+  {
+    "id": "job-mp-1",
+    "companyId": "medplus-tech",
+    "companyName": "MedPlus Health (Tech Hub)",
+    "title": "Senior Mobile Engineer (Android / React Native)",
+    "roleCategory": "Engineering",
+    "industry": "HealthTech / Bio",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "On-site",
+    "salaryRange": "₹18 - ₹28 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React Native",
+      "Android / Kotlin",
+      "Redux",
+      "REST APIs",
+      "SQL"
+    ],
+    "description": "Develop the next-generation MedPlus online pharmacy app, prescription recognition, and rapid 2-hour delivery tracking systems.",
+    "responsibilities": [
+      "Optimize application performance for millions of daily active shoppers across India.",
+      "Build seamless one-click prescription upload and medicine refill reminders."
+    ],
+    "requirements": [
+      "3+ years with React Native or native Android app development.",
+      "Strong focus on UI responsiveness and memory management."
+    ],
+    "perks": [
+      "MedPlus pharmacy discount",
+      "Annual bonus",
+      "Health cover"
+    ]
+  }
 ];

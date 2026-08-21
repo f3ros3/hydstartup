@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { 
   Search, 
   SlidersHorizontal, 
   X, 
   RotateCcw, 
+  Sparkles, 
+  MapPin, 
   Briefcase, 
-  Layers, 
+  Building, 
   Clock, 
-  Building,
-  Sparkles,
-  DollarSign,
-  MapPin
+  Globe, 
+  ChevronDown, 
+  Check, 
+  ArrowUpDown 
 } from 'lucide-react';
 import { HYDERABAD_HUBS } from '../data/hubs';
 
@@ -53,6 +55,17 @@ export const WORK_MODES = [
   "Remote"
 ];
 
+export const SORT_OPTIONS = [
+  { value: "recent_desc", label: "Sort: Most Recent (Newest First)" },
+  { value: "recent_asc", label: "Sort: Oldest First" },
+  { value: "salary_desc", label: "Sort: Salary (High to Low)" },
+  { value: "salary_asc", label: "Sort: Salary (Low to High)" },
+  { value: "company_asc", label: "Sort: Company Name (A to Z)" },
+  { value: "company_desc", label: "Sort: Company Name (Z to A)" },
+  { value: "experience_asc", label: "Sort: Experience (Entry to Senior)" },
+  { value: "experience_desc", label: "Sort: Experience (Senior to Entry)" }
+];
+
 export default function FilterBar({
   searchQuery,
   setSearchQuery,
@@ -75,21 +88,43 @@ export default function FilterBar({
   filteredJobsCount,
   filteredCompaniesCount
 }) {
+  const [isFiltersDropdownOpen, setIsFiltersDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Close dropdown on click outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsFiltersDropdownOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Calculate active filter count
+  let activeFilterCount = 0;
+  if (selectedHub && selectedHub !== 'all') activeFilterCount++;
+  if (selectedRole && selectedRole !== 'All Roles') activeFilterCount++;
+  if (selectedIndustry && selectedIndustry !== 'All Industries') activeFilterCount++;
+  if (selectedExp && selectedExp !== 'All Levels') activeFilterCount++;
+  if (selectedWorkMode && selectedWorkMode !== 'All Modes') activeFilterCount++;
+
   return (
-    <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-4 sticky top-[95px] sm:top-[112px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
-      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2.5 sm:space-y-3">
+    <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-3.5 sticky top-[80px] sm:top-[100px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
+      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2.5">
         
-        {/* Main Search & Quick Toggles */}
-        <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-2.5 sm:gap-3">
+        {/* Main Bar: Search + Entities + Unified Filters Dropdown + Sort */}
+        <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-2 sm:gap-3">
           
-          {/* Search Bar */}
+          {/* Search Input */}
           <div className="relative flex-1">
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 dark:text-slate-300 text-slate-600" />
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search by job title, tech stack (React, Python, C++, GenAI), or startup name..."
+              placeholder="Search jobs, tech stack (React, Python, GenAI), or startups..."
               className="w-full pl-10 pr-10 py-2 sm:py-2.5 dark:bg-slate-900/65 bg-white/75 backdrop-blur-md border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/25 shadow-sm transition-all"
             />
             {searchQuery && (
@@ -102,45 +137,201 @@ export default function FilterBar({
             )}
           </div>
 
-          {/* Quick Filters Row */}
-          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1 lg:pb-0 shrink-0">
+          {/* Action Group: Entity Filter + Unified Filters Dropdown + Sort + Reset */}
+          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar pb-1 lg:pb-0 shrink-0">
             
-            {/* Company Type Filter (Startups vs All) */}
-            <div className="flex items-center gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-2xl border dark:border-slate-700/60 border-slate-300/80 shrink-0 shadow-sm">
+            {/* 1. All Entities vs Startups */}
+            <div className="flex items-center gap-0.5 sm:gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-2xl border dark:border-slate-700/60 border-slate-300/80 shrink-0 shadow-sm">
               <button
                 onClick={() => setCompanyTypeFilter('all')}
-                className={`px-3 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer ${
+                className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-extrabold transition-all cursor-pointer ${
                   companyTypeFilter === 'all'
                     ? 'dark:bg-slate-800 dark:text-white bg-white text-slate-950 shadow-sm'
                     : 'dark:text-slate-300 dark:hover:text-white text-slate-700 hover:text-slate-950'
                 }`}
               >
-                All Entities
+                All
               </button>
               <button
                 onClick={() => setCompanyTypeFilter('startup')}
-                className={`px-3 py-1.5 rounded-xl text-xs font-extrabold flex items-center gap-1.5 transition-all cursor-pointer ${
+                className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-extrabold flex items-center gap-1 transition-all cursor-pointer ${
                   companyTypeFilter === 'startup'
                     ? 'dark:bg-gradient-to-r dark:from-emerald-600 dark:to-teal-600 dark:text-white bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-sm'
                     : 'dark:text-slate-300 dark:hover:text-white text-slate-700 hover:text-slate-950'
                 }`}
               >
                 <Sparkles className="w-3 h-3 dark:text-emerald-400 text-yellow-300" />
-                <span>Startups & Unicorns</span>
+                <span>Startups</span>
               </button>
             </div>
 
-            {/* Sort By Dropdown */}
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="dark:bg-slate-900/70 bg-white/80 backdrop-blur-md border dark:border-slate-700/70 border-slate-300/90 rounded-2xl px-3 py-2 text-xs dark:text-slate-100 text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer shrink-0 shadow-sm"
-            >
-              <option value="recent">⚡ Most Recent</option>
-              <option value="salary">💰 Highest Salary</option>
-              <option value="company">🏢 Company Name</option>
-            </select>
+            {/* 2. UNIFIED "FILTERS" DROPDOWN */}
+            <div className="relative shrink-0" ref={dropdownRef}>
+              <button
+                onClick={() => setIsFiltersDropdownOpen(!isFiltersDropdownOpen)}
+                className={`flex items-center gap-1.5 px-3 py-2 rounded-2xl text-xs font-extrabold border transition-all cursor-pointer backdrop-blur-md shadow-sm ${
+                  activeFilterCount > 0
+                    ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-500/20 border-orange-500/50 text-orange-800 ring-2 dark:ring-emerald-500/20 ring-orange-500/20'
+                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400'
+                }`}
+              >
+                <SlidersHorizontal className="w-3.5 h-3.5 text-emerald-500 dark:text-emerald-400" />
+                <span>Filters</span>
+                {activeFilterCount > 0 && (
+                  <span className="w-4 h-4 rounded-full bg-emerald-500 text-slate-950 font-black text-[10px] flex items-center justify-center">
+                    {activeFilterCount}
+                  </span>
+                )}
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${isFiltersDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
 
+              {/* Expandable Filters Popover */}
+              {isFiltersDropdownOpen && (
+                <div className="absolute right-0 sm:left-0 sm:right-auto mt-2 w-[310px] sm:w-[360px] p-4 rounded-3xl dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-700/90 border-slate-200 shadow-2xl backdrop-blur-2xl z-50 space-y-3.5 animate-in fade-in zoom-in-95 duration-150">
+                  
+                  <div className="flex items-center justify-between border-b dark:border-slate-800 border-slate-200 pb-2.5">
+                    <div className="flex items-center gap-2 text-xs font-extrabold dark:text-white text-slate-900">
+                      <SlidersHorizontal className="w-4 h-4 text-emerald-500" />
+                      <span>Ecosystem Filters</span>
+                      {activeFilterCount > 0 && (
+                        <span className="text-[10px] font-bold dark:text-emerald-400 text-orange-600">
+                          ({activeFilterCount} active)
+                        </span>
+                      )}
+                    </div>
+                    {activeFilterCount > 0 && (
+                      <button
+                        onClick={onResetFilters}
+                        className="text-[11px] font-bold text-rose-500 hover:underline flex items-center gap-1 cursor-pointer"
+                      >
+                        <RotateCcw className="w-3 h-3" />
+                        Reset
+                      </button>
+                    )}
+                  </div>
+
+                  {/* 1. Hub / Location */}
+                  <div className="space-y-1">
+                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                      <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+                      <span>Location / Tech Hub</span>
+                    </label>
+                    <select
+                      value={selectedHub || 'all'}
+                      onChange={(e) => {
+                        const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
+                        if (hub && onSelectHub) onSelectHub(hub);
+                      }}
+                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
+                    >
+                      {HYDERABAD_HUBS.map(hub => (
+                        <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19]">
+                          📍 {hub.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* 2. Role Category */}
+                  <div className="space-y-1">
+                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                      <Briefcase className="w-3.5 h-3.5 text-cyan-400" />
+                      <span>Role Category</span>
+                    </label>
+                    <select
+                      value={selectedRole}
+                      onChange={(e) => setSelectedRole(e.target.value)}
+                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
+                    >
+                      {ROLE_CATEGORIES.map(r => (
+                        <option key={r} value={r} className="dark:bg-[#0B0F19]">{r}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* 3. Industry */}
+                  <div className="space-y-1">
+                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                      <Building className="w-3.5 h-3.5 text-purple-400" />
+                      <span>Industry Domain</span>
+                    </label>
+                    <select
+                      value={selectedIndustry}
+                      onChange={(e) => setSelectedIndustry(e.target.value)}
+                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
+                    >
+                      {INDUSTRIES.map(ind => (
+                        <option key={ind} value={ind} className="dark:bg-[#0B0F19]">{ind}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* 4. Experience Level */}
+                  <div className="space-y-1">
+                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                      <Clock className="w-3.5 h-3.5 text-pink-400" />
+                      <span>Experience Level</span>
+                    </label>
+                    <select
+                      value={selectedExp}
+                      onChange={(e) => setSelectedExp(e.target.value)}
+                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
+                    >
+                      {EXPERIENCE_LEVELS.map(exp => (
+                        <option key={exp} value={exp} className="dark:bg-[#0B0F19]">{exp}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* 5. Work Mode */}
+                  <div className="space-y-1">
+                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                      <Globe className="w-3.5 h-3.5 text-amber-400" />
+                      <span>Work Mode</span>
+                    </label>
+                    <select
+                      value={selectedWorkMode}
+                      onChange={(e) => setSelectedWorkMode(e.target.value)}
+                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
+                    >
+                      {WORK_MODES.map(wm => (
+                        <option key={wm} value={wm} className="dark:bg-[#0B0F19]">{wm}</option>
+                      ))}
+                    </select>
+                  </div>
+
+                  {/* Done / Apply Button */}
+                  <div className="pt-2">
+                    <button
+                      onClick={() => setIsFiltersDropdownOpen(false)}
+                      className="w-full py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 cursor-pointer flex items-center justify-center gap-1.5"
+                    >
+                      <Check className="w-3.5 h-3.5" />
+                      <span>Apply Filters</span>
+                    </button>
+                  </div>
+
+                </div>
+              )}
+            </div>
+
+            {/* 3. SORT DROPDOWN (Ascending & Descending Options) */}
+            <div className="relative shrink-0">
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="dark:bg-slate-900/70 bg-white/80 backdrop-blur-md border dark:border-slate-700/70 border-slate-300/90 rounded-2xl px-3 py-2 text-xs dark:text-slate-100 text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer shrink-0 shadow-sm"
+                title="Sort opportunities"
+              >
+                {SORT_OPTIONS.map(opt => (
+                  <option key={opt.value} value={opt.value} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900 font-medium">
+                    {opt.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* 4. Reset Button */}
             {hasActiveFilters && (
               <button
                 onClick={onResetFilters}
@@ -148,7 +339,7 @@ export default function FilterBar({
                 title="Reset all filters"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
-                <span>Reset</span>
+                <span className="hidden sm:inline">Reset</span>
               </button>
             )}
 
@@ -156,121 +347,49 @@ export default function FilterBar({
 
         </div>
 
-        {/* Multi-Dimensional Filter Dropdowns (Location Hubs, Roles, Industries, Levels, Modes) */}
-        <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
+        {/* Results Counter & Active Filter Pills */}
+        <div className="flex items-center justify-between text-xs dark:text-slate-200 text-slate-800 font-mono font-bold pt-0.5 drop-shadow-sm">
           
-          <div className="flex flex-wrap items-center gap-2">
-            
-            {/* Tech Hub / Location Dropdown (INTEGRATED) */}
-            <div className="relative">
-              <select
-                value={selectedHub || 'all'}
-                onChange={(e) => {
-                  const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
-                  if (hub && onSelectHub) {
-                    onSelectHub(hub);
-                  }
-                }}
-                className={`text-xs px-3.5 py-1.5 rounded-xl border appearance-none pr-8 cursor-pointer transition-all shadow-sm font-bold backdrop-blur-md ${
-                  selectedHub && selectedHub !== 'all'
-                    ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-100/90 border-orange-400 text-orange-800'
-                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800'
-                }`}
-              >
-                {HYDERABAD_HUBS.map(hub => (
-                  <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900">
-                    📍 {hub.name}
-                  </option>
-                ))}
-              </select>
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+          {/* Active Filter Summary Badges */}
+          <div className="flex items-center gap-1.5 flex-wrap">
+            {activeFilterCount > 0 && (
+              <div className="flex items-center gap-1 flex-wrap">
+                {selectedHub && selectedHub !== 'all' && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800 border dark:border-emerald-500/30 border-orange-300">
+                    📍 {HYDERABAD_HUBS.find(h => h.id === selectedHub)?.name || selectedHub}
+                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => onSelectHub({ id: 'all', center: [17.438, 78.375], zoom: 12 })} />
+                  </span>
+                )}
+                {selectedRole !== 'All Roles' && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-cyan-500/20 dark:text-cyan-300 bg-cyan-100 text-cyan-800 border dark:border-cyan-500/30 border-cyan-300">
+                    💼 {selectedRole}
+                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedRole('All Roles')} />
+                  </span>
+                )}
+                {selectedIndustry !== 'All Industries' && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-purple-500/20 dark:text-purple-300 bg-purple-100 text-purple-800 border dark:border-purple-500/30 border-purple-300">
+                    🏢 {selectedIndustry}
+                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedIndustry('All Industries')} />
+                  </span>
+                )}
+                {selectedExp !== 'All Levels' && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-pink-500/20 dark:text-pink-300 bg-pink-100 text-pink-800 border dark:border-pink-500/30 border-pink-300">
+                    📈 {selectedExp}
+                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedExp('All Levels')} />
+                  </span>
+                )}
+                {selectedWorkMode !== 'All Modes' && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-amber-500/20 dark:text-amber-300 bg-amber-100 text-amber-800 border dark:border-amber-500/30 border-amber-300">
+                    🌐 {selectedWorkMode}
+                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedWorkMode('All Modes')} />
+                  </span>
+                )}
               </div>
-            </div>
-
-            {/* Role Filter */}
-            <div className="relative">
-              <select
-                value={selectedRole}
-                onChange={(e) => setSelectedRole(e.target.value)}
-                className={`text-xs px-3.5 py-1.5 rounded-xl border appearance-none pr-8 cursor-pointer transition-all shadow-sm font-bold backdrop-blur-md ${
-                  selectedRole !== 'All Roles'
-                    ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-100/90 border-orange-400 text-orange-800'
-                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800'
-                }`}
-              >
-                {ROLE_CATEGORIES.map(r => (
-                  <option key={r} value={r} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900">{r}</option>
-                ))}
-              </select>
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-              </div>
-            </div>
-
-            {/* Industry Filter */}
-            <div className="relative">
-              <select
-                value={selectedIndustry}
-                onChange={(e) => setSelectedIndustry(e.target.value)}
-                className={`text-xs px-3.5 py-1.5 rounded-xl border appearance-none pr-8 cursor-pointer transition-all shadow-sm font-bold backdrop-blur-md ${
-                  selectedIndustry !== 'All Industries'
-                    ? 'dark:bg-cyan-500/25 dark:border-cyan-500/60 dark:text-cyan-300 bg-purple-100/90 border-purple-400 text-purple-800'
-                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800'
-                }`}
-              >
-                {INDUSTRIES.map(ind => (
-                  <option key={ind} value={ind} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900">{ind}</option>
-                ))}
-              </select>
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-              </div>
-            </div>
-
-            {/* Experience Filter */}
-            <div className="relative">
-              <select
-                value={selectedExp}
-                onChange={(e) => setSelectedExp(e.target.value)}
-                className={`text-xs px-3.5 py-1.5 rounded-xl border appearance-none pr-8 cursor-pointer transition-all shadow-sm font-bold backdrop-blur-md ${
-                  selectedExp !== 'All Levels'
-                    ? 'dark:bg-purple-500/25 dark:border-purple-500/60 dark:text-purple-300 bg-pink-100/90 border-pink-400 text-pink-800'
-                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800'
-                }`}
-              >
-                {EXPERIENCE_LEVELS.map(exp => (
-                  <option key={exp} value={exp} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900">{exp}</option>
-                ))}
-              </select>
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-              </div>
-            </div>
-
-            {/* Work Mode Filter */}
-            <div className="relative">
-              <select
-                value={selectedWorkMode}
-                onChange={(e) => setSelectedWorkMode(e.target.value)}
-                className={`text-xs px-3.5 py-1.5 rounded-xl border appearance-none pr-8 cursor-pointer transition-all shadow-sm font-bold backdrop-blur-md ${
-                  selectedWorkMode !== 'All Modes'
-                    ? 'dark:bg-amber-500/25 dark:border-amber-500/60 dark:text-amber-300 bg-amber-100/90 border-amber-400 text-amber-800'
-                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800'
-                }`}
-              >
-                {WORK_MODES.map(wm => (
-                  <option key={wm} value={wm} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900">{wm}</option>
-                ))}
-              </select>
-              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
-                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
-              </div>
-            </div>
+            )}
           </div>
 
           {/* Results Counter */}
-          <div className="text-xs dark:text-slate-200 text-slate-800 flex items-center gap-1.5 font-mono font-bold ml-auto sm:ml-0 drop-shadow-sm">
+          <div className="flex items-center gap-1.5 ml-auto shrink-0">
             <span>Showing</span>
             <span className="dark:text-emerald-400 text-orange-600 font-black">{filteredJobsCount}</span>
             <span>jobs across</span>
