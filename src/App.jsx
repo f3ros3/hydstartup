@@ -732,21 +732,6 @@ export default function App() {
             </p>
           </div>
 
-          {/* Quick ecosystem footer links */}
-          <div className="flex flex-wrap items-center justify-center gap-4 dark:text-slate-400 text-slate-600 text-xs pt-2">
-            <button onClick={() => setIsAnalyticsModalOpen(true)} className="hover:text-cyan-400 transition-colors cursor-pointer">
-              Ecosystem Insights
-            </button>
-            <span>•</span>
-            <button onClick={() => setIsPostJobModalOpen(true)} className="hover:text-emerald-500 transition-colors cursor-pointer">
-              Post a Job
-            </button>
-            <span>•</span>
-            <a href="https://t-hub.co" target="_blank" rel="noopener noreferrer" className="hover:text-purple-500 transition-colors">
-              T-Hub Hyderabad
-            </a>
-          </div>
-
         </div>
       </footer>
 
