@@ -137,7 +137,7 @@ export default function JobCard({
           {/* Animated Uiverse Button */}
           <div onClick={(e) => e.stopPropagation()}>
             <AnimatedApplyButton
-              onClick={() => onOpenApplyModal(job)}
+              href={job.applyUrl || job.jobUrl || comp.careerUrl}
               size="sm"
               color="#059669"
             >

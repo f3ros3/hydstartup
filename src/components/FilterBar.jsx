@@ -12,7 +12,8 @@ import {
   Globe, 
   ChevronDown, 
   Check, 
-  ArrowUpDown 
+  ArrowUpDown,
+  RefreshCw
 } from 'lucide-react';
 import { HYDERABAD_HUBS } from '../data/hubs';
 
@@ -56,14 +57,14 @@ export const WORK_MODES = [
 ];
 
 export const SORT_OPTIONS = [
-  { value: "recent_desc", label: "Sort: Most Recent (Newest First)" },
-  { value: "recent_asc", label: "Sort: Oldest First" },
-  { value: "salary_desc", label: "Sort: Salary (High to Low)" },
-  { value: "salary_asc", label: "Sort: Salary (Low to High)" },
-  { value: "company_asc", label: "Sort: Company Name (A to Z)" },
-  { value: "company_desc", label: "Sort: Company Name (Z to A)" },
-  { value: "experience_asc", label: "Sort: Experience (Entry to Senior)" },
-  { value: "experience_desc", label: "Sort: Experience (Senior to Entry)" }
+  { value: "recent_desc", label: "⚡ Most Recent" },
+  { value: "recent_asc", label: "⏳ Oldest First" },
+  { value: "salary_desc", label: "💰 Salary (High → Low)" },
+  { value: "salary_asc", label: "💵 Salary (Low → High)" },
+  { value: "company_asc", label: "🏢 Company (A → Z)" },
+  { value: "company_desc", label: "🏢 Company (Z → A)" },
+  { value: "experience_asc", label: "🎓 Experience (Junior → Senior)" },
+  { value: "experience_desc", label: "🎓 Experience (Senior → Junior)" }
 ];
 
 export default function FilterBar({
@@ -88,14 +89,15 @@ export default function FilterBar({
   filteredJobsCount,
   filteredCompaniesCount
 }) {
-  const [isFiltersDropdownOpen, setIsFiltersDropdownOpen] = useState(false);
-  const dropdownRef = useRef(null);
+  const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+  const [isSortOpen, setIsSortOpen] = useState(false);
+  const sortRef = useRef(null);
 
-  // Close dropdown on click outside
+  // Close sort menu on click outside
   useEffect(() => {
     function handleClickOutside(event) {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsFiltersDropdownOpen(false);
+      if (sortRef.current && !sortRef.current.contains(event.target)) {
+        setIsSortOpen(false);
       }
     }
     document.addEventListener('mousedown', handleClickOutside);
@@ -110,14 +112,16 @@ export default function FilterBar({
   if (selectedExp && selectedExp !== 'All Levels') activeFilterCount++;
   if (selectedWorkMode && selectedWorkMode !== 'All Modes') activeFilterCount++;
 
+  const currentSortObj = SORT_OPTIONS.find(s => s.value === sortBy) || SORT_OPTIONS[0];
+
   return (
     <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-3.5 sticky top-[80px] sm:top-[100px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
       <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2.5">
         
-        {/* Main Bar: Search + Entities + Unified Filters Dropdown + Sort */}
+        {/* Main Bar: Search + Entity Filter + Filter Toggle + Sort Trigger */}
         <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-2 sm:gap-3">
           
-          {/* Search Input */}
+          {/* Search Bar */}
           <div className="relative flex-1">
             <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 dark:text-slate-300 text-slate-600" />
             <input
@@ -137,8 +141,8 @@ export default function FilterBar({
             )}
           </div>
 
-          {/* Action Group: Entity Filter + Unified Filters Dropdown + Sort + Reset */}
-          <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar pb-1 lg:pb-0 shrink-0">
+          {/* Action Row: Entities + Filters Toggle + Sort Menu + Reset */}
+          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap sm:flex-nowrap shrink-0">
             
             {/* 1. All Entities vs Startups */}
             <div className="flex items-center gap-0.5 sm:gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-2xl border dark:border-slate-700/60 border-slate-300/80 shrink-0 shadow-sm">
@@ -165,170 +169,61 @@ export default function FilterBar({
               </button>
             </div>
 
-            {/* 2. UNIFIED "FILTERS" DROPDOWN */}
-            <div className="relative shrink-0" ref={dropdownRef}>
+            {/* 2. UNIFIED "FILTERS" TOGGLE BUTTON */}
+            <button
+              onClick={() => setIsFiltersOpen(!isFiltersOpen)}
+              className={`flex items-center gap-1.5 px-3.5 py-2 rounded-2xl text-xs font-extrabold border transition-all cursor-pointer backdrop-blur-md shadow-sm shrink-0 ${
+                isFiltersOpen || activeFilterCount > 0
+                  ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-500/20 border-orange-500/50 text-orange-800 ring-2 dark:ring-emerald-500/20 ring-orange-500/20'
+                  : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400'
+              }`}
+            >
+              <SlidersHorizontal className="w-3.5 h-3.5 text-emerald-500 dark:text-emerald-400" />
+              <span>Filters</span>
+              {activeFilterCount > 0 && (
+                <span className="w-4 h-4 rounded-full bg-emerald-500 text-slate-950 font-black text-[10px] flex items-center justify-center">
+                  {activeFilterCount}
+                </span>
+              )}
+              <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${isFiltersOpen ? 'rotate-180' : ''}`} />
+            </button>
+
+            {/* 3. SORT BUTTON & DROPDOWN MENU */}
+            <div className="relative shrink-0" ref={sortRef}>
               <button
-                onClick={() => setIsFiltersDropdownOpen(!isFiltersDropdownOpen)}
-                className={`flex items-center gap-1.5 px-3 py-2 rounded-2xl text-xs font-extrabold border transition-all cursor-pointer backdrop-blur-md shadow-sm ${
-                  activeFilterCount > 0
-                    ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-500/20 border-orange-500/50 text-orange-800 ring-2 dark:ring-emerald-500/20 ring-orange-500/20'
-                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400'
-                }`}
+                onClick={() => setIsSortOpen(!isSortOpen)}
+                className="flex items-center gap-1.5 px-3 py-2 rounded-2xl text-xs font-extrabold dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400 border backdrop-blur-md shadow-sm cursor-pointer"
+                title="Sort Opportunities"
               >
-                <SlidersHorizontal className="w-3.5 h-3.5 text-emerald-500 dark:text-emerald-400" />
-                <span>Filters</span>
-                {activeFilterCount > 0 && (
-                  <span className="w-4 h-4 rounded-full bg-emerald-500 text-slate-950 font-black text-[10px] flex items-center justify-center">
-                    {activeFilterCount}
-                  </span>
-                )}
-                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${isFiltersDropdownOpen ? 'rotate-180' : ''}`} />
+                <ArrowUpDown className="w-3.5 h-3.5 text-cyan-400" />
+                <span>Sort</span>
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${isSortOpen ? 'rotate-180' : ''}`} />
               </button>
 
-              {/* Expandable Filters Popover */}
-              {isFiltersDropdownOpen && (
-                <div className="absolute right-0 sm:left-0 sm:right-auto mt-2 w-[310px] sm:w-[360px] p-4 rounded-3xl dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-700/90 border-slate-200 shadow-2xl backdrop-blur-2xl z-50 space-y-3.5 animate-in fade-in zoom-in-95 duration-150">
-                  
-                  <div className="flex items-center justify-between border-b dark:border-slate-800 border-slate-200 pb-2.5">
-                    <div className="flex items-center gap-2 text-xs font-extrabold dark:text-white text-slate-900">
-                      <SlidersHorizontal className="w-4 h-4 text-emerald-500" />
-                      <span>Ecosystem Filters</span>
-                      {activeFilterCount > 0 && (
-                        <span className="text-[10px] font-bold dark:text-emerald-400 text-orange-600">
-                          ({activeFilterCount} active)
-                        </span>
-                      )}
-                    </div>
-                    {activeFilterCount > 0 && (
-                      <button
-                        onClick={onResetFilters}
-                        className="text-[11px] font-bold text-rose-500 hover:underline flex items-center gap-1 cursor-pointer"
-                      >
-                        <RotateCcw className="w-3 h-3" />
-                        Reset
-                      </button>
-                    )}
+              {isSortOpen && (
+                <div className="absolute right-0 mt-2 w-56 rounded-2xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl p-1.5 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-100">
+                  <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b dark:border-slate-800 border-slate-100">
+                    Sort By
                   </div>
-
-                  {/* 1. Hub / Location */}
-                  <div className="space-y-1">
-                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                      <MapPin className="w-3.5 h-3.5 text-emerald-400" />
-                      <span>Location / Tech Hub</span>
-                    </label>
-                    <select
-                      value={selectedHub || 'all'}
-                      onChange={(e) => {
-                        const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
-                        if (hub && onSelectHub) onSelectHub(hub);
-                      }}
-                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
-                    >
-                      {HYDERABAD_HUBS.map(hub => (
-                        <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19]">
-                          📍 {hub.name}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  {/* 2. Role Category */}
-                  <div className="space-y-1">
-                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                      <Briefcase className="w-3.5 h-3.5 text-cyan-400" />
-                      <span>Role Category</span>
-                    </label>
-                    <select
-                      value={selectedRole}
-                      onChange={(e) => setSelectedRole(e.target.value)}
-                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
-                    >
-                      {ROLE_CATEGORIES.map(r => (
-                        <option key={r} value={r} className="dark:bg-[#0B0F19]">{r}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  {/* 3. Industry */}
-                  <div className="space-y-1">
-                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                      <Building className="w-3.5 h-3.5 text-purple-400" />
-                      <span>Industry Domain</span>
-                    </label>
-                    <select
-                      value={selectedIndustry}
-                      onChange={(e) => setSelectedIndustry(e.target.value)}
-                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
-                    >
-                      {INDUSTRIES.map(ind => (
-                        <option key={ind} value={ind} className="dark:bg-[#0B0F19]">{ind}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  {/* 4. Experience Level */}
-                  <div className="space-y-1">
-                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                      <Clock className="w-3.5 h-3.5 text-pink-400" />
-                      <span>Experience Level</span>
-                    </label>
-                    <select
-                      value={selectedExp}
-                      onChange={(e) => setSelectedExp(e.target.value)}
-                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
-                    >
-                      {EXPERIENCE_LEVELS.map(exp => (
-                        <option key={exp} value={exp} className="dark:bg-[#0B0F19]">{exp}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  {/* 5. Work Mode */}
-                  <div className="space-y-1">
-                    <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                      <Globe className="w-3.5 h-3.5 text-amber-400" />
-                      <span>Work Mode</span>
-                    </label>
-                    <select
-                      value={selectedWorkMode}
-                      onChange={(e) => setSelectedWorkMode(e.target.value)}
-                      className="w-full text-xs px-3 py-2 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer"
-                    >
-                      {WORK_MODES.map(wm => (
-                        <option key={wm} value={wm} className="dark:bg-[#0B0F19]">{wm}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  {/* Done / Apply Button */}
-                  <div className="pt-2">
+                  {SORT_OPTIONS.map(opt => (
                     <button
-                      onClick={() => setIsFiltersDropdownOpen(false)}
-                      className="w-full py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 cursor-pointer flex items-center justify-center gap-1.5"
+                      key={opt.value}
+                      onClick={() => {
+                        setSortBy(opt.value);
+                        setIsSortOpen(false);
+                      }}
+                      className={`w-full text-left px-3 py-2 rounded-xl text-xs font-bold flex items-center justify-between transition-colors cursor-pointer ${
+                        sortBy === opt.value
+                          ? 'dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800'
+                          : 'dark:text-slate-200 dark:hover:bg-slate-800 text-slate-800 hover:bg-slate-100'
+                      }`}
                     >
-                      <Check className="w-3.5 h-3.5" />
-                      <span>Apply Filters</span>
+                      <span>{opt.label}</span>
+                      {sortBy === opt.value && <Check className="w-3.5 h-3.5 text-emerald-500" />}
                     </button>
-                  </div>
-
+                  ))}
                 </div>
               )}
-            </div>
-
-            {/* 3. SORT DROPDOWN (Ascending & Descending Options) */}
-            <div className="relative shrink-0">
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="dark:bg-slate-900/70 bg-white/80 backdrop-blur-md border dark:border-slate-700/70 border-slate-300/90 rounded-2xl px-3 py-2 text-xs dark:text-slate-100 text-slate-900 font-bold focus:outline-none focus:border-emerald-500 cursor-pointer shrink-0 shadow-sm"
-                title="Sort opportunities"
-              >
-                {SORT_OPTIONS.map(opt => (
-                  <option key={opt.value} value={opt.value} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900 font-medium">
-                    {opt.label}
-                  </option>
-                ))}
-              </select>
             </div>
 
             {/* 4. Reset Button */}
@@ -347,8 +242,145 @@ export default function FilterBar({
 
         </div>
 
+        {/* EXPANDABLE FULL FILTER PANEL (Rendered outside overflow containers) */}
+        {isFiltersOpen && (
+          <div className="p-4 sm:p-5 rounded-3xl dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-700/90 border-slate-200 shadow-2xl backdrop-blur-2xl space-y-4 animate-in fade-in slide-in-from-top-2 duration-150">
+            
+            <div className="flex items-center justify-between border-b dark:border-slate-800 border-slate-200 pb-3">
+              <div className="flex items-center gap-2">
+                <SlidersHorizontal className="w-4 h-4 text-emerald-500" />
+                <h3 className="text-xs sm:text-sm font-black dark:text-white text-slate-900">
+                  Filter Hyderabad Tech Opportunities
+                </h3>
+                {activeFilterCount > 0 && (
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-black dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800">
+                    {activeFilterCount} Active
+                  </span>
+                )}
+              </div>
+
+              {activeFilterCount > 0 && (
+                <button
+                  onClick={onResetFilters}
+                  className="text-xs font-bold text-rose-500 hover:underline flex items-center gap-1 cursor-pointer"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  <span>Reset All</span>
+                </button>
+              )}
+            </div>
+
+            {/* 5 Filter Selectors Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+              
+              {/* 1. Hub / Location */}
+              <div className="space-y-1.5">
+                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                  <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+                  <span>Location Hub</span>
+                </label>
+                <select
+                  value={selectedHub || 'all'}
+                  onChange={(e) => {
+                    const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
+                    if (hub && onSelectHub) onSelectHub(hub);
+                  }}
+                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 cursor-pointer shadow-sm"
+                >
+                  {HYDERABAD_HUBS.map(hub => (
+                    <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19]">
+                      📍 {hub.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* 2. Role Category */}
+              <div className="space-y-1.5">
+                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                  <Briefcase className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>Role Category</span>
+                </label>
+                <select
+                  value={selectedRole}
+                  onChange={(e) => setSelectedRole(e.target.value)}
+                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-cyan-500/30 focus:border-cyan-500 cursor-pointer shadow-sm"
+                >
+                  {ROLE_CATEGORIES.map(r => (
+                    <option key={r} value={r} className="dark:bg-[#0B0F19]">{r}</option>
+                  ))}
+                </select>
+              </div>
+
+              {/* 3. Industry Domain */}
+              <div className="space-y-1.5">
+                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                  <Building className="w-3.5 h-3.5 text-purple-400" />
+                  <span>Industry Domain</span>
+                </label>
+                <select
+                  value={selectedIndustry}
+                  onChange={(e) => setSelectedIndustry(e.target.value)}
+                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-purple-500/30 focus:border-purple-500 cursor-pointer shadow-sm"
+                >
+                  {INDUSTRIES.map(ind => (
+                    <option key={ind} value={ind} className="dark:bg-[#0B0F19]">{ind}</option>
+                  ))}
+                </select>
+              </div>
+
+              {/* 4. Experience Level */}
+              <div className="space-y-1.5">
+                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                  <Clock className="w-3.5 h-3.5 text-pink-400" />
+                  <span>Experience Level</span>
+                </label>
+                <select
+                  value={selectedExp}
+                  onChange={(e) => setSelectedExp(e.target.value)}
+                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-pink-500/30 focus:border-pink-500 cursor-pointer shadow-sm"
+                >
+                  {EXPERIENCE_LEVELS.map(exp => (
+                    <option key={exp} value={exp} className="dark:bg-[#0B0F19]">{exp}</option>
+                  ))}
+                </select>
+              </div>
+
+              {/* 5. Work Mode */}
+              <div className="space-y-1.5">
+                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                  <Globe className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Work Mode</span>
+                </label>
+                <select
+                  value={selectedWorkMode}
+                  onChange={(e) => setSelectedWorkMode(e.target.value)}
+                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500/30 focus:border-amber-500 cursor-pointer shadow-sm"
+                >
+                  {WORK_MODES.map(wm => (
+                    <option key={wm} value={wm} className="dark:bg-[#0B0F19]">{wm}</option>
+                  ))}
+                </select>
+              </div>
+
+            </div>
+
+            {/* Bottom Actions inside Panel */}
+            <div className="flex items-center justify-end pt-2">
+              <button
+                onClick={() => setIsFiltersOpen(false)}
+                className="px-6 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 cursor-pointer flex items-center gap-1.5 hover:scale-[1.02] active:scale-[0.98] transition-all"
+              >
+                <Check className="w-3.5 h-3.5" />
+                <span>Apply Filters</span>
+              </button>
+            </div>
+
+          </div>
+        )}
+
         {/* Results Counter & Active Filter Pills */}
-        <div className="flex items-center justify-between text-xs dark:text-slate-200 text-slate-800 font-mono font-bold pt-0.5 drop-shadow-sm">
+        <div className="flex items-center justify-between text-xs dark:text-slate-200 text-slate-800 font-mono font-bold pt-0.5 drop-shadow-sm flex-wrap gap-2">
           
           {/* Active Filter Summary Badges */}
           <div className="flex items-center gap-1.5 flex-wrap">
@@ -388,13 +420,19 @@ export default function FilterBar({
             )}
           </div>
 
-          {/* Results Counter */}
-          <div className="flex items-center gap-1.5 ml-auto shrink-0">
-            <span>Showing</span>
-            <span className="dark:text-emerald-400 text-orange-600 font-black">{filteredJobsCount}</span>
-            <span>jobs across</span>
-            <span className="dark:text-cyan-400 text-purple-600 font-black">{filteredCompaniesCount}</span>
-            <span>companies</span>
+          {/* Results Counter & Live Sync Badge */}
+          <div className="flex items-center gap-2 ml-auto shrink-0 text-[11px] sm:text-xs">
+            <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full dark:bg-emerald-500/10 dark:text-emerald-400 bg-emerald-100 text-emerald-800 font-sans font-extrabold text-[10px]">
+              <RefreshCw className="w-2.5 h-2.5 animate-spin duration-3000" />
+              <span>Auto-updated (Mon & Thu)</span>
+            </span>
+            <div className="flex items-center gap-1">
+              <span>Showing</span>
+              <span className="dark:text-emerald-400 text-orange-600 font-black">{filteredJobsCount}</span>
+              <span>jobs across</span>
+              <span className="dark:text-cyan-400 text-purple-600 font-black">{filteredCompaniesCount}</span>
+              <span>companies</span>
+            </div>
           </div>
 
         </div>
