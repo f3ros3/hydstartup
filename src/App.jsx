@@ -34,7 +34,7 @@ import {
 export default function App() {
   // Navigation & View Mode: 'split' | 'map' | 'jobs' | 'companies'
   const [viewMode, setViewMode] = useState('split');
-  const [mobileSplitTab, setMobileSplitTab] = useState('jobs'); // 'map' | 'jobs' on mobile
+  const [mobileSplitTab, setMobileSplitTab] = useState('map'); // 'map' is default on mobile!
 
   // Adjustable Split Pane Ratio (Map Width %)
   const [splitRatio, setSplitRatio] = useState(58); // Default 58% Map, 42% Jobs
