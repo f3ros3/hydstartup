@@ -13,6 +13,7 @@ import {
 } from 'lucide-react';
 import CompanyLogo from './CompanyLogo';
 import AnimatedApplyButton from './AnimatedApplyButton';
+import { getRealtimeApplyUrl } from '../utils/applyLinks';
 
 export default function JobCard({
   job,
@@ -137,7 +138,7 @@ export default function JobCard({
           {/* Animated Uiverse Button */}
           <div onClick={(e) => e.stopPropagation()}>
             <AnimatedApplyButton
-              href={job.applyUrl || job.jobUrl || comp.careerUrl}
+              href={getRealtimeApplyUrl(job, comp)}
               size="sm"
               color="#059669"
             >
