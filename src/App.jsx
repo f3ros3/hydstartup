@@ -29,13 +29,16 @@ import {
   Search, 
   Heart,
   PlusCircle,
-  GripVertical
+  GripVertical,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 
 export default function App() {
   // Navigation & View Mode: 'split' | 'map' | 'jobs' | 'companies'
   const [viewMode, setViewMode] = useState('split');
   const [mobileSplitTab, setMobileSplitTab] = useState('map'); // 'map' is default on mobile!
+  const [isMobileExpandedJobs, setIsMobileExpandedJobs] = useState(false);
 
   // Adjustable Split Pane Ratio (Map Width %)
   const [splitRatio, setSplitRatio] = useState(58); // Default 58% Map, 42% Jobs
@@ -545,25 +548,53 @@ export default function App() {
                     </button>
                   </div>
                 ) : (
-                  filteredJobs.map((job) => (
-                    <JobCard
-                      key={job.id}
-                      job={job}
-                      company={companyMap[job.companyId]}
-                      isSelected={selectedJob?.id === job.id}
-                      onSelectJob={(j) => {
-                        setSelectedJob(j);
-                        setIsJobModalOpen(true);
-                      }}
-                      onViewOnMap={handleViewOnMap}
-                      isBookmarked={bookmarkedIds.includes(job.id)}
-                      onToggleBookmark={handleToggleBookmark}
-                      onOpenApplyModal={(j) => {
-                        setSelectedJob(j);
-                        setIsJobModalOpen(true);
-                      }}
-                    />
-                  ))
+                  <>
+                    {(typeof window !== 'undefined' && window.innerWidth < 1024 && !isMobileExpandedJobs
+                      ? filteredJobs.slice(0, 5)
+                      : filteredJobs
+                    ).map((job) => (
+                      <JobCard
+                        key={job.id}
+                        job={job}
+                        company={companyMap[job.companyId]}
+                        isSelected={selectedJob?.id === job.id}
+                        onSelectJob={(j) => {
+                          setSelectedJob(j);
+                          setIsJobModalOpen(true);
+                        }}
+                        onViewOnMap={handleViewOnMap}
+                        isBookmarked={bookmarkedIds.includes(job.id)}
+                        onToggleBookmark={handleToggleBookmark}
+                        onOpenApplyModal={(j) => {
+                          setSelectedJob(j);
+                          setIsJobModalOpen(true);
+                        }}
+                      />
+                    ))}
+
+                    {/* Mobile "See More Jobs" Button */}
+                    {filteredJobs.length > 5 && (
+                      <div className="pt-2 pb-1 text-center lg:hidden">
+                        {!isMobileExpandedJobs ? (
+                          <button
+                            onClick={() => setIsMobileExpandedJobs(true)}
+                            className="w-full py-3 px-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 via-teal-500/15 to-cyan-500/15 hover:from-emerald-500/25 hover:to-teal-500/25 border border-emerald-500/40 text-emerald-400 font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer transition-all active:scale-[0.98]"
+                          >
+                            <span>See More Jobs ({filteredJobs.length - 5} More Available)</span>
+                            <ChevronDown className="w-4 h-4" />
+                          </button>
+                        ) : (
+                          <button
+                            onClick={() => setIsMobileExpandedJobs(false)}
+                            className="w-full py-2.5 px-4 rounded-2xl dark:bg-slate-800/80 bg-slate-100 hover:bg-slate-200 dark:text-slate-300 text-slate-700 font-bold text-xs flex items-center justify-center gap-1.5 border dark:border-slate-700 border-slate-300 cursor-pointer transition-all"
+                          >
+                            <span>Show Less</span>
+                            <ChevronUp className="w-4 h-4" />
+                          </button>
+                        )}
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
 
