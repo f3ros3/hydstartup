@@ -17,6 +17,7 @@ export function getRealtimeApplyUrl(job, company) {
     "google": `https://www.google.com/about/careers/applications/jobs/results/?q=${encodeURIComponent(title)}&location=Hyderabad`,
     "amazon": `https://www.amazon.jobs/en/search?base_query=${encodeURIComponent(title)}&loc_query=Hyderabad%2C+India`,
     "microsoft": `https://jobs.careers.microsoft.com/global/en/search?q=${encodeURIComponent(title)}&l=en_us&pg=1&pgSz=20&o=Relevance&flt=true&country=India&city=Hyderabad`,
+    "mathworks": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India",
     "arcesium": "https://job-boards.greenhouse.io/arcesiumllc",
     "darwinbox": "https://darwinbox.darwinbox.in/ms/candidate/careers",
     "swiggy": "https://swiggy.careers/",
@@ -85,8 +86,8 @@ export function getRealtimeApplyUrl(job, company) {
     return company.careerUrl;
   }
 
-  // 2. Real-Time Google Jobs Universal Search (No authwall, always active live listings)
-  return `https://www.google.com/search?q=${encodeURIComponent(title + ' ' + compName + ' Hyderabad jobs apply')}&ibp=htl;jobs`;
+  // Direct Indeed Live Search
+  return `https://in.indeed.com/jobs?q=${encodeURIComponent(title + ' ' + compName)}&l=Hyderabad%2C+Telangana`;
 }
 
 export function getIndeedJobUrl(job, company) {
@@ -99,10 +100,4 @@ export function getNaukriJobUrl(job, company) {
   const title = (job?.title || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
   const compName = company?.name || job?.companyName || '';
   return `https://www.naukri.com/${encodeURIComponent(title)}-jobs-in-hyderabad?k=${encodeURIComponent(compName)}`;
-}
-
-export function getGoogleJobsUrl(job, company) {
-  const title = job?.title || '';
-  const compName = company?.name || job?.companyName || '';
-  return `https://www.google.com/search?q=${encodeURIComponent(title + ' ' + compName + ' Hyderabad jobs apply')}&ibp=htl;jobs`;
 }
