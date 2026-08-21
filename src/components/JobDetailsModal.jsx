@@ -18,7 +18,7 @@ import {
 import { LinkedInIcon } from './Icons';
 import CompanyLogo from './CompanyLogo';
 import AnimatedApplyButton from './AnimatedApplyButton';
-import { getRealtimeApplyUrl, getGoogleJobsUrl, getIndeedJobUrl, getNaukriJobUrl } from '../utils/applyLinks';
+import { getRealtimeApplyUrl, getIndeedJobUrl, getNaukriJobUrl } from '../utils/applyLinks';
 
 export default function JobDetailsModal({
   job,
@@ -255,20 +255,10 @@ export default function JobDetailsModal({
             )}
 
             <a
-              href={getGoogleJobsUrl(job, comp)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-3 py-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-300 dark:border-slate-700 bg-white hover:bg-cyan-50 text-cyan-800 text-xs font-bold border border-slate-200 shadow-sm flex items-center gap-1.5 transition-colors"
-            >
-              <span>Google Jobs</span>
-              <ExternalLink className="w-3 h-3 text-cyan-400" />
-            </a>
-
-            <a
               href={getNaukriJobUrl(job, comp)}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:border-slate-700 bg-white hover:bg-slate-100 text-slate-800 text-xs font-bold border border-slate-200 shadow-sm flex items-center gap-1.5 transition-colors hidden sm:flex"
+              className="px-3 py-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:border-slate-700 bg-white hover:bg-slate-100 text-slate-800 text-xs font-bold border border-slate-200 shadow-sm flex items-center gap-1.5 transition-colors"
             >
               <span>Naukri</span>
               <ExternalLink className="w-3 h-3 text-slate-400" />
@@ -278,7 +268,7 @@ export default function JobDetailsModal({
               href={getIndeedJobUrl(job, comp)}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:border-slate-700 bg-white hover:bg-slate-100 text-slate-800 text-xs font-bold border border-slate-200 shadow-sm flex items-center gap-1.5 transition-colors hidden sm:flex"
+              className="px-3 py-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 dark:border-slate-700 bg-white hover:bg-slate-100 text-slate-800 text-xs font-bold border border-slate-200 shadow-sm flex items-center gap-1.5 transition-colors"
             >
               <span>Indeed</span>
               <ExternalLink className="w-3 h-3 text-slate-400" />
