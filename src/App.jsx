@@ -383,14 +383,7 @@ export default function App() {
         onToggleTheme={handleToggleTheme}
       />
 
-      {/* Cluster Quick-Jump Bar */}
-      <HubPills
-        selectedHub={selectedHub}
-        onSelectHub={handleSelectHub}
-        companyCountsByHub={companyCountsByHub}
-      />
-
-      {/* Filter & Search Bar */}
+      {/* Filter & Search Bar with Integrated Tech Hub Dropdown */}
       <FilterBar
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
@@ -402,6 +395,8 @@ export default function App() {
         setSelectedExp={setSelectedExp}
         selectedWorkMode={selectedWorkMode}
         setSelectedWorkMode={setSelectedWorkMode}
+        selectedHub={selectedHub}
+        onSelectHub={handleSelectHub}
         companyTypeFilter={companyTypeFilter}
         setCompanyTypeFilter={setCompanyTypeFilter}
         sortBy={sortBy}

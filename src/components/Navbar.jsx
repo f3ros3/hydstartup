@@ -31,7 +31,7 @@ export default function Navbar({
       <div className="w-full px-3 sm:px-6 lg:px-10">
         
         {/* ROW 1: Left Stats | CENTER BIG HEADING | Right: Actions */}
-        <div className="flex flex-col sm:grid sm:grid-cols-3 items-center min-h-[72px] py-2 gap-2">
+        <div className="flex flex-col sm:grid sm:grid-cols-3 items-center min-h-0 sm:min-h-[72px] py-1 sm:py-2 gap-1.5 sm:gap-2">
           
           <div className="w-full sm:w-auto flex items-center justify-between sm:justify-start gap-3">
             {/* LEFT: Brand Emblem & Live Stats */}
@@ -84,18 +84,18 @@ export default function Navbar({
 
           {/* CENTER: BIG PROMINENT HYDSTARTUPARENA HEADING */}
           <div 
-            className="flex flex-col items-center justify-center text-center cursor-pointer select-none py-1 sm:py-0" 
+            className="flex flex-col items-center justify-center text-center cursor-pointer select-none py-0.5 sm:py-0" 
             onClick={() => setViewMode('split')}
           >
             <div className="flex items-center gap-1.5 sm:gap-3">
-              <h1 className="text-xl sm:text-3xl lg:text-4xl xl:text-[2.65rem] font-black tracking-tight dark:text-white text-slate-950">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-[2.65rem] font-black tracking-tight dark:text-white text-slate-950">
                 HydStartup<span className="dark:text-emerald-400 text-orange-600">Arena</span>
               </h1>
               <span className="hidden sm:inline-block text-[11px] uppercase font-black tracking-widest px-2.5 py-1 rounded-full dark:bg-emerald-500/20 dark:text-emerald-300 dark:border-emerald-500/40 bg-orange-500/20 text-orange-700 border border-orange-500/40 backdrop-blur-md">
                 HYD MAP
               </span>
             </div>
-            <p className="text-[11px] sm:text-sm lg:text-[15px] dark:text-slate-200 text-slate-800 font-extrabold tracking-wide mt-0.5">
+            <p className="text-xs sm:text-sm lg:text-[15px] dark:text-slate-200 text-slate-800 font-extrabold tracking-wide mt-0.5">
               One Stop for All Tech Job
             </p>
           </div>

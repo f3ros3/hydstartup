@@ -9,8 +9,10 @@ import {
   Clock, 
   Building,
   Sparkles,
-  DollarSign
+  DollarSign,
+  MapPin
 } from 'lucide-react';
+import { HYDERABAD_HUBS } from '../data/hubs';
 
 export const ROLE_CATEGORIES = [
   "All Roles",
@@ -62,6 +64,8 @@ export default function FilterBar({
   setSelectedExp,
   selectedWorkMode,
   setSelectedWorkMode,
+  selectedHub,
+  onSelectHub,
   companyTypeFilter,
   setCompanyTypeFilter,
   sortBy,
@@ -72,11 +76,11 @@ export default function FilterBar({
   filteredCompaniesCount
 }) {
   return (
-    <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-3 sm:p-4 sticky top-[108px] sm:top-[112px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
-      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-3">
+    <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-4 sticky top-[95px] sm:top-[112px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
+      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2.5 sm:space-y-3">
         
         {/* Main Search & Quick Toggles */}
-        <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-3">
+        <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-2.5 sm:gap-3">
           
           {/* Search Bar */}
           <div className="relative flex-1">
@@ -86,7 +90,7 @@ export default function FilterBar({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search by job title, tech stack (React, Python, C++, GenAI), or startup name..."
-              className="w-full pl-10 pr-10 py-2.5 dark:bg-slate-900/65 bg-white/75 backdrop-blur-md border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/25 shadow-sm transition-all"
+              className="w-full pl-10 pr-10 py-2 sm:py-2.5 dark:bg-slate-900/65 bg-white/75 backdrop-blur-md border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/25 shadow-sm transition-all"
             />
             {searchQuery && (
               <button
@@ -152,10 +156,38 @@ export default function FilterBar({
 
         </div>
 
-        {/* Multi-Dimensional Filter Dropdowns (All Roles, All Industries, All Levels, All Modes) */}
+        {/* Multi-Dimensional Filter Dropdowns (Location Hubs, Roles, Industries, Levels, Modes) */}
         <div className="flex flex-wrap items-center justify-between gap-2 pt-1">
           
           <div className="flex flex-wrap items-center gap-2">
+            
+            {/* Tech Hub / Location Dropdown (INTEGRATED) */}
+            <div className="relative">
+              <select
+                value={selectedHub || 'all'}
+                onChange={(e) => {
+                  const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
+                  if (hub && onSelectHub) {
+                    onSelectHub(hub);
+                  }
+                }}
+                className={`text-xs px-3.5 py-1.5 rounded-xl border appearance-none pr-8 cursor-pointer transition-all shadow-sm font-bold backdrop-blur-md ${
+                  selectedHub && selectedHub !== 'all'
+                    ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-100/90 border-orange-400 text-orange-800'
+                    : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800'
+                }`}
+              >
+                {HYDERABAD_HUBS.map(hub => (
+                  <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19] dark:text-slate-200 bg-white text-slate-900">
+                    📍 {hub.name}
+                  </option>
+                ))}
+              </select>
+              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-slate-400">
+                <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+              </div>
+            </div>
+
             {/* Role Filter */}
             <div className="relative">
               <select
