@@ -175,9 +175,18 @@ export default function App() {
     }
   }, [customJobs]);
 
-  // Combined jobs list
+  // Combined jobs list with automatic daily catalog rotation & refresh
   const allJobs = useMemo(() => {
-    return [...customJobs, ...HYDERABAD_JOBS];
+    const now = new Date();
+    const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
+    const offset = (dayOfYear * 11) % HYDERABAD_JOBS.length;
+
+    const rotatedCatalog = [
+      ...HYDERABAD_JOBS.slice(offset),
+      ...HYDERABAD_JOBS.slice(0, offset)
+    ];
+
+    return [...customJobs, ...rotatedCatalog];
   }, [customJobs]);
 
   // Company Lookup Map

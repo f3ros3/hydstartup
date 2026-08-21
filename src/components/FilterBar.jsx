@@ -424,7 +424,7 @@ export default function FilterBar({
           <div className="flex items-center gap-2 ml-auto shrink-0 text-[11px] sm:text-xs">
             <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full dark:bg-emerald-500/10 dark:text-emerald-400 bg-emerald-100 text-emerald-800 font-sans font-extrabold text-[10px]">
               <RefreshCw className="w-2.5 h-2.5 animate-spin duration-3000" />
-              <span>Auto-updated (Mon & Thu)</span>
+              <span>Auto-updated daily</span>
             </span>
             <div className="flex items-center gap-1">
               <span>Showing</span>

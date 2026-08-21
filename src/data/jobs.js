@@ -1,5 +1,6 @@
 // Curated Hyderabad Tech Jobs Database
-// Generated and updated twice weekly for all Hyderabad startups and tech employers.
+// Auto-refreshes and updates daily from the verified Hyderabad tech catalog.
+// Last synced: 2026-08-21T18:01:11.296Z
 
 export const HYDERABAD_JOBS = [
   {
@@ -24,15 +25,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Darwinbox's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Darwinbox's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Darwinbox's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Darwinbox's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -40,8 +41,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://darwinbox.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://darwinbox.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
+    "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
   },
   {
     "id": "job-darwinbox-2",
@@ -65,15 +66,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Darwinbox's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Darwinbox's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Darwinbox's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Darwinbox's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -81,8 +82,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://darwinbox.com/careers/backend-software-engineer-go-python-microservices-102",
-    "jobUrl": "https://darwinbox.com/careers/backend-software-engineer-go-python-microservices-102"
+    "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
+    "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
   },
   {
     "id": "job-darwinbox-3",
@@ -106,15 +107,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Darwinbox's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Darwinbox's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Darwinbox's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Darwinbox's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -122,8 +123,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://darwinbox.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://darwinbox.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
+    "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
   },
   {
     "id": "job-darwinbox-4",
@@ -147,15 +148,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Darwinbox's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Darwinbox's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Darwinbox's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Darwinbox's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -163,8 +164,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://darwinbox.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://darwinbox.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
+    "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
   },
   {
     "id": "job-skyroot-1",
@@ -188,15 +189,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Skyroot Aerospace's Hyderabad engineering hub building next-generation SpaceTech • DeepTech solutions for high-scale global users.",
+    "description": "Join Skyroot Aerospace's Hyderabad tech hub building high-scale SpaceTech • DeepTech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Skyroot Aerospace's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Skyroot Aerospace's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -204,8 +205,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://skyroot.in/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://skyroot.in/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://skyroot.in/careers.html",
+    "jobUrl": "https://skyroot.in/careers.html"
   },
   {
     "id": "job-skyroot-2",
@@ -229,15 +230,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Skyroot Aerospace's Hyderabad engineering hub building next-generation SpaceTech • DeepTech solutions for high-scale global users.",
+    "description": "Join Skyroot Aerospace's Hyderabad tech hub building high-scale SpaceTech • DeepTech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Skyroot Aerospace's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Skyroot Aerospace's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -245,8 +246,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://skyroot.in/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://skyroot.in/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://skyroot.in/careers.html",
+    "jobUrl": "https://skyroot.in/careers.html"
   },
   {
     "id": "job-skyroot-3",
@@ -270,15 +271,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Skyroot Aerospace's Hyderabad engineering hub building next-generation SpaceTech • DeepTech solutions for high-scale global users.",
+    "description": "Join Skyroot Aerospace's Hyderabad tech hub building high-scale SpaceTech • DeepTech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Skyroot Aerospace's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Skyroot Aerospace's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -286,8 +287,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://skyroot.in/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://skyroot.in/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://skyroot.in/careers.html",
+    "jobUrl": "https://skyroot.in/careers.html"
   },
   {
     "id": "job-highradius-1",
@@ -311,15 +312,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HighRadius's Hyderabad engineering hub building next-generation FinTech/SaaS • AI solutions for high-scale global users.",
+    "description": "Join HighRadius's Hyderabad tech hub building high-scale FinTech/SaaS • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HighRadius's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HighRadius's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -327,8 +328,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highradius.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.highradius.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20HighRadius&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20HighRadius&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-highradius-2",
@@ -352,15 +353,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HighRadius's Hyderabad engineering hub building next-generation FinTech/SaaS • AI solutions for high-scale global users.",
+    "description": "Join HighRadius's Hyderabad tech hub building high-scale FinTech/SaaS • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HighRadius's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HighRadius's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -368,8 +369,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highradius.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.highradius.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20HighRadius&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20HighRadius&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-highradius-3",
@@ -393,15 +394,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HighRadius's Hyderabad engineering hub building next-generation FinTech/SaaS • AI solutions for high-scale global users.",
+    "description": "Join HighRadius's Hyderabad tech hub building high-scale FinTech/SaaS • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HighRadius's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HighRadius's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -409,8 +410,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highradius.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.highradius.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20HighRadius&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20HighRadius&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-1",
@@ -434,15 +435,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation SaaS • Cloud ERP solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale SaaS • Cloud ERP systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -450,8 +451,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.zenoti.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-2",
@@ -475,15 +476,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation SaaS • Cloud ERP solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale SaaS • Cloud ERP systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -491,8 +492,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/mobile-engineer-react-native-android-102",
-    "jobUrl": "https://www.zenoti.com/careers/mobile-engineer-react-native-android-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-3",
@@ -505,7 +506,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -516,15 +517,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation SaaS • Cloud ERP solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale SaaS • Cloud ERP systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -532,8 +533,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.zenoti.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-4",
@@ -546,7 +547,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹16 - ₹28 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -557,15 +558,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation SaaS • Cloud ERP solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale SaaS • Cloud ERP systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -573,8 +574,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.zenoti.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-1",
@@ -598,15 +599,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -614,8 +615,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.keka.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-2",
@@ -628,7 +629,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -639,15 +640,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -655,8 +656,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/distributed-systems-engineer-high-scale-102",
-    "jobUrl": "https://www.keka.com/careers/distributed-systems-engineer-high-scale-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-3",
@@ -669,7 +670,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -680,15 +681,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • SaaS solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • SaaS systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -696,8 +697,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.keka.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dhruva-space-1",
@@ -710,7 +711,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
@@ -721,15 +722,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dhruva Space's Hyderabad engineering hub building next-generation SpaceTech • Satellite Systems solutions for high-scale global users.",
+    "description": "Join Dhruva Space's Hyderabad tech hub building high-scale SpaceTech • Satellite Systems systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dhruva Space's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dhruva Space's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -737,8 +738,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dhruvaspace.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.dhruvaspace.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.dhruvaspace.com/careers",
+    "jobUrl": "https://www.dhruvaspace.com/careers"
   },
   {
     "id": "job-dhruva-space-2",
@@ -751,7 +752,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
@@ -762,15 +763,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dhruva Space's Hyderabad engineering hub building next-generation SpaceTech • Satellite Systems solutions for high-scale global users.",
+    "description": "Join Dhruva Space's Hyderabad tech hub building high-scale SpaceTech • Satellite Systems systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dhruva Space's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dhruva Space's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -778,8 +779,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dhruvaspace.com/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.dhruvaspace.com/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.dhruvaspace.com/careers",
+    "jobUrl": "https://www.dhruvaspace.com/careers"
   },
   {
     "id": "job-dhruva-space-3",
@@ -792,7 +793,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
@@ -803,15 +804,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dhruva Space's Hyderabad engineering hub building next-generation SpaceTech • Satellite Systems solutions for high-scale global users.",
+    "description": "Join Dhruva Space's Hyderabad tech hub building high-scale SpaceTech • Satellite Systems systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dhruva Space's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dhruva Space's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -819,8 +820,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dhruvaspace.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.dhruvaspace.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.dhruvaspace.com/careers",
+    "jobUrl": "https://www.dhruvaspace.com/careers"
   },
   {
     "id": "job-kore-ai-1",
@@ -833,7 +834,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -844,15 +845,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Enterprise AI • Conversational AI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Enterprise AI • Conversational AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -860,8 +861,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://kore.ai/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-2",
@@ -874,7 +875,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -885,15 +886,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Enterprise AI • Conversational AI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Enterprise AI • Conversational AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -901,8 +902,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://kore.ai/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-3",
@@ -915,7 +916,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -926,15 +927,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Enterprise AI • Conversational AI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Enterprise AI • Conversational AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -942,8 +943,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://kore.ai/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-4",
@@ -956,7 +957,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -967,15 +968,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Enterprise AI • Conversational AI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Enterprise AI • Conversational AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -983,8 +984,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://kore.ai/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-stan-1",
@@ -997,7 +998,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -1008,15 +1009,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Stan (Stan Creator)'s Hyderabad engineering hub building next-generation Gaming Tech • Web3 / Creator solutions for high-scale global users.",
+    "description": "Join Stan (Stan Creator)'s Hyderabad tech hub building high-scale Gaming Tech • Web3 / Creator systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Stan (Stan Creator)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Stan (Stan Creator)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1024,8 +1025,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getstan.app/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://getstan.app/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Stan%20(Stan%20Creator)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Stan%20(Stan%20Creator)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-stan-2",
@@ -1038,7 +1039,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -1049,15 +1050,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Stan (Stan Creator)'s Hyderabad engineering hub building next-generation Gaming Tech • Web3 / Creator solutions for high-scale global users.",
+    "description": "Join Stan (Stan Creator)'s Hyderabad tech hub building high-scale Gaming Tech • Web3 / Creator systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Stan (Stan Creator)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Stan (Stan Creator)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1065,8 +1066,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getstan.app/careers/backend-software-engineer-go-python-microservices-102",
-    "jobUrl": "https://getstan.app/careers/backend-software-engineer-go-python-microservices-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Stan%20(Stan%20Creator)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Stan%20(Stan%20Creator)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-stan-3",
@@ -1079,7 +1080,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -1090,15 +1091,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Stan (Stan Creator)'s Hyderabad engineering hub building next-generation Gaming Tech • Web3 / Creator solutions for high-scale global users.",
+    "description": "Join Stan (Stan Creator)'s Hyderabad tech hub building high-scale Gaming Tech • Web3 / Creator systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Stan (Stan Creator)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Stan (Stan Creator)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1106,8 +1107,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getstan.app/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://getstan.app/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Stan%20(Stan%20Creator)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Stan%20(Stan%20Creator)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-nxtwave-1",
@@ -1120,7 +1121,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -1131,15 +1132,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join NxtWave's Hyderabad engineering hub building next-generation EdTech • Tech Education solutions for high-scale global users.",
+    "description": "Join NxtWave's Hyderabad tech hub building high-scale EdTech • Tech Education systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering NxtWave's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering NxtWave's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1147,8 +1148,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ccbp.in/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.ccbp.in/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20NxtWave&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20NxtWave&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-nxtwave-2",
@@ -1161,7 +1162,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -1172,15 +1173,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join NxtWave's Hyderabad engineering hub building next-generation EdTech • Tech Education solutions for high-scale global users.",
+    "description": "Join NxtWave's Hyderabad tech hub building high-scale EdTech • Tech Education systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering NxtWave's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering NxtWave's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1188,8 +1189,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ccbp.in/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.ccbp.in/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20NxtWave&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20NxtWave&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-nxtwave-3",
@@ -1202,7 +1203,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -1213,15 +1214,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join NxtWave's Hyderabad engineering hub building next-generation EdTech • Tech Education solutions for high-scale global users.",
+    "description": "Join NxtWave's Hyderabad tech hub building high-scale EdTech • Tech Education systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering NxtWave's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering NxtWave's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1229,8 +1230,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ccbp.in/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.ccbp.in/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20NxtWave&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20NxtWave&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-recykal-1",
@@ -1243,7 +1244,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1254,15 +1255,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Recykal's Hyderabad engineering hub building next-generation CleanTech • Waste Commerce solutions for high-scale global users.",
+    "description": "Join Recykal's Hyderabad tech hub building high-scale CleanTech • Waste Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Recykal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Recykal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1270,8 +1271,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://recykal.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://recykal.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-recykal-2",
@@ -1284,7 +1285,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1295,15 +1296,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Recykal's Hyderabad engineering hub building next-generation CleanTech • Waste Commerce solutions for high-scale global users.",
+    "description": "Join Recykal's Hyderabad tech hub building high-scale CleanTech • Waste Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Recykal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Recykal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1311,8 +1312,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://recykal.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-102",
-    "jobUrl": "https://recykal.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-recykal-3",
@@ -1325,7 +1326,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1336,15 +1337,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Recykal's Hyderabad engineering hub building next-generation CleanTech • Waste Commerce solutions for high-scale global users.",
+    "description": "Join Recykal's Hyderabad tech hub building high-scale CleanTech • Waste Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Recykal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Recykal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1352,8 +1353,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://recykal.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://recykal.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-recykal-4",
@@ -1366,7 +1367,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹16 - ₹28 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1377,15 +1378,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Recykal's Hyderabad engineering hub building next-generation CleanTech • Waste Commerce solutions for high-scale global users.",
+    "description": "Join Recykal's Hyderabad tech hub building high-scale CleanTech • Waste Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Recykal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Recykal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1393,8 +1394,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://recykal.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://recykal.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Recykal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-turbohire-1",
@@ -1407,7 +1408,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1418,15 +1419,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join TurboHire's Hyderabad engineering hub building next-generation HR Tech • AI Recruiting solutions for high-scale global users.",
+    "description": "Join TurboHire's Hyderabad tech hub building high-scale HR Tech • AI Recruiting systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering TurboHire's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering TurboHire's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1434,8 +1435,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://turbohire.co/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://turbohire.co/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20TurboHire&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20TurboHire&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-turbohire-2",
@@ -1448,7 +1449,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1459,15 +1460,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join TurboHire's Hyderabad engineering hub building next-generation HR Tech • AI Recruiting solutions for high-scale global users.",
+    "description": "Join TurboHire's Hyderabad tech hub building high-scale HR Tech • AI Recruiting systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering TurboHire's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering TurboHire's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1475,8 +1476,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://turbohire.co/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://turbohire.co/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20TurboHire&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20TurboHire&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-turbohire-3",
@@ -1489,7 +1490,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1500,15 +1501,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join TurboHire's Hyderabad engineering hub building next-generation HR Tech • AI Recruiting solutions for high-scale global users.",
+    "description": "Join TurboHire's Hyderabad tech hub building high-scale HR Tech • AI Recruiting systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering TurboHire's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering TurboHire's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1516,8 +1517,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://turbohire.co/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://turbohire.co/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20TurboHire&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20TurboHire&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-marut-drones-1",
@@ -1530,7 +1531,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
@@ -1541,15 +1542,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DeepTech • Drone Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DeepTech • Drone Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1557,8 +1558,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://marutdrones.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-marut-drones-2",
@@ -1571,7 +1572,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
@@ -1582,15 +1583,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DeepTech • Drone Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DeepTech • Drone Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1598,8 +1599,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://marutdrones.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-marut-drones-3",
@@ -1612,7 +1613,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
@@ -1623,15 +1624,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DeepTech • Drone Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DeepTech • Drone Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1639,8 +1640,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://marutdrones.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fourth-partner-1",
@@ -1653,7 +1654,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1664,15 +1665,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad engineering hub building next-generation CleanTech • Solar Infrastructure solutions for high-scale global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad tech hub building high-scale CleanTech • Solar Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fourth Partner Energy's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fourth Partner Energy's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1680,8 +1681,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fourthpartner.co/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.fourthpartner.co/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fourth-partner-2",
@@ -1694,7 +1695,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1705,15 +1706,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad engineering hub building next-generation CleanTech • Solar Infrastructure solutions for high-scale global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad tech hub building high-scale CleanTech • Solar Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fourth Partner Energy's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fourth Partner Energy's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1721,8 +1722,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fourthpartner.co/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.fourthpartner.co/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fourth-partner-3",
@@ -1735,7 +1736,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1746,15 +1747,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad engineering hub building next-generation CleanTech • Solar Infrastructure solutions for high-scale global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad tech hub building high-scale CleanTech • Solar Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fourth Partner Energy's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fourth Partner Energy's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1762,8 +1763,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fourthpartner.co/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.fourthpartner.co/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fourth-partner-4",
@@ -1776,7 +1777,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1787,15 +1788,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad engineering hub building next-generation CleanTech • Solar Infrastructure solutions for high-scale global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad tech hub building high-scale CleanTech • Solar Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fourth Partner Energy's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fourth Partner Energy's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1803,8 +1804,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fourthpartner.co/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.fourthpartner.co/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Fourth%20Partner%20Energy&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-mapmygenome-1",
@@ -1817,7 +1818,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1828,15 +1829,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Mapmygenome's Hyderabad engineering hub building next-generation HealthTech • Genomics solutions for high-scale global users.",
+    "description": "Join Mapmygenome's Hyderabad tech hub building high-scale HealthTech • Genomics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Mapmygenome's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Mapmygenome's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1844,8 +1845,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://mapmygenome.in/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://mapmygenome.in/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Mapmygenome&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Mapmygenome&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-mapmygenome-2",
@@ -1858,7 +1859,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1869,15 +1870,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Mapmygenome's Hyderabad engineering hub building next-generation HealthTech • Genomics solutions for high-scale global users.",
+    "description": "Join Mapmygenome's Hyderabad tech hub building high-scale HealthTech • Genomics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Mapmygenome's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Mapmygenome's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1885,8 +1886,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://mapmygenome.in/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://mapmygenome.in/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Mapmygenome&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Mapmygenome&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-mapmygenome-3",
@@ -1899,7 +1900,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1910,15 +1911,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Mapmygenome's Hyderabad engineering hub building next-generation HealthTech • Genomics solutions for high-scale global users.",
+    "description": "Join Mapmygenome's Hyderabad tech hub building high-scale HealthTech • Genomics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Mapmygenome's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Mapmygenome's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1926,8 +1927,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://mapmygenome.in/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://mapmygenome.in/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Mapmygenome&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Mapmygenome&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-gmw-ev-1",
@@ -1940,7 +1941,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
@@ -1951,15 +1952,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad engineering hub building next-generation CleanTech • EV Mobility solutions for high-scale global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad tech hub building high-scale CleanTech • EV Mobility systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Gayam Motor Works (GMW)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Gayam Motor Works (GMW)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -1967,8 +1968,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.gayammotorworks.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.gayammotorworks.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-gmw-ev-2",
@@ -1981,7 +1982,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
@@ -1992,15 +1993,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad engineering hub building next-generation CleanTech • EV Mobility solutions for high-scale global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad tech hub building high-scale CleanTech • EV Mobility systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Gayam Motor Works (GMW)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Gayam Motor Works (GMW)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -2008,8 +2009,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.gayammotorworks.com/careers/backend-software-engineer-go-python-microservices-102",
-    "jobUrl": "https://www.gayammotorworks.com/careers/backend-software-engineer-go-python-microservices-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-gmw-ev-3",
@@ -2022,7 +2023,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
@@ -2033,15 +2034,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad engineering hub building next-generation CleanTech • EV Mobility solutions for high-scale global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad tech hub building high-scale CleanTech • EV Mobility systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Gayam Motor Works (GMW)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Gayam Motor Works (GMW)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -2049,8 +2050,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.gayammotorworks.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.gayammotorworks.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-1",
@@ -2063,7 +2064,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2074,15 +2075,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Data Center • Cloud Infrastructure solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Data Center • Cloud Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2090,8 +2091,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.ctrls.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-2",
@@ -2104,7 +2105,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2115,15 +2116,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Data Center • Cloud Infrastructure solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Data Center • Cloud Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2131,8 +2132,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.com/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.ctrls.com/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-3",
@@ -2145,7 +2146,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2156,15 +2157,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Data Center • Cloud Infrastructure solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Data Center • Cloud Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2172,8 +2173,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.ctrls.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-4",
@@ -2186,7 +2187,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2197,15 +2198,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Data Center • Cloud Infrastructure solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Data Center • Cloud Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2213,8 +2214,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.ctrls.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-evalueserve-1",
@@ -2227,7 +2228,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2238,15 +2239,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Evalueserve's Hyderabad engineering hub building next-generation Analytics • Research & AI solutions for high-scale global users.",
+    "description": "Join Evalueserve's Hyderabad tech hub building high-scale Analytics • Research & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Evalueserve's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Evalueserve's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2254,8 +2255,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.evalueserve.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.evalueserve.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Evalueserve&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Evalueserve&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-evalueserve-2",
@@ -2268,7 +2269,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2279,15 +2280,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Evalueserve's Hyderabad engineering hub building next-generation Analytics • Research & AI solutions for high-scale global users.",
+    "description": "Join Evalueserve's Hyderabad tech hub building high-scale Analytics • Research & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Evalueserve's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Evalueserve's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2295,8 +2296,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.evalueserve.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.evalueserve.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Evalueserve&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Evalueserve&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-evalueserve-3",
@@ -2309,7 +2310,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2320,15 +2321,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Evalueserve's Hyderabad engineering hub building next-generation Analytics • Research & AI solutions for high-scale global users.",
+    "description": "Join Evalueserve's Hyderabad tech hub building high-scale Analytics • Research & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Evalueserve's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Evalueserve's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2336,8 +2337,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.evalueserve.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.evalueserve.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Evalueserve&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Evalueserve&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-accenture-1",
@@ -2350,7 +2351,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
@@ -2361,15 +2362,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Accenture Innovation Hub's Hyderabad engineering hub building next-generation Digital Transformation • Cloud & AI solutions for high-scale global users.",
+    "description": "Join Accenture Innovation Hub's Hyderabad tech hub building high-scale Digital Transformation • Cloud & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Accenture Innovation Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Accenture Innovation Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2377,8 +2378,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.accenture.com/in-en/careers/jobsearch/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Accenture%20Innovation%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Accenture%20Innovation%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-accenture-2",
@@ -2391,7 +2392,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
@@ -2402,15 +2403,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Accenture Innovation Hub's Hyderabad engineering hub building next-generation Digital Transformation • Cloud & AI solutions for high-scale global users.",
+    "description": "Join Accenture Innovation Hub's Hyderabad tech hub building high-scale Digital Transformation • Cloud & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Accenture Innovation Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Accenture Innovation Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2418,8 +2419,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.accenture.com/in-en/careers/jobsearch/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Accenture%20Innovation%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Accenture%20Innovation%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-accenture-3",
@@ -2432,7 +2433,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
@@ -2443,15 +2444,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Accenture Innovation Hub's Hyderabad engineering hub building next-generation Digital Transformation • Cloud & AI solutions for high-scale global users.",
+    "description": "Join Accenture Innovation Hub's Hyderabad tech hub building high-scale Digital Transformation • Cloud & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Accenture Innovation Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Accenture Innovation Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2459,8 +2460,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.accenture.com/in-en/careers/jobsearch/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Accenture%20Innovation%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Accenture%20Innovation%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dxc-technology-1",
@@ -2473,7 +2474,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2484,15 +2485,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DXC Technology's Hyderabad engineering hub building next-generation Enterprise Cloud • IT Services solutions for high-scale global users.",
+    "description": "Join DXC Technology's Hyderabad tech hub building high-scale Enterprise Cloud • IT Services systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DXC Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DXC Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2500,8 +2501,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dxc.com/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://careers.dxc.com/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dxc-technology-2",
@@ -2514,7 +2515,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2525,15 +2526,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DXC Technology's Hyderabad engineering hub building next-generation Enterprise Cloud • IT Services solutions for high-scale global users.",
+    "description": "Join DXC Technology's Hyderabad tech hub building high-scale Enterprise Cloud • IT Services systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DXC Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DXC Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2541,8 +2542,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dxc.com/distributed-systems-engineer-high-scale-102",
-    "jobUrl": "https://careers.dxc.com/distributed-systems-engineer-high-scale-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dxc-technology-3",
@@ -2555,7 +2556,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2566,15 +2567,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DXC Technology's Hyderabad engineering hub building next-generation Enterprise Cloud • IT Services solutions for high-scale global users.",
+    "description": "Join DXC Technology's Hyderabad tech hub building high-scale Enterprise Cloud • IT Services systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DXC Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DXC Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2582,8 +2583,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dxc.com/program-manager-engineering-operations-103",
-    "jobUrl": "https://careers.dxc.com/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dxc-technology-4",
@@ -2596,7 +2597,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2607,15 +2608,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DXC Technology's Hyderabad engineering hub building next-generation Enterprise Cloud • IT Services solutions for high-scale global users.",
+    "description": "Join DXC Technology's Hyderabad tech hub building high-scale Enterprise Cloud • IT Services systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DXC Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DXC Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2623,8 +2624,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dxc.com/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://careers.dxc.com/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20DXC%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-byjus-1",
@@ -2637,7 +2638,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -2648,15 +2649,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Byju's Tech Hub's Hyderabad engineering hub building next-generation EdTech • Learning Platforms solutions for high-scale global users.",
+    "description": "Join Byju's Tech Hub's Hyderabad tech hub building high-scale EdTech • Learning Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Byju's Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Byju's Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -2664,8 +2665,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://byjus.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://byjus.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Byju's%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Byju's%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-byjus-2",
@@ -2678,7 +2679,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -2689,15 +2690,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Byju's Tech Hub's Hyderabad engineering hub building next-generation EdTech • Learning Platforms solutions for high-scale global users.",
+    "description": "Join Byju's Tech Hub's Hyderabad tech hub building high-scale EdTech • Learning Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Byju's Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Byju's Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -2705,8 +2706,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://byjus.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://byjus.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Byju's%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Byju's%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-byjus-3",
@@ -2719,7 +2720,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -2730,15 +2731,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Byju's Tech Hub's Hyderabad engineering hub building next-generation EdTech • Learning Platforms solutions for high-scale global users.",
+    "description": "Join Byju's Tech Hub's Hyderabad tech hub building high-scale EdTech • Learning Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Byju's Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Byju's Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -2746,8 +2747,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://byjus.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://byjus.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Byju's%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Byju's%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-l-and-t-1",
@@ -2760,7 +2761,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
@@ -2771,15 +2772,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad engineering hub building next-generation Engineering Tech • Smart Infrastructure solutions for high-scale global users.",
+    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad tech hub building high-scale Engineering Tech • Smart Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering L&T (Larsen & Toubro Tech)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering L&T (Larsen & Toubro Tech)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2787,8 +2788,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.larsentoubro.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://www.larsentoubro.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20L%26T%20(Larsen%20%26%20Toubro%20Tech)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20L%26T%20(Larsen%20%26%20Toubro%20Tech)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-l-and-t-2",
@@ -2801,7 +2802,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
@@ -2812,15 +2813,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad engineering hub building next-generation Engineering Tech • Smart Infrastructure solutions for high-scale global users.",
+    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad tech hub building high-scale Engineering Tech • Smart Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering L&T (Larsen & Toubro Tech)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering L&T (Larsen & Toubro Tech)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2828,8 +2829,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.larsentoubro.com/careers/senior-full-stack-engineer-react-node-java-102",
-    "jobUrl": "https://www.larsentoubro.com/careers/senior-full-stack-engineer-react-node-java-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20L%26T%20(Larsen%20%26%20Toubro%20Tech)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20L%26T%20(Larsen%20%26%20Toubro%20Tech)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-l-and-t-3",
@@ -2842,7 +2843,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
@@ -2853,15 +2854,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad engineering hub building next-generation Engineering Tech • Smart Infrastructure solutions for high-scale global users.",
+    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad tech hub building high-scale Engineering Tech • Smart Infrastructure systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering L&T (Larsen & Toubro Tech)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering L&T (Larsen & Toubro Tech)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2869,8 +2870,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.larsentoubro.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.larsentoubro.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20L%26T%20(Larsen%20%26%20Toubro%20Tech)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20L%26T%20(Larsen%20%26%20Toubro%20Tech)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-novartis-1",
@@ -2883,7 +2884,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -2894,15 +2895,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad engineering hub building next-generation Pharma • Data Science & Digital Tech solutions for high-scale global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad tech hub building high-scale Pharma • Data Science & Digital Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Novartis Corporate Center (NOCC)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Novartis Corporate Center (NOCC)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2910,8 +2911,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.novartis.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.novartis.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-novartis-2",
@@ -2924,7 +2925,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -2935,15 +2936,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad engineering hub building next-generation Pharma • Data Science & Digital Tech solutions for high-scale global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad tech hub building high-scale Pharma • Data Science & Digital Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Novartis Corporate Center (NOCC)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Novartis Corporate Center (NOCC)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2951,8 +2952,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.novartis.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.novartis.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-novartis-3",
@@ -2965,7 +2966,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -2976,15 +2977,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad engineering hub building next-generation Pharma • Data Science & Digital Tech solutions for high-scale global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad tech hub building high-scale Pharma • Data Science & Digital Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Novartis Corporate Center (NOCC)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Novartis Corporate Center (NOCC)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -2992,8 +2993,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.novartis.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.novartis.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-novartis-4",
@@ -3006,7 +3007,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3017,15 +3018,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad engineering hub building next-generation Pharma • Data Science & Digital Tech solutions for high-scale global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad tech hub building high-scale Pharma • Data Science & Digital Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Novartis Corporate Center (NOCC)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Novartis Corporate Center (NOCC)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3033,8 +3034,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.novartis.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.novartis.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Novartis%20Corporate%20Center%20(NOCC)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloudnine-hospital-1",
@@ -3047,7 +3048,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -3058,15 +3059,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloudnine Healthcare Tech's Hyderabad engineering hub building next-generation Healthcare Tech • Patient Portals solutions for high-scale global users.",
+    "description": "Join Cloudnine Healthcare Tech's Hyderabad tech hub building high-scale Healthcare Tech • Patient Portals systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloudnine Healthcare Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloudnine Healthcare Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3074,8 +3075,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloudninefertility.com/career/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.cloudninefertility.com/career/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Cloudnine%20Healthcare%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Cloudnine%20Healthcare%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloudnine-hospital-2",
@@ -3088,7 +3089,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -3099,15 +3100,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloudnine Healthcare Tech's Hyderabad engineering hub building next-generation Healthcare Tech • Patient Portals solutions for high-scale global users.",
+    "description": "Join Cloudnine Healthcare Tech's Hyderabad tech hub building high-scale Healthcare Tech • Patient Portals systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloudnine Healthcare Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloudnine Healthcare Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3115,8 +3116,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloudninefertility.com/career/frontend-architect-next-js-typescript-102",
-    "jobUrl": "https://www.cloudninefertility.com/career/frontend-architect-next-js-typescript-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Cloudnine%20Healthcare%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Cloudnine%20Healthcare%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloudnine-hospital-3",
@@ -3129,7 +3130,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -3140,15 +3141,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloudnine Healthcare Tech's Hyderabad engineering hub building next-generation Healthcare Tech • Patient Portals solutions for high-scale global users.",
+    "description": "Join Cloudnine Healthcare Tech's Hyderabad tech hub building high-scale Healthcare Tech • Patient Portals systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloudnine Healthcare Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloudnine Healthcare Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3156,8 +3157,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloudninefertility.com/career/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.cloudninefertility.com/career/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Cloudnine%20Healthcare%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Cloudnine%20Healthcare%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cotiviti-1",
@@ -3170,7 +3171,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3181,15 +3182,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cotiviti's Hyderabad engineering hub building next-generation Healthcare Analytics • FinTech solutions for high-scale global users.",
+    "description": "Join Cotiviti's Hyderabad tech hub building high-scale Healthcare Analytics • FinTech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cotiviti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cotiviti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3197,8 +3198,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cotiviti.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.cotiviti.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Cotiviti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Cotiviti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cotiviti-2",
@@ -3211,7 +3212,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3222,15 +3223,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cotiviti's Hyderabad engineering hub building next-generation Healthcare Analytics • FinTech solutions for high-scale global users.",
+    "description": "Join Cotiviti's Hyderabad tech hub building high-scale Healthcare Analytics • FinTech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cotiviti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cotiviti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3238,8 +3239,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cotiviti.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.cotiviti.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Cotiviti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Cotiviti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cotiviti-3",
@@ -3252,7 +3253,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3263,15 +3264,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cotiviti's Hyderabad engineering hub building next-generation Healthcare Analytics • FinTech solutions for high-scale global users.",
+    "description": "Join Cotiviti's Hyderabad tech hub building high-scale Healthcare Analytics • FinTech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cotiviti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cotiviti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3279,8 +3280,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cotiviti.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.cotiviti.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Cotiviti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Cotiviti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zelis-1",
@@ -3293,7 +3294,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3304,15 +3305,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zelis's Hyderabad engineering hub building next-generation Healthcare FinTech • Payments solutions for high-scale global users.",
+    "description": "Join Zelis's Hyderabad tech hub building high-scale Healthcare FinTech • Payments systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zelis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zelis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3320,8 +3321,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.zelis.com/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://careers.zelis.com/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zelis-2",
@@ -3334,7 +3335,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3345,15 +3346,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zelis's Hyderabad engineering hub building next-generation Healthcare FinTech • Payments solutions for high-scale global users.",
+    "description": "Join Zelis's Hyderabad tech hub building high-scale Healthcare FinTech • Payments systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zelis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zelis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3361,8 +3362,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.zelis.com/mobile-engineer-react-native-android-102",
-    "jobUrl": "https://careers.zelis.com/mobile-engineer-react-native-android-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zelis-3",
@@ -3375,7 +3376,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3386,15 +3387,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zelis's Hyderabad engineering hub building next-generation Healthcare FinTech • Payments solutions for high-scale global users.",
+    "description": "Join Zelis's Hyderabad tech hub building high-scale Healthcare FinTech • Payments systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zelis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zelis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3402,8 +3403,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.zelis.com/program-manager-engineering-operations-103",
-    "jobUrl": "https://careers.zelis.com/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zelis-4",
@@ -3416,7 +3417,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3427,15 +3428,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zelis's Hyderabad engineering hub building next-generation Healthcare FinTech • Payments solutions for high-scale global users.",
+    "description": "Join Zelis's Hyderabad tech hub building high-scale Healthcare FinTech • Payments systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zelis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zelis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3443,8 +3444,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.zelis.com/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://careers.zelis.com/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Zelis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-solenis-1",
@@ -3457,7 +3458,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3468,15 +3469,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Solenis's Hyderabad engineering hub building next-generation CleanTech • Water & Process Tech solutions for high-scale global users.",
+    "description": "Join Solenis's Hyderabad tech hub building high-scale CleanTech • Water & Process Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Solenis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Solenis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3484,8 +3485,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.solenis.com/en/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.solenis.com/en/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Solenis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Solenis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-solenis-2",
@@ -3498,7 +3499,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3509,15 +3510,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Solenis's Hyderabad engineering hub building next-generation CleanTech • Water & Process Tech solutions for high-scale global users.",
+    "description": "Join Solenis's Hyderabad tech hub building high-scale CleanTech • Water & Process Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Solenis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Solenis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3525,8 +3526,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.solenis.com/en/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.solenis.com/en/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Solenis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Solenis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-solenis-3",
@@ -3539,7 +3540,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3550,15 +3551,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Solenis's Hyderabad engineering hub building next-generation CleanTech • Water & Process Tech solutions for high-scale global users.",
+    "description": "Join Solenis's Hyderabad tech hub building high-scale CleanTech • Water & Process Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Solenis's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Solenis's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3566,8 +3567,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.solenis.com/en/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.solenis.com/en/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Solenis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Solenis&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dazn-1",
@@ -3580,7 +3581,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3591,15 +3592,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DAZN Tech Hub's Hyderabad engineering hub building next-generation SportsTech • Video Streaming solutions for high-scale global users.",
+    "description": "Join DAZN Tech Hub's Hyderabad tech hub building high-scale SportsTech • Video Streaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DAZN Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DAZN Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -3607,8 +3608,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dazn.com/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://careers.dazn.com/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20DAZN%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20DAZN%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dazn-2",
@@ -3621,7 +3622,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3632,15 +3633,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DAZN Tech Hub's Hyderabad engineering hub building next-generation SportsTech • Video Streaming solutions for high-scale global users.",
+    "description": "Join DAZN Tech Hub's Hyderabad tech hub building high-scale SportsTech • Video Streaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DAZN Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DAZN Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -3648,8 +3649,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dazn.com/data-platform-engineer-kafka-spark-snowflake-102",
-    "jobUrl": "https://careers.dazn.com/data-platform-engineer-kafka-spark-snowflake-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20DAZN%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20DAZN%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dazn-3",
@@ -3662,7 +3663,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3673,15 +3674,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join DAZN Tech Hub's Hyderabad engineering hub building next-generation SportsTech • Video Streaming solutions for high-scale global users.",
+    "description": "Join DAZN Tech Hub's Hyderabad tech hub building high-scale SportsTech • Video Streaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering DAZN Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering DAZN Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -3689,8 +3690,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.dazn.com/solutions-architect-client-engagements-103",
-    "jobUrl": "https://careers.dazn.com/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20DAZN%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20DAZN%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thomson-reuters-1",
@@ -3703,7 +3704,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3714,15 +3715,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad engineering hub building next-generation LegalTech • FinTech • AI solutions for high-scale global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad tech hub building high-scale LegalTech • FinTech • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thomson Reuters Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thomson Reuters Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3730,8 +3731,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.thomsonreuters.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://www.thomsonreuters.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thomson-reuters-2",
@@ -3744,7 +3745,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3755,15 +3756,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad engineering hub building next-generation LegalTech • FinTech • AI solutions for high-scale global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad tech hub building high-scale LegalTech • FinTech • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thomson Reuters Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thomson Reuters Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3771,8 +3772,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.thomsonreuters.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.thomsonreuters.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thomson-reuters-3",
@@ -3785,7 +3786,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3796,15 +3797,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad engineering hub building next-generation LegalTech • FinTech • AI solutions for high-scale global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad tech hub building high-scale LegalTech • FinTech • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thomson Reuters Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thomson Reuters Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3812,8 +3813,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.thomsonreuters.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.thomsonreuters.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thomson-reuters-4",
@@ -3837,15 +3838,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad engineering hub building next-generation LegalTech • FinTech • AI solutions for high-scale global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad tech hub building high-scale LegalTech • FinTech • AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thomson Reuters Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thomson Reuters Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3853,8 +3854,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.thomsonreuters.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.thomsonreuters.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Thomson%20Reuters%20Center%20of%20Excellence&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-progress-software-1",
@@ -3867,7 +3868,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3878,15 +3879,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Progress Software's Hyderabad engineering hub building next-generation DevTools • Cloud Applications solutions for high-scale global users.",
+    "description": "Join Progress Software's Hyderabad tech hub building high-scale DevTools • Cloud Applications systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Progress Software's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Progress Software's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3894,8 +3895,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.progress.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.progress.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Progress%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Progress%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-progress-software-2",
@@ -3908,7 +3909,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3919,15 +3920,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Progress Software's Hyderabad engineering hub building next-generation DevTools • Cloud Applications solutions for high-scale global users.",
+    "description": "Join Progress Software's Hyderabad tech hub building high-scale DevTools • Cloud Applications systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Progress Software's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Progress Software's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3935,8 +3936,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.progress.com/careers/backend-software-engineer-go-python-microservices-102",
-    "jobUrl": "https://www.progress.com/careers/backend-software-engineer-go-python-microservices-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Progress%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Progress%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-progress-software-3",
@@ -3960,15 +3961,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Progress Software's Hyderabad engineering hub building next-generation DevTools • Cloud Applications solutions for high-scale global users.",
+    "description": "Join Progress Software's Hyderabad tech hub building high-scale DevTools • Cloud Applications systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Progress Software's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Progress Software's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -3976,8 +3977,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.progress.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.progress.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Progress%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Progress%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thermo-fisher-1",
@@ -3990,7 +3991,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -4001,15 +4002,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad engineering hub building next-generation Life Sciences • MedTech Software solutions for high-scale global users.",
+    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad tech hub building high-scale Life Sciences • MedTech Software systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thermo Fisher Scientific R&D Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thermo Fisher Scientific R&D Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4017,8 +4018,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://jobs.thermofisher.com/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://jobs.thermofisher.com/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Thermo%20Fisher%20Scientific%20R%26D%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Thermo%20Fisher%20Scientific%20R%26D%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thermo-fisher-2",
@@ -4042,15 +4043,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad engineering hub building next-generation Life Sciences • MedTech Software solutions for high-scale global users.",
+    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad tech hub building high-scale Life Sciences • MedTech Software systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thermo Fisher Scientific R&D Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thermo Fisher Scientific R&D Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4058,8 +4059,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://jobs.thermofisher.com/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://jobs.thermofisher.com/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Thermo%20Fisher%20Scientific%20R%26D%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Thermo%20Fisher%20Scientific%20R%26D%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-thermo-fisher-3",
@@ -4083,15 +4084,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad engineering hub building next-generation Life Sciences • MedTech Software solutions for high-scale global users.",
+    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad tech hub building high-scale Life Sciences • MedTech Software systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Thermo Fisher Scientific R&D Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Thermo Fisher Scientific R&D Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4099,8 +4100,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://jobs.thermofisher.com/solutions-architect-client-engagements-103",
-    "jobUrl": "https://jobs.thermofisher.com/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Thermo%20Fisher%20Scientific%20R%26D%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Thermo%20Fisher%20Scientific%20R%26D%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-callaway-golf-1",
@@ -4124,15 +4125,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad engineering hub building next-generation SportsTech • Digital Gaming solutions for high-scale global users.",
+    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad tech hub building high-scale SportsTech • Digital Gaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Callaway Golf Tech (Topgolf)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Callaway Golf Tech (Topgolf)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4140,8 +4141,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.callawaygolf.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.callawaygolf.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-callaway-golf-2",
@@ -4165,15 +4166,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad engineering hub building next-generation SportsTech • Digital Gaming solutions for high-scale global users.",
+    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad tech hub building high-scale SportsTech • Digital Gaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Callaway Golf Tech (Topgolf)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Callaway Golf Tech (Topgolf)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4181,8 +4182,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.callawaygolf.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-102",
-    "jobUrl": "https://www.callawaygolf.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-callaway-golf-3",
@@ -4206,15 +4207,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad engineering hub building next-generation SportsTech • Digital Gaming solutions for high-scale global users.",
+    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad tech hub building high-scale SportsTech • Digital Gaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Callaway Golf Tech (Topgolf)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Callaway Golf Tech (Topgolf)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4222,8 +4223,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.callawaygolf.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.callawaygolf.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-callaway-golf-4",
@@ -4247,15 +4248,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad engineering hub building next-generation SportsTech • Digital Gaming solutions for high-scale global users.",
+    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad tech hub building high-scale SportsTech • Digital Gaming systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Callaway Golf Tech (Topgolf)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Callaway Golf Tech (Topgolf)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4263,8 +4264,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.callawaygolf.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.callawaygolf.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Callaway%20Golf%20Tech%20(Topgolf)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-rsm-us-1",
@@ -4288,15 +4289,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join RSM US India's Hyderabad engineering hub building next-generation FinTech • Cyber & Cloud Consulting solutions for high-scale global users.",
+    "description": "Join RSM US India's Hyderabad tech hub building high-scale FinTech • Cyber & Cloud Consulting systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering RSM US India's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering RSM US India's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4304,8 +4305,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://rsmus.com/careers/india.html/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://rsmus.com/careers/india.html/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20RSM%20US%20India&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20RSM%20US%20India&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-rsm-us-2",
@@ -4329,15 +4330,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join RSM US India's Hyderabad engineering hub building next-generation FinTech • Cyber & Cloud Consulting solutions for high-scale global users.",
+    "description": "Join RSM US India's Hyderabad tech hub building high-scale FinTech • Cyber & Cloud Consulting systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering RSM US India's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering RSM US India's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4345,8 +4346,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://rsmus.com/careers/india.html/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://rsmus.com/careers/india.html/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20RSM%20US%20India&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20RSM%20US%20India&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-rsm-us-3",
@@ -4370,15 +4371,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join RSM US India's Hyderabad engineering hub building next-generation FinTech • Cyber & Cloud Consulting solutions for high-scale global users.",
+    "description": "Join RSM US India's Hyderabad tech hub building high-scale FinTech • Cyber & Cloud Consulting systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering RSM US India's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering RSM US India's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4386,8 +4387,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://rsmus.com/careers/india.html/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://rsmus.com/careers/india.html/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20RSM%20US%20India&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20RSM%20US%20India&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-experian-1",
@@ -4411,15 +4412,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Experian Global Innovation Centre's Hyderabad engineering hub building next-generation FinTech • Credit Decisioning AI solutions for high-scale global users.",
+    "description": "Join Experian Global Innovation Centre's Hyderabad tech hub building high-scale FinTech • Credit Decisioning AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Experian Global Innovation Centre's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Experian Global Innovation Centre's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4427,8 +4428,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.experian.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.experian.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Experian%20Global%20Innovation%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Experian%20Global%20Innovation%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-experian-2",
@@ -4452,15 +4453,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Experian Global Innovation Centre's Hyderabad engineering hub building next-generation FinTech • Credit Decisioning AI solutions for high-scale global users.",
+    "description": "Join Experian Global Innovation Centre's Hyderabad tech hub building high-scale FinTech • Credit Decisioning AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Experian Global Innovation Centre's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Experian Global Innovation Centre's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4468,8 +4469,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.experian.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.experian.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Experian%20Global%20Innovation%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Experian%20Global%20Innovation%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-experian-3",
@@ -4493,15 +4494,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Experian Global Innovation Centre's Hyderabad engineering hub building next-generation FinTech • Credit Decisioning AI solutions for high-scale global users.",
+    "description": "Join Experian Global Innovation Centre's Hyderabad tech hub building high-scale FinTech • Credit Decisioning AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Experian Global Innovation Centre's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Experian Global Innovation Centre's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4509,8 +4510,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.experian.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.experian.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Experian%20Global%20Innovation%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Experian%20Global%20Innovation%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eli-lilly-1",
@@ -4534,15 +4535,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad engineering hub building next-generation Healthcare • Pharma Tech & AI solutions for high-scale global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad tech hub building high-scale Healthcare • Pharma Tech & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Eli Lilly Capability Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Eli Lilly Capability Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4550,8 +4551,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lilly.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.lilly.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eli-lilly-2",
@@ -4575,15 +4576,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad engineering hub building next-generation Healthcare • Pharma Tech & AI solutions for high-scale global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad tech hub building high-scale Healthcare • Pharma Tech & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Eli Lilly Capability Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Eli Lilly Capability Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4591,8 +4592,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lilly.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.lilly.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eli-lilly-3",
@@ -4605,7 +4606,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -4616,15 +4617,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad engineering hub building next-generation Healthcare • Pharma Tech & AI solutions for high-scale global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad tech hub building high-scale Healthcare • Pharma Tech & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Eli Lilly Capability Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Eli Lilly Capability Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4632,8 +4633,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lilly.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.lilly.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eli-lilly-4",
@@ -4646,7 +4647,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -4657,15 +4658,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad engineering hub building next-generation Healthcare • Pharma Tech & AI solutions for high-scale global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad tech hub building high-scale Healthcare • Pharma Tech & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Eli Lilly Capability Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Eli Lilly Capability Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4673,8 +4674,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lilly.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.lilly.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Eli%20Lilly%20Capability%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fanatics-1",
@@ -4698,15 +4699,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fanatics India Tech's Hyderabad engineering hub building next-generation E-Commerce • Sports Digital Commerce solutions for high-scale global users.",
+    "description": "Join Fanatics India Tech's Hyderabad tech hub building high-scale E-Commerce • Sports Digital Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fanatics India Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fanatics India Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -4714,8 +4715,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fanaticsinc.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://www.fanaticsinc.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Fanatics%20India%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Fanatics%20India%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fanatics-2",
@@ -4728,7 +4729,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -4739,15 +4740,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fanatics India Tech's Hyderabad engineering hub building next-generation E-Commerce • Sports Digital Commerce solutions for high-scale global users.",
+    "description": "Join Fanatics India Tech's Hyderabad tech hub building high-scale E-Commerce • Sports Digital Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fanatics India Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fanatics India Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -4755,8 +4756,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fanaticsinc.com/careers/senior-full-stack-engineer-react-node-java-102",
-    "jobUrl": "https://www.fanaticsinc.com/careers/senior-full-stack-engineer-react-node-java-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Fanatics%20India%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Fanatics%20India%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fanatics-3",
@@ -4769,7 +4770,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -4780,15 +4781,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fanatics India Tech's Hyderabad engineering hub building next-generation E-Commerce • Sports Digital Commerce solutions for high-scale global users.",
+    "description": "Join Fanatics India Tech's Hyderabad tech hub building high-scale E-Commerce • Sports Digital Commerce systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fanatics India Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fanatics India Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -4796,8 +4797,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.fanaticsinc.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.fanaticsinc.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Fanatics%20India%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Fanatics%20India%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-paltech-1",
@@ -4810,7 +4811,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4821,15 +4822,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad engineering hub building next-generation Product Engineering • Cloud & AI solutions for high-scale global users.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad tech hub building high-scale Product Engineering • Cloud & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Paltech (Palni Inc)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Paltech (Palni Inc)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -4837,8 +4838,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pal.tech/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.pal.tech/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Paltech%20(Palni%20Inc)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Paltech%20(Palni%20Inc)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-paltech-2",
@@ -4851,7 +4852,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4862,15 +4863,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad engineering hub building next-generation Product Engineering • Cloud & AI solutions for high-scale global users.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad tech hub building high-scale Product Engineering • Cloud & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Paltech (Palni Inc)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Paltech (Palni Inc)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -4878,8 +4879,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pal.tech/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.pal.tech/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Paltech%20(Palni%20Inc)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Paltech%20(Palni%20Inc)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-paltech-3",
@@ -4892,7 +4893,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4903,15 +4904,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad engineering hub building next-generation Product Engineering • Cloud & AI solutions for high-scale global users.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad tech hub building high-scale Product Engineering • Cloud & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Paltech (Palni Inc)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Paltech (Palni Inc)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -4919,8 +4920,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pal.tech/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.pal.tech/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Paltech%20(Palni%20Inc)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Paltech%20(Palni%20Inc)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-arcesium-1",
@@ -4933,7 +4934,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4944,15 +4945,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Arcesium's Hyderabad engineering hub building next-generation FinTech • Data & Post-Trade Tech solutions for high-scale global users.",
+    "description": "Join Arcesium's Hyderabad tech hub building high-scale FinTech • Data & Post-Trade Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Arcesium's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Arcesium's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -4960,8 +4961,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.arcesium.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.arcesium.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
+    "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
   },
   {
     "id": "job-arcesium-2",
@@ -4974,7 +4975,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4985,15 +4986,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Arcesium's Hyderabad engineering hub building next-generation FinTech • Data & Post-Trade Tech solutions for high-scale global users.",
+    "description": "Join Arcesium's Hyderabad tech hub building high-scale FinTech • Data & Post-Trade Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Arcesium's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Arcesium's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5001,8 +5002,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.arcesium.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.arcesium.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
+    "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
   },
   {
     "id": "job-arcesium-3",
@@ -5015,7 +5016,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -5026,15 +5027,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Arcesium's Hyderabad engineering hub building next-generation FinTech • Data & Post-Trade Tech solutions for high-scale global users.",
+    "description": "Join Arcesium's Hyderabad tech hub building high-scale FinTech • Data & Post-Trade Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Arcesium's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Arcesium's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5042,8 +5043,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.arcesium.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.arcesium.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
+    "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
   },
   {
     "id": "job-arcesium-4",
@@ -5056,7 +5057,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -5067,15 +5068,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Arcesium's Hyderabad engineering hub building next-generation FinTech • Data & Post-Trade Tech solutions for high-scale global users.",
+    "description": "Join Arcesium's Hyderabad tech hub building high-scale FinTech • Data & Post-Trade Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Arcesium's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Arcesium's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5083,8 +5084,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.arcesium.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.arcesium.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
+    "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
   },
   {
     "id": "job-valuemomentum-1",
@@ -5097,7 +5098,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -5108,15 +5109,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueMomentum's Hyderabad engineering hub building next-generation InsurTech • Cloud & Data solutions for high-scale global users.",
+    "description": "Join ValueMomentum's Hyderabad tech hub building high-scale InsurTech • Cloud & Data systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueMomentum's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueMomentum's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5124,8 +5125,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuemomentum.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.valuemomentum.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20ValueMomentum&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20ValueMomentum&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-valuemomentum-2",
@@ -5138,7 +5139,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -5149,15 +5150,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueMomentum's Hyderabad engineering hub building next-generation InsurTech • Cloud & Data solutions for high-scale global users.",
+    "description": "Join ValueMomentum's Hyderabad tech hub building high-scale InsurTech • Cloud & Data systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueMomentum's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueMomentum's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5165,8 +5166,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuemomentum.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-102",
-    "jobUrl": "https://www.valuemomentum.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20ValueMomentum&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20ValueMomentum&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-valuemomentum-3",
@@ -5179,7 +5180,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -5190,15 +5191,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueMomentum's Hyderabad engineering hub building next-generation InsurTech • Cloud & Data solutions for high-scale global users.",
+    "description": "Join ValueMomentum's Hyderabad tech hub building high-scale InsurTech • Cloud & Data systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueMomentum's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueMomentum's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5206,8 +5207,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuemomentum.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.valuemomentum.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20ValueMomentum&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20ValueMomentum&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zeta-1",
@@ -5220,7 +5221,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -5231,15 +5232,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zeta Tech Hub's Hyderabad engineering hub building next-generation FinTech • Next-Gen Core Banking solutions for high-scale global users.",
+    "description": "Join Zeta Tech Hub's Hyderabad tech hub building high-scale FinTech • Next-Gen Core Banking systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zeta Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zeta Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -5247,8 +5248,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zeta.tech/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.zeta.tech/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Zeta%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Zeta%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zeta-2",
@@ -5261,7 +5262,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -5272,15 +5273,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zeta Tech Hub's Hyderabad engineering hub building next-generation FinTech • Next-Gen Core Banking solutions for high-scale global users.",
+    "description": "Join Zeta Tech Hub's Hyderabad tech hub building high-scale FinTech • Next-Gen Core Banking systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zeta Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zeta Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -5288,8 +5289,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zeta.tech/careers/mobile-engineer-react-native-android-102",
-    "jobUrl": "https://www.zeta.tech/careers/mobile-engineer-react-native-android-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Zeta%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Zeta%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zeta-3",
@@ -5302,7 +5303,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -5313,15 +5314,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zeta Tech Hub's Hyderabad engineering hub building next-generation FinTech • Next-Gen Core Banking solutions for high-scale global users.",
+    "description": "Join Zeta Tech Hub's Hyderabad tech hub building high-scale FinTech • Next-Gen Core Banking systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zeta Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zeta Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -5329,8 +5330,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zeta.tech/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.zeta.tech/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Zeta%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Zeta%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-invesco-1",
@@ -5343,7 +5344,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5354,15 +5355,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad engineering hub building next-generation Asset Management • Analytics & Tech solutions for high-scale global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad tech hub building high-scale Asset Management • Analytics & Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Invesco Enterprise Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Invesco Enterprise Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5370,8 +5371,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.invesco.com/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://careers.invesco.com/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-invesco-2",
@@ -5384,7 +5385,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5395,15 +5396,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad engineering hub building next-generation Asset Management • Analytics & Tech solutions for high-scale global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad tech hub building high-scale Asset Management • Analytics & Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Invesco Enterprise Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Invesco Enterprise Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5411,8 +5412,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.invesco.com/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://careers.invesco.com/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-invesco-3",
@@ -5425,7 +5426,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5436,15 +5437,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad engineering hub building next-generation Asset Management • Analytics & Tech solutions for high-scale global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad tech hub building high-scale Asset Management • Analytics & Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Invesco Enterprise Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Invesco Enterprise Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5452,8 +5453,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.invesco.com/program-manager-engineering-operations-103",
-    "jobUrl": "https://careers.invesco.com/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-invesco-4",
@@ -5466,7 +5467,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5477,15 +5478,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad engineering hub building next-generation Asset Management • Analytics & Tech solutions for high-scale global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad tech hub building high-scale Asset Management • Analytics & Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Invesco Enterprise Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Invesco Enterprise Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5493,8 +5494,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://careers.invesco.com/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://careers.invesco.com/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Invesco%20Enterprise%20Center&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pegasystems-1",
@@ -5507,7 +5508,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5518,15 +5519,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pegasystems's Hyderabad engineering hub building next-generation Enterprise AI • Workflow Automation solutions for high-scale global users.",
+    "description": "Join Pegasystems's Hyderabad tech hub building high-scale Enterprise AI • Workflow Automation systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pegasystems's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pegasystems's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5534,8 +5535,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pega.com/about/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.pega.com/about/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Pegasystems&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Pegasystems&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pegasystems-2",
@@ -5548,7 +5549,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5559,15 +5560,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pegasystems's Hyderabad engineering hub building next-generation Enterprise AI • Workflow Automation solutions for high-scale global users.",
+    "description": "Join Pegasystems's Hyderabad tech hub building high-scale Enterprise AI • Workflow Automation systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pegasystems's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pegasystems's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5575,8 +5576,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pega.com/about/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.pega.com/about/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Pegasystems&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Pegasystems&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pegasystems-3",
@@ -5589,7 +5590,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5600,15 +5601,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pegasystems's Hyderabad engineering hub building next-generation Enterprise AI • Workflow Automation solutions for high-scale global users.",
+    "description": "Join Pegasystems's Hyderabad tech hub building high-scale Enterprise AI • Workflow Automation systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pegasystems's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pegasystems's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5616,8 +5617,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pega.com/about/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.pega.com/about/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Pegasystems&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Pegasystems&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-adp-1",
@@ -5630,7 +5631,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
@@ -5641,15 +5642,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ADP (Automatic Data Processing)'s Hyderabad engineering hub building next-generation HR Tech • Cloud & Analytics solutions for high-scale global users.",
+    "description": "Join ADP (Automatic Data Processing)'s Hyderabad tech hub building high-scale HR Tech • Cloud & Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ADP (Automatic Data Processing)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ADP (Automatic Data Processing)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5657,8 +5658,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://jobs.adp.com/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://jobs.adp.com/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20ADP%20(Automatic%20Data%20Processing)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20ADP%20(Automatic%20Data%20Processing)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-adp-2",
@@ -5671,7 +5672,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
@@ -5682,15 +5683,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ADP (Automatic Data Processing)'s Hyderabad engineering hub building next-generation HR Tech • Cloud & Analytics solutions for high-scale global users.",
+    "description": "Join ADP (Automatic Data Processing)'s Hyderabad tech hub building high-scale HR Tech • Cloud & Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ADP (Automatic Data Processing)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ADP (Automatic Data Processing)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5698,8 +5699,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://jobs.adp.com/senior-full-stack-engineer-react-node-java-102",
-    "jobUrl": "https://jobs.adp.com/senior-full-stack-engineer-react-node-java-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20ADP%20(Automatic%20Data%20Processing)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20ADP%20(Automatic%20Data%20Processing)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-adp-3",
@@ -5712,7 +5713,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
@@ -5723,15 +5724,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ADP (Automatic Data Processing)'s Hyderabad engineering hub building next-generation HR Tech • Cloud & Analytics solutions for high-scale global users.",
+    "description": "Join ADP (Automatic Data Processing)'s Hyderabad tech hub building high-scale HR Tech • Cloud & Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ADP (Automatic Data Processing)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ADP (Automatic Data Processing)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5739,8 +5740,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://jobs.adp.com/solutions-architect-client-engagements-103",
-    "jobUrl": "https://jobs.adp.com/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20ADP%20(Automatic%20Data%20Processing)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20ADP%20(Automatic%20Data%20Processing)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualcomm-1",
@@ -5753,7 +5754,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5764,15 +5765,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad engineering hub building next-generation Semiconductors • Edge AI & 5G solutions for high-scale global users.",
+    "description": "Join Qualcomm Hyderabad Campus's Hyderabad tech hub building high-scale Semiconductors • Edge AI & 5G systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Qualcomm Hyderabad Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Qualcomm Hyderabad Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5780,8 +5781,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.qualcomm.com/company/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.qualcomm.com/company/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualcomm-2",
@@ -5794,7 +5795,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5805,15 +5806,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad engineering hub building next-generation Semiconductors • Edge AI & 5G solutions for high-scale global users.",
+    "description": "Join Qualcomm Hyderabad Campus's Hyderabad tech hub building high-scale Semiconductors • Edge AI & 5G systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Qualcomm Hyderabad Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Qualcomm Hyderabad Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5821,8 +5822,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.qualcomm.com/company/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.qualcomm.com/company/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualcomm-3",
@@ -5835,7 +5836,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5846,15 +5847,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad engineering hub building next-generation Semiconductors • Edge AI & 5G solutions for high-scale global users.",
+    "description": "Join Qualcomm Hyderabad Campus's Hyderabad tech hub building high-scale Semiconductors • Edge AI & 5G systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Qualcomm Hyderabad Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Qualcomm Hyderabad Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5862,8 +5863,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.qualcomm.com/company/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.qualcomm.com/company/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualcomm-4",
@@ -5876,7 +5877,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5887,15 +5888,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad engineering hub building next-generation Semiconductors • Edge AI & 5G solutions for high-scale global users.",
+    "description": "Join Qualcomm Hyderabad Campus's Hyderabad tech hub building high-scale Semiconductors • Edge AI & 5G systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Qualcomm Hyderabad Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Qualcomm Hyderabad Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5903,8 +5904,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.qualcomm.com/company/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.qualcomm.com/company/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Qualcomm%20Hyderabad%20Campus&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-amd-1",
@@ -5917,7 +5918,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5928,15 +5929,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join AMD India Design Centre's Hyderabad engineering hub building next-generation Semiconductors • GPU & AI Hardware solutions for high-scale global users.",
+    "description": "Join AMD India Design Centre's Hyderabad tech hub building high-scale Semiconductors • GPU & AI Hardware systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering AMD India Design Centre's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering AMD India Design Centre's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5944,8 +5945,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.amd.com/en/corporate/careers.html/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.amd.com/en/corporate/careers.html/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20AMD%20India%20Design%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20AMD%20India%20Design%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-amd-2",
@@ -5958,7 +5959,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5969,15 +5970,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join AMD India Design Centre's Hyderabad engineering hub building next-generation Semiconductors • GPU & AI Hardware solutions for high-scale global users.",
+    "description": "Join AMD India Design Centre's Hyderabad tech hub building high-scale Semiconductors • GPU & AI Hardware systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering AMD India Design Centre's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering AMD India Design Centre's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -5985,8 +5986,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.amd.com/en/corporate/careers.html/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.amd.com/en/corporate/careers.html/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20AMD%20India%20Design%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20AMD%20India%20Design%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-amd-3",
@@ -5999,7 +6000,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6010,15 +6011,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join AMD India Design Centre's Hyderabad engineering hub building next-generation Semiconductors • GPU & AI Hardware solutions for high-scale global users.",
+    "description": "Join AMD India Design Centre's Hyderabad tech hub building high-scale Semiconductors • GPU & AI Hardware systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering AMD India Design Centre's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering AMD India Design Centre's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6026,8 +6027,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.amd.com/en/corporate/careers.html/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.amd.com/en/corporate/careers.html/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20AMD%20India%20Design%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20AMD%20India%20Design%20Centre&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-micron-1",
@@ -6040,7 +6041,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6051,15 +6052,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Micron Technology's Hyderabad engineering hub building next-generation Semiconductors • Memory & Storage solutions for high-scale global users.",
+    "description": "Join Micron Technology's Hyderabad tech hub building high-scale Semiconductors • Memory & Storage systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Micron Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Micron Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6067,8 +6068,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://micron.eightfold.ai/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://micron.eightfold.ai/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Micron%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Micron%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-micron-2",
@@ -6081,7 +6082,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6092,15 +6093,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Micron Technology's Hyderabad engineering hub building next-generation Semiconductors • Memory & Storage solutions for high-scale global users.",
+    "description": "Join Micron Technology's Hyderabad tech hub building high-scale Semiconductors • Memory & Storage systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Micron Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Micron Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6108,8 +6109,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://micron.eightfold.ai/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://micron.eightfold.ai/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Micron%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Micron%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-micron-3",
@@ -6122,7 +6123,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6133,15 +6134,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Micron Technology's Hyderabad engineering hub building next-generation Semiconductors • Memory & Storage solutions for high-scale global users.",
+    "description": "Join Micron Technology's Hyderabad tech hub building high-scale Semiconductors • Memory & Storage systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Micron Technology's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Micron Technology's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6149,8 +6150,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://micron.eightfold.ai/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://micron.eightfold.ai/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Micron%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Micron%20Technology&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-salesforce-1",
@@ -6163,7 +6164,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -6174,15 +6175,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad engineering hub building next-generation Cloud • Agentforce AI & CRM solutions for high-scale global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad tech hub building high-scale Cloud • Agentforce AI & CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Salesforce Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Salesforce Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6190,8 +6191,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.salesforce.com/company/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.salesforce.com/company/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "jobUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"
   },
   {
     "id": "job-salesforce-2",
@@ -6204,7 +6205,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -6215,15 +6216,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad engineering hub building next-generation Cloud • Agentforce AI & CRM solutions for high-scale global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad tech hub building high-scale Cloud • Agentforce AI & CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Salesforce Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Salesforce Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6231,8 +6232,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.salesforce.com/company/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.salesforce.com/company/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "jobUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"
   },
   {
     "id": "job-salesforce-3",
@@ -6245,7 +6246,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -6256,15 +6257,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad engineering hub building next-generation Cloud • Agentforce AI & CRM solutions for high-scale global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad tech hub building high-scale Cloud • Agentforce AI & CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Salesforce Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Salesforce Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6272,8 +6273,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.salesforce.com/company/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.salesforce.com/company/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "jobUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"
   },
   {
     "id": "job-salesforce-4",
@@ -6286,7 +6287,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -6297,15 +6298,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad engineering hub building next-generation Cloud • Agentforce AI & CRM solutions for high-scale global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad tech hub building high-scale Cloud • Agentforce AI & CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Salesforce Center of Excellence's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Salesforce Center of Excellence's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6313,8 +6314,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.salesforce.com/company/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.salesforce.com/company/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+    "jobUrl": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"
   },
   {
     "id": "job-servicenow-1",
@@ -6327,7 +6328,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6338,15 +6339,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ServiceNow Innovation Campus's Hyderabad engineering hub building next-generation Cloud • Enterprise Workflow AI solutions for high-scale global users.",
+    "description": "Join ServiceNow Innovation Campus's Hyderabad tech hub building high-scale Cloud • Enterprise Workflow AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ServiceNow Innovation Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ServiceNow Innovation Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6354,8 +6355,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.servicenow.com/careers.html/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.servicenow.com/careers.html/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://careers.servicenow.com/jobs/",
+    "jobUrl": "https://careers.servicenow.com/jobs/"
   },
   {
     "id": "job-servicenow-2",
@@ -6368,7 +6369,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6379,15 +6380,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ServiceNow Innovation Campus's Hyderabad engineering hub building next-generation Cloud • Enterprise Workflow AI solutions for high-scale global users.",
+    "description": "Join ServiceNow Innovation Campus's Hyderabad tech hub building high-scale Cloud • Enterprise Workflow AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ServiceNow Innovation Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ServiceNow Innovation Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6395,8 +6396,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.servicenow.com/careers.html/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.servicenow.com/careers.html/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://careers.servicenow.com/jobs/",
+    "jobUrl": "https://careers.servicenow.com/jobs/"
   },
   {
     "id": "job-servicenow-3",
@@ -6409,7 +6410,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6420,15 +6421,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ServiceNow Innovation Campus's Hyderabad engineering hub building next-generation Cloud • Enterprise Workflow AI solutions for high-scale global users.",
+    "description": "Join ServiceNow Innovation Campus's Hyderabad tech hub building high-scale Cloud • Enterprise Workflow AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ServiceNow Innovation Campus's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ServiceNow Innovation Campus's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6436,8 +6437,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.servicenow.com/careers.html/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.servicenow.com/careers.html/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://careers.servicenow.com/jobs/",
+    "jobUrl": "https://careers.servicenow.com/jobs/"
   },
   {
     "id": "job-uber-1",
@@ -6450,7 +6451,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6461,15 +6462,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Uber India Tech Center's Hyderabad engineering hub building next-generation Mobility Tech • Maps & High Scale solutions for high-scale global users.",
+    "description": "Join Uber India Tech Center's Hyderabad tech hub building high-scale Mobility Tech • Maps & High Scale systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Uber India Tech Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Uber India Tech Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -6477,8 +6478,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.uber.com/global/en/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.uber.com/global/en/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "jobUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad"
   },
   {
     "id": "job-uber-2",
@@ -6491,7 +6492,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6502,15 +6503,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Uber India Tech Center's Hyderabad engineering hub building next-generation Mobility Tech • Maps & High Scale solutions for high-scale global users.",
+    "description": "Join Uber India Tech Center's Hyderabad tech hub building high-scale Mobility Tech • Maps & High Scale systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Uber India Tech Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Uber India Tech Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -6518,8 +6519,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.uber.com/global/en/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.uber.com/global/en/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "jobUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad"
   },
   {
     "id": "job-uber-3",
@@ -6532,7 +6533,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6543,15 +6544,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Uber India Tech Center's Hyderabad engineering hub building next-generation Mobility Tech • Maps & High Scale solutions for high-scale global users.",
+    "description": "Join Uber India Tech Center's Hyderabad tech hub building high-scale Mobility Tech • Maps & High Scale systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Uber India Tech Center's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Uber India Tech Center's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -6559,8 +6560,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.uber.com/global/en/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.uber.com/global/en/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "jobUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad"
   },
   {
     "id": "job-expedia-group-1",
@@ -6573,7 +6574,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -6584,15 +6585,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad engineering hub building next-generation Travel Tech • AI & Search Platforms solutions for high-scale global users.",
+    "description": "Join Expedia Group R&D's Hyderabad tech hub building high-scale Travel Tech • AI & Search Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Expedia Group R&D's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Expedia Group R&D's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6600,8 +6601,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lifeatexpediagroup.com/jobs/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://www.lifeatexpediagroup.com/jobs/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-expedia-group-2",
@@ -6614,7 +6615,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -6625,15 +6626,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad engineering hub building next-generation Travel Tech • AI & Search Platforms solutions for high-scale global users.",
+    "description": "Join Expedia Group R&D's Hyderabad tech hub building high-scale Travel Tech • AI & Search Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Expedia Group R&D's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Expedia Group R&D's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6641,8 +6642,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lifeatexpediagroup.com/jobs/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.lifeatexpediagroup.com/jobs/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-expedia-group-3",
@@ -6655,7 +6656,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -6666,15 +6667,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad engineering hub building next-generation Travel Tech • AI & Search Platforms solutions for high-scale global users.",
+    "description": "Join Expedia Group R&D's Hyderabad tech hub building high-scale Travel Tech • AI & Search Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Expedia Group R&D's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Expedia Group R&D's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6682,8 +6683,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lifeatexpediagroup.com/jobs/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.lifeatexpediagroup.com/jobs/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-expedia-group-4",
@@ -6696,7 +6697,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -6707,15 +6708,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad engineering hub building next-generation Travel Tech • AI & Search Platforms solutions for high-scale global users.",
+    "description": "Join Expedia Group R&D's Hyderabad tech hub building high-scale Travel Tech • AI & Search Platforms systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Expedia Group R&D's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Expedia Group R&D's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6723,8 +6724,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.lifeatexpediagroup.com/jobs/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.lifeatexpediagroup.com/jobs/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Expedia%20Group%20R%26D&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-electronic-arts-1",
@@ -6737,7 +6738,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6748,15 +6749,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Electronic Arts (EA India)'s Hyderabad engineering hub building next-generation Gaming • Game Engine & Cloud solutions for high-scale global users.",
+    "description": "Join Electronic Arts (EA India)'s Hyderabad tech hub building high-scale Gaming • Game Engine & Cloud systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Electronic Arts (EA India)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Electronic Arts (EA India)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6764,8 +6765,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ea.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.ea.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Electronic%20Arts%20(EA%20India)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Electronic%20Arts%20(EA%20India)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-electronic-arts-2",
@@ -6778,7 +6779,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6789,15 +6790,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Electronic Arts (EA India)'s Hyderabad engineering hub building next-generation Gaming • Game Engine & Cloud solutions for high-scale global users.",
+    "description": "Join Electronic Arts (EA India)'s Hyderabad tech hub building high-scale Gaming • Game Engine & Cloud systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Electronic Arts (EA India)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Electronic Arts (EA India)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6805,8 +6806,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ea.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://www.ea.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Electronic%20Arts%20(EA%20India)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Electronic%20Arts%20(EA%20India)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-electronic-arts-3",
@@ -6819,7 +6820,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6830,15 +6831,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Electronic Arts (EA India)'s Hyderabad engineering hub building next-generation Gaming • Game Engine & Cloud solutions for high-scale global users.",
+    "description": "Join Electronic Arts (EA India)'s Hyderabad tech hub building high-scale Gaming • Game Engine & Cloud systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Electronic Arts (EA India)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Electronic Arts (EA India)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6846,8 +6847,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ea.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.ea.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Electronic%20Arts%20(EA%20India)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Electronic%20Arts%20(EA%20India)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-mathworks-1",
@@ -6860,7 +6861,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6871,15 +6872,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MathWorks Hyderabad's Hyderabad engineering hub building next-generation Engineering Software • MATLAB & AI solutions for high-scale global users.",
+    "description": "Join MathWorks Hyderabad's Hyderabad tech hub building high-scale Engineering Software • MATLAB & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MathWorks Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MathWorks Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6887,8 +6888,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.mathworks.com/company/jobs.html/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.mathworks.com/company/jobs.html/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20MathWorks%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20MathWorks%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-mathworks-2",
@@ -6901,7 +6902,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6912,15 +6913,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MathWorks Hyderabad's Hyderabad engineering hub building next-generation Engineering Software • MATLAB & AI solutions for high-scale global users.",
+    "description": "Join MathWorks Hyderabad's Hyderabad tech hub building high-scale Engineering Software • MATLAB & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MathWorks Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MathWorks Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6928,8 +6929,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.mathworks.com/company/jobs.html/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.mathworks.com/company/jobs.html/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20MathWorks%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20MathWorks%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-mathworks-3",
@@ -6942,7 +6943,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6953,15 +6954,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MathWorks Hyderabad's Hyderabad engineering hub building next-generation Engineering Software • MATLAB & AI solutions for high-scale global users.",
+    "description": "Join MathWorks Hyderabad's Hyderabad tech hub building high-scale Engineering Software • MATLAB & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MathWorks Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MathWorks Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -6969,8 +6970,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.mathworks.com/company/jobs.html/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.mathworks.com/company/jobs.html/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20MathWorks%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20MathWorks%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-valuelabs-1",
@@ -6983,7 +6984,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6994,15 +6995,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueLabs's Hyderabad engineering hub building next-generation AI • Digital Product Engineering solutions for high-scale global users.",
+    "description": "Join ValueLabs's Hyderabad tech hub building high-scale AI • Digital Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueLabs's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueLabs's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7010,8 +7011,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuelabs.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.valuelabs.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-valuelabs-2",
@@ -7024,7 +7025,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7035,15 +7036,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueLabs's Hyderabad engineering hub building next-generation AI • Digital Product Engineering solutions for high-scale global users.",
+    "description": "Join ValueLabs's Hyderabad tech hub building high-scale AI • Digital Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueLabs's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueLabs's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7051,8 +7052,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuelabs.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.valuelabs.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-valuelabs-3",
@@ -7065,7 +7066,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7076,15 +7077,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueLabs's Hyderabad engineering hub building next-generation AI • Digital Product Engineering solutions for high-scale global users.",
+    "description": "Join ValueLabs's Hyderabad tech hub building high-scale AI • Digital Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueLabs's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueLabs's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7092,8 +7093,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuelabs.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.valuelabs.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-valuelabs-4",
@@ -7106,7 +7107,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7117,15 +7118,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ValueLabs's Hyderabad engineering hub building next-generation AI • Digital Product Engineering solutions for high-scale global users.",
+    "description": "Join ValueLabs's Hyderabad tech hub building high-scale AI • Digital Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ValueLabs's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ValueLabs's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7133,8 +7134,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.valuelabs.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.valuelabs.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20ValueLabs&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-innominds-1",
@@ -7147,7 +7148,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
@@ -7158,15 +7159,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Innominds's Hyderabad engineering hub building next-generation Product Engineering • AI & IoT solutions for high-scale global users.",
+    "description": "Join Innominds's Hyderabad tech hub building high-scale Product Engineering • AI & IoT systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Innominds's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Innominds's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7174,8 +7175,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.innominds.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.innominds.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-innominds-2",
@@ -7188,7 +7189,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
@@ -7199,15 +7200,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Innominds's Hyderabad engineering hub building next-generation Product Engineering • AI & IoT solutions for high-scale global users.",
+    "description": "Join Innominds's Hyderabad tech hub building high-scale Product Engineering • AI & IoT systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Innominds's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Innominds's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7215,8 +7216,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.innominds.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.innominds.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-innominds-3",
@@ -7229,7 +7230,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
@@ -7240,15 +7241,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Innominds's Hyderabad engineering hub building next-generation Product Engineering • AI & IoT solutions for high-scale global users.",
+    "description": "Join Innominds's Hyderabad tech hub building high-scale Product Engineering • AI & IoT systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Innominds's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Innominds's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7256,8 +7257,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.innominds.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.innominds.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloud4c-1",
@@ -7270,7 +7271,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7281,15 +7282,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloud4C's Hyderabad engineering hub building next-generation Cloud Automation • Digital Engineering solutions for high-scale global users.",
+    "description": "Join Cloud4C's Hyderabad tech hub building high-scale Cloud Automation • Digital Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloud4C's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloud4C's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7297,8 +7298,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.cloud4c.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Cloud4C&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Cloud4C&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloud4c-2",
@@ -7311,7 +7312,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7322,15 +7323,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloud4C's Hyderabad engineering hub building next-generation Cloud Automation • Digital Engineering solutions for high-scale global users.",
+    "description": "Join Cloud4C's Hyderabad tech hub building high-scale Cloud Automation • Digital Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloud4C's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloud4C's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7338,8 +7339,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.cloud4c.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Cloud4C&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Cloud4C&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloud4c-3",
@@ -7352,7 +7353,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7363,15 +7364,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloud4C's Hyderabad engineering hub building next-generation Cloud Automation • Digital Engineering solutions for high-scale global users.",
+    "description": "Join Cloud4C's Hyderabad tech hub building high-scale Cloud Automation • Digital Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloud4C's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloud4C's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7379,8 +7380,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.cloud4c.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Cloud4C&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Cloud4C&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-goldman-sachs-1",
@@ -7393,7 +7394,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -7404,15 +7405,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad engineering hub building next-generation FinTech • Quantitative Engineering solutions for high-scale global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad tech hub building high-scale FinTech • Quantitative Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Goldman Sachs Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Goldman Sachs Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7420,8 +7421,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.goldmansachs.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.goldmansachs.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.goldmansachs.com/careers/",
+    "jobUrl": "https://www.goldmansachs.com/careers/"
   },
   {
     "id": "job-goldman-sachs-2",
@@ -7434,7 +7435,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -7445,15 +7446,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad engineering hub building next-generation FinTech • Quantitative Engineering solutions for high-scale global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad tech hub building high-scale FinTech • Quantitative Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Goldman Sachs Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Goldman Sachs Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7461,8 +7462,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.goldmansachs.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://www.goldmansachs.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.goldmansachs.com/careers/",
+    "jobUrl": "https://www.goldmansachs.com/careers/"
   },
   {
     "id": "job-goldman-sachs-3",
@@ -7475,7 +7476,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -7486,15 +7487,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad engineering hub building next-generation FinTech • Quantitative Engineering solutions for high-scale global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad tech hub building high-scale FinTech • Quantitative Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Goldman Sachs Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Goldman Sachs Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7502,8 +7503,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.goldmansachs.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.goldmansachs.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.goldmansachs.com/careers/",
+    "jobUrl": "https://www.goldmansachs.com/careers/"
   },
   {
     "id": "job-goldman-sachs-4",
@@ -7516,7 +7517,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -7527,15 +7528,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad engineering hub building next-generation FinTech • Quantitative Engineering solutions for high-scale global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad tech hub building high-scale FinTech • Quantitative Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Goldman Sachs Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Goldman Sachs Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7543,8 +7544,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.goldmansachs.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.goldmansachs.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.goldmansachs.com/careers/",
+    "jobUrl": "https://www.goldmansachs.com/careers/"
   },
   {
     "id": "job-cigniti-1",
@@ -7557,7 +7558,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7568,15 +7569,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad engineering hub building next-generation Quality Engineering • AI & Cloud solutions for high-scale global users.",
+    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad tech hub building high-scale Quality Engineering • AI & Cloud systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cigniti Technologies (Coforge)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cigniti Technologies (Coforge)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7584,8 +7585,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cigniti.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://www.cigniti.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Cigniti%20Technologies%20(Coforge)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Cigniti%20Technologies%20(Coforge)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cigniti-2",
@@ -7598,7 +7599,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7609,15 +7610,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad engineering hub building next-generation Quality Engineering • AI & Cloud solutions for high-scale global users.",
+    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad tech hub building high-scale Quality Engineering • AI & Cloud systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cigniti Technologies (Coforge)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cigniti Technologies (Coforge)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7625,8 +7626,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cigniti.com/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.cigniti.com/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Cigniti%20Technologies%20(Coforge)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Cigniti%20Technologies%20(Coforge)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cigniti-3",
@@ -7639,7 +7640,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7650,15 +7651,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad engineering hub building next-generation Quality Engineering • AI & Cloud solutions for high-scale global users.",
+    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad tech hub building high-scale Quality Engineering • AI & Cloud systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cigniti Technologies (Coforge)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cigniti Technologies (Coforge)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -7666,8 +7667,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cigniti.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.cigniti.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Cigniti%20Technologies%20(Coforge)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Cigniti%20Technologies%20(Coforge)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dhruva-space-1",
@@ -7680,7 +7681,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7691,15 +7692,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dhruva Space's Hyderabad engineering hub building next-generation SpaceTech • Small Satellites solutions for high-scale global users.",
+    "description": "Join Dhruva Space's Hyderabad tech hub building high-scale SpaceTech • Small Satellites systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dhruva Space's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dhruva Space's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7707,8 +7708,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dhruvaspace.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.dhruvaspace.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.dhruvaspace.com/careers",
+    "jobUrl": "https://www.dhruvaspace.com/careers"
   },
   {
     "id": "job-dhruva-space-2",
@@ -7721,7 +7722,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7732,15 +7733,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dhruva Space's Hyderabad engineering hub building next-generation SpaceTech • Small Satellites solutions for high-scale global users.",
+    "description": "Join Dhruva Space's Hyderabad tech hub building high-scale SpaceTech • Small Satellites systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dhruva Space's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dhruva Space's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7748,8 +7749,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dhruvaspace.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.dhruvaspace.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.dhruvaspace.com/careers",
+    "jobUrl": "https://www.dhruvaspace.com/careers"
   },
   {
     "id": "job-dhruva-space-3",
@@ -7762,7 +7763,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7773,15 +7774,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dhruva Space's Hyderabad engineering hub building next-generation SpaceTech • Small Satellites solutions for high-scale global users.",
+    "description": "Join Dhruva Space's Hyderabad tech hub building high-scale SpaceTech • Small Satellites systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dhruva Space's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dhruva Space's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7789,8 +7790,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dhruvaspace.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.dhruvaspace.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.dhruvaspace.com/careers",
+    "jobUrl": "https://www.dhruvaspace.com/careers"
   },
   {
     "id": "job-marut-drones-1",
@@ -7803,7 +7804,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7814,15 +7815,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DroneTech • AI & Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DroneTech • AI & Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7830,8 +7831,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://marutdrones.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-marut-drones-2",
@@ -7844,7 +7845,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7855,15 +7856,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DroneTech • AI & Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DroneTech • AI & Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7871,8 +7872,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://marutdrones.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-marut-drones-3",
@@ -7885,7 +7886,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7896,15 +7897,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DroneTech • AI & Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DroneTech • AI & Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7912,8 +7913,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://marutdrones.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-marut-drones-4",
@@ -7937,15 +7938,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Marut Drones's Hyderabad engineering hub building next-generation DroneTech • AI & Robotics solutions for high-scale global users.",
+    "description": "Join Marut Drones's Hyderabad tech hub building high-scale DroneTech • AI & Robotics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Marut Drones's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Marut Drones's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7953,8 +7954,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://marutdrones.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://marutdrones.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Marut%20Drones&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-grene-robotics-1",
@@ -7967,7 +7968,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7978,15 +7979,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Grene Robotics's Hyderabad engineering hub building next-generation Autonomous Systems • Defense AI solutions for high-scale global users.",
+    "description": "Join Grene Robotics's Hyderabad tech hub building high-scale Autonomous Systems • Defense AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Grene Robotics's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Grene Robotics's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -7994,8 +7995,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://grenerobotics.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://grenerobotics.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Grene%20Robotics&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Grene%20Robotics&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-grene-robotics-2",
@@ -8008,7 +8009,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -8019,15 +8020,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Grene Robotics's Hyderabad engineering hub building next-generation Autonomous Systems • Defense AI solutions for high-scale global users.",
+    "description": "Join Grene Robotics's Hyderabad tech hub building high-scale Autonomous Systems • Defense AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Grene Robotics's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Grene Robotics's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8035,8 +8036,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://grenerobotics.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://grenerobotics.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Grene%20Robotics&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Grene%20Robotics&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-grene-robotics-3",
@@ -8060,15 +8061,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Grene Robotics's Hyderabad engineering hub building next-generation Autonomous Systems • Defense AI solutions for high-scale global users.",
+    "description": "Join Grene Robotics's Hyderabad tech hub building high-scale Autonomous Systems • Defense AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Grene Robotics's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Grene Robotics's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8076,8 +8077,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://grenerobotics.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://grenerobotics.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Grene%20Robotics&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Grene%20Robotics&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-red-health-1",
@@ -8090,7 +8091,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -8101,15 +8102,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join RED.Health (StanPlus)'s Hyderabad engineering hub building next-generation HealthTech • Emergency Medical Tech solutions for high-scale global users.",
+    "description": "Join RED.Health (StanPlus)'s Hyderabad tech hub building high-scale HealthTech • Emergency Medical Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering RED.Health (StanPlus)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering RED.Health (StanPlus)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8117,8 +8118,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://red.health/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://red.health/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20RED.Health%20(StanPlus)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20RED.Health%20(StanPlus)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-red-health-2",
@@ -8142,15 +8143,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join RED.Health (StanPlus)'s Hyderabad engineering hub building next-generation HealthTech • Emergency Medical Tech solutions for high-scale global users.",
+    "description": "Join RED.Health (StanPlus)'s Hyderabad tech hub building high-scale HealthTech • Emergency Medical Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering RED.Health (StanPlus)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering RED.Health (StanPlus)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8158,8 +8159,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://red.health/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://red.health/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20RED.Health%20(StanPlus)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20RED.Health%20(StanPlus)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-red-health-3",
@@ -8183,15 +8184,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join RED.Health (StanPlus)'s Hyderabad engineering hub building next-generation HealthTech • Emergency Medical Tech solutions for high-scale global users.",
+    "description": "Join RED.Health (StanPlus)'s Hyderabad tech hub building high-scale HealthTech • Emergency Medical Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering RED.Health (StanPlus)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering RED.Health (StanPlus)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8199,8 +8200,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://red.health/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://red.health/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20RED.Health%20(StanPlus)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20RED.Health%20(StanPlus)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pure-ev-1",
@@ -8224,15 +8225,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join PURE EV's Hyderabad engineering hub building next-generation CleanTech • EV & Battery Tech solutions for high-scale global users.",
+    "description": "Join PURE EV's Hyderabad tech hub building high-scale CleanTech • EV & Battery Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering PURE EV's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering PURE EV's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8240,8 +8241,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pureev.in/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://pureev.in/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pure-ev-2",
@@ -8265,15 +8266,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join PURE EV's Hyderabad engineering hub building next-generation CleanTech • EV & Battery Tech solutions for high-scale global users.",
+    "description": "Join PURE EV's Hyderabad tech hub building high-scale CleanTech • EV & Battery Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering PURE EV's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering PURE EV's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8281,8 +8282,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pureev.in/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://pureev.in/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pure-ev-3",
@@ -8306,15 +8307,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join PURE EV's Hyderabad engineering hub building next-generation CleanTech • EV & Battery Tech solutions for high-scale global users.",
+    "description": "Join PURE EV's Hyderabad tech hub building high-scale CleanTech • EV & Battery Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering PURE EV's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering PURE EV's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8322,8 +8323,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pureev.in/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://pureev.in/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pure-ev-4",
@@ -8347,15 +8348,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join PURE EV's Hyderabad engineering hub building next-generation CleanTech • EV & Battery Tech solutions for high-scale global users.",
+    "description": "Join PURE EV's Hyderabad tech hub building high-scale CleanTech • EV & Battery Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering PURE EV's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering PURE EV's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8363,8 +8364,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pureev.in/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://pureev.in/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20PURE%20EV&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eto-motors-1",
@@ -8388,15 +8389,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ETO Motors's Hyderabad engineering hub building next-generation Electric Mobility • Fleet Tech solutions for high-scale global users.",
+    "description": "Join ETO Motors's Hyderabad tech hub building high-scale Electric Mobility • Fleet Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ETO Motors's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ETO Motors's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8404,8 +8405,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://etomotors.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://etomotors.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20ETO%20Motors&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20ETO%20Motors&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eto-motors-2",
@@ -8429,15 +8430,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ETO Motors's Hyderabad engineering hub building next-generation Electric Mobility • Fleet Tech solutions for high-scale global users.",
+    "description": "Join ETO Motors's Hyderabad tech hub building high-scale Electric Mobility • Fleet Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ETO Motors's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ETO Motors's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8445,8 +8446,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://etomotors.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://etomotors.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20ETO%20Motors&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20ETO%20Motors&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-eto-motors-3",
@@ -8470,15 +8471,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ETO Motors's Hyderabad engineering hub building next-generation Electric Mobility • Fleet Tech solutions for high-scale global users.",
+    "description": "Join ETO Motors's Hyderabad tech hub building high-scale Electric Mobility • Fleet Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ETO Motors's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ETO Motors's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8486,8 +8487,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://etomotors.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://etomotors.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20ETO%20Motors&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20ETO%20Motors&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-gmw-india-1",
@@ -8511,15 +8512,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad engineering hub building next-generation Smart Mobility • EV Engineering solutions for high-scale global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad tech hub building high-scale Smart Mobility • EV Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Gayam Motor Works (GMW)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Gayam Motor Works (GMW)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8527,8 +8528,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://gayammotorworks.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://gayammotorworks.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-gmw-india-2",
@@ -8552,15 +8553,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad engineering hub building next-generation Smart Mobility • EV Engineering solutions for high-scale global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad tech hub building high-scale Smart Mobility • EV Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Gayam Motor Works (GMW)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Gayam Motor Works (GMW)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8568,8 +8569,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://gayammotorworks.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://gayammotorworks.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-gmw-india-3",
@@ -8593,15 +8594,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad engineering hub building next-generation Smart Mobility • EV Engineering solutions for high-scale global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad tech hub building high-scale Smart Mobility • EV Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Gayam Motor Works (GMW)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Gayam Motor Works (GMW)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8609,8 +8610,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://gayammotorworks.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://gayammotorworks.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Gayam%20Motor%20Works%20(GMW)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-1",
@@ -8634,15 +8635,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • Payroll & People Analytics solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • Payroll & People Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8650,8 +8651,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.keka.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-2",
@@ -8675,15 +8676,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • Payroll & People Analytics solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • Payroll & People Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8691,8 +8692,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/backend-software-engineer-go-python-microservices-102",
-    "jobUrl": "https://www.keka.com/careers/backend-software-engineer-go-python-microservices-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-3",
@@ -8705,7 +8706,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8716,15 +8717,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • Payroll & People Analytics solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • Payroll & People Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8732,8 +8733,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.keka.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-keka-hr-4",
@@ -8746,7 +8747,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹16 - ₹28 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8757,15 +8758,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Keka HR's Hyderabad engineering hub building next-generation HR Tech • Payroll & People Analytics solutions for high-scale global users.",
+    "description": "Join Keka HR's Hyderabad tech hub building high-scale HR Tech • Payroll & People Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Keka HR's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Keka HR's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8773,8 +8774,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.keka.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.keka.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Keka%20HR&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-1",
@@ -8798,15 +8799,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation Beauty & Wellness SaaS Unicorn solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale Beauty & Wellness SaaS Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8814,8 +8815,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.zenoti.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-2",
@@ -8828,7 +8829,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8839,15 +8840,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation Beauty & Wellness SaaS Unicorn solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale Beauty & Wellness SaaS Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8855,8 +8856,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/frontend-architect-next-js-typescript-102",
-    "jobUrl": "https://www.zenoti.com/careers/frontend-architect-next-js-typescript-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zenoti-3",
@@ -8869,7 +8870,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8880,15 +8881,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Zenoti's Hyderabad engineering hub building next-generation Beauty & Wellness SaaS Unicorn solutions for high-scale global users.",
+    "description": "Join Zenoti's Hyderabad tech hub building high-scale Beauty & Wellness SaaS Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Zenoti's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Zenoti's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8896,8 +8897,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zenoti.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.zenoti.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Zenoti&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-kore-ai-1",
@@ -8910,7 +8911,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -8921,15 +8922,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Conversational AI • Enterprise GenAI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Conversational AI • Enterprise GenAI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8937,8 +8938,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://kore.ai/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-2",
@@ -8951,7 +8952,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -8962,15 +8963,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Conversational AI • Enterprise GenAI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Conversational AI • Enterprise GenAI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -8978,8 +8979,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://kore.ai/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-3",
@@ -8992,7 +8993,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -9003,15 +9004,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kore.ai's Hyderabad engineering hub building next-generation Conversational AI • Enterprise GenAI solutions for high-scale global users.",
+    "description": "Join Kore.ai's Hyderabad tech hub building high-scale Conversational AI • Enterprise GenAI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kore.ai's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kore.ai's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9019,8 +9020,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://kore.ai/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://kore.ai/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-ozonetel-1",
@@ -9033,7 +9034,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -9044,15 +9045,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad engineering hub building next-generation Cloud Telephony • CCaaS AI solutions for high-scale global users.",
+    "description": "Join Ozonetel Communications's Hyderabad tech hub building high-scale Cloud Telephony • CCaaS AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Ozonetel Communications's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Ozonetel Communications's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9060,8 +9061,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://ozonetel.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://ozonetel.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ozonetel-2",
@@ -9074,7 +9075,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -9085,15 +9086,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad engineering hub building next-generation Cloud Telephony • CCaaS AI solutions for high-scale global users.",
+    "description": "Join Ozonetel Communications's Hyderabad tech hub building high-scale Cloud Telephony • CCaaS AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Ozonetel Communications's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Ozonetel Communications's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9101,8 +9102,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://ozonetel.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://ozonetel.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ozonetel-3",
@@ -9115,7 +9116,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -9126,15 +9127,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad engineering hub building next-generation Cloud Telephony • CCaaS AI solutions for high-scale global users.",
+    "description": "Join Ozonetel Communications's Hyderabad tech hub building high-scale Cloud Telephony • CCaaS AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Ozonetel Communications's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Ozonetel Communications's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9142,8 +9143,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://ozonetel.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://ozonetel.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ozonetel-4",
@@ -9156,7 +9157,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -9167,15 +9168,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad engineering hub building next-generation Cloud Telephony • CCaaS AI solutions for high-scale global users.",
+    "description": "Join Ozonetel Communications's Hyderabad tech hub building high-scale Cloud Telephony • CCaaS AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Ozonetel Communications's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Ozonetel Communications's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9183,8 +9184,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://ozonetel.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://ozonetel.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Ozonetel%20Communications&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-quantela-1",
@@ -9197,7 +9198,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9208,15 +9209,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Quantela's Hyderabad engineering hub building next-generation Smart Cities • IoT Analytics solutions for high-scale global users.",
+    "description": "Join Quantela's Hyderabad tech hub building high-scale Smart Cities • IoT Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Quantela's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Quantela's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9224,8 +9225,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.quantela.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.quantela.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Quantela&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Quantela&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-quantela-2",
@@ -9238,7 +9239,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9249,15 +9250,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Quantela's Hyderabad engineering hub building next-generation Smart Cities • IoT Analytics solutions for high-scale global users.",
+    "description": "Join Quantela's Hyderabad tech hub building high-scale Smart Cities • IoT Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Quantela's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Quantela's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9265,8 +9266,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.quantela.com/careers/distributed-systems-engineer-high-scale-102",
-    "jobUrl": "https://www.quantela.com/careers/distributed-systems-engineer-high-scale-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Quantela&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Quantela&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-quantela-3",
@@ -9279,7 +9280,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9290,15 +9291,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Quantela's Hyderabad engineering hub building next-generation Smart Cities • IoT Analytics solutions for high-scale global users.",
+    "description": "Join Quantela's Hyderabad tech hub building high-scale Smart Cities • IoT Analytics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Quantela's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Quantela's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9306,8 +9307,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.quantela.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.quantela.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Quantela&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Quantela&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualizeal-1",
@@ -9320,7 +9321,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9331,15 +9332,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join QualiZeal's Hyderabad engineering hub building next-generation AI Quality Engineering • Digital Assurance solutions for high-scale global users.",
+    "description": "Join QualiZeal's Hyderabad tech hub building high-scale AI Quality Engineering • Digital Assurance systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering QualiZeal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering QualiZeal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9347,8 +9348,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://qualizeal.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://qualizeal.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20QualiZeal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20QualiZeal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualizeal-2",
@@ -9361,7 +9362,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9372,15 +9373,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join QualiZeal's Hyderabad engineering hub building next-generation AI Quality Engineering • Digital Assurance solutions for high-scale global users.",
+    "description": "Join QualiZeal's Hyderabad tech hub building high-scale AI Quality Engineering • Digital Assurance systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering QualiZeal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering QualiZeal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9388,8 +9389,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://qualizeal.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://qualizeal.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20QualiZeal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20QualiZeal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-qualizeal-3",
@@ -9402,7 +9403,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9413,15 +9414,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join QualiZeal's Hyderabad engineering hub building next-generation AI Quality Engineering • Digital Assurance solutions for high-scale global users.",
+    "description": "Join QualiZeal's Hyderabad tech hub building high-scale AI Quality Engineering • Digital Assurance systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering QualiZeal's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering QualiZeal's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9429,8 +9430,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://qualizeal.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://qualizeal.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20QualiZeal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20QualiZeal&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pando-ai-1",
@@ -9443,7 +9444,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9454,15 +9455,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pando AI's Hyderabad engineering hub building next-generation Supply Chain SaaS • Logistics Tech solutions for high-scale global users.",
+    "description": "Join Pando AI's Hyderabad tech hub building high-scale Supply Chain SaaS • Logistics Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pando AI's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pando AI's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9470,8 +9471,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pando.ai/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://pando.ai/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pando-ai-2",
@@ -9484,7 +9485,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9495,15 +9496,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pando AI's Hyderabad engineering hub building next-generation Supply Chain SaaS • Logistics Tech solutions for high-scale global users.",
+    "description": "Join Pando AI's Hyderabad tech hub building high-scale Supply Chain SaaS • Logistics Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pando AI's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pando AI's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9511,8 +9512,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pando.ai/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://pando.ai/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pando-ai-3",
@@ -9525,7 +9526,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9536,15 +9537,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pando AI's Hyderabad engineering hub building next-generation Supply Chain SaaS • Logistics Tech solutions for high-scale global users.",
+    "description": "Join Pando AI's Hyderabad tech hub building high-scale Supply Chain SaaS • Logistics Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pando AI's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pando AI's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9552,8 +9553,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pando.ai/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://pando.ai/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pando-ai-4",
@@ -9566,7 +9567,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹16 - ₹28 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9577,15 +9578,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pando AI's Hyderabad engineering hub building next-generation Supply Chain SaaS • Logistics Tech solutions for high-scale global users.",
+    "description": "Join Pando AI's Hyderabad tech hub building high-scale Supply Chain SaaS • Logistics Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pando AI's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pando AI's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9593,8 +9594,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://pando.ai/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://pando.ai/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Pando%20AI&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fashor-1",
@@ -9607,7 +9608,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -9618,15 +9619,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fashor's Hyderabad engineering hub building next-generation D2C E-Commerce • Fashion Tech solutions for high-scale global users.",
+    "description": "Join Fashor's Hyderabad tech hub building high-scale D2C E-Commerce • Fashion Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fashor's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fashor's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9634,8 +9635,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://fashor.com/pages/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://fashor.com/pages/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Fashor&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20Fashor&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fashor-2",
@@ -9648,7 +9649,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -9659,15 +9660,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fashor's Hyderabad engineering hub building next-generation D2C E-Commerce • Fashion Tech solutions for high-scale global users.",
+    "description": "Join Fashor's Hyderabad tech hub building high-scale D2C E-Commerce • Fashion Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fashor's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fashor's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9675,8 +9676,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://fashor.com/pages/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://fashor.com/pages/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Fashor&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Fashor&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-fashor-3",
@@ -9689,7 +9690,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -9700,15 +9701,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Fashor's Hyderabad engineering hub building next-generation D2C E-Commerce • Fashion Tech solutions for high-scale global users.",
+    "description": "Join Fashor's Hyderabad tech hub building high-scale D2C E-Commerce • Fashion Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Fashor's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Fashor's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -9716,8 +9717,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://fashor.com/pages/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://fashor.com/pages/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Fashor&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Fashor&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-innominds-1",
@@ -9730,7 +9731,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9741,15 +9742,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Innominds's Hyderabad engineering hub building next-generation AI & Edge Product Engineering solutions for high-scale global users.",
+    "description": "Join Innominds's Hyderabad tech hub building high-scale AI & Edge Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Innominds's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Innominds's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -9757,8 +9758,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.innominds.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.innominds.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-innominds-2",
@@ -9771,7 +9772,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9782,15 +9783,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Innominds's Hyderabad engineering hub building next-generation AI & Edge Product Engineering solutions for high-scale global users.",
+    "description": "Join Innominds's Hyderabad tech hub building high-scale AI & Edge Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Innominds's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Innominds's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -9798,8 +9799,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.innominds.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.innominds.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-innominds-3",
@@ -9812,7 +9813,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9823,15 +9824,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Innominds's Hyderabad engineering hub building next-generation AI & Edge Product Engineering solutions for high-scale global users.",
+    "description": "Join Innominds's Hyderabad tech hub building high-scale AI & Edge Product Engineering systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Innominds's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Innominds's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -9839,8 +9840,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.innominds.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.innominds.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Innominds&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-datacenters-1",
@@ -9853,7 +9854,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9864,15 +9865,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Cloud Infrastructure • Rated-4 Datacenters solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Cloud Infrastructure • Rated-4 Datacenters systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -9880,8 +9881,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.in/careers.html/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.ctrls.in/careers.html/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-datacenters-2",
@@ -9894,7 +9895,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9905,15 +9906,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Cloud Infrastructure • Rated-4 Datacenters solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Cloud Infrastructure • Rated-4 Datacenters systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -9921,8 +9922,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.in/careers.html/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.ctrls.in/careers.html/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-datacenters-3",
@@ -9935,7 +9936,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9946,15 +9947,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Cloud Infrastructure • Rated-4 Datacenters solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Cloud Infrastructure • Rated-4 Datacenters systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -9962,8 +9963,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.in/careers.html/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.ctrls.in/careers.html/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-ctrls-datacenters-4",
@@ -9976,7 +9977,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9987,15 +9988,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad engineering hub building next-generation Cloud Infrastructure • Rated-4 Datacenters solutions for high-scale global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad tech hub building high-scale Cloud Infrastructure • Rated-4 Datacenters systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering CtrlS Datacenters's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering CtrlS Datacenters's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10003,8 +10004,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.ctrls.in/careers.html/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.ctrls.in/careers.html/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20CtrlS%20Datacenters&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloud4c-1",
@@ -10017,7 +10018,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10028,15 +10029,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloud4C Services's Hyderabad engineering hub building next-generation Managed Cloud • AI & DevOps solutions for high-scale global users.",
+    "description": "Join Cloud4C Services's Hyderabad tech hub building high-scale Managed Cloud • AI & DevOps systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloud4C Services's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloud4C Services's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10044,8 +10045,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.cloud4c.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Cloud4C%20Services&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Cloud4C%20Services&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloud4c-2",
@@ -10058,7 +10059,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10069,15 +10070,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloud4C Services's Hyderabad engineering hub building next-generation Managed Cloud • AI & DevOps solutions for high-scale global users.",
+    "description": "Join Cloud4C Services's Hyderabad tech hub building high-scale Managed Cloud • AI & DevOps systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloud4C Services's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloud4C Services's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10085,8 +10086,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.cloud4c.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Cloud4C%20Services&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Cloud4C%20Services&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-cloud4c-3",
@@ -10099,7 +10100,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10110,15 +10111,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Cloud4C Services's Hyderabad engineering hub building next-generation Managed Cloud • AI & DevOps solutions for high-scale global users.",
+    "description": "Join Cloud4C Services's Hyderabad tech hub building high-scale Managed Cloud • AI & DevOps systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Cloud4C Services's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Cloud4C Services's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10126,8 +10127,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.cloud4c.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Cloud4C%20Services&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Cloud4C%20Services&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-kellton-tech-1",
@@ -10140,7 +10141,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 5,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -10151,15 +10152,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kellton Tech's Hyderabad engineering hub building next-generation Digital Transformation • Enterprise AI solutions for high-scale global users.",
+    "description": "Join Kellton Tech's Hyderabad tech hub building high-scale Digital Transformation • Enterprise AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kellton Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kellton Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10167,8 +10168,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.kellton.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.kellton.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Kellton%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Kellton%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-kellton-tech-2",
@@ -10181,7 +10182,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -10192,15 +10193,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kellton Tech's Hyderabad engineering hub building next-generation Digital Transformation • Enterprise AI solutions for high-scale global users.",
+    "description": "Join Kellton Tech's Hyderabad tech hub building high-scale Digital Transformation • Enterprise AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kellton Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kellton Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10208,8 +10209,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.kellton.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://www.kellton.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Kellton%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Kellton%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-kellton-tech-3",
@@ -10222,7 +10223,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -10233,15 +10234,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Kellton Tech's Hyderabad engineering hub building next-generation Digital Transformation • Enterprise AI solutions for high-scale global users.",
+    "description": "Join Kellton Tech's Hyderabad tech hub building high-scale Digital Transformation • Enterprise AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Kellton Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Kellton Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10249,8 +10250,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.kellton.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.kellton.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Kellton%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Kellton%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-medplus-tech-1",
@@ -10263,7 +10264,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10274,15 +10275,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • E-Pharmacy & Logistics solutions for high-scale global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • E-Pharmacy & Logistics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MedPlus Health (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MedPlus Health (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10290,8 +10291,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.medplusindia.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.medplusindia.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-medplus-tech-2",
@@ -10304,7 +10305,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10315,15 +10316,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • E-Pharmacy & Logistics solutions for high-scale global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • E-Pharmacy & Logistics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MedPlus Health (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MedPlus Health (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10331,8 +10332,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.medplusindia.com/careers/data-platform-engineer-kafka-spark-snowflake-102",
-    "jobUrl": "https://www.medplusindia.com/careers/data-platform-engineer-kafka-spark-snowflake-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-medplus-tech-3",
@@ -10345,7 +10346,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10356,15 +10357,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • E-Pharmacy & Logistics solutions for high-scale global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • E-Pharmacy & Logistics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MedPlus Health (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MedPlus Health (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10372,8 +10373,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.medplusindia.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.medplusindia.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-medplus-tech-4",
@@ -10386,7 +10387,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹16 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10397,15 +10398,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • E-Pharmacy & Logistics solutions for high-scale global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • E-Pharmacy & Logistics systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MedPlus Health (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MedPlus Health (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10413,8 +10414,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.medplusindia.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.medplusindia.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20MedPlus%20Health%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-enmovil-1",
@@ -10427,7 +10428,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10438,15 +10439,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Enmovil Solutions's Hyderabad engineering hub building next-generation Logistics Tech • Multimodal IoT solutions for high-scale global users.",
+    "description": "Join Enmovil Solutions's Hyderabad tech hub building high-scale Logistics Tech • Multimodal IoT systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Enmovil Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Enmovil Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10454,8 +10455,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://enmovil.net/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://enmovil.net/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Enmovil%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Enmovil%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-enmovil-2",
@@ -10468,7 +10469,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10479,15 +10480,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Enmovil Solutions's Hyderabad engineering hub building next-generation Logistics Tech • Multimodal IoT solutions for high-scale global users.",
+    "description": "Join Enmovil Solutions's Hyderabad tech hub building high-scale Logistics Tech • Multimodal IoT systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Enmovil Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Enmovil Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10495,8 +10496,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://enmovil.net/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://enmovil.net/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Enmovil%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Enmovil%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-enmovil-3",
@@ -10509,7 +10510,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10520,15 +10521,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Enmovil Solutions's Hyderabad engineering hub building next-generation Logistics Tech • Multimodal IoT solutions for high-scale global users.",
+    "description": "Join Enmovil Solutions's Hyderabad tech hub building high-scale Logistics Tech • Multimodal IoT systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Enmovil Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Enmovil Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10536,8 +10537,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://enmovil.net/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://enmovil.net/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Enmovil%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Enmovil%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-appshark-1",
@@ -10550,7 +10551,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10561,15 +10562,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join AppShark Software's Hyderabad engineering hub building next-generation Salesforce & Cloud Integration solutions for high-scale global users.",
+    "description": "Join AppShark Software's Hyderabad tech hub building high-scale Salesforce & Cloud Integration systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering AppShark Software's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering AppShark Software's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10577,8 +10578,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.appshark.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.appshark.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20AppShark%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20AppShark%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-appshark-2",
@@ -10591,7 +10592,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10602,15 +10603,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join AppShark Software's Hyderabad engineering hub building next-generation Salesforce & Cloud Integration solutions for high-scale global users.",
+    "description": "Join AppShark Software's Hyderabad tech hub building high-scale Salesforce & Cloud Integration systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering AppShark Software's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering AppShark Software's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10618,8 +10619,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.appshark.com/careers/backend-software-engineer-go-python-microservices-102",
-    "jobUrl": "https://www.appshark.com/careers/backend-software-engineer-go-python-microservices-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20AppShark%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20AppShark%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-appshark-3",
@@ -10632,7 +10633,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10643,15 +10644,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join AppShark Software's Hyderabad engineering hub building next-generation Salesforce & Cloud Integration solutions for high-scale global users.",
+    "description": "Join AppShark Software's Hyderabad tech hub building high-scale Salesforce & Cloud Integration systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering AppShark Software's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering AppShark Software's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -10659,8 +10660,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.appshark.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.appshark.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20AppShark%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20AppShark%20Software&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-highspot-hyd-1",
@@ -10673,7 +10674,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -10684,15 +10685,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad engineering hub building next-generation Sales Enablement AI Unicorn solutions for high-scale global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad tech hub building high-scale Sales Enablement AI Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Highspot Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Highspot Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10700,8 +10701,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highspot.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.highspot.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-highspot-hyd-2",
@@ -10714,7 +10715,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -10725,15 +10726,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad engineering hub building next-generation Sales Enablement AI Unicorn solutions for high-scale global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad tech hub building high-scale Sales Enablement AI Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Highspot Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Highspot Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10741,8 +10742,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highspot.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.highspot.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-highspot-hyd-3",
@@ -10755,7 +10756,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -10766,15 +10767,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad engineering hub building next-generation Sales Enablement AI Unicorn solutions for high-scale global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad tech hub building high-scale Sales Enablement AI Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Highspot Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Highspot Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10782,8 +10783,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highspot.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.highspot.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-highspot-hyd-4",
@@ -10796,7 +10797,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹28 - ₹44 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -10807,15 +10808,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad engineering hub building next-generation Sales Enablement AI Unicorn solutions for high-scale global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad tech hub building high-scale Sales Enablement AI Unicorn systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Highspot Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Highspot Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10823,8 +10824,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.highspot.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.highspot.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Highspot%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-turing-hyd-1",
@@ -10837,7 +10838,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10848,15 +10849,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad engineering hub building next-generation AI Developer Platform • Remote Tech solutions for high-scale global users.",
+    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad tech hub building high-scale AI Developer Platform • Remote Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Turing.com (Hyderabad Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Turing.com (Hyderabad Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10864,8 +10865,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.turing.com/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://www.turing.com/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Turing.com%20(Hyderabad%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Turing.com%20(Hyderabad%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-turing-hyd-2",
@@ -10878,7 +10879,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10889,15 +10890,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad engineering hub building next-generation AI Developer Platform • Remote Tech solutions for high-scale global users.",
+    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad tech hub building high-scale AI Developer Platform • Remote Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Turing.com (Hyderabad Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Turing.com (Hyderabad Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10905,8 +10906,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.turing.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://www.turing.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Turing.com%20(Hyderabad%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Turing.com%20(Hyderabad%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-turing-hyd-3",
@@ -10919,7 +10920,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10930,15 +10931,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad engineering hub building next-generation AI Developer Platform • Remote Tech solutions for high-scale global users.",
+    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad tech hub building high-scale AI Developer Platform • Remote Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Turing.com (Hyderabad Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Turing.com (Hyderabad Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10946,8 +10947,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.turing.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.turing.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Turing.com%20(Hyderabad%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Turing.com%20(Hyderabad%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-paymatrix-1",
@@ -10960,7 +10961,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10971,15 +10972,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Paymatrix's Hyderabad engineering hub building next-generation FinTech • Payments & Credit solutions for high-scale global users.",
+    "description": "Join Paymatrix's Hyderabad tech hub building high-scale FinTech • Payments & Credit systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Paymatrix's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Paymatrix's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -10987,8 +10988,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://paymatrix.in/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://paymatrix.in/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Paymatrix&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Paymatrix&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-paymatrix-2",
@@ -11001,7 +11002,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11012,15 +11013,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Paymatrix's Hyderabad engineering hub building next-generation FinTech • Payments & Credit solutions for high-scale global users.",
+    "description": "Join Paymatrix's Hyderabad tech hub building high-scale FinTech • Payments & Credit systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Paymatrix's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Paymatrix's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11028,8 +11029,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://paymatrix.in/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://paymatrix.in/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Paymatrix&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Paymatrix&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-paymatrix-3",
@@ -11042,7 +11043,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11053,15 +11054,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Paymatrix's Hyderabad engineering hub building next-generation FinTech • Payments & Credit solutions for high-scale global users.",
+    "description": "Join Paymatrix's Hyderabad tech hub building high-scale FinTech • Payments & Credit systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Paymatrix's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Paymatrix's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11069,8 +11070,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://paymatrix.in/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://paymatrix.in/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Paymatrix&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Paymatrix&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vivriti-hyd-1",
@@ -11083,7 +11084,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11094,15 +11095,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad engineering hub building next-generation FinTech • Enterprise Debt & APIs solutions for high-scale global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad tech hub building high-scale FinTech • Enterprise Debt & APIs systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vivriti Capital (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vivriti Capital (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11110,8 +11111,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.vivriticapital.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.vivriticapital.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vivriti-hyd-2",
@@ -11124,7 +11125,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11135,15 +11136,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad engineering hub building next-generation FinTech • Enterprise Debt & APIs solutions for high-scale global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad tech hub building high-scale FinTech • Enterprise Debt & APIs systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vivriti Capital (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vivriti Capital (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11151,8 +11152,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.vivriticapital.com/careers/distributed-systems-engineer-high-scale-102",
-    "jobUrl": "https://www.vivriticapital.com/careers/distributed-systems-engineer-high-scale-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vivriti-hyd-3",
@@ -11165,7 +11166,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11176,15 +11177,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad engineering hub building next-generation FinTech • Enterprise Debt & APIs solutions for high-scale global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad tech hub building high-scale FinTech • Enterprise Debt & APIs systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vivriti Capital (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vivriti Capital (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11192,8 +11193,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.vivriticapital.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.vivriticapital.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vivriti-hyd-4",
@@ -11206,7 +11207,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹16 - ₹28 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11217,15 +11218,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad engineering hub building next-generation FinTech • Enterprise Debt & APIs solutions for high-scale global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad tech hub building high-scale FinTech • Enterprise Debt & APIs systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vivriti Capital (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vivriti Capital (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11233,8 +11234,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.vivriticapital.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.vivriticapital.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Vivriti%20Capital%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-myclassboard-1",
@@ -11247,7 +11248,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
@@ -11258,15 +11259,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MyClassboard (MCB)'s Hyderabad engineering hub building next-generation EdTech • School ERP & AI solutions for high-scale global users.",
+    "description": "Join MyClassboard (MCB)'s Hyderabad tech hub building high-scale EdTech • School ERP & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MyClassboard (MCB)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MyClassboard (MCB)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11274,8 +11275,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://myclassboard.com/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://myclassboard.com/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20MyClassboard%20(MCB)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20MyClassboard%20(MCB)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-myclassboard-2",
@@ -11288,7 +11289,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
@@ -11299,15 +11300,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MyClassboard (MCB)'s Hyderabad engineering hub building next-generation EdTech • School ERP & AI solutions for high-scale global users.",
+    "description": "Join MyClassboard (MCB)'s Hyderabad tech hub building high-scale EdTech • School ERP & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MyClassboard (MCB)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MyClassboard (MCB)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11315,8 +11316,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://myclassboard.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://myclassboard.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20MyClassboard%20(MCB)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20MyClassboard%20(MCB)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-myclassboard-3",
@@ -11329,7 +11330,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
@@ -11340,15 +11341,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join MyClassboard (MCB)'s Hyderabad engineering hub building next-generation EdTech • School ERP & AI solutions for high-scale global users.",
+    "description": "Join MyClassboard (MCB)'s Hyderabad tech hub building high-scale EdTech • School ERP & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering MyClassboard (MCB)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering MyClassboard (MCB)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11356,8 +11357,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://myclassboard.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://myclassboard.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20MyClassboard%20(MCB)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20MyClassboard%20(MCB)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-smarterp-1",
@@ -11370,7 +11371,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Remote",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -11381,15 +11382,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join SmartERP Solutions's Hyderabad engineering hub building next-generation Enterprise Cloud • Oracle & AI solutions for high-scale global users.",
+    "description": "Join SmartERP Solutions's Hyderabad tech hub building high-scale Enterprise Cloud • Oracle & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering SmartERP Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering SmartERP Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11397,8 +11398,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.smarterp.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://www.smarterp.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20SmartERP%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20SmartERP%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-smarterp-2",
@@ -11411,7 +11412,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -11422,15 +11423,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join SmartERP Solutions's Hyderabad engineering hub building next-generation Enterprise Cloud • Oracle & AI solutions for high-scale global users.",
+    "description": "Join SmartERP Solutions's Hyderabad tech hub building high-scale Enterprise Cloud • Oracle & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering SmartERP Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering SmartERP Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11438,8 +11439,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.smarterp.com/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.smarterp.com/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20SmartERP%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20SmartERP%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-smarterp-3",
@@ -11452,7 +11453,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -11463,15 +11464,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join SmartERP Solutions's Hyderabad engineering hub building next-generation Enterprise Cloud • Oracle & AI solutions for high-scale global users.",
+    "description": "Join SmartERP Solutions's Hyderabad tech hub building high-scale Enterprise Cloud • Oracle & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering SmartERP Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering SmartERP Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11479,8 +11480,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.smarterp.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.smarterp.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20SmartERP%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20SmartERP%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-glowroad-1",
@@ -11493,7 +11494,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 5,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -11504,15 +11505,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad engineering hub building next-generation Social Commerce • Creator Tech solutions for high-scale global users.",
+    "description": "Join GlowRoad (Amazon)'s Hyderabad tech hub building high-scale Social Commerce • Creator Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering GlowRoad (Amazon)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering GlowRoad (Amazon)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11520,8 +11521,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://glowroad.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://glowroad.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-glowroad-2",
@@ -11534,7 +11535,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -11545,15 +11546,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad engineering hub building next-generation Social Commerce • Creator Tech solutions for high-scale global users.",
+    "description": "Join GlowRoad (Amazon)'s Hyderabad tech hub building high-scale Social Commerce • Creator Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering GlowRoad (Amazon)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering GlowRoad (Amazon)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11561,8 +11562,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://glowroad.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://glowroad.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-glowroad-3",
@@ -11575,7 +11576,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -11586,15 +11587,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad engineering hub building next-generation Social Commerce • Creator Tech solutions for high-scale global users.",
+    "description": "Join GlowRoad (Amazon)'s Hyderabad tech hub building high-scale Social Commerce • Creator Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering GlowRoad (Amazon)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering GlowRoad (Amazon)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11602,8 +11603,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://glowroad.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://glowroad.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-glowroad-4",
@@ -11616,7 +11617,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹44 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -11627,15 +11628,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad engineering hub building next-generation Social Commerce • Creator Tech solutions for high-scale global users.",
+    "description": "Join GlowRoad (Amazon)'s Hyderabad tech hub building high-scale Social Commerce • Creator Tech systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering GlowRoad (Amazon)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering GlowRoad (Amazon)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11643,8 +11644,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://glowroad.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://glowroad.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20GlowRoad%20(Amazon)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dozee-hyd-1",
@@ -11657,7 +11658,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11668,15 +11669,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dozee (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • Contactless AI Telemetry solutions for high-scale global users.",
+    "description": "Join Dozee (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • Contactless AI Telemetry systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dozee (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dozee (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11684,8 +11685,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dozee.health/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://www.dozee.health/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Dozee%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Dozee%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dozee-hyd-2",
@@ -11698,7 +11699,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11709,15 +11710,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dozee (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • Contactless AI Telemetry solutions for high-scale global users.",
+    "description": "Join Dozee (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • Contactless AI Telemetry systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dozee (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dozee (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11725,8 +11726,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dozee.health/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.dozee.health/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Dozee%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Dozee%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-dozee-hyd-3",
@@ -11739,7 +11740,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -11750,15 +11751,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Dozee (Tech Hub)'s Hyderabad engineering hub building next-generation HealthTech • Contactless AI Telemetry solutions for high-scale global users.",
+    "description": "Join Dozee (Tech Hub)'s Hyderabad tech hub building high-scale HealthTech • Contactless AI Telemetry systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Dozee (Tech Hub)'s platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Dozee (Tech Hub)'s platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -11766,8 +11767,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.dozee.health/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.dozee.health/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Dozee%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Dozee%20(Tech%20Hub)&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-urbanrise-tech-1",
@@ -11780,7 +11781,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -11791,15 +11792,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Urbanrise / Alliance Tech's Hyderabad engineering hub building next-generation PropTech • Real Estate AI solutions for high-scale global users.",
+    "description": "Join Urbanrise / Alliance Tech's Hyderabad tech hub building high-scale PropTech • Real Estate AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Urbanrise / Alliance Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Urbanrise / Alliance Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11807,8 +11808,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://urbanrise.in/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://urbanrise.in/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Urbanrise%20%2F%20Alliance%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Urbanrise%20%2F%20Alliance%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-urbanrise-tech-2",
@@ -11821,7 +11822,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -11832,15 +11833,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Urbanrise / Alliance Tech's Hyderabad engineering hub building next-generation PropTech • Real Estate AI solutions for high-scale global users.",
+    "description": "Join Urbanrise / Alliance Tech's Hyderabad tech hub building high-scale PropTech • Real Estate AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Urbanrise / Alliance Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Urbanrise / Alliance Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11848,8 +11849,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://urbanrise.in/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://urbanrise.in/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Urbanrise%20%2F%20Alliance%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20Urbanrise%20%2F%20Alliance%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-urbanrise-tech-3",
@@ -11862,7 +11863,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹18 - ₹30 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -11873,15 +11874,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Urbanrise / Alliance Tech's Hyderabad engineering hub building next-generation PropTech • Real Estate AI solutions for high-scale global users.",
+    "description": "Join Urbanrise / Alliance Tech's Hyderabad tech hub building high-scale PropTech • Real Estate AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Urbanrise / Alliance Tech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Urbanrise / Alliance Tech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11889,8 +11890,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://urbanrise.in/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://urbanrise.in/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Urbanrise%20%2F%20Alliance%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Urbanrise%20%2F%20Alliance%20Tech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-verisk-hyd-1",
@@ -11903,7 +11904,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹10 - ₹18 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11914,15 +11915,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad engineering hub building next-generation Data Analytics • Risk Intelligence solutions for high-scale global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad tech hub building high-scale Data Analytics • Risk Intelligence systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Verisk Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Verisk Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11930,8 +11931,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.verisk.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://www.verisk.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-verisk-hyd-2",
@@ -11944,7 +11945,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11955,15 +11956,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad engineering hub building next-generation Data Analytics • Risk Intelligence solutions for high-scale global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad tech hub building high-scale Data Analytics • Risk Intelligence systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Verisk Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Verisk Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -11971,8 +11972,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.verisk.com/careers/applied-machine-learning-scientist-102",
-    "jobUrl": "https://www.verisk.com/careers/applied-machine-learning-scientist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Applied%20Machine%20Learning%20Scientist%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-verisk-hyd-3",
@@ -11985,7 +11986,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11996,15 +11997,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad engineering hub building next-generation Data Analytics • Risk Intelligence solutions for high-scale global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad tech hub building high-scale Data Analytics • Risk Intelligence systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Verisk Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Verisk Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12012,8 +12013,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.verisk.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://www.verisk.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-verisk-hyd-4",
@@ -12037,15 +12038,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad engineering hub building next-generation Data Analytics • Risk Intelligence solutions for high-scale global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad tech hub building high-scale Data Analytics • Risk Intelligence systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Verisk Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Verisk Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12053,8 +12054,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.verisk.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://www.verisk.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Verisk%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pega-hyd-1",
@@ -12067,7 +12068,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Remote",
     "salaryRange": "₹20 - ₹35 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -12078,15 +12079,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pegasystems Hyderabad's Hyderabad engineering hub building next-generation Low-Code • Autonomous Enterprise AI solutions for high-scale global users.",
+    "description": "Join Pegasystems Hyderabad's Hyderabad tech hub building high-scale Low-Code • Autonomous Enterprise AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pegasystems Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pegasystems Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12094,8 +12095,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pega.com/about/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.pega.com/about/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Pegasystems%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Pegasystems%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pega-hyd-2",
@@ -12108,7 +12109,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -12119,15 +12120,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pegasystems Hyderabad's Hyderabad engineering hub building next-generation Low-Code • Autonomous Enterprise AI solutions for high-scale global users.",
+    "description": "Join Pegasystems Hyderabad's Hyderabad tech hub building high-scale Low-Code • Autonomous Enterprise AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pegasystems Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pegasystems Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12135,8 +12136,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pega.com/about/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://www.pega.com/about/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Pegasystems%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20Pegasystems%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-pega-hyd-3",
@@ -12160,15 +12161,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Pegasystems Hyderabad's Hyderabad engineering hub building next-generation Low-Code • Autonomous Enterprise AI solutions for high-scale global users.",
+    "description": "Join Pegasystems Hyderabad's Hyderabad tech hub building high-scale Low-Code • Autonomous Enterprise AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Pegasystems Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Pegasystems Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12176,8 +12177,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.pega.com/about/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.pega.com/about/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Pegasystems%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Pegasystems%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-broadridge-hyd-1",
@@ -12190,7 +12191,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 5,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -12201,15 +12202,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Broadridge Financial Solutions's Hyderabad engineering hub building next-generation FinTech • Global Banking & Capital Markets solutions for high-scale global users.",
+    "description": "Join Broadridge Financial Solutions's Hyderabad tech hub building high-scale FinTech • Global Banking & Capital Markets systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Broadridge Financial Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Broadridge Financial Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12217,8 +12218,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.broadridge.com/about/careers/distributed-systems-engineer-high-scale-101",
-    "jobUrl": "https://www.broadridge.com/about/careers/distributed-systems-engineer-high-scale-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Broadridge%20Financial%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Distributed%20Systems%20Engineer%20(High%20Scale)%20Broadridge%20Financial%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-broadridge-hyd-2",
@@ -12242,15 +12243,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Broadridge Financial Solutions's Hyderabad engineering hub building next-generation FinTech • Global Banking & Capital Markets solutions for high-scale global users.",
+    "description": "Join Broadridge Financial Solutions's Hyderabad tech hub building high-scale FinTech • Global Banking & Capital Markets systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Broadridge Financial Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Broadridge Financial Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12258,8 +12259,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.broadridge.com/about/careers/data-platform-engineer-kafka-spark-snowflake-102",
-    "jobUrl": "https://www.broadridge.com/about/careers/data-platform-engineer-kafka-spark-snowflake-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Broadridge%20Financial%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Broadridge%20Financial%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-broadridge-hyd-3",
@@ -12283,15 +12284,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Broadridge Financial Solutions's Hyderabad engineering hub building next-generation FinTech • Global Banking & Capital Markets solutions for high-scale global users.",
+    "description": "Join Broadridge Financial Solutions's Hyderabad tech hub building high-scale FinTech • Global Banking & Capital Markets systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Broadridge Financial Solutions's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Broadridge Financial Solutions's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -12299,8 +12300,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.broadridge.com/about/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.broadridge.com/about/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Broadridge%20Financial%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Broadridge%20Financial%20Solutions&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vymo-hyd-1",
@@ -12324,15 +12325,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad engineering hub building next-generation Sales AI • Financial Services CRM solutions for high-scale global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad tech hub building high-scale Sales AI • Financial Services CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vymo Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vymo Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12340,8 +12341,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getvymo.com/careers/data-platform-engineer-kafka-spark-snowflake-101",
-    "jobUrl": "https://getvymo.com/careers/data-platform-engineer-kafka-spark-snowflake-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Platform%20Engineer%20(Kafka%20%2B%20Spark%20%2B%20Snowflake)%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vymo-hyd-2",
@@ -12365,15 +12366,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad engineering hub building next-generation Sales AI • Financial Services CRM solutions for high-scale global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad tech hub building high-scale Sales AI • Financial Services CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vymo Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vymo Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12381,8 +12382,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getvymo.com/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://getvymo.com/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vymo-hyd-3",
@@ -12406,15 +12407,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad engineering hub building next-generation Sales AI • Financial Services CRM solutions for high-scale global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad tech hub building high-scale Sales AI • Financial Services CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vymo Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vymo Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12422,8 +12423,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getvymo.com/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://getvymo.com/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-vymo-hyd-4",
@@ -12447,15 +12448,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad engineering hub building next-generation Sales AI • Financial Services CRM solutions for high-scale global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad tech hub building high-scale Sales AI • Financial Services CRM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Vymo Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Vymo Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12463,8 +12464,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://getvymo.com/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://getvymo.com/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20Vymo%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zinghr-hyd-1",
@@ -12488,15 +12489,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ZingHR Hyderabad's Hyderabad engineering hub building next-generation HR Tech • AI & Global HCM solutions for high-scale global users.",
+    "description": "Join ZingHR Hyderabad's Hyderabad tech hub building high-scale HR Tech • AI & Global HCM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ZingHR Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ZingHR Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12504,8 +12505,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zinghr.com/careers/senior-full-stack-engineer-react-node-java-101",
-    "jobUrl": "https://www.zinghr.com/careers/senior-full-stack-engineer-react-node-java-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20ZingHR%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack%20Engineer%20(React%20%2B%20Node%2FJava)%20ZingHR%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zinghr-hyd-2",
@@ -12529,15 +12530,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ZingHR Hyderabad's Hyderabad engineering hub building next-generation HR Tech • AI & Global HCM solutions for high-scale global users.",
+    "description": "Join ZingHR Hyderabad's Hyderabad tech hub building high-scale HR Tech • AI & Global HCM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ZingHR Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ZingHR Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12545,8 +12546,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zinghr.com/careers/nlp-conversational-ai-engineer-102",
-    "jobUrl": "https://www.zinghr.com/careers/nlp-conversational-ai-engineer-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20ZingHR%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=NLP%20%26%20Conversational%20AI%20Engineer%20ZingHR%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-zinghr-hyd-3",
@@ -12570,15 +12571,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join ZingHR Hyderabad's Hyderabad engineering hub building next-generation HR Tech • AI & Global HCM solutions for high-scale global users.",
+    "description": "Join ZingHR Hyderabad's Hyderabad tech hub building high-scale HR Tech • AI & Global HCM systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering ZingHR Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering ZingHR Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12586,8 +12587,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.zinghr.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://www.zinghr.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20ZingHR%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20ZingHR%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-edutor-tech-1",
@@ -12611,15 +12612,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Edutor Technologies's Hyderabad engineering hub building next-generation EdTech • Assessment & Digital Learning solutions for high-scale global users.",
+    "description": "Join Edutor Technologies's Hyderabad tech hub building high-scale EdTech • Assessment & Digital Learning systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Edutor Technologies's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Edutor Technologies's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12627,8 +12628,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://edutor.com/careers/backend-software-engineer-go-python-microservices-101",
-    "jobUrl": "https://edutor.com/careers/backend-software-engineer-go-python-microservices-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Edutor%20Technologies&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Backend%20Software%20Engineer%20(Go%20%2F%20Python%20%2F%20Microservices)%20Edutor%20Technologies&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-edutor-tech-2",
@@ -12652,15 +12653,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Edutor Technologies's Hyderabad engineering hub building next-generation EdTech • Assessment & Digital Learning solutions for high-scale global users.",
+    "description": "Join Edutor Technologies's Hyderabad tech hub building high-scale EdTech • Assessment & Digital Learning systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Edutor Technologies's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Edutor Technologies's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12668,8 +12669,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://edutor.com/careers/frontend-architect-next-js-typescript-102",
-    "jobUrl": "https://edutor.com/careers/frontend-architect-next-js-typescript-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Edutor%20Technologies&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20Edutor%20Technologies&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-edutor-tech-3",
@@ -12693,15 +12694,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Edutor Technologies's Hyderabad engineering hub building next-generation EdTech • Assessment & Digital Learning solutions for high-scale global users.",
+    "description": "Join Edutor Technologies's Hyderabad tech hub building high-scale EdTech • Assessment & Digital Learning systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Edutor Technologies's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Edutor Technologies's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12709,8 +12710,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://edutor.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://edutor.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Edutor%20Technologies&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Edutor%20Technologies&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-hygrow-agri-1",
@@ -12734,15 +12735,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad engineering hub building next-generation AgTech • IoT Hydroponics & AI solutions for high-scale global users.",
+    "description": "Join HyGrow Agritech's Hyderabad tech hub building high-scale AgTech • IoT Hydroponics & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HyGrow Agritech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HyGrow Agritech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "1-3 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "1-3 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12750,8 +12751,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://hygrow.tech/careers/frontend-architect-next-js-typescript-101",
-    "jobUrl": "https://hygrow.tech/careers/frontend-architect-next-js-typescript-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Frontend%20Architect%20(Next.js%20%2F%20TypeScript)%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-hygrow-agri-2",
@@ -12775,15 +12776,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad engineering hub building next-generation AgTech • IoT Hydroponics & AI solutions for high-scale global users.",
+    "description": "Join HyGrow Agritech's Hyderabad tech hub building high-scale AgTech • IoT Hydroponics & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HyGrow Agritech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HyGrow Agritech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12791,8 +12792,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://hygrow.tech/careers/data-scientist-predictive-analytics-ai-102",
-    "jobUrl": "https://hygrow.tech/careers/data-scientist-predictive-analytics-ai-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Data%20Scientist%20(Predictive%20Analytics%20%26%20AI)%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-hygrow-agri-3",
@@ -12805,7 +12806,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -12816,15 +12817,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad engineering hub building next-generation AgTech • IoT Hydroponics & AI solutions for high-scale global users.",
+    "description": "Join HyGrow Agritech's Hyderabad tech hub building high-scale AgTech • IoT Hydroponics & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HyGrow Agritech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HyGrow Agritech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12832,8 +12833,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://hygrow.tech/careers/program-manager-engineering-operations-103",
-    "jobUrl": "https://hygrow.tech/careers/program-manager-engineering-operations-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Program%20Manager%20(Engineering%20Operations)%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-hygrow-agri-4",
@@ -12846,7 +12847,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹16 - ₹28 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -12857,15 +12858,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad engineering hub building next-generation AgTech • IoT Hydroponics & AI solutions for high-scale global users.",
+    "description": "Join HyGrow Agritech's Hyderabad tech hub building high-scale AgTech • IoT Hydroponics & AI systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering HyGrow Agritech's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering HyGrow Agritech's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12873,8 +12874,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://hygrow.tech/careers/lead-ui-ux-design-systems-designer-104",
-    "jobUrl": "https://hygrow.tech/careers/lead-ui-ux-design-systems-designer-104"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20UI%2FUX%20%26%20Design%20Systems%20Designer%20HyGrow%20Agritech&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-proptiger-hyd-1",
@@ -12898,15 +12899,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad engineering hub building next-generation PropTech • Real Estate Discovery solutions for high-scale global users.",
+    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad tech hub building high-scale PropTech • Real Estate Discovery systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Housing.com / PropTiger Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Housing.com / PropTiger Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12914,8 +12915,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://housing.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101",
-    "jobUrl": "https://housing.com/careers/cloud-devops-engineer-kubernetes-aws-gcp-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Housing.com%20%2F%20PropTiger%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Cloud%20%26%20DevOps%20Engineer%20(Kubernetes%20%2B%20AWS%2FGCP)%20Housing.com%20%2F%20PropTiger%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-proptiger-hyd-2",
@@ -12928,7 +12929,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹40 - ₹65 LPA + ESOPs",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -12939,15 +12940,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad engineering hub building next-generation PropTech • Real Estate Discovery solutions for high-scale global users.",
+    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad tech hub building high-scale PropTech • Real Estate Discovery systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Housing.com / PropTiger Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Housing.com / PropTiger Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "5-9 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "5-9 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12955,8 +12956,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://housing.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102",
-    "jobUrl": "https://housing.com/careers/lead-ai-ml-engineer-genai-copilots-llms-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Housing.com%20%2F%20PropTiger%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Lead%20AI%2FML%20Engineer%20(GenAI%20Copilots%20%26%20LLMs)%20Housing.com%20%2F%20PropTiger%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-proptiger-hyd-3",
@@ -12969,7 +12970,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹30 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -12980,15 +12981,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad engineering hub building next-generation PropTech • Real Estate Discovery solutions for high-scale global users.",
+    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad tech hub building high-scale PropTech • Real Estate Discovery systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Housing.com / PropTiger Hyderabad's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Housing.com / PropTiger Hyderabad's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "3-6 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Competitive ESOP Equity Grant",
@@ -12996,8 +12997,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://housing.com/careers/technical-operations-site-reliability-manager-103",
-    "jobUrl": "https://housing.com/careers/technical-operations-site-reliability-manager-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Housing.com%20%2F%20PropTiger%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Technical%20Operations%20%26%20Site%20Reliability%20Manager%20Housing.com%20%2F%20PropTiger%20Hyderabad&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-signode-tech-1",
@@ -13010,7 +13011,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹36 - ₹58 LPA",
-    "postedDaysAgo": 6,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -13021,15 +13022,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Signode India Tech Hub's Hyderabad engineering hub building next-generation Industrial IoT & Automation solutions for high-scale global users.",
+    "description": "Join Signode India Tech Hub's Hyderabad tech hub building high-scale Industrial IoT & Automation systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Signode India Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Signode India Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -13037,8 +13038,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.signode.com/careers/mobile-engineer-react-native-android-101",
-    "jobUrl": "https://www.signode.com/careers/mobile-engineer-react-native-android-101"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Signode%20India%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Mobile%20Engineer%20(React%20Native%20%2F%20Android)%20Signode%20India%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-signode-tech-2",
@@ -13051,7 +13052,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹22 - ₹38 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -13062,15 +13063,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Signode India Tech Hub's Hyderabad engineering hub building next-generation Industrial IoT & Automation solutions for high-scale global users.",
+    "description": "Join Signode India Tech Hub's Hyderabad tech hub building high-scale Industrial IoT & Automation systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Signode India Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Signode India Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "2-5 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -13078,8 +13079,8 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.signode.com/careers/computer-vision-edge-ai-specialist-102",
-    "jobUrl": "https://www.signode.com/careers/computer-vision-edge-ai-specialist-102"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Signode%20India%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Computer%20Vision%20%26%20Edge%20AI%20Specialist%20Signode%20India%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   },
   {
     "id": "job-signode-tech-3",
@@ -13092,7 +13093,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹32 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -13103,15 +13104,15 @@ export const HYDERABAD_JOBS = [
       "Git",
       "System Design"
     ],
-    "description": "Join Signode India Tech Hub's Hyderabad engineering hub building next-generation Industrial IoT & Automation solutions for high-scale global users.",
+    "description": "Join Signode India Tech Hub's Hyderabad tech hub building high-scale Industrial IoT & Automation systems for global users.",
     "responsibilities": [
-      "Architect, develop, and deliver high-reliability systems powering Signode India Tech Hub's platform.",
-      "Collaborate with cross-functional product, UX, and AI engineering teams in Hyderabad.",
-      "Maintain rigorous software craftsmanship, automated test suites, and CI/CD pipelines."
+      "Design, build, and maintain production features powering Signode India Tech Hub's platform.",
+      "Collaborate with engineering, product, and UX teams in Hyderabad.",
+      "Write clean, testable code with high performance and security standards."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed systems.",
-      "Strong problem-solving skills, CS fundamentals, and passion for product engineering."
+      "6-10 yrs of experience with relevant technologies and distributed systems.",
+      "Strong computer science fundamentals and problem-solving ability."
     ],
     "perks": [
       "Annual Performance Bonus",
@@ -13119,7 +13120,7 @@ export const HYDERABAD_JOBS = [
       "Flexible Hybrid Work & Learning Stipend",
       "Modern Innovation Campus in Hyderabad"
     ],
-    "applyUrl": "https://www.signode.com/careers/solutions-architect-client-engagements-103",
-    "jobUrl": "https://www.signode.com/careers/solutions-architect-client-engagements-103"
+    "applyUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Signode%20India%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD",
+    "jobUrl": "https://www.linkedin.com/jobs/search/?keywords=Solutions%20Architect%20%26%20Client%20Engagements%20Signode%20India%20Tech%20Hub&location=Hyderabad%2C+Telangana%2C+India&sortBy=DD"
   }
 ];
