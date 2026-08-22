@@ -1,7 +1,6 @@
 // Curated Hyderabad Tech Jobs Database
-// 100% Unique, company-tailored job listings with direct live application URLs.
-// Auto-synced and updated daily from verified Hyderabad employers.
-// Last generated: 2026-08-21T19:02:06.821Z
+// Auto-updated twice weekly on Mondays & Thursdays.
+// Last synced: 2026-08-22T06:25:59.185Z
 
 export const HYDERABAD_JOBS = [
   {
@@ -57,7 +56,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹35 - ₹52 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -98,7 +97,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹22 - ₹36 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -138,7 +137,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹18 - ₹32 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -178,7 +177,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "On-site",
     "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -218,7 +217,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -298,7 +297,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -338,7 +337,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -379,7 +378,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -419,7 +418,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -460,7 +459,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -501,7 +500,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -581,7 +580,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -622,7 +621,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
@@ -663,7 +662,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
@@ -704,7 +703,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
@@ -745,7 +744,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -866,7 +865,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -906,7 +905,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -947,7 +946,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -988,7 +987,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -1028,7 +1027,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -1109,7 +1108,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1150,7 +1149,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1190,7 +1189,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1231,7 +1230,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1271,7 +1270,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1311,7 +1310,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1393,7 +1392,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
@@ -1433,7 +1432,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
@@ -1474,7 +1473,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1515,7 +1514,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1555,7 +1554,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -1677,7 +1676,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
@@ -1718,7 +1717,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
@@ -1757,7 +1756,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
@@ -1798,7 +1797,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
@@ -1839,7 +1838,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1919,7 +1918,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -1960,7 +1959,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2001,7 +2000,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2041,7 +2040,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2082,7 +2081,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
@@ -2122,7 +2121,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
@@ -2202,7 +2201,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2242,7 +2241,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2282,7 +2281,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -2323,7 +2322,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -2362,7 +2361,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -2483,7 +2482,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
@@ -2523,7 +2522,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
@@ -2564,7 +2563,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -2605,7 +2604,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -2645,7 +2644,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -2726,7 +2725,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -2767,7 +2766,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -2808,7 +2807,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2849,7 +2848,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2890,7 +2889,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -2931,7 +2930,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3013,7 +3012,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3054,7 +3053,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3095,7 +3094,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3135,7 +3134,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3176,7 +3175,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3298,7 +3297,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3338,7 +3337,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3378,7 +3377,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3419,7 +3418,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3460,7 +3459,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3542,7 +3541,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3583,7 +3582,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3623,7 +3622,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -3664,7 +3663,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3705,7 +3704,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3746,7 +3745,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3828,7 +3827,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3868,7 +3867,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -3909,7 +3908,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3949,7 +3948,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -3989,7 +3988,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4111,7 +4110,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -4151,7 +4150,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -4190,7 +4189,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -4231,7 +4230,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -4272,7 +4271,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4352,7 +4351,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4393,7 +4392,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹30 - ₹48 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4434,7 +4433,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹42 - ₹65 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4475,7 +4474,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹32 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4515,7 +4514,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4555,7 +4554,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
@@ -4637,7 +4636,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -4677,7 +4676,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -4718,7 +4717,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -4758,7 +4757,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4799,7 +4798,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4919,7 +4918,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -4960,7 +4959,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5001,7 +5000,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
@@ -5039,7 +5038,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
@@ -5080,7 +5079,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
@@ -5162,7 +5161,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5202,7 +5201,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5243,7 +5242,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5284,7 +5283,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5324,7 +5323,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5365,7 +5364,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5444,7 +5443,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -5485,7 +5484,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -5525,7 +5524,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -5566,7 +5565,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
@@ -5607,7 +5606,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5728,7 +5727,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5768,7 +5767,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5809,7 +5808,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -5850,7 +5849,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -5889,7 +5888,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -5971,7 +5970,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6011,7 +6010,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6052,7 +6051,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6093,7 +6092,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹24 - ₹38 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6134,7 +6133,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹28 - ₹45 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6175,7 +6174,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹18 - ₹28 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6254,7 +6253,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6294,7 +6293,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6335,7 +6334,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
@@ -6375,7 +6374,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
@@ -6415,7 +6414,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
@@ -6535,7 +6534,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6576,7 +6575,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6616,7 +6615,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6656,7 +6655,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -6697,7 +6696,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6778,7 +6777,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -6819,7 +6818,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -6859,7 +6858,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -6899,7 +6898,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -6939,7 +6938,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -6979,7 +6978,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
@@ -7060,7 +7059,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7101,7 +7100,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7141,7 +7140,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7182,7 +7181,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -7221,7 +7220,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -7344,7 +7343,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -7385,7 +7384,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -7425,7 +7424,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7466,7 +7465,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7505,7 +7504,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7586,7 +7585,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7626,7 +7625,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7667,7 +7666,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7708,7 +7707,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7749,7 +7748,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7790,7 +7789,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7871,7 +7870,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -7912,7 +7911,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7952,7 +7951,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -7992,7 +7991,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -8033,7 +8032,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -8156,7 +8155,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8197,7 +8196,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8238,7 +8237,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8279,7 +8278,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8319,7 +8318,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8401,7 +8400,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -8441,7 +8440,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -8481,7 +8480,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -8522,7 +8521,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -8563,7 +8562,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -8604,7 +8603,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -8685,7 +8684,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -8724,7 +8723,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -8765,7 +8764,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8804,7 +8803,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8845,7 +8844,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -8968,7 +8967,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9009,7 +9008,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -9049,7 +9048,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -9089,7 +9088,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -9128,7 +9127,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9210,7 +9209,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9251,7 +9250,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -9291,7 +9290,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -9331,7 +9330,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -9372,7 +9371,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -9412,7 +9411,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -9494,7 +9493,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -9535,7 +9534,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -9575,7 +9574,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -9616,7 +9615,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9656,7 +9655,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9778,7 +9777,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9818,7 +9817,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -9858,7 +9857,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9897,7 +9896,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -9938,7 +9937,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10020,7 +10019,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
@@ -10061,7 +10060,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
@@ -10102,7 +10101,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10142,7 +10141,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10182,7 +10181,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
@@ -10223,7 +10222,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -10305,7 +10304,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
@@ -10346,7 +10345,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10387,7 +10386,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10426,7 +10425,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10467,7 +10466,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
@@ -10588,7 +10587,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10628,7 +10627,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10668,7 +10667,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10709,7 +10708,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10748,7 +10747,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -10830,7 +10829,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10869,7 +10868,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10910,7 +10909,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
@@ -10951,7 +10950,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -10992,7 +10991,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 4,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -11032,7 +11031,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
@@ -11113,7 +11112,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11154,7 +11153,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11195,7 +11194,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11235,7 +11234,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11276,7 +11275,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11397,7 +11396,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
@@ -11438,7 +11437,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11477,7 +11476,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Senior / Lead (6+ yrs)",
     "workMode": "On-site",
     "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11517,7 +11516,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11558,7 +11557,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 1,
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
@@ -11640,7 +11639,7 @@ export const HYDERABAD_JOBS = [
     "experienceLevel": "Junior (1-3 yrs)",
     "workMode": "Hybrid",
     "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 5,
+    "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
