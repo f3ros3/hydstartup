@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "darwinbox",
+    "name": "Darwinbox",
+    "career": "https://darwinbox.darwinbox.in/ms/candidate/careers",
+    "platform": "darwinbox",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "skyroot",
+    "name": "Skyroot Aerospace",
+    "career": "https://skyroot.in/careers",
+    "platform": "custom",
+    "industry": "SpaceTech & Aerospace",
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "highradius",
+    "name": "HighRadius",
+    "career": "https://www.highradius.com/careers/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "zenoti",
+    "name": "Zenoti",
+    "career": "https://www.zenoti.com/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "keka-hr",
+    "name": "Keka HR",
+    "career": "https://www.keka.com/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "dhruva-space",
+    "name": "Dhruva Space",
+    "career": "https://www.dhruvaspace.com/careers",
+    "platform": "custom",
+    "industry": "SpaceTech & Aerospace",
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "kore-ai",
+    "name": "Kore.ai",
+    "career": "https://koreai.bamboohr.com/careers",
+    "platform": "bamboohr",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "stan",
+    "name": "Stan (Stan Creator)",
+    "career": "https://getstan.app/careers",
+    "platform": "custom",
+    "industry": "Gaming & Media",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "nxtwave",
+    "name": "NxtWave",
+    "career": "https://www.ccbp.in/careers",
+    "platform": "custom",
+    "industry": "EdTech",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "recykal",
+    "name": "Recykal",
+    "career": "https://jobs.lever.co/recykal",
+    "platform": "lever",
+    "industry": "CleanTech & EV",
+    "hubId": "madhapur",
+    "area": "Madhapur, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "turbohire",
+    "name": "TurboHire",
+    "career": "https://jobs.lever.co/turbohire",
+    "platform": "lever",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "marut-drones",
+    "name": "Marut Drones",
+    "career": "https://marutdrones.com/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "fourth-partner",
+    "name": "Fourth Partner Energy",
+    "career": "https://www.fourthpartner.co/careers",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "mapmygenome",
+    "name": "Mapmygenome",
+    "career": "https://mapmygenome.in/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "madhapur",
+    "area": "Madhapur, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "gmw-ev",
+    "name": "Gayam Motor Works (GMW)",
+    "career": "https://www.gayammotorworks.com/careers",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "begumpet",
+    "area": "Begumpet / Balanagar Hub, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "ctrls",
+    "name": "CtrlS Datacenters",
+    "career": "https://www.ctrls.com/careers/",
+    "platform": "custom",
+    "industry": "Cloud & Infrastructure",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "evalueserve",
+    "name": "Evalueserve",
+    "career": "https://www.evalueserve.com/careers/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "accenture",
+    "name": "Accenture Innovation Hub",
+    "career": "https://www.accenture.com/in-en/careers/jobsearch",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "financial-district",
+    "area": "Financial District & HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "dxc-technology",
+    "name": "DXC Technology",
+    "career": "https://careers.dxc.com/",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "byjus",
+    "name": "Byju's Tech Hub",
+    "career": "https://byjus.com/careers/",
+    "platform": "custom",
+    "industry": "EdTech",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "l-and-t",
+    "name": "L&T (Larsen & Toubro Tech)",
+    "career": "https://www.larsentoubro.com/careers",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "hitec-city",
+    "area": "HITEC City & Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "novartis",
+    "name": "Novartis Corporate Center (NOCC)",
+    "career": "https://www.novartis.com/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "cloudnine-hospital",
+    "name": "Cloudnine Healthcare Tech",
+    "career": "https://www.cloudninefertility.com/career",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "jubilee-hills",
+    "area": "Jubilee Hills, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "cotiviti",
+    "name": "Cotiviti",
+    "career": "https://www.cotiviti.com/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "zelis",
+    "name": "Zelis",
+    "career": "https://careers.zelis.com/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "solenis",
+    "name": "Solenis",
+    "career": "https://www.solenis.com/en/careers/",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "dazn",
+    "name": "DAZN Tech Hub",
+    "career": "https://careers.dazn.com/",
+    "platform": "custom",
+    "industry": "Gaming & Media",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "thomson-reuters",
+    "name": "Thomson Reuters Center of Excellence",
+    "career": "https://www.thomsonreuters.com/careers",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "progress-software",
+    "name": "Progress Software",
+    "career": "https://www.progress.com/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "thermo-fisher",
+    "name": "Thermo Fisher Scientific R&D Center",
+    "career": "https://jobs.thermofisher.com/",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "callaway-golf",
+    "name": "Callaway Golf Tech (Topgolf)",
+    "career": "https://www.callawaygolf.com/careers",
+    "platform": "custom",
+    "industry": "Gaming & Media",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "rsm-us",
+    "name": "RSM US India",
+    "career": "https://rsmus.com/careers/india.html",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "experian",
+    "name": "Experian Global Innovation Centre",
+    "career": "https://www.experian.com/careers",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "eli-lilly",
+    "name": "Eli Lilly Capability Center",
+    "career": "https://www.lilly.com/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "fanatics",
+    "name": "Fanatics India Tech",
+    "career": "https://www.fanaticsinc.com/careers",
+    "platform": "custom",
+    "industry": "E-Commerce / D2C",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "paltech",
+    "name": "Paltech (Palni Inc)",
+    "career": "https://www.pal.tech/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "arcesium",
+    "name": "Arcesium",
+    "career": "https://job-boards.greenhouse.io/arcesiumllc",
+    "platform": "greenhouse",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "valuemomentum",
+    "name": "ValueMomentum",
+    "career": "https://www.valuemomentum.com/careers/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "zeta",
+    "name": "Zeta Tech Hub",
+    "career": "https://job-boards.greenhouse.io/zeta",
+    "platform": "greenhouse",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District / Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "invesco",
+    "name": "Invesco Enterprise Center",
+    "career": "https://careers.invesco.com/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "pegasystems",
+    "name": "Pegasystems",
+    "career": "https://www.pega.com/about/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "adp",
+    "name": "ADP (Automatic Data Processing)",
+    "career": "https://jobs.adp.com/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City / Somajiguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm Hyderabad Campus",
+    "career": "https://www.qualcomm.com/company/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "amd",
+    "name": "AMD India Design Centre",
+    "career": "https://www.amd.com/en/corporate/careers.html",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "micron",
+    "name": "Micron Technology",
+    "career": "https://micron.eightfold.ai/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce Center of Excellence",
+    "career": "https://www.salesforce.com/company/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "financial-district",
+    "area": "Financial District / Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow Innovation Campus",
+    "career": "https://www.servicenow.com/careers.html",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "uber",
+    "name": "Uber India Tech Center",
+    "career": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "platform": "custom",
+    "industry": "Mobility & Logistics",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "expedia-group",
+    "name": "Expedia Group R&D",
+    "career": "https://www.lifeatexpediagroup.com/jobs",
+    "platform": "custom",
+    "industry": "E-Commerce / D2C",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "electronic-arts",
+    "name": "Electronic Arts (EA India)",
+    "career": "https://www.ea.com/careers",
+    "platform": "custom",
+    "industry": "Gaming & Media",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "mathworks",
+    "name": "MathWorks Hyderabad",
+    "career": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "valuelabs",
+    "name": "ValueLabs",
+    "career": "https://www.valuelabs.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "innominds",
+    "name": "Innominds",
+    "career": "https://www.innominds.com/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "financial-district",
+    "area": "WaveRock / Financial District, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "cloud4c",
+    "name": "Cloud4C",
+    "career": "https://www.cloud4c.com/careers",
+    "platform": "custom",
+    "industry": "Cloud & Infrastructure",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs Hyderabad",
+    "career": "https://www.goldmansachs.com/careers/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "cigniti",
+    "name": "Cigniti Technologies (Coforge)",
+    "career": "https://www.cigniti.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "dhruva-space",
+    "name": "Dhruva Space",
+    "career": "https://www.dhruvaspace.com/careers",
+    "platform": "custom",
+    "industry": "SpaceTech & Aerospace",
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "marut-drones",
+    "name": "Marut Drones",
+    "career": "https://marutdrones.com/careers/",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "t-hub-raidurg",
+    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "grene-robotics",
+    "name": "Grene Robotics",
+    "career": "https://grenerobotics.com/careers/",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "red-health",
+    "name": "RED.Health (StanPlus)",
+    "career": "https://red.health/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "jubilee-hills",
+    "area": "Jubilee Hills, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "pure-ev",
+    "name": "PURE EV",
+    "career": "https://pureev.in/careers",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "domain": ""
+  },
+  {
+    "id": "eto-motors",
+    "name": "ETO Motors",
+    "career": "https://etomotors.com/careers",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "gmw-india",
+    "name": "Gayam Motor Works (GMW)",
+    "career": "https://gayammotorworks.com/careers",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "keka-hr",
+    "name": "Keka HR",
+    "career": "https://www.keka.com/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "zenoti",
+    "name": "Zenoti",
+    "career": "https://www.zenoti.com/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "kore-ai",
+    "name": "Kore.ai",
+    "career": "https://koreai.bamboohr.com/careers",
+    "platform": "bamboohr",
+    "industry": "AI & DeepTech",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "ozonetel",
+    "name": "Ozonetel Communications",
+    "career": "https://ozonetel.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "domain": ""
+  },
+  {
+    "id": "quantela",
+    "name": "Quantela",
+    "career": "https://www.quantela.com/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "qualizeal",
+    "name": "QualiZeal",
+    "career": "https://qualizeal.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "pando-ai",
+    "name": "Pando AI",
+    "career": "https://jobs.lever.co/pando",
+    "platform": "lever",
+    "industry": "SaaS / Enterprise",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "fashor",
+    "name": "Fashor",
+    "career": "https://fashor.com/pages/careers",
+    "platform": "custom",
+    "industry": "Gaming & Media",
+    "hubId": "madhapur",
+    "area": "Madhapur & Durgam Cheruvu, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "innominds",
+    "name": "Innominds",
+    "career": "https://www.innominds.com/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "ctrls-datacenters",
+    "name": "CtrlS Datacenters",
+    "career": "https://www.ctrls.in/careers.html",
+    "platform": "custom",
+    "industry": "Cloud & Infrastructure",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "cloud4c",
+    "name": "Cloud4C Services",
+    "career": "https://www.cloud4c.com/careers",
+    "platform": "custom",
+    "industry": "Cloud & Infrastructure",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "kellton-tech",
+    "name": "Kellton Tech",
+    "career": "https://www.kellton.com/careers",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "madhapur",
+    "area": "Madhapur & Durgam Cheruvu, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "medplus-tech",
+    "name": "MedPlus Health (Tech Hub)",
+    "career": "https://www.medplusindia.com/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "enmovil",
+    "name": "Enmovil Solutions",
+    "career": "https://enmovil.net/careers/",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "appshark",
+    "name": "AppShark Software",
+    "career": "https://www.appshark.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "highspot-hyd",
+    "name": "Highspot Hyderabad",
+    "career": "https://www.highspot.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "turing-hyd",
+    "name": "Turing.com (Hyderabad Hub)",
+    "career": "https://www.turing.com/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "paymatrix",
+    "name": "Paymatrix",
+    "career": "https://paymatrix.in/careers",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "vivriti-hyd",
+    "name": "Vivriti Capital (Tech Hub)",
+    "career": "https://www.vivriticapital.com/careers",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "myclassboard",
+    "name": "MyClassboard (MCB)",
+    "career": "https://myclassboard.com/careers/",
+    "platform": "custom",
+    "industry": "EdTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City / Kondapur, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "smarterp",
+    "name": "SmartERP Solutions",
+    "career": "https://www.smarterp.com/careers/",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "glowroad",
+    "name": "GlowRoad (Amazon)",
+    "career": "https://glowroad.com/careers",
+    "platform": "custom",
+    "industry": "Gaming & Media",
+    "hubId": "madhapur",
+    "area": "Madhapur & Durgam Cheruvu, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "dozee-hyd",
+    "name": "Dozee (Tech Hub)",
+    "career": "https://www.dozee.health/careers",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "urbanrise-tech",
+    "name": "Urbanrise / Alliance Tech",
+    "career": "https://urbanrise.in/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "jubilee-hills",
+    "area": "Jubilee Hills, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "verisk-hyd",
+    "name": "Verisk Hyderabad",
+    "career": "https://www.verisk.com/careers/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "pega-hyd",
+    "name": "Pegasystems Hyderabad",
+    "career": "https://www.pega.com/about/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "broadridge-hyd",
+    "name": "Broadridge Financial Solutions",
+    "career": "https://www.broadridge.com/about/careers",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "financial-district",
+    "area": "Financial District / Nanakramguda, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "vymo-hyd",
+    "name": "Vymo Hyderabad",
+    "career": "https://getvymo.com/careers/",
+    "platform": "custom",
+    "industry": "FinTech / SaaS",
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "zinghr-hyd",
+    "name": "ZingHR Hyderabad",
+    "career": "https://www.zinghr.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "edutor-tech",
+    "name": "Edutor Technologies",
+    "career": "https://edutor.com/careers",
+    "platform": "custom",
+    "industry": "EdTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "hygrow-agri",
+    "name": "HyGrow Agritech",
+    "career": "https://hygrow.tech/careers",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "domain": ""
+  },
+  {
+    "id": "proptiger-hyd",
+    "name": "Housing.com / PropTiger Hyderabad",
+    "career": "https://housing.com/careers",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "signode-tech",
+    "name": "Signode India Tech Hub",
+    "career": "https://www.signode.com/careers",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "domain": ""
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "career": "https://job-boards.greenhouse.io/postman",
+    "platform": "greenhouse",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "browserstack",
+    "name": "BrowserStack",
+    "career": "https://job-boards.greenhouse.io/browserstack",
+    "platform": "greenhouse",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "razorpay",
+    "name": "Razorpay",
+    "career": "https://job-boards.greenhouse.io/razorpay",
+    "platform": "greenhouse",
+    "industry": "FinTech",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad"
+  },
+  {
+    "id": "phonepe",
+    "name": "PhonePe",
+    "career": "https://job-boards.greenhouse.io/phonepe",
+    "platform": "greenhouse",
+    "industry": "FinTech",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad"
+  },
+  {
+    "id": "chargebee",
+    "name": "Chargebee",
+    "career": "https://job-boards.greenhouse.io/chargebee",
+    "platform": "greenhouse",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "freshworks",
+    "name": "Freshworks",
+    "career": "https://job-boards.greenhouse.io/freshworks",
+    "platform": "greenhouse",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "zoho",
+    "name": "Zoho",
+    "career": "https://www.zoho.com/careers/",
+    "platform": "custom",
+    "industry": "SaaS / Enterprise",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "tiger-analytics",
+    "name": "Tiger Analytics",
+    "career": "https://www.tigeranalytics.com/careers/",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "quantiphi",
+    "name": "Quantiphi",
+    "career": "https://quantiphi.com/careers/",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "cygni-energy",
+    "name": "Cygni Energy",
+    "career": "https://cygnienergy.com/careers/",
+    "platform": "custom",
+    "industry": "CleanTech & EV",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad"
+  },
+  {
+    "id": "bellatrix-aerospace",
+    "name": "Bellatrix Aerospace",
+    "career": "https://www.bellatrix.aero/careers",
+    "platform": "custom",
+    "industry": "SpaceTech & Aerospace",
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad"
+  },
+  {
+    "id": "laurus-labs",
+    "name": "Laurus Labs",
+    "career": "https://www.lauruslabs.com/careers/",
+    "platform": "custom",
+    "industry": "HealthTech / Bio",
+    "hubId": "hitec-city",
+    "area": "Genome Valley, Hyderabad"
+  },
+  {
+    "id": "bankbazaar",
+    "name": "BankBazaar",
+    "career": "https://www.bankbazaar.com/careers.html",
+    "platform": "custom",
+    "industry": "FinTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "signtuple",
+    "name": "SigTuple",
+    "career": "https://sigtuple.com/careers/",
+    "platform": "custom",
+    "industry": "AI & DeepTech",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  },
+  {
+    "id": "meta",
+    "name": "Meta Hyderabad",
+    "career": "https://www.metacareers.com/locations/hyderabad/",
+    "platform": "custom",
+    "industry": "Enterprise / MNC",
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad"
+  },
+  {
+    "id": "dxc",
+    "name": "DXC Technology",
+    "career": "https://careers.dxc.com/",
+    "platform": "custom",
+    "industry": "Enterprise / IT Services",
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad"
+  }
+]

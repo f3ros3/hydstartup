@@ -138,7 +138,7 @@ export default function JobCard({
           {/* Animated Uiverse Button */}
           <div onClick={(e) => e.stopPropagation()}>
             <AnimatedApplyButton
-              href={getRealtimeApplyUrl(job, comp)}
+              href={job.applyUrl || getRealtimeApplyUrl(job, comp)}
               size="sm"
               color="#059669"
             >

@@ -50,7 +50,7 @@ export default function JobDetailsModal({
     }
   };
 
-  const applyUrl = getRealtimeApplyUrl(job, comp);
+  const applyUrl = job.applyUrl || getRealtimeApplyUrl(job, comp);
 
   return (
     <div 
