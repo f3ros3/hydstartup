@@ -13,6 +13,8 @@ import {
 } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 
+import CharminarLogo from './CharminarLogo';
+
 export default function Navbar({ 
   viewMode, 
   setViewMode, 
@@ -37,9 +39,10 @@ export default function Navbar({
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <div 
               onClick={() => setViewMode('split')}
-              className="relative flex items-center justify-center w-9 h-9 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-gradient-to-br from-emerald-500 via-teal-600 to-cyan-500 shadow-md shadow-emerald-500/25 text-white font-black text-base sm:text-xl cursor-pointer hover:scale-105 transition-transform shrink-0"
+              className="relative flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-gradient-to-br from-emerald-500 via-teal-600 to-cyan-500 shadow-md shadow-emerald-500/25 text-white cursor-pointer hover:scale-105 transition-transform shrink-0 p-1.5"
+              title="HydStartupArena - Hyderabad Tech Ecosystem"
             >
-              <span className="tracking-tighter">HYD</span>
+              <CharminarLogo className="w-full h-full text-white" />
               <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 bg-emerald-400 border-2 border-[#0B0F19] dark:border-[#0B0F19] border-white rounded-full animate-ping"></span>
               <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 bg-emerald-400 border-2 border-[#0B0F19] dark:border-[#0B0F19] border-white rounded-full"></span>
             </div>

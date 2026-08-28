@@ -116,33 +116,33 @@ export default function FilterBar({
 
   return (
     <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-3.5 sticky top-[80px] sm:top-[100px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
-      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2.5">
+      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2 sm:space-y-2.5">
         
-        {/* Main Bar: Search + Entity Filter + Filter Toggle + Sort Trigger */}
-        <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-2 sm:gap-3">
-          
-          {/* Search Bar */}
-          <div className="relative flex-1">
-            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 dark:text-slate-300 text-slate-600" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search jobs, tech stack (React, Python, GenAI), or startups..."
-              className="w-full pl-10 pr-10 py-2 sm:py-2.5 dark:bg-slate-900/65 bg-white/75 backdrop-blur-md border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/25 shadow-sm transition-all"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => setSearchQuery('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-200 cursor-pointer"
-              >
-                <X className="w-3.5 h-3.5" />
-              </button>
-            )}
-          </div>
+        {/* ROW 1: Full-Width Prominent Search Bar */}
+        <div className="relative w-full">
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 dark:text-slate-300 text-slate-600" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search jobs, tech stack (React, Python, GenAI), or startups..."
+            className="w-full pl-10 pr-10 py-2.5 sm:py-3 dark:bg-slate-900/75 bg-white/85 backdrop-blur-md border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/25 shadow-sm transition-all"
+          />
+          {searchQuery && (
+            <button
+              onClick={() => setSearchQuery('')}
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-slate-400 hover:text-slate-200 cursor-pointer"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          )}
+        </div>
 
-          {/* Action Row: Entities + Filters Toggle + Sort Menu + Reset */}
-          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap sm:flex-nowrap shrink-0">
+        {/* ROW 2 (UNDER SEARCH BAR): Filter Controls, Entity Switcher, Sort & Live Stats */}
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2 pt-0.5">
+          
+          {/* Left Action Buttons: Entities + Filters Toggle + Sort Menu + Reset */}
+          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap shrink-0">
             
             {/* 1. All Entities vs Startups */}
             <div className="flex items-center gap-0.5 sm:gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-2xl border dark:border-slate-700/60 border-slate-300/80 shrink-0 shadow-sm">
@@ -201,7 +201,7 @@ export default function FilterBar({
               </button>
 
               {isSortOpen && (
-                <div className="absolute right-0 mt-2 w-56 rounded-2xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl p-1.5 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-100">
+                <div className="absolute left-0 sm:left-auto sm:right-0 mt-2 w-56 rounded-2xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl p-1.5 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-100">
                   <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b dark:border-slate-800 border-slate-100">
                     Sort By
                   </div>
@@ -238,6 +238,21 @@ export default function FilterBar({
               </button>
             )}
 
+          </div>
+
+          {/* Right Live Summary & Sync Badge */}
+          <div className="flex items-center gap-2 sm:ml-auto shrink-0 text-[11px] sm:text-xs dark:text-slate-200 text-slate-800 font-mono font-bold">
+            <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full dark:bg-emerald-500/10 dark:text-emerald-400 bg-emerald-100 text-emerald-800 font-sans font-extrabold text-[10px]">
+              <RefreshCw className="w-2.5 h-2.5 animate-spin duration-3000" />
+              <span>Auto-updated daily</span>
+            </span>
+            <div className="flex items-center gap-1">
+              <span>Showing</span>
+              <span className="dark:text-emerald-400 text-orange-600 font-black">{filteredJobsCount}</span>
+              <span>jobs across</span>
+              <span className="dark:text-cyan-400 text-purple-600 font-black">{filteredCompaniesCount}</span>
+              <span>companies</span>
+            </div>
           </div>
 
         </div>
@@ -379,63 +394,42 @@ export default function FilterBar({
           </div>
         )}
 
-        {/* Results Counter & Active Filter Pills */}
-        <div className="flex items-center justify-between text-xs dark:text-slate-200 text-slate-800 font-mono font-bold pt-0.5 drop-shadow-sm flex-wrap gap-2">
-          
-          {/* Active Filter Summary Badges */}
-          <div className="flex items-center gap-1.5 flex-wrap">
-            {activeFilterCount > 0 && (
-              <div className="flex items-center gap-1 flex-wrap">
-                {selectedHub && selectedHub !== 'all' && (
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800 border dark:border-emerald-500/30 border-orange-300">
-                    📍 {HYDERABAD_HUBS.find(h => h.id === selectedHub)?.name || selectedHub}
-                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => onSelectHub({ id: 'all', center: [17.438, 78.375], zoom: 12 })} />
-                  </span>
-                )}
-                {selectedRole !== 'All Roles' && (
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-cyan-500/20 dark:text-cyan-300 bg-cyan-100 text-cyan-800 border dark:border-cyan-500/30 border-cyan-300">
-                    💼 {selectedRole}
-                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedRole('All Roles')} />
-                  </span>
-                )}
-                {selectedIndustry !== 'All Industries' && (
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-purple-500/20 dark:text-purple-300 bg-purple-100 text-purple-800 border dark:border-purple-500/30 border-purple-300">
-                    🏢 {selectedIndustry}
-                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedIndustry('All Industries')} />
-                  </span>
-                )}
-                {selectedExp !== 'All Levels' && (
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-pink-500/20 dark:text-pink-300 bg-pink-100 text-pink-800 border dark:border-pink-500/30 border-pink-300">
-                    📈 {selectedExp}
-                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedExp('All Levels')} />
-                  </span>
-                )}
-                {selectedWorkMode !== 'All Modes' && (
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-amber-500/20 dark:text-amber-300 bg-amber-100 text-amber-800 border dark:border-amber-500/30 border-amber-300">
-                    🌐 {selectedWorkMode}
-                    <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedWorkMode('All Modes')} />
-                  </span>
-                )}
-              </div>
+        {/* Active Filter Summary Pills (Displayed when filters are active) */}
+        {activeFilterCount > 0 && (
+          <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
+            <span className="text-[11px] font-bold text-slate-400">Active Filters:</span>
+            {selectedHub && selectedHub !== 'all' && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800 border dark:border-emerald-500/30 border-orange-300">
+                📍 {HYDERABAD_HUBS.find(h => h.id === selectedHub)?.name || selectedHub}
+                <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => onSelectHub({ id: 'all', center: [17.438, 78.375], zoom: 12 })} />
+              </span>
+            )}
+            {selectedRole !== 'All Roles' && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-cyan-500/20 dark:text-cyan-300 bg-cyan-100 text-cyan-800 border dark:border-cyan-500/30 border-cyan-300">
+                💼 {selectedRole}
+                <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedRole('All Roles')} />
+              </span>
+            )}
+            {selectedIndustry !== 'All Industries' && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-purple-500/20 dark:text-purple-300 bg-purple-100 text-purple-800 border dark:border-purple-500/30 border-purple-300">
+                🏢 {selectedIndustry}
+                <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedIndustry('All Industries')} />
+              </span>
+            )}
+            {selectedExp !== 'All Levels' && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-pink-500/20 dark:text-pink-300 bg-pink-100 text-pink-800 border dark:border-pink-500/30 border-pink-300">
+                📈 {selectedExp}
+                <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedExp('All Levels')} />
+              </span>
+            )}
+            {selectedWorkMode !== 'All Modes' && (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-sans font-bold dark:bg-amber-500/20 dark:text-amber-300 bg-amber-100 text-amber-800 border dark:border-amber-500/30 border-amber-300">
+                🌐 {selectedWorkMode}
+                <X className="w-2.5 h-2.5 cursor-pointer hover:opacity-75" onClick={() => setSelectedWorkMode('All Modes')} />
+              </span>
             )}
           </div>
-
-          {/* Results Counter & Live Sync Badge */}
-          <div className="flex items-center gap-2 ml-auto shrink-0 text-[11px] sm:text-xs">
-            <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full dark:bg-emerald-500/10 dark:text-emerald-400 bg-emerald-100 text-emerald-800 font-sans font-extrabold text-[10px]">
-              <RefreshCw className="w-2.5 h-2.5 animate-spin duration-3000" />
-              <span>Auto-updated daily</span>
-            </span>
-            <div className="flex items-center gap-1">
-              <span>Showing</span>
-              <span className="dark:text-emerald-400 text-orange-600 font-black">{filteredJobsCount}</span>
-              <span>jobs across</span>
-              <span className="dark:text-cyan-400 text-purple-600 font-black">{filteredCompaniesCount}</span>
-              <span>companies</span>
-            </div>
-          </div>
-
-        </div>
+        )}
 
       </div>
     </div>
