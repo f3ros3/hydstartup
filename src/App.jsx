@@ -494,6 +494,11 @@ export default function App() {
                   setSelectedCompany(c);
                   setIsCompanyModalOpen(true);
                 }}
+                onResetSearch={() => {
+                  setSearchQuery('');
+                  setSelectedCompany(null);
+                  setSelectedJob(null);
+                }}
                 activeHubCenter={activeHubCenter}
                 activeHubZoom={activeHubZoom}
               />
@@ -644,6 +649,11 @@ export default function App() {
               onOpenCompanyDetails={(c) => {
                 setSelectedCompany(c);
                 setIsCompanyModalOpen(true);
+              }}
+              onResetSearch={() => {
+                setSearchQuery('');
+                setSelectedCompany(null);
+                setSelectedJob(null);
               }}
               activeHubCenter={activeHubCenter}
               activeHubZoom={activeHubZoom}

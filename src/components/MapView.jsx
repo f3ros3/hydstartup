@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import { 
   Building2, 
@@ -13,7 +13,6 @@ import {
 } from 'lucide-react';
 import { LinkedInIcon } from './Icons';
 import CompanyLogo, { getCompanyLogoUrl } from './CompanyLogo';
-import AnimatedApplyButton from './AnimatedApplyButton';
 
 // Controller component to smoothly fly map and automatically handle container resizing
 function MapController({ targetCenter, targetZoom, selectedCompany }) {
@@ -47,6 +46,18 @@ function MapController({ targetCenter, targetZoom, selectedCompany }) {
     }
   }, [targetCenter, targetZoom, selectedCompany, map]);
 
+  return null;
+}
+
+// Map Click Listener to reset search and selections on clicking open space
+function MapEventsHandler({ onResetSearch }) {
+  useMapEvents({
+    click: () => {
+      if (onResetSearch) {
+        onResetSearch();
+      }
+    }
+  });
   return null;
 }
 
@@ -108,6 +119,7 @@ export default function MapView({
   onSelectCompany,
   onSelectJobForCompany,
   onOpenCompanyDetails,
+  onResetSearch,
   activeHubCenter,
   activeHubZoom,
   isFullView = false
@@ -138,10 +150,10 @@ export default function MapView({
         preferCanvas={true}
         className="w-full h-full z-0"
       >
-        {/* CartoDB Tiles */}
+        {/* OpenStreetMap Clean Tiles - 100% Free, Zero Watermarks, Zero API Key */}
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           maxZoom={19}
           keepBuffer={6}
           updateWhenZooming={false}
@@ -154,9 +166,13 @@ export default function MapView({
           selectedCompany={selectedCompany}
         />
 
+        <MapEventsHandler onResetSearch={onResetSearch} />
+
         {companies.map((company) => {
           if (!company.coordinates || company.coordinates.length !== 2) return null;
           const isSelected = selectedCompany?.id === company.id;
+
+          const careerUrl = company.careerUrl || `https://www.google.com/search?q=${encodeURIComponent(company.name + ' careers hyderabad')}`;
 
           return (
             <Marker
@@ -167,7 +183,10 @@ export default function MapView({
                 if (ref) markerRefs.current[company.id] = ref;
               }}
               eventHandlers={{
-                click: () => onSelectCompany(company)
+                click: (e) => {
+                  e.originalEvent?.stopPropagation?.();
+                  onSelectCompany(company);
+                }
               }}
             >
               <Popup className="custom-popup">
@@ -224,39 +243,51 @@ export default function MapView({
                     </div>
                   )}
 
-                  {/* Actions */}
-                  <div className="space-y-2 pt-1 border-t dark:border-slate-800/80 border-slate-200/80">
-                    <div className="w-full flex justify-center">
-                      <AnimatedApplyButton
-                        onClick={() => onSelectJobForCompany(company)}
-                        size="sm"
-                        className="w-full justify-center"
-                        color="#059669"
-                      >
-                        Explore Open Jobs ({company.openRolesCount || 0})
-                      </AnimatedApplyButton>
-                    </div>
+                  {/* Perfectly Aligned Actions Section */}
+                  <div className="space-y-2 pt-2 border-t dark:border-slate-800/80 border-slate-200/80">
+                    
+                    {/* Primary Button: Direct Redirect to Official Career Page */}
+                    <a
+                      href={careerUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onSelectJobForCompany?.(company);
+                      }}
+                      className="w-full h-9 px-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-md hover:shadow-emerald-500/25 transition-all cursor-pointer no-underline group"
+                    >
+                      <Briefcase className="w-4 h-4 text-emerald-100" />
+                      <span>Explore Open Jobs ({company.openRolesCount || 0})</span>
+                      <ExternalLink className="w-3.5 h-3.5 text-emerald-200 ml-auto opacity-75 group-hover:opacity-100 transition-opacity" />
+                    </a>
 
-                    <div className="grid grid-cols-2 gap-1.5">
+                    {/* Secondary 2-Column Equal Grid */}
+                    <div className="grid grid-cols-2 gap-2">
                       <button
-                        onClick={() => onOpenCompanyDetails(company)}
-                        className="py-1.5 px-2 text-center rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-semibold border dark:border-slate-700 border-slate-200 transition-colors cursor-pointer"
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onOpenCompanyDetails(company);
+                        }}
+                        className="h-8.5 px-2.5 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold border dark:border-slate-700 border-slate-300 flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
                       >
-                        Company Profile
+                        <Building2 className="w-3.5 h-3.5 text-slate-400" />
+                        <span>Profile</span>
                       </button>
 
-                      {company.careerUrl && (
-                        <a
-                          href={company.careerUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="py-1.5 px-2 text-center rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-400 bg-slate-100 hover:bg-slate-200 text-purple-600 text-[11px] font-semibold border dark:border-slate-700 border-slate-200 flex items-center justify-center gap-1 transition-colors"
-                        >
-                          <span>Careers</span>
-                          <ExternalLink className="w-2.5 h-2.5" />
-                        </a>
-                      )}
+                      <a
+                        href={careerUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="h-8.5 px-2.5 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-400 bg-slate-100 hover:bg-slate-200 text-purple-700 text-[11px] font-bold border dark:border-slate-700 border-slate-300 flex items-center justify-center gap-1.5 transition-colors no-underline cursor-pointer"
+                      >
+                        <span>Careers</span>
+                        <ExternalLink className="w-3 h-3 text-cyan-400" />
+                      </a>
                     </div>
+
                   </div>
 
                 </div>
