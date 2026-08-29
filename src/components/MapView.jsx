@@ -246,7 +246,7 @@ export default function MapView({
                   {/* Perfectly Aligned Actions Section */}
                   <div className="space-y-2 pt-2 border-t dark:border-slate-800/80 border-slate-200/80">
                     
-                    {/* Primary Button: Direct Redirect to Official Career Page */}
+                    {/* Primary Button: Direct Redirect to Official Career Page with Crisp High-Contrast Color */}
                     <a
                       href={careerUrl}
                       target="_blank"
@@ -255,24 +255,27 @@ export default function MapView({
                         e.stopPropagation();
                         onSelectJobForCompany?.(company);
                       }}
-                      className="w-full h-9 px-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-md hover:shadow-emerald-500/25 transition-all cursor-pointer no-underline group"
+                      className="w-full h-9 px-3.5 rounded-xl bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-600 hover:from-emerald-400 hover:to-teal-500 !text-white font-black text-xs flex items-center justify-between shadow-md shadow-emerald-500/25 transition-all cursor-pointer no-underline group"
+                      style={{ color: '#ffffff' }}
                     >
-                      <Briefcase className="w-4 h-4 text-emerald-100" />
-                      <span>Explore Open Jobs ({company.openRolesCount || 0})</span>
-                      <ExternalLink className="w-3.5 h-3.5 text-emerald-200 ml-auto opacity-75 group-hover:opacity-100 transition-opacity" />
+                      <div className="flex items-center gap-2">
+                        <Briefcase className="w-4 h-4 text-white shrink-0" />
+                        <span className="!text-white font-extrabold tracking-tight">Explore Open Jobs ({company.openRolesCount || 0})</span>
+                      </div>
+                      <ExternalLink className="w-3.5 h-3.5 text-white/90 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform shrink-0" />
                     </a>
 
-                    {/* Secondary 2-Column Equal Grid */}
-                    <div className="grid grid-cols-2 gap-2">
+                    {/* Secondary Actions: Form-fitted buttons without excess empty spaces */}
+                    <div className="flex items-center gap-2">
                       <button
                         type="button"
                         onClick={(e) => {
                           e.stopPropagation();
                           onOpenCompanyDetails(company);
                         }}
-                        className="h-8.5 px-2.5 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-200 bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold border dark:border-slate-700 border-slate-300 flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
+                        className="flex-1 h-8 px-3 rounded-lg dark:bg-slate-800/90 dark:hover:bg-slate-700/90 dark:text-slate-100 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold border dark:border-slate-700/80 border-slate-300 flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-sm"
                       >
-                        <Building2 className="w-3.5 h-3.5 text-slate-400" />
+                        <Building2 className="w-3.5 h-3.5 dark:text-slate-300 text-slate-600" />
                         <span>Profile</span>
                       </button>
 
@@ -281,10 +284,10 @@ export default function MapView({
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                        className="h-8.5 px-2.5 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-400 bg-slate-100 hover:bg-slate-200 text-purple-700 text-[11px] font-bold border dark:border-slate-700 border-slate-300 flex items-center justify-center gap-1.5 transition-colors no-underline cursor-pointer"
+                        className="flex-1 h-8 px-3 rounded-lg dark:bg-cyan-500/15 dark:hover:bg-cyan-500/25 dark:text-cyan-300 bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-bold border dark:border-cyan-500/30 border-purple-200 flex items-center justify-center gap-1.5 transition-all no-underline cursor-pointer shadow-sm"
                       >
                         <span>Careers</span>
-                        <ExternalLink className="w-3 h-3 text-cyan-400" />
+                        <ExternalLink className="w-3 h-3 dark:text-cyan-300 text-purple-600" />
                       </a>
                     </div>
 

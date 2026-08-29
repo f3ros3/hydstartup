@@ -12,6 +12,7 @@ import BookmarksDrawer from './components/BookmarksDrawer';
 import AnalyticsModal from './components/AnalyticsModal';
 import NewsletterSection from './components/NewsletterSection';
 import FloatingTechBackground from './components/FloatingTechBackground';
+import JobsDisclaimerToast from './components/JobsDisclaimerToast';
 import { InstagramIcon } from './components/Icons';
 
 import { HYDERABAD_COMPANIES } from './data/companies';
@@ -39,6 +40,14 @@ export default function App() {
   const [viewMode, setViewMode] = useState('split');
   const [mobileSplitTab, setMobileSplitTab] = useState('map'); // 'map' is default on mobile!
   const [isMobileExpandedJobs, setIsMobileExpandedJobs] = useState(false);
+  const [showJobsDisclaimer, setShowJobsDisclaimer] = useState(false);
+
+  const handleSetViewMode = (mode) => {
+    setViewMode(mode);
+    if (mode === 'jobs') {
+      setShowJobsDisclaimer(true);
+    }
+  };
 
   // Adjustable Split Pane Ratio (Map Width %)
   const [splitRatio, setSplitRatio] = useState(58); // Default 58% Map, 42% Jobs
@@ -432,14 +441,19 @@ export default function App() {
       {/* Top Navbar with Theme Toggle */}
       <Navbar
         viewMode={viewMode}
-        setViewMode={setViewMode}
+        setViewMode={handleSetViewMode}
         totalCompanies={HYDERABAD_COMPANIES.length}
         totalJobs={allJobs.length}
         bookmarksCount={bookmarkedIds.length}
         onOpenBookmarks={() => setIsBookmarksDrawerOpen(true)}
         onOpenAnalytics={() => setIsAnalyticsModalOpen(true)}
         mobileSplitTab={mobileSplitTab}
-        setMobileSplitTab={setMobileSplitTab}
+        setMobileSplitTab={(tab) => {
+          setMobileSplitTab(tab);
+          if (tab === 'jobs') {
+            setShowJobsDisclaimer(true);
+          }
+        }}
         isDark={isDark}
         onToggleTheme={handleToggleTheme}
       />
@@ -810,6 +824,13 @@ export default function App() {
       <AnalyticsModal
         isOpen={isAnalyticsModalOpen}
         onClose={() => setIsAnalyticsModalOpen(false)}
+      />
+
+      {/* 4-Second Jobs Board Disclaimer Toast */}
+      <JobsDisclaimerToast
+        isOpen={showJobsDisclaimer}
+        onClose={() => setShowJobsDisclaimer(false)}
+        duration={4000}
       />
 
     </div>
