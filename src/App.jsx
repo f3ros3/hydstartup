@@ -826,11 +826,11 @@ export default function App() {
         onClose={() => setIsAnalyticsModalOpen(false)}
       />
 
-      {/* 4-Second Jobs Board Disclaimer Toast */}
+      {/* 6-Second Centered Jobs Board Disclaimer Modal with Dark Backdrop */}
       <JobsDisclaimerToast
         isOpen={showJobsDisclaimer}
         onClose={() => setShowJobsDisclaimer(false)}
-        duration={4000}
+        duration={6000}
       />
 
     </div>
