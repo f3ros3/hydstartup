@@ -31,6 +31,17 @@
     transition-duration: 0.35s;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  /* Accessibility: High-contrast focus indicators for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid #10B981;
+    outline-offset: 2px;
+  }
+  
+  html.light :focus-visible {
+    outline: 2px solid #EA580C;
+    outline-offset: 2px;
+  }
 }
 
 /* DARK MODE DUAL GRADIENT */

@@ -13,6 +13,11 @@ import AnalyticsModal from './components/AnalyticsModal';
 import NewsletterSection from './components/NewsletterSection';
 import FloatingTechBackground from './components/FloatingTechBackground';
 import JobsDisclaimerToast from './components/JobsDisclaimerToast';
+import Footer from './components/Footer';
+import PrivacyPolicyModal from './components/PrivacyPolicyModal';
+import TermsModal from './components/TermsModal';
+import CookiePolicyModal from './components/CookiePolicyModal';
+import CookieConsentBanner from './components/CookieConsentBanner';
 import { InstagramIcon } from './components/Icons';
 
 import { HYDERABAD_COMPANIES } from './data/companies';
@@ -41,6 +46,18 @@ export default function App() {
   const [mobileSplitTab, setMobileSplitTab] = useState('map'); // 'map' is default on mobile!
   const [isMobileExpandedJobs, setIsMobileExpandedJobs] = useState(false);
   const [showJobsDisclaimer, setShowJobsDisclaimer] = useState(false);
+
+  // Legal & Compliance Modals
+  const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
+  const [isTermsModalOpen, setIsTermsModalOpen] = useState(false);
+  const [isCookieModalOpen, setIsCookieModalOpen] = useState(false);
+  const [isCookieBannerOpen, setIsCookieBannerOpen] = useState(() => {
+    try {
+      return !localStorage.getItem('hyd_cookie_consent');
+    } catch {
+      return true;
+    }
+  });
 
   const handleSetViewMode = (mode) => {
     setViewMode(mode);
@@ -107,6 +124,40 @@ export default function App() {
   const handleToggleTheme = () => {
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
   };
+
+  // Cookie Consent Handlers
+  const handleAcceptAllCookies = () => {
+    try {
+      localStorage.setItem('hyd_cookie_consent', 'accepted_all');
+    } catch (e) {}
+    setIsCookieBannerOpen(false);
+  };
+
+  const handleRejectNonEssentialCookies = () => {
+    try {
+      localStorage.setItem('hyd_cookie_consent', 'essential_only');
+    } catch (e) {}
+    setIsCookieBannerOpen(false);
+  };
+
+  // Global Keyboard Escape Listener to dismiss any active modal
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        setIsJobModalOpen(false);
+        setIsCompanyModalOpen(false);
+        setIsPostJobModalOpen(false);
+        setIsBookmarksDrawerOpen(false);
+        setIsAnalyticsModalOpen(false);
+        setIsPrivacyModalOpen(false);
+        setIsTermsModalOpen(false);
+        setIsCookieModalOpen(false);
+        setShowJobsDisclaimer(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   useEffect(() => {
     try {
@@ -749,36 +800,15 @@ export default function App() {
       {/* Newsletter Subscription Section */}
       <NewsletterSection />
 
-      {/* FOOTER: Created by Tech With Shaik & Copyright Notice (Transparent Background) */}
-      <footer className="relative z-10 mt-12 bg-transparent dark:bg-slate-950/20 bg-white/20 backdrop-blur-[3px] border-t dark:border-slate-800/40 border-slate-200/40 py-8 px-4 sm:px-8 text-center text-xs dark:text-slate-400 text-slate-600 transition-colors">
-        <div className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center gap-4">
-          
-          {/* Created by Button linked to Instagram */}
-          <div className="flex items-center gap-3">
-            <a
-              href="https://www.instagram.com/techwithshaik/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative inline-flex items-center gap-2.5 px-6 py-2.5 rounded-2xl bg-gradient-to-r from-purple-600 via-pink-600 to-rose-500 text-white font-black text-xs sm:text-sm shadow-lg shadow-pink-500/25 hover:shadow-pink-500/40 hover:scale-105 transition-all cursor-pointer"
-            >
-              <InstagramIcon className="w-4 h-4" />
-              <span>Created by @techwithshaik</span>
-              <span className="px-2 py-0.5 rounded-full bg-white/20 text-[10px] font-extrabold tracking-wide">Follow</span>
-            </a>
-          </div>
-
-          {/* Copyright Notice */}
-          <div className="space-y-1">
-            <p className="dark:text-slate-300 text-slate-800 font-bold text-xs sm:text-sm">
-              Copyright belongs to <span className="dark:text-emerald-400 text-orange-600 font-extrabold">"Tech With Shaik | TWS"</span> account.
-            </p>
-            <p className="text-[11px] text-slate-500">
-              HydStartupArena • One Stop for All Tech Jobs
-            </p>
-          </div>
-
-        </div>
-      </footer>
+      {/* Structured Business Footer with Legal & Nav Links */}
+      <Footer
+        onOpenPrivacy={() => setIsPrivacyModalOpen(true)}
+        onOpenTerms={() => setIsTermsModalOpen(true)}
+        onOpenCookiePolicy={() => setIsCookieModalOpen(true)}
+        onOpenCookieSettings={() => setIsCookieBannerOpen(true)}
+        onOpenAnalytics={() => setIsAnalyticsModalOpen(true)}
+        setViewMode={handleSetViewMode}
+      />
 
       {/* Modals */}
       <JobDetailsModal
@@ -831,6 +861,36 @@ export default function App() {
         isOpen={showJobsDisclaimer}
         onClose={() => setShowJobsDisclaimer(false)}
         duration={6000}
+      />
+
+      {/* Privacy Policy Modal */}
+      <PrivacyPolicyModal
+        isOpen={isPrivacyModalOpen}
+        onClose={() => setIsPrivacyModalOpen(false)}
+      />
+
+      {/* Terms and Conditions Modal */}
+      <TermsModal
+        isOpen={isTermsModalOpen}
+        onClose={() => setIsTermsModalOpen(false)}
+      />
+
+      {/* Cookie Policy Modal */}
+      <CookiePolicyModal
+        isOpen={isCookieModalOpen}
+        onClose={() => setIsCookieModalOpen(false)}
+        onOpenSettings={() => {
+          setIsCookieModalOpen(false);
+          setIsCookieBannerOpen(true);
+        }}
+      />
+
+      {/* Interactive Cookie Consent Banner */}
+      <CookieConsentBanner
+        isOpen={isCookieBannerOpen}
+        onAcceptAll={handleAcceptAllCookies}
+        onRejectNonEssential={handleRejectNonEssentialCookies}
+        onOpenPolicy={() => setIsCookieModalOpen(true)}
       />
 
     </div>
