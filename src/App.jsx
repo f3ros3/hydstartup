@@ -47,6 +47,10 @@ export default function App() {
   const [isMobileExpandedJobs, setIsMobileExpandedJobs] = useState(false);
   const [showJobsDisclaimer, setShowJobsDisclaimer] = useState(false);
 
+  // Pagination for Jobs Board & Company Directory (Performance Optimization)
+  const [visibleJobsCount, setVisibleJobsCount] = useState(24);
+  const [visibleCompaniesCount, setVisibleCompaniesCount] = useState(24);
+
   // Legal & Compliance Modals
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
   const [isTermsModalOpen, setIsTermsModalOpen] = useState(false);
@@ -736,12 +740,12 @@ export default function App() {
                 <p className="text-xs dark:text-slate-400 text-slate-500">Curated opportunities across top startups, unicorns & global tech centers</p>
               </div>
               <span className="text-xs font-mono font-black dark:text-emerald-400 dark:bg-emerald-500/10 text-orange-700 bg-orange-500/10 px-3.5 py-1.5 rounded-xl border dark:border-emerald-500/20 border-orange-500/20">
-                {filteredJobs.length} Positions Available
+                Showing {Math.min(visibleJobsCount, filteredJobs.length)} of {filteredJobs.length} Positions Available
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5">
-              {filteredJobs.map((job) => (
+              {filteredJobs.slice(0, visibleJobsCount).map((job) => (
                 <JobCard
                   key={job.id}
                   job={job}
@@ -761,6 +765,32 @@ export default function App() {
                 />
               ))}
             </div>
+
+            {/* Load More Jobs Button */}
+            {filteredJobs.length > 24 && (
+              <div className="pt-4 pb-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                {visibleJobsCount < filteredJobs.length ? (
+                  <button
+                    onClick={() => setVisibleJobsCount(prev => prev + 24)}
+                    className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-gradient-to-r from-emerald-500 via-teal-600 to-cyan-600 hover:from-emerald-400 hover:to-cyan-500 text-slate-950 font-black text-xs sm:text-sm shadow-xl shadow-emerald-500/20 flex items-center justify-center gap-2 cursor-pointer hover:scale-[1.02] active:scale-[0.98] transition-all"
+                  >
+                    <span>Load More Opportunities ({filteredJobs.length - visibleJobsCount} Remaining)</span>
+                    <ChevronDown className="w-4 h-4 stroke-[3]" />
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      setVisibleJobsCount(24);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="w-full sm:w-auto px-6 py-2.5 rounded-2xl dark:bg-slate-800/80 bg-slate-200/80 hover:bg-slate-300 dark:text-slate-300 text-slate-800 font-bold text-xs flex items-center justify-center gap-1.5 border dark:border-slate-700 border-slate-300 cursor-pointer transition-all"
+                  >
+                    <span>Show Less</span>
+                    <ChevronUp className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+            )}
           </div>
         )}
 
@@ -773,12 +803,12 @@ export default function App() {
                 <p className="text-xs dark:text-slate-400 text-slate-500">Explore founders, tech stacks, valuations, and verified careers links</p>
               </div>
               <span className="text-xs font-mono font-black dark:text-cyan-400 dark:bg-cyan-500/10 text-purple-700 bg-purple-500/10 px-3.5 py-1.5 rounded-xl border dark:border-cyan-500/20 border-purple-500/20">
-                {filteredCompanies.length} Organizations
+                Showing {Math.min(visibleCompaniesCount, filteredCompanies.length)} of {filteredCompanies.length} Organizations
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5">
-              {filteredCompanies.map((company) => (
+              {filteredCompanies.slice(0, visibleCompaniesCount).map((company) => (
                 <CompanyCard
                   key={company.id}
                   company={company}
@@ -792,6 +822,32 @@ export default function App() {
                 />
               ))}
             </div>
+
+            {/* Load More Companies Button */}
+            {filteredCompanies.length > 24 && (
+              <div className="pt-4 pb-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                {visibleCompaniesCount < filteredCompanies.length ? (
+                  <button
+                    onClick={() => setVisibleCompaniesCount(prev => prev + 24)}
+                    className="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-black text-xs sm:text-sm shadow-xl shadow-cyan-500/20 flex items-center justify-center gap-2 cursor-pointer hover:scale-[1.02] active:scale-[0.98] transition-all"
+                  >
+                    <span>Load More Startups ({filteredCompanies.length - visibleCompaniesCount} Remaining)</span>
+                    <ChevronDown className="w-4 h-4 stroke-[3]" />
+                  </button>
+                ) : (
+                  <button
+                    onClick={() => {
+                      setVisibleCompaniesCount(24);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="w-full sm:w-auto px-6 py-2.5 rounded-2xl dark:bg-slate-800/80 bg-slate-200/80 hover:bg-slate-300 dark:text-slate-300 text-slate-800 font-bold text-xs flex items-center justify-center gap-1.5 border dark:border-slate-700 border-slate-300 cursor-pointer transition-all"
+                  >
+                    <span>Show Less</span>
+                    <ChevronUp className="w-4 h-4" />
+                  </button>
+                )}
+              </div>
+            )}
           </div>
         )}
 
