@@ -129,14 +129,14 @@ export default function Navbar({
         {/* ROW 2: View Switchers */}
         <div className="py-1.5 sm:py-2.5 border-t dark:border-slate-800/40 border-slate-200/40 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2">
           
-          {/* View Mode Switcher Buttons */}
-          <div className="grid grid-cols-4 sm:flex items-center gap-1.5 sm:gap-2 dark:bg-slate-900/50 bg-white/50 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm flex-1 sm:max-w-2xl">
+          {/* View Mode Switcher Buttons - Fitted tightly with zero excess empty space */}
+          <div className="grid grid-cols-4 sm:inline-flex items-center gap-1 sm:gap-1.5 dark:bg-slate-900/50 bg-white/50 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm w-full sm:w-auto">
             
             <button
               onClick={() => setViewMode('split')}
               aria-label="Switch to Split Map and Jobs View"
               aria-pressed={viewMode === 'split'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2 sm:px-5 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'split'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
@@ -150,7 +150,7 @@ export default function Navbar({
               onClick={() => setViewMode('map')}
               aria-label="Switch to Full Map View"
               aria-pressed={viewMode === 'map'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2 sm:px-5 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'map'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
@@ -164,7 +164,7 @@ export default function Navbar({
               onClick={() => setViewMode('jobs')}
               aria-label="Switch to Jobs Board View"
               aria-pressed={viewMode === 'jobs'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2 sm:px-5 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'jobs'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
@@ -178,7 +178,7 @@ export default function Navbar({
               onClick={() => setViewMode('companies')}
               aria-label="Switch to Company Directory View"
               aria-pressed={viewMode === 'companies'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2 sm:px-5 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'companies'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
