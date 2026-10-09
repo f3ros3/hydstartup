@@ -22,23 +22,6 @@ Live Interactive Platform featuring real-time cluster map (T-Hub, HITEC City, Ga
 
 ---
 
-## 🚀 Quickstart
-`ash
-# Clone the repository
-git clone https://github.com/f3ros3/hydstartup.git
-
-# Navigate to project
-cd hydstartup
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-`
-
----
-
 ## 👤 Author & Attribution
 - **Created by**: [@techwithshaik](https://www.instagram.com/techwithshaik/)
-- **Copyright**: Belongs to **Tech With Shaik | TWS** account.
+- **Copyright**: Belongs to **Tech With Shaik | TWS**
