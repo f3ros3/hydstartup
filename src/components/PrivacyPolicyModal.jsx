@@ -126,7 +126,7 @@ export default function PrivacyPolicyModal({ isOpen, onClose }) {
             <div className="p-3.5 rounded-2xl dark:bg-slate-900 bg-slate-50 border dark:border-slate-800 border-slate-200 text-xs space-y-1">
               <p><strong>Entity:</strong> Tech With Shaik (TWS) — HydStartupArena</p>
               <p><strong>Location:</strong> Hyderabad, Telangana, India - 500081</p>
-              <p><strong>Email:</strong> <a href="mailto:contact@hydstartup.online" className="text-emerald-500 font-bold underline">contact@hydstartup.online</a></p>
+              <p><strong>Email:</strong> <a href="mailto:techwithshaik2@gmail.com" className="text-emerald-500 font-bold underline">techwithshaik2@gmail.com</a></p>
               <p><strong>Social:</strong> <a href="https://www.instagram.com/techwithshaik/" target="_blank" rel="noopener noreferrer" className="text-purple-500 font-bold underline">@techwithshaik</a></p>
             </div>
           </section>

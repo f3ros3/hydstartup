@@ -9,10 +9,15 @@ import {
   Search, 
   Compass, 
   LayoutGrid, 
-  Map as MapIcon 
+  Map as MapIcon,
+  BookOpen,
+  Layers,
+  PlusCircle,
+  Flag,
+  HelpCircle,
+  Mail
 } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
-
 import CharminarLogo from './CharminarLogo';
 
 export default function Navbar({ 
@@ -23,17 +28,21 @@ export default function Navbar({
   bookmarksCount, 
   onOpenBookmarks, 
   onOpenAnalytics, 
+  onOpenSubmit,
+  onOpenReport,
+  onOpenAbout,
+  onOpenContact,
   mobileSplitTab, 
   setMobileSplitTab,
   isDark,
   onToggleTheme
 }) {
   return (
-    <header className="sticky top-0 z-40 bg-transparent dark:bg-slate-950/25 bg-white/25 backdrop-blur-[4px] border-b dark:border-slate-800/40 border-slate-200/40 transition-all" role="banner">
+    <header className="sticky top-0 z-40 bg-transparent dark:bg-slate-950/30 bg-white/30 backdrop-blur-md border-b dark:border-slate-800/40 border-slate-200/40 transition-all" role="banner">
       <div className="w-full px-2.5 sm:px-6 lg:px-10">
         
-        {/* ROW 1: Left Stats | CENTER BIG HEADING | Right: Actions */}
-        <div className="flex items-center justify-between min-h-0 sm:min-h-[68px] py-1 sm:py-2 gap-2">
+        {/* ROW 1: Left Brand & Stats | CENTER HEADING | Right: Actions */}
+        <div className="flex items-center justify-between min-h-0 sm:min-h-[68px] py-1.5 sm:py-2 gap-2">
           
           {/* LEFT: Brand Emblem & Live Stats */}
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
@@ -52,11 +61,11 @@ export default function Navbar({
             <div className="hidden xl:flex flex-col text-xs dark:text-slate-200 text-slate-800 font-semibold drop-shadow-sm">
               <span className="flex items-center gap-1.5 text-emerald-500 dark:text-emerald-400 font-bold">
                 <Building2 className="w-3.5 h-3.5" aria-hidden="true" />
-                {totalCompanies} Startups & Tech Giants
+                {totalCompanies}+ Startups & Tech Giants
               </span>
               <span className="flex items-center gap-1.5 text-cyan-600 dark:text-cyan-400 font-bold">
                 <Briefcase className="w-3.5 h-3.5" aria-hidden="true" />
-                {totalJobs} Curated Openings
+                {totalJobs}+ Verified Open Roles
               </span>
             </div>
           </div>
@@ -69,9 +78,9 @@ export default function Navbar({
             aria-label="HydStartupArena - One Stop for All Tech Jobs"
           >
             <div className="flex items-center justify-center">
-              <h1 className="text-xl sm:text-3xl lg:text-4xl xl:text-[2.65rem] font-black tracking-tight dark:text-white text-slate-950 whitespace-nowrap">
+              <span className="text-xl sm:text-3xl lg:text-4xl xl:text-[2.65rem] font-black tracking-tight dark:text-white text-slate-950 whitespace-nowrap">
                 HydStartup<span className="dark:text-emerald-400 text-orange-600">Arena</span>
-              </h1>
+              </span>
             </div>
             <p className="text-[10px] sm:text-sm lg:text-[15px] dark:text-slate-200 text-slate-800 font-extrabold tracking-wide -mt-0.5 sm:mt-0.5 whitespace-nowrap">
               One Stop for All Tech Job
@@ -79,8 +88,18 @@ export default function Navbar({
           </button>
 
           {/* RIGHT: Actions */}
-          <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
+          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
             
+            {/* Submit Startup / Job Button */}
+            <button
+              onClick={onOpenSubmit}
+              aria-label="Submit a Startup or Job"
+              className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md shadow-emerald-500/20 active:scale-95 transition-all cursor-pointer"
+            >
+              <PlusCircle className="w-3.5 h-3.5" />
+              <span>Submit</span>
+            </button>
+
             {/* Desktop Theme Toggle */}
             <div className="hidden sm:block">
               <ThemeToggle 
@@ -92,7 +111,7 @@ export default function Navbar({
             <button
               onClick={onOpenAnalytics}
               aria-label="View Hyderabad Ecosystem Intelligence and Analytics"
-              className="p-1.5 sm:px-3 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-cyan-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-purple-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-cyan-400"
+              className="p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-cyan-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-purple-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-cyan-400"
               title="Hyderabad Ecosystem Intelligence"
             >
               <BarChart3 className="w-4 h-4 dark:text-cyan-400 text-purple-600" aria-hidden="true" />
@@ -102,7 +121,7 @@ export default function Navbar({
             <button
               onClick={onOpenBookmarks}
               aria-label={`Saved Opportunities (${bookmarksCount} saved)`}
-              className="relative p-1.5 sm:px-3 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-emerald-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-emerald-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-emerald-400"
+              className="relative p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-emerald-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-emerald-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-emerald-400"
               title="Saved Opportunities"
             >
               <Bookmark className="w-4 h-4" aria-hidden="true" />
@@ -117,32 +136,42 @@ export default function Navbar({
 
         </div>
 
-        {/* MOBILE ONLY: Theme Toggle (Tight Zero Space) */}
+        {/* MOBILE ONLY: Quick Action & Theme Row */}
         <div className="flex sm:hidden items-center justify-between py-1 border-t dark:border-slate-800/40 border-slate-200/40">
-          <span className="text-[11px] font-bold dark:text-slate-300 text-slate-700">Theme Mode:</span>
-          <ThemeToggle 
-            isDark={isDark} 
-            onToggle={onToggleTheme} 
-          />
+          <button
+            onClick={onOpenSubmit}
+            className="inline-flex items-center gap-1 px-2.5 py-1 bg-emerald-600 text-white rounded-lg text-[11px] font-bold"
+          >
+            <PlusCircle className="w-3 h-3" />
+            + Submit Startup
+          </button>
+          
+          <div className="flex items-center gap-2">
+            <span className="text-[11px] font-bold dark:text-slate-300 text-slate-700">Theme:</span>
+            <ThemeToggle 
+              isDark={isDark} 
+              onToggle={onToggleTheme} 
+            />
+          </div>
         </div>
 
-        {/* ROW 2: View Switchers */}
-        <div className="py-1.5 sm:py-2.5 border-t dark:border-slate-800/40 border-slate-200/40 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2">
+        {/* ROW 2: View Switchers & Navigation */}
+        <div className="py-1.5 sm:py-2 border-t dark:border-slate-800/40 border-slate-200/40 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-2">
           
-          {/* View Mode Switcher Buttons - Fitted tightly with zero excess empty space */}
-          <div className="grid grid-cols-4 sm:inline-flex items-center gap-1 sm:gap-1.5 dark:bg-slate-900/50 bg-white/50 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm w-full sm:w-auto">
+          {/* View Mode Switcher Buttons */}
+          <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none dark:bg-slate-900/50 bg-white/50 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm">
             
             <button
               onClick={() => setViewMode('split')}
               aria-label="Switch to Split Map and Jobs View"
               aria-pressed={viewMode === 'split'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'split'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
               }`}
             >
-              <Compass className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" aria-hidden="true" />
+              <Compass className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
               <span>Split View</span>
             </button>
 
@@ -150,13 +179,13 @@ export default function Navbar({
               onClick={() => setViewMode('map')}
               aria-label="Switch to Full Map View"
               aria-pressed={viewMode === 'map'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'map'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
               }`}
             >
-              <MapIcon className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" aria-hidden="true" />
+              <MapIcon className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
               <span>Full Map</span>
             </button>
 
@@ -164,13 +193,13 @@ export default function Navbar({
               onClick={() => setViewMode('jobs')}
               aria-label="Switch to Jobs Board View"
               aria-pressed={viewMode === 'jobs'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'jobs'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
               }`}
             >
-              <Briefcase className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" aria-hidden="true" />
+              <Briefcase className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
               <span>Jobs Board</span>
             </button>
 
@@ -178,16 +207,69 @@ export default function Navbar({
               onClick={() => setViewMode('companies')}
               aria-label="Switch to Company Directory View"
               aria-pressed={viewMode === 'companies'}
-              className={`flex items-center justify-center gap-1.5 sm:gap-2 py-1.5 sm:py-2 px-2.5 sm:px-4 rounded-xl text-xs font-extrabold transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'companies'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
                   : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
               }`}
             >
-              <Building2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" aria-hidden="true" />
-              <span>Directory</span>
+              <Building2 className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+              <span>Startups Directory</span>
             </button>
 
+            <button
+              onClick={() => setViewMode('articles')}
+              aria-label="Switch to Tech Articles & Guides"
+              aria-pressed={viewMode === 'articles'}
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+                viewMode === 'articles'
+                  ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
+                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
+              }`}
+            >
+              <BookOpen className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+              <span>Research & Guides</span>
+            </button>
+
+            <button
+              onClick={() => setViewMode('sectors')}
+              aria-label="Switch to Industry Sectors"
+              aria-pressed={viewMode === 'sectors'}
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+                viewMode === 'sectors'
+                  ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
+                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
+              }`}
+            >
+              <Layers className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+              <span>Sectors</span>
+            </button>
+
+          </div>
+
+          {/* Quick Info & Report Links */}
+          <div className="hidden md:flex items-center gap-3 text-xs font-semibold">
+            <button
+              onClick={onOpenAbout}
+              className="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
+            >
+              About
+            </button>
+            <span className="text-slate-300 dark:text-slate-700">•</span>
+            <button
+              onClick={onOpenContact}
+              className="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
+            >
+              Contact
+            </button>
+            <span className="text-slate-300 dark:text-slate-700">•</span>
+            <button
+              onClick={() => onOpenReport('')}
+              className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400 hover:underline transition-colors"
+            >
+              <Flag className="w-3 h-3" />
+              Report Issue
+            </button>
           </div>
 
           {/* Mobile Split-View Mode Toggle */}
@@ -215,14 +297,6 @@ export default function Navbar({
               </button>
             </div>
           )}
-
-          {/* Desktop Tagline */}
-          <div className="hidden lg:flex items-center gap-2 text-xs dark:text-slate-300 text-slate-700 font-bold drop-shadow-sm">
-            <span className="flex items-center gap-1.5 dark:text-emerald-400 text-orange-600 font-bold">
-              <Sparkles className="w-3.5 h-3.5" />
-              T-Hub • HITEC City • Gachibowli • Financial District
-            </span>
-          </div>
 
         </div>
 

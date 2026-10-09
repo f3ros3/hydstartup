@@ -1,23 +1,581 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HydStartupArena | Hyderabad Startup Map & Job Portal</title>
-    <meta name="description" content="Discover 70+ top Hyderabad tech startups, unicorns, MNC innovation hubs, and explore 150+ startup jobs with an interactive geospatial map of HITEC City, Gachibowli, T-Hub, Financial District & beyond." />
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4703620599888014"
-         crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="./assets/index-CbycToaQ.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DU3ma-1E.css">
-  </head>
-  <body class="bg-[#0B0F19] text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-white">
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HydStartup Portal | Hyderabad Startups & Tech Job Board</title>
+  <meta name="description" content="Directory and live map of 150+ Hyderabad startups and 500+ curated tech jobs across HITEC City, Gachibowli, Financial District, and T-Hub. Real-time hiring data & research.">
+  <meta name="keywords" content="Hyderabad startups, tech jobs Hyderabad, HITEC City, Gachibowli, T-Hub, FinTech, SaaS, SpaceTech">
+  <meta name="author" content="Tech With Shaik">
+  <link rel="canonical" href="https://hydstartup.online/">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hydstartup.online/">
+  <meta property="og:title" content="HydStartup Portal | Hyderabad Startups & Tech Job Board">
+  <meta property="og:description" content="Directory and live map of 150+ Hyderabad startups and 500+ curated tech jobs across HITEC City, Gachibowli, Financial District, and T-Hub. Real-time hiring data & research.">
+  <meta property="og:site_name" content="HydStartup Portal">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="HydStartup Portal | Hyderabad Startups & Tech Job Board">
+  <meta name="twitter:description" content="Directory and live map of 150+ Hyderabad startups and 500+ curated tech jobs across HITEC City, Gachibowli, Financial District, and T-Hub. Real-time hiring data & research.">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4703620599888014" crossorigin="anonymous"></script>
+
+  <!-- Favicon & Styles -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" crossorigin href="/assets/index-CEPQQ3KW.css">
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "HydStartup Portal",
+  "url": "https://hydstartup.online",
+  "description": "Directory and live map of 150+ Hyderabad startups and 500+ curated tech jobs across HITEC City, Gachibowli, Financial District, and T-Hub. Real-time hiring data & research."
+}
+  </script>
+
+  <style>
+    body { font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; }
+    .prose a { color: #10B981; text-decoration: underline; }
+    .prose a:hover { color: #059669; }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen antialiased selection:bg-emerald-500 selection:text-slate-950">
+  
+  <!-- Pre-rendered Static Content for Search Engines & No-JS Users -->
+  <div id="static-content" class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+    
+    <!-- Top Navigation -->
+    <header class="border-b border-slate-800 pb-6 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <a href="/" class="flex items-center gap-2 text-xl font-black text-white hover:text-emerald-400 transition-colors">
+          <span class="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white text-sm font-bold">HYD</span>
+          <span>HydStartup<span class="text-emerald-400">Arena</span></span>
+        </a>
+        <span class="text-xs bg-slate-800 text-slate-400 px-2.5 py-1 rounded-full font-medium">Verified: October 2026</span>
+      </div>
+
+      <nav class="flex flex-wrap items-center gap-4 text-xs font-semibold text-slate-300">
+        <a href="/" class="hover:text-emerald-400 transition-colors">Directory & Map</a>
+        <a href="/#jobs" class="hover:text-emerald-400 transition-colors">Jobs Board</a>
+        <a href="/#articles" class="hover:text-emerald-400 transition-colors">Research & Guides</a>
+        <a href="/#sectors" class="hover:text-emerald-400 transition-colors">Sectors</a>
+        <a href="/about" class="hover:text-emerald-400 transition-colors">About</a>
+        <a href="/contact" class="hover:text-emerald-400 transition-colors">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Content Injection -->
+    <main class="space-y-8">
+      
+      <section class="space-y-6">
+        <div class="p-8 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 border border-indigo-500/30 rounded-3xl text-white">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-full text-xs font-bold mb-4">
+            🚀 150+ Curated Companies • 500+ Verified Jobs • Updated October 2026
+          </div>
+          <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            Hyderabad Tech & Startup Ecosystem Directory
+          </h1>
+          <p class="mt-3 text-sm sm:text-base text-slate-300 leading-relaxed max-w-3xl">
+            The authoritative, verified guide to Hyderabad's startup clusters across HITEC City, Gachibowli, Financial District, and T-Hub Phase 2. Discover authentic job openings, in-depth company tech stacks, and original research reports.
+          </p>
+        </div>
+
+        <!-- How We Collect and Verify Data -->
+        <div class="p-6 bg-slate-900/60 border border-slate-800 rounded-2xl space-y-3">
+          <h2 class="text-lg font-bold text-white flex items-center gap-2">
+            <span class="text-emerald-400">🛡️</span> How We Collect, Verify & Curate Our Data
+          </h2>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Every company in this portal is manually verified with active offices in Greater Hyderabad. Job vacancies link directly to primary ATS endpoints (Greenhouse, Lever, Workable, Darwinbox) and authentic company career portals. Expired requisitions and spam links are purged on a weekly automated schedule.
+          </p>
+        </div>
+
+        <!-- Featured Startups Directory Preview -->
+        <div class="space-y-4">
+          <div class="flex items-center justify-between">
+            <h2 class="text-xl font-bold text-white">Featured Hyderabad Startups & Unicorns</h2>
+            <span class="text-xs text-slate-400">114 Total Verified Companies</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/darwinbox" class="hover:text-emerald-400 transition-colors">Darwinbox</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">HR Tech • SaaS • Unicorn ($307M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    8 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Leading cloud-based HR tech unicorn modernizing human capital management for global enterprises across 110+ countries.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/darwinbox" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/skyroot" class="hover:text-emerald-400 transition-colors">Skyroot Aerospace</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">SpaceTech • DeepTech • Unicorn ($1.1B Valuation)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    6 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">India's premier private space launch vehicle startup. Successfully launched the Vikram-S sub-orbital rocket into space.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 T-Hub 2.0 / Raidurg, Hyderabad</span>
+                  <a href="/startups/skyroot" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/highradius" class="hover:text-emerald-400 transition-colors">HighRadius</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">FinTech/SaaS • AI • Unicorn ($3.1B Valuation)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    9 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Pioneering SaaS platform for Order-to-Cash and Treasury management powered by Autonomous AI and Data-driven financial engines.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/highradius" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/zenoti" class="hover:text-emerald-400 transition-colors">Zenoti</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Beauty & Wellness SaaS Unicorn • Unicorn ($1.5B+ Valuation)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    6 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Global SaaS unicorn providing all-in-one cloud management software for 20,000+ spas, salons, and medspas across 50+ countries.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/zenoti" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/keka-hr" class="hover:text-emerald-400 transition-colors">Keka HR</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">HR Tech • Payroll & People Analytics • Series A ($57M Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    6 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">India's fastest-growing employee experience and SME payroll platform trusted by 8,000+ businesses and 1.5M+ employees worldwide.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/keka-hr" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/dhruva-space" class="hover:text-emerald-400 transition-colors">Dhruva Space</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">SpaceTech • Small Satellites • Series A ($22M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    4 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">National Award-winning full-stack Space engineering company providing satellite platforms, solar arrays, launch adapters, and earth stations.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 T-Hub 2.0 / Raidurg, Hyderabad</span>
+                  <a href="/startups/dhruva-space" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/kore-ai" class="hover:text-emerald-400 transition-colors">Kore.ai</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Conversational AI • Enterprise GenAI • Series D ($150M Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    5 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Gartner Magic Quadrant Leader for Enterprise Conversational AI Platforms and agentic LLM orchestration.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Gachibowli, Hyderabad</span>
+                  <a href="/startups/kore-ai" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/stan" class="hover:text-emerald-400 transition-colors">Stan (Stan Creator)</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Gaming Tech • Web3 / Creator • Series A ($10M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    5 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Next-gen gaming community & creator engagement platform enabling esports gamers and creators to monetize their communities.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Knowledge City / Raidurg, Hyderabad</span>
+                  <a href="/startups/stan" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/nxtwave" class="hover:text-emerald-400 transition-colors">NxtWave</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">EdTech • Tech Education • Series A ($33M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    6 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Transformative upskilling platform providing 4.0 tech career programs (CCBP 4.0) to students and software aspirants across India.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Gachibowli, Hyderabad</span>
+                  <a href="/startups/nxtwave" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/recykal" class="hover:text-emerald-400 transition-colors">Recykal</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">ClimateTech • Circular Economy • Series B ($35M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    5 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Asia's leading cloud-based circular economy marketplace bridging waste generators, aggregators, and recyclers across India.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/recykal" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/turbohire" class="hover:text-emerald-400 transition-colors">TurboHire</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">HR Tech • AI Recruiting • Series A ($5M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    5 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">AI-augmented recruitment automation platform helping talent teams screen, interview, and hire top talent 3x faster.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/turbohire" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/marut-drones" class="hover:text-emerald-400 transition-colors">Marut Drones</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">DroneTech • AI & Robotics • Series A ($6.2M Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    3 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Pioneering DGCA-certified commercial drone technology for precision agriculture, afforestation, disaster management, and medical logistics.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 T-Hub 2.0 / Raidurg, Hyderabad</span>
+                  <a href="/startups/marut-drones" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/fourth-partner" class="hover:text-emerald-400 transition-colors">Fourth Partner Energy</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Commercial Solar • Renewable Energy • Late Stage ($350M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    4 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">India's top renewable energy solutions platform delivering on-site and off-site solar, battery storage, and EV fleet charging infrastructure.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Madhapur & Durgam Cheruvu</span>
+                  <a href="/startups/fourth-partner" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/mapmygenome" class="hover:text-emerald-400 transition-colors">Mapmygenome</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Genomics • Preventive HealthTech • Series A ($5M+ Raised)</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    3 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Pioneering Indian genomics company offering personalized DNA health mapping, oncology pharmacogenomics, and genetic counseling.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Jubilee & Banjara Hills</span>
+                  <a href="/startups/mapmygenome" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/gmw-ev" class="hover:text-emerald-400 transition-colors">Gayam Motor Works (GMW)</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">CleanTech • EV Mobility • Series A Funded</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    3 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Electric 3-wheeler and smart e-bike manufacturer powering last-mile logistics for Amazon, IKEA, and Flipkart across 15+ countries.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Begumpet / Balanagar Hub, Hyderabad</span>
+                  <a href="/startups/gmw-ev" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/ctrls" class="hover:text-emerald-400 transition-colors">CtrlS Datacenters</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Tier-4 Datacenters • Cloud Infrastructure • Market Leader</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    5 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Asia's largest Rated-4 hyperscale datacenter provider powering mission-critical cloud infrastructure, edge computing, and green colocation.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 HITEC City, Hyderabad</span>
+                  <a href="/startups/ctrls" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/evalueserve" class="hover:text-emerald-400 transition-colors">Evalueserve</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Analytics • Research & AI • Global Growth</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    5 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">Global analytics partner powered by domain-specific AI, research products, and intelligence platforms for Fortune 1000s.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Financial District, Hyderabad</span>
+                  <a href="/startups/evalueserve" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+              <div class="p-5 bg-slate-900/80 border border-slate-800 hover:border-emerald-500/50 rounded-2xl transition-all">
+                <div class="flex items-start justify-between gap-2">
+                  <div>
+                    <h3 class="font-bold text-white text-base">
+                      <a href="/startups/accenture" class="hover:text-emerald-400 transition-colors">Accenture Innovation Hub</a>
+                    </h3>
+                    <div class="text-xs text-slate-400 mt-0.5">Digital Transformation • Cloud & AI • Global Fortune 500</div>
+                  </div>
+                  <span class="px-2 py-0.5 bg-emerald-950/60 border border-emerald-800/60 text-emerald-400 text-[11px] font-bold rounded-md">
+                    12 Roles
+                  </span>
+                </div>
+                <p class="text-xs text-slate-300 mt-2 line-clamp-2 leading-relaxed">World leader in digital transformation, cloud migrations, AI implementations, and global managed technology services.</p>
+                <div class="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
+                  <span class="text-slate-400 text-[11px]">📍 Financial District & HITEC City, Hyderabad</span>
+                  <a href="/startups/accenture" class="text-emerald-400 font-semibold hover:underline">View Profile &rarr;</a>
+                </div>
+              </div>
+            
+          </div>
+          <div class="text-center pt-2">
+            <p class="text-xs text-slate-400">Browse all 130+ companies and live corridor map on the interactive dashboard.</p>
+          </div>
+        </div>
+
+        <!-- Ecosystem Articles Preview -->
+        <div class="space-y-4 pt-6">
+          <h2 class="text-xl font-bold text-white">Original Hyderabad Tech Research & Guides</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+              <article class="p-5 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2">
+                <div class="text-[11px] font-semibold text-emerald-400 uppercase">Ecosystem Research • 8 min read</div>
+                <h3 class="font-bold text-white text-base">
+                  <a href="/articles/hyderabad-startup-ecosystem-report-2026" class="hover:text-emerald-400">Hyderabad Startup Ecosystem Report 2026: Capital Velocity, Tech Corridors & Growth Trajectory</a>
+                </h3>
+                <p class="text-xs text-slate-400 leading-relaxed line-clamp-2">Explore the macroeconomic trends powering Hyderabad's $25B+ tech startup economy, comparing investment velocity across HITEC City, Gachibowli, and Financial District.</p>
+                <a href="/articles/hyderabad-startup-ecosystem-report-2026" class="inline-block text-xs text-emerald-400 font-semibold pt-1 hover:underline">Read Research Report &rarr;</a>
+              </article>
+            
+              <article class="p-5 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2">
+                <div class="text-[11px] font-semibold text-emerald-400 uppercase">Founder Playbook • 7 min read</div>
+                <h3 class="font-bold text-white text-base">
+                  <a href="/articles/hitec-city-vs-gachibowli-startup-guide" class="hover:text-emerald-400">HITEC City vs Gachibowli vs Financial District: Where Should Your Startup Set Up Office?</a>
+                </h3>
+                <p class="text-xs text-slate-400 leading-relaxed line-clamp-2">Choosing between Mindspace, DLF Cybercity, WaveRock, and T-Hub? We break down rent per sq ft, metro accessibility, food & nightlife, and talent catchment zones.</p>
+                <a href="/articles/hitec-city-vs-gachibowli-startup-guide" class="inline-block text-xs text-emerald-400 font-semibold pt-1 hover:underline">Read Research Report &rarr;</a>
+              </article>
+            
+              <article class="p-5 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2">
+                <div class="text-[11px] font-semibold text-emerald-400 uppercase">SaaS & Cloud • 9 min read</div>
+                <h3 class="font-bold text-white text-base">
+                  <a href="/articles/saas-capital-of-india-hyderabad" class="hover:text-emerald-400">How Hyderabad Became India's B2B SaaS Capital: The Darwinbox, HighRadius & Zenoti Playbook</a>
+                </h3>
+                <p class="text-xs text-slate-400 leading-relaxed line-clamp-2">Why Hyderabad generates capital-efficient, high-ACV enterprise SaaS champions that dominate global Fortune 500 accounts while maintaining stellar unit economics.</p>
+                <a href="/articles/saas-capital-of-india-hyderabad" class="inline-block text-xs text-emerald-400 font-semibold pt-1 hover:underline">Read Research Report &rarr;</a>
+              </article>
+            
+              <article class="p-5 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2">
+                <div class="text-[11px] font-semibold text-emerald-400 uppercase">AI & DeepTech • 8 min read</div>
+                <h3 class="font-bold text-white text-base">
+                  <a href="/articles/hyderabad-ai-deeptech-landscape" class="hover:text-emerald-400">The Rise of AI & DeepTech in Hyderabad: Inside IIIT-H Incubators, Kore.ai & Enterprise AI Labs</a>
+                </h3>
+                <p class="text-xs text-slate-400 leading-relaxed line-clamp-2">An in-depth look at Hyderabad's AI ecosystem: applied Generative AI, conversational enterprise platforms, computer vision labs, and academic spinouts.</p>
+                <a href="/articles/hyderabad-ai-deeptech-landscape" class="inline-block text-xs text-emerald-400 font-semibold pt-1 hover:underline">Read Research Report &rarr;</a>
+              </article>
+            
+              <article class="p-5 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2">
+                <div class="text-[11px] font-semibold text-emerald-400 uppercase">SpaceTech & Defence • 8 min read</div>
+                <h3 class="font-bold text-white text-base">
+                  <a href="/articles/spacetech-frontier-hyderabad" class="hover:text-emerald-400">India's Private Space Launch Capital: Inside Skyroot, Dhruva Space & Telangana SpaceTech Framework</a>
+                </h3>
+                <p class="text-xs text-slate-400 leading-relaxed line-clamp-2">Discover how Skyroot Aerospace and Dhruva Space placed Hyderabad on the global space exploration map with indigenous launch vehicles and satellite platforms.</p>
+                <a href="/articles/spacetech-frontier-hyderabad" class="inline-block text-xs text-emerald-400 font-semibold pt-1 hover:underline">Read Research Report &rarr;</a>
+              </article>
+            
+              <article class="p-5 bg-slate-900/80 border border-slate-800 rounded-2xl space-y-2">
+                <div class="text-[11px] font-semibold text-emerald-400 uppercase">FinTech & Banking • 6 min read</div>
+                <h3 class="font-bold text-white text-base">
+                  <a href="/articles/fintech-revolution-hyderabad" class="hover:text-emerald-400">From Corporate Spend to MSME Credit: The FinTech Landscape in Hyderabad</a>
+                </h3>
+                <p class="text-xs text-slate-400 leading-relaxed line-clamp-2">Analyzing Hyderabad's FinTech ecosystem: public market leaders like Zaggle, neo-banking apps, micro-lending platforms, and treasury automation.</p>
+                <a href="/articles/fintech-revolution-hyderabad" class="inline-block text-xs text-emerald-400 font-semibold pt-1 hover:underline">Read Research Report &rarr;</a>
+              </article>
+            
+          </div>
+        </div>
+      </section>
+    
+    </main>
+
+    <!-- Static Footer -->
+    <footer class="mt-16 pt-8 border-t border-slate-800 text-xs text-slate-500 space-y-4">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-left">
+        <div>
+          <h4 class="font-bold text-slate-300 mb-2">Tech Corridors</h4>
+          <ul class="space-y-1">
+            <li><a href="/area/hitec-city" class="hover:text-emerald-400">HITEC City & Mindspace</a></li>
+            <li><a href="/area/gachibowli" class="hover:text-emerald-400">Gachibowli Corridor</a></li>
+            <li><a href="/area/financial-district" class="hover:text-emerald-400">Financial District</a></li>
+            <li><a href="/area/t-hub-raidurg" class="hover:text-emerald-400">T-Hub / Knowledge City</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-300 mb-2">Key Sectors</h4>
+          <ul class="space-y-1">
+            <li><a href="/sector/saas" class="hover:text-emerald-400">Enterprise SaaS</a></li>
+            <li><a href="/sector/ai-deeptech" class="hover:text-emerald-400">AI & DeepTech</a></li>
+            <li><a href="/sector/spacetech" class="hover:text-emerald-400">SpaceTech & Defence</a></li>
+            <li><a href="/sector/fintech" class="hover:text-emerald-400">FinTech & Banking</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-300 mb-2">Research Guides</h4>
+          <ul class="space-y-1">
+            <li><a href="/articles/hyderabad-startup-ecosystem-report-2026" class="hover:text-emerald-400">Ecosystem Report 2026</a></li>
+            <li><a href="/articles/hitec-city-vs-gachibowli-startup-guide" class="hover:text-emerald-400">Corridor Comparison</a></li>
+            <li><a href="/articles/how-to-get-hired-hyderabad-startup" class="hover:text-emerald-400">Hiring & Interview Playbook</a></li>
+            <li><a href="/articles/engineering-salaries-hyderabad-tech-2026" class="hover:text-emerald-400">Salary Benchmarks</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-slate-300 mb-2">Trust & Policies</h4>
+          <ul class="space-y-1">
+            <li><a href="/about" class="hover:text-emerald-400">About & Methodology</a></li>
+            <li><a href="/contact" class="hover:text-emerald-400">Contact Us</a></li>
+            <li><a href="/privacy" class="hover:text-emerald-400">Privacy Policy (DPDP/GDPR)</a></li>
+            <li><a href="/terms" class="hover:text-emerald-400">Terms of Service</a></li>
+            <li><a href="/cookie-policy" class="hover:text-emerald-400">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px]">
+        <p>&copy; 2026 HydStartup Portal. Published by Tech With Shaik, Hyderabad, Telangana, India.</p>
+        <p>Direct Inquiries: <a href="mailto:techwithshaik2@gmail.com" class="text-emerald-400 hover:underline">techwithshaik2@gmail.com</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Interactive SPA Root (Hydrated by React on Client) -->
+  <div id="root"></div>
+
+  <script type="module" crossorigin src="/assets/index-BbvlfSHl.js"></script>
+</body>
 </html>

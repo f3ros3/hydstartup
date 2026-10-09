@@ -18,11 +18,21 @@ import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 import TermsModal from './components/TermsModal';
 import CookiePolicyModal from './components/CookiePolicyModal';
 import CookieConsentBanner from './components/CookieConsentBanner';
+import SubmitModal from './components/SubmitModal';
+import ReportErrorModal from './components/ReportErrorModal';
+import AboutModal from './components/AboutModal';
+import ContactModal from './components/ContactModal';
+import LocationConsentModal from './components/LocationConsentModal';
+import ArticlesDirectory from './components/ArticlesDirectory';
+import ArticleModal from './components/ArticleModal';
+import SectorsDirectory from './components/SectorsDirectory';
 import { InstagramIcon } from './components/Icons';
 
 import { HYDERABAD_COMPANIES } from './data/companies';
 import { HYDERABAD_JOBS } from './data/jobs';
 import { HYDERABAD_HUBS } from './data/hubs';
+import { HYDERABAD_ARTICLES } from './data/articles';
+import { HYDERABAD_SECTORS } from './data/sectors';
 
 import { 
   Building2, 
@@ -51,10 +61,19 @@ export default function App() {
   const [visibleJobsCount, setVisibleJobsCount] = useState(24);
   const [visibleCompaniesCount, setVisibleCompaniesCount] = useState(24);
 
-  // Legal & Compliance Modals
+  // Legal, Trust & Community Modals
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
   const [isTermsModalOpen, setIsTermsModalOpen] = useState(false);
   const [isCookieModalOpen, setIsCookieModalOpen] = useState(false);
+  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
+  const [isReportModalOpen, setIsReportModalOpen] = useState(false);
+  const [reportItemName, setReportItemName] = useState('');
+  const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
+  const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+  const [isLocationConsentOpen, setIsLocationConsentOpen] = useState(false);
+  const [selectedArticle, setSelectedArticle] = useState(null);
+  const [isArticleModalOpen, setIsArticleModalOpen] = useState(false);
+
   const [isCookieBannerOpen, setIsCookieBannerOpen] = useState(() => {
     try {
       return !localStorage.getItem('hyd_cookie_consent');
@@ -69,6 +88,43 @@ export default function App() {
       setShowJobsDisclaimer(true);
     }
   };
+
+  const handleOpenReport = (name = '') => {
+    setReportItemName(name);
+    setIsReportModalOpen(true);
+  };
+
+  const handleSelectArticle = (article) => {
+    setSelectedArticle(article);
+    setIsArticleModalOpen(true);
+  };
+
+  const handleSelectSectorFilter = (sectorName) => {
+    setSelectedIndustry(sectorName);
+    setViewMode('split');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Hash & URL Routing Listener
+  useEffect(() => {
+    const handleHash = () => {
+      const hash = window.location.hash;
+      if (hash === '#articles') setViewMode('articles');
+      else if (hash === '#sectors') setViewMode('sectors');
+      else if (hash === '#jobs') setViewMode('jobs');
+      else if (hash === '#companies') setViewMode('companies');
+      else if (hash === '#map') setViewMode('map');
+      else if (hash === '#about') setIsAboutModalOpen(true);
+      else if (hash === '#contact') setIsContactModalOpen(true);
+      else if (hash === '#privacy') setIsPrivacyModalOpen(true);
+      else if (hash === '#terms') setIsTermsModalOpen(true);
+      else if (hash === '#cookie-policy') setIsCookieModalOpen(true);
+      else if (hash === '#submit') setIsSubmitModalOpen(true);
+    };
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+    return () => window.removeEventListener('hashchange', handleHash);
+  }, []);
 
   // Adjustable Split Pane Ratio (Map Width %)
   const [splitRatio, setSplitRatio] = useState(58); // Default 58% Map, 42% Jobs
@@ -156,6 +212,12 @@ export default function App() {
         setIsPrivacyModalOpen(false);
         setIsTermsModalOpen(false);
         setIsCookieModalOpen(false);
+        setIsSubmitModalOpen(false);
+        setIsReportModalOpen(false);
+        setIsAboutModalOpen(false);
+        setIsContactModalOpen(false);
+        setIsLocationConsentOpen(false);
+        setIsArticleModalOpen(false);
         setShowJobsDisclaimer(false);
       }
     };
@@ -502,6 +564,10 @@ export default function App() {
         bookmarksCount={bookmarkedIds.length}
         onOpenBookmarks={() => setIsBookmarksDrawerOpen(true)}
         onOpenAnalytics={() => setIsAnalyticsModalOpen(true)}
+        onOpenSubmit={() => setIsSubmitModalOpen(true)}
+        onOpenReport={handleOpenReport}
+        onOpenAbout={() => setIsAboutModalOpen(true)}
+        onOpenContact={() => setIsContactModalOpen(true)}
         mobileSplitTab={mobileSplitTab}
         setMobileSplitTab={(tab) => {
           setMobileSplitTab(tab);
@@ -540,7 +606,45 @@ export default function App() {
       {/* Main Content Area */}
       <main className="relative z-10 flex-1 w-full px-3 sm:px-6 lg:px-10 py-4 sm:py-6">
         
-        {/* VIEW 1: ADJUSTABLE SPLIT VIEW (Interactive Resizable Map & Job Feed) */}
+        {/* Editorial Header & Trust / Methodology Bar */}
+        <div className="mb-5 p-4 sm:p-5 rounded-3xl dark:bg-slate-900/70 bg-white/80 backdrop-blur-md border dark:border-slate-800/80 border-slate-200/80 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div className="space-y-1 max-w-3xl">
+            <h1 className="text-sm sm:text-base font-extrabold dark:text-white text-slate-900 flex items-center gap-2">
+              <span>Hyderabad Startups & Tech Job Portal</span>
+              <span className="text-[10px] px-2.5 py-0.5 rounded-full font-bold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
+                Verified: October 2026
+              </span>
+            </h1>
+            <p className="text-xs dark:text-slate-300 text-slate-600 leading-relaxed">
+              Curated geospatial intelligence and direct career application links across 150+ verified technology companies in HITEC City, Gachibowli, Financial District, and T-Hub.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 shrink-0">
+            <button
+              onClick={() => setIsAboutModalOpen(true)}
+              className="px-3 py-1.5 rounded-xl dark:bg-slate-800 dark:text-slate-200 bg-slate-100 text-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-bold transition-all"
+            >
+              🛡️ How We Verify Data
+            </button>
+            <button
+              onClick={() => setIsSubmitModalOpen(true)}
+              className="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md shadow-emerald-500/20 transition-all"
+            >
+              + Submit Listing
+            </button>
+          </div>
+        </div>
+
+        {/* VIEW 5: RESEARCH & EDITORIAL ARTICLES */}
+        {viewMode === 'articles' && (
+          <ArticlesDirectory onSelectArticle={handleSelectArticle} />
+        )}
+
+        {/* VIEW 6: INDUSTRY SECTORS */}
+        {viewMode === 'sectors' && (
+          <SectorsDirectory onSelectSectorFilter={handleSelectSectorFilter} />
+        )}
         {viewMode === 'split' && (
           <div 
             ref={splitContainerRef}
@@ -863,6 +967,10 @@ export default function App() {
         onOpenCookiePolicy={() => setIsCookieModalOpen(true)}
         onOpenCookieSettings={() => setIsCookieBannerOpen(true)}
         onOpenAnalytics={() => setIsAnalyticsModalOpen(true)}
+        onOpenAbout={() => setIsAboutModalOpen(true)}
+        onOpenContact={() => setIsContactModalOpen(true)}
+        onOpenSubmit={() => setIsSubmitModalOpen(true)}
+        onOpenReport={handleOpenReport}
         setViewMode={handleSetViewMode}
       />
 
@@ -910,6 +1018,56 @@ export default function App() {
       <AnalyticsModal
         isOpen={isAnalyticsModalOpen}
         onClose={() => setIsAnalyticsModalOpen(false)}
+      />
+
+      {/* Submit Startup / Job Modal */}
+      <SubmitModal
+        isOpen={isSubmitModalOpen}
+        onClose={() => setIsSubmitModalOpen(false)}
+      />
+
+      {/* Report Error Modal */}
+      <ReportErrorModal
+        isOpen={isReportModalOpen}
+        onClose={() => setIsReportModalOpen(false)}
+        defaultItemName={reportItemName}
+      />
+
+      {/* About Us & Methodology Modal */}
+      <AboutModal
+        isOpen={isAboutModalOpen}
+        onClose={() => setIsAboutModalOpen(false)}
+      />
+
+      {/* Contact Modal */}
+      <ContactModal
+        isOpen={isContactModalOpen}
+        onClose={() => setIsContactModalOpen(false)}
+      />
+
+      {/* Article Reader Modal */}
+      <ArticleModal
+        article={selectedArticle}
+        isOpen={isArticleModalOpen}
+        onClose={() => setIsArticleModalOpen(false)}
+      />
+
+      {/* Geolocation Consent Modal */}
+      <LocationConsentModal
+        isOpen={isLocationConsentOpen}
+        onAllow={() => {
+          setIsLocationConsentOpen(false);
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+              (pos) => {
+                setActiveHubCenter([pos.coords.latitude, pos.coords.longitude]);
+                setActiveHubZoom(14);
+              },
+              () => {}
+            );
+          }
+        }}
+        onDeny={() => setIsLocationConsentOpen(false)}
       />
 
       {/* 6-Second Centered Jobs Board Disclaimer Modal with Dark Backdrop */}

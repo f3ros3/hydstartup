@@ -1,48 +1,41 @@
 param (
-    [string]$CommitMessage = "Auto-publish updates and production build"
+    [string]$CommitMessage = "Publish full crawlable static site, 14 research articles, trust pages, and updated contact email"
 )
 
 $nodeDir = 'C:\Users\feroz\.gemini\antigravity\scratch\node'
 $gitExe = 'C:\Users\feroz\.gemini\antigravity\scratch\git\cmd\git.exe'
+$projectDir = 'C:\Users\feroz\.gemini\antigravity\scratch\hyderabad-startups-portal'
+
 $env:Path = "$nodeDir;" + $env:Path
 
 Write-Host "========================================="
-Write-Host "🚀 1. Building Production Bundle (Vite)..."
+Write-Host "1. Executing Full Production Build & SSG..."
 Write-Host "========================================="
-& "$nodeDir\npm.cmd" run build
+& powershell.exe -ExecutionPolicy Bypass -File "$projectDir\scripts\build_all.ps1"
 
 if ($LASTEXITCODE -ne 0) {
-    Write-Error "Build failed with exit code $LASTEXITCODE"
+    Write-Error "Build and SSG generation failed with exit code $LASTEXITCODE"
     exit $LASTEXITCODE
 }
 
 Write-Host "========================================="
-Write-Host "📁 2. Syncing dist/ to docs/..."
+Write-Host "2. Staging all modified files..."
 Write-Host "========================================="
-Copy-Item -Path 'dist\*' -Destination 'docs\' -Recurse -Force
-
-# Clean stale assets in docs/assets
-$currentJs = (Get-ChildItem 'dist\assets\*.js' | Select-Object -First 1).Name
-$currentCss = (Get-ChildItem 'dist\assets\*.css' | Select-Object -First 1).Name
-
-Get-ChildItem 'docs\assets' | ForEach-Object {
-    if ($_.Name -ne $currentJs -and $_.Name -ne $currentCss) {
-        Write-Host "Removing stale asset: $($_.Name)"
-        Remove-Item $_.FullName -Force -ErrorAction SilentlyContinue
-    }
-}
-
-Write-Host "========================================="
-Write-Host "📦 3. Git Add, Commit & Auto-Push..."
-Write-Host "========================================="
+Set-Location $projectDir
 & $gitExe add -A
+
+Write-Host "========================================="
+Write-Host "3. Creating Git Commit..."
+Write-Host "========================================="
 & $gitExe commit -m $CommitMessage
 
-Write-Host "Pushing to GitHub origin main..."
+Write-Host "========================================="
+Write-Host "4. Pushing to GitHub origin main..."
+Write-Host "========================================="
 & $gitExe push origin main
 
 if ($LASTEXITCODE -eq 0) {
-    Write-Host "✅ Published successfully to GitHub and live site!"
+    Write-Host "Published successfully to GitHub and live site!"
 } else {
-    Write-Warning "Push requires GitHub authentication. Please authenticate once with git or provide a GitHub PAT."
+    Write-Warning "Push encountered an issue. Check Git authentication or network status."
 }

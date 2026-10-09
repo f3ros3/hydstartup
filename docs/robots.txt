@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow:
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://hydstartup.online/sitemap.xml
