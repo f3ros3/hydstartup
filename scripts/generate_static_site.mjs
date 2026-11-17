@@ -2,9 +2,9 @@ import fs from 'fs';
 import path from 'path';
 
 // Import datasets
-import { HYDERABAD_COMPANIES } from '../src/data/companies.js';
+import { HYDERABAD_COMPANIES } from '../src/data/verifiedCompanies.js';
 import { HYDERABAD_HUBS } from '../src/data/hubs.js';
-import { HYDERABAD_JOBS } from '../src/data/jobs.js';
+const HYDERABAD_JOBS = JSON.parse(fs.readFileSync(new URL('../public/jobs.json', import.meta.url), 'utf8'));
 import { HYDERABAD_SECTORS } from '../src/data/sectors.js';
 import { HYDERABAD_ARTICLES } from '../src/data/articles.js';
 
@@ -196,7 +196,7 @@ function createHtmlDocument({
 function buildStaticSite() {
   console.log('🚀 Starting Static Site Generation (SSG)...');
 
-  const targetDirs = ['dist', 'docs'];
+  const targetDirs = process.argv.includes('--dist-only') ? ['dist'] : ['dist', 'docs'];
 
   targetDirs.forEach(baseDir => {
     ensureDir(baseDir);
@@ -381,7 +381,7 @@ function buildStaticSite() {
                       <h3 class="font-bold text-white text-base">${j.title}</h3>
                       <span class="text-xs font-bold text-emerald-400">${j.salaryRange || 'Competitive'}</span>
                     </div>
-                    <div class="text-xs text-slate-400">${j.experienceLevel} • ${j.workMode} • ${j.area}</div>
+                    <div class="text-xs text-slate-400">${j.experienceLevel || "Experience unspecified"} • ${j.workMode || "Work mode unspecified"} • ${j.area}</div>
                     <p class="text-xs text-slate-300 line-clamp-2">${j.description}</p>
                     <div class="pt-2 flex items-center justify-between">
                       <div class="flex flex-wrap gap-1">

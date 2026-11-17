@@ -36,7 +36,7 @@ export default function JobCard({
 
   return (
     <div 
-      className={`relative group rounded-3xl p-4 sm:p-5 transition-all duration-300 cursor-pointer border ${
+      className={`listing-card relative group rounded-3xl p-4 sm:p-5 transition-all duration-300 cursor-pointer border ${
         isSelected
           ? 'dark:bg-slate-900/95 bg-white/95 dark:border-emerald-500 border-orange-500 shadow-xl dark:shadow-emerald-500/20 shadow-orange-500/20 ring-1 dark:ring-emerald-500 ring-orange-500'
           : 'dark:bg-[#111827]/90 bg-white/85 hover:bg-white dark:hover:bg-slate-900/90 dark:border-slate-800 border-slate-200/90 hover:border-orange-300 dark:hover:border-slate-700 shadow-md hover:shadow-2xl hover:-translate-y-0.5'
@@ -89,11 +89,11 @@ export default function JobCard({
         )}
 
         <span className="px-2.5 py-1 rounded-xl dark:bg-slate-800/90 dark:text-slate-300 dark:border-slate-700/60 bg-slate-100 text-slate-700 border border-slate-200 font-medium">
-          {job.experienceLevel || job.experience}
+          {job.experienceLevel || job.experience || 'Experience unspecified'}
         </span>
 
         <span className="px-2.5 py-1 rounded-xl dark:bg-cyan-500/10 dark:border-cyan-500/20 dark:text-cyan-300 bg-purple-500/10 border border-purple-500/20 text-purple-700 font-medium">
-          {job.workMode || 'Hybrid'}
+          {job.workMode || 'Work mode unspecified'}
         </span>
 
         <div className="flex items-center gap-1 dark:text-slate-400 text-slate-500 ml-auto text-[11px]">
@@ -138,7 +138,7 @@ export default function JobCard({
           {/* Animated Uiverse Button */}
           <div onClick={(e) => e.stopPropagation()}>
             <AnimatedApplyButton
-              href={job.applyUrl || getRealtimeApplyUrl(job, comp)}
+              href={getRealtimeApplyUrl(job)}
               size="sm"
               color="#059669"
             >
