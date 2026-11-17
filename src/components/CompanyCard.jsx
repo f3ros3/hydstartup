@@ -35,10 +35,10 @@ export default function CompanyCard({
   return (
     <div
       onClick={handleCardClick}
-      className={`offscreen-card rounded-3xl border p-5 sm:p-6 flex flex-col justify-between transition-transform duration-200 group shadow-md hover:shadow-xl hover:-translate-y-1 cursor-pointer ${
+      className={`offscreen-card hover-gradient-card rounded-3xl border p-5 sm:p-6 flex flex-col justify-between group shadow-md hover:shadow-xl dark:hover:shadow-purple-500/20 hover:-translate-y-1 cursor-pointer ${
         isSelected
-          ? 'dark:bg-[#190933] bg-white dark:border-purple-400 border-orange-500 ring-1 dark:ring-purple-400 ring-orange-500'
-          : 'dark:bg-[#100622]/92 bg-white/95 hover:bg-white dark:hover:bg-[#170930] dark:border-purple-900/60 border-slate-200/90 hover:border-orange-300 dark:hover:border-purple-500/60'
+          ? 'dark:bg-[#1b0938] bg-white dark:border-purple-400 border-orange-500 ring-1 dark:ring-purple-400 ring-orange-500'
+          : 'dark:bg-[#100622]/95 bg-white/95 dark:border-purple-800/60 border-slate-200/90 hover:border-orange-300 dark:hover:border-purple-400/70'
       }`}
     >
       

@@ -36,10 +36,10 @@ export default function JobCard({
 
   return (
     <div 
-      className={`offscreen-card relative group rounded-3xl p-4 sm:p-5 transition-transform duration-200 cursor-pointer border ${
+      className={`offscreen-card hover-gradient-card relative group rounded-3xl p-4 sm:p-5 cursor-pointer border ${
         isSelected
-          ? 'dark:bg-[#190933] bg-white/95 dark:border-purple-400 border-orange-500 shadow-xl dark:shadow-purple-500/20 shadow-orange-500/20 ring-1 dark:ring-purple-400 ring-orange-500'
-          : 'dark:bg-[#100622]/92 bg-white/95 hover:bg-white dark:hover:bg-[#170930] dark:border-purple-900/60 border-slate-200/90 hover:border-orange-300 dark:hover:border-purple-500/60 shadow-md hover:shadow-xl hover:-translate-y-0.5'
+          ? 'dark:bg-[#1b0938] bg-white/95 dark:border-purple-400 border-orange-500 shadow-xl dark:shadow-purple-500/25 shadow-orange-500/20 ring-1 dark:ring-purple-400 ring-orange-500'
+          : 'dark:bg-[#100622]/95 bg-white/95 dark:border-purple-800/60 border-slate-200/90 hover:border-orange-300 dark:hover:border-purple-400/70 shadow-md hover:shadow-xl dark:hover:shadow-purple-500/20 hover:-translate-y-0.5'
       }`}
       onClick={() => onSelectJob(job)}
     >

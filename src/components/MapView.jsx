@@ -418,7 +418,7 @@ export default function MapView({
     <div className="relative w-full h-full min-h-[320px] rounded-3xl overflow-hidden border dark:border-slate-800 border-slate-200/90 shadow-2xl dark:bg-[#090D16] bg-slate-50 transition-colors">
       
       {/* Map Header Floating Overlay - Semi-transparent solid background (no costly backdrop-blur) */}
-      <div className="absolute top-3 left-14 sm:left-16 z-[1000] pointer-events-auto dark:bg-[#090314]/92 bg-white/95 px-3.5 py-1.5 rounded-2xl border dark:border-purple-800/70 border-slate-200 shadow-xl flex items-center gap-2 text-xs">
+      <div className="absolute top-3 left-14 sm:left-16 z-[1000] pointer-events-auto dark:bg-[#090314]/90 bg-white/95 px-3.5 py-1.5 rounded-2xl border dark:border-purple-800/70 border-slate-200 shadow-xl flex items-center gap-2 text-xs">
         <span className="w-2.5 h-2.5 rounded-full dark:bg-purple-400 bg-orange-500"></span>
         <span className="font-bold dark:text-slate-100 text-slate-800">Hyderabad Tech Corridor</span>
         <span className="text-[10px] dark:text-purple-300 text-slate-500 font-mono">({companies.length} Mapped)</span>

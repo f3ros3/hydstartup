@@ -22,7 +22,7 @@ export default function Navbar({
   onToggleTheme
 }) {
   return (
-    <header className="sticky top-0 z-40 dark:bg-[#090314]/88 bg-white/95 border-b dark:border-purple-900/50 border-slate-200/80 shadow-sm" role="banner">
+    <header className="sticky top-0 z-40 animated-header-gradient border-b dark:border-purple-800/50 border-slate-200/80 shadow-sm" role="banner">
       <div className="w-full px-2.5 sm:px-6 lg:px-10">
         
         {/* ROW 1: Left Brand & Stats | CENTER HEADING | Right: Actions */}
