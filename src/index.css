@@ -39,7 +39,6 @@
 html.dark body {
   background-color: #0B0F19;
   background-image: radial-gradient(circle at 10% 10%, #111C35 0%, #0B0F19 55%, #180D2B 100%);
-  background-attachment: fixed;
   color: #f1f5f9;
 }
 
@@ -47,7 +46,6 @@ html.dark body {
 html.light body {
   background-color: #FAF5FF;
   background-image: linear-gradient(135deg, #FFF7ED 0%, #FAF5FF 40%, #F5F3FF 70%, #FFF1F2 100%);
-  background-attachment: fixed;
   color: #0F172A;
 }
 
@@ -94,7 +92,6 @@ html.light .leaflet-container {
 
 .leaflet-popup-content-wrapper {
   background: rgba(15, 23, 42, 0.96) !important;
-  backdrop-filter: blur(12px);
   color: #f1f5f9 !important;
   border-radius: 18px !important;
   border: 1px solid rgba(59, 130, 246, 0.25) !important;
@@ -436,3 +433,46 @@ html.light .uiverse-button:hover .uiverse-button__icon-wrapper {
 .animate-drift-4 {
   animation: driftOrbit4 20s ease-in-out infinite;
 }
+
+@media (min-width: 1024px) {
+  .startup-split {
+    grid-template-columns: minmax(0, var(--map-share)) 0.875rem minmax(0, var(--company-share));
+  }
+}
+
+.site-dialog::backdrop {
+  background: rgb(2 6 23 / 65%);
+}
+
+@keyframes dialog-enter {
+  from { opacity: 0; transform: translateY(0.5rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+  .site-dialog[open] { animation: dialog-enter 150ms ease-out; }
+  ::view-transition-old(root), ::view-transition-new(root) { animation-duration: 180ms; }
+}
+
+.listing-card {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 16rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .listing-card {
+      animation: listing-enter linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
+}
+
+@keyframes listing-enter {
+  from { opacity: 0.7; }
+  to { opacity: 1; }
+}
+
+.site-dialog { width: calc(100% - 2rem); }
