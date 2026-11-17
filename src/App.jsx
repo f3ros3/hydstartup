@@ -971,6 +971,21 @@ export default function App() {
       {/* Newsletter Subscription Section */}
       <NewsletterSection />
 
+      {/* Instagram Credit Button after Newsletter Box */}
+      <div className="relative z-10 flex justify-center px-4 pb-2 -mt-2">
+        <a
+          href="https://www.instagram.com/techwithshaik/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="tws-instagram-btn"
+          title="Visit Tech With Shaik on Instagram"
+          aria-label="Tech With Shaik | TWS on Instagram"
+        >
+          <InstagramIcon className="w-[18px] h-[18px] shrink-0" />
+          <span>Tech With Shaik | TWS</span>
+        </a>
+      </div>
+
       {/* Structured Business Footer with Legal & Nav Links */}
       <Footer
         onOpenPrivacy={() => setIsPrivacyModalOpen(true)}
