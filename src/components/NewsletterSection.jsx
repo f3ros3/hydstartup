@@ -35,11 +35,7 @@ export default function NewsletterSection() {
 
   return (
     <section className="relative z-10 w-full max-w-6xl mx-auto my-8 sm:my-12 px-3 sm:px-6">
-      <div className="relative overflow-hidden rounded-3xl p-6 sm:p-10 dark:bg-gradient-to-br dark:from-[#0E1526]/90 dark:via-[#11192E]/90 dark:to-[#0B1020]/90 bg-gradient-to-br from-white/90 via-slate-50/90 to-orange-50/70 border dark:border-slate-800/80 border-slate-200/90 shadow-2xl backdrop-blur-xl transition-all">
-        
-        {/* Ambient Glow Gradients */}
-        <div className="absolute top-0 right-0 w-80 h-80 bg-emerald-500/10 dark:bg-emerald-500/15 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-purple-500/10 dark:bg-purple-500/15 rounded-full blur-3xl pointer-events-none -ml-20 -mb-20"></div>
+      <div className="relative overflow-hidden rounded-3xl p-6 sm:p-10 dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-800/80 border-slate-200/90 shadow-xl transition-colors">
 
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
           

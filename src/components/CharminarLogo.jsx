@@ -58,24 +58,24 @@ export default function CharminarLogo({ className = "w-6 h-6 sm:w-8 sm:h-8" }) {
         <rect x="6" y="24" width="6" height="2" rx="0.5" fill="currentColor" className="text-emerald-400" />
         <rect x="6" y="14" width="6" height="2" rx="0.5" fill="currentColor" className="text-emerald-400" />
         <path d="M7 10C7 7.5 9 6 9 6C9 6 11 7.5 11 10H7Z" fill="currentColor" className="text-emerald-300" />
-        <circle cx="9" cy="4.5" r="1" fill="#34D399" className="animate-pulse" />
+        <circle cx="9" cy="4.5" r="1" fill="#34D399" />
 
         {/* Minaret 2 (Inner Left) */}
         <rect x="14" y="8" width="3.5" height="10" rx="0.5" fill="currentColor" className="text-white/90 dark:text-slate-200" />
         <path d="M14 8C14 6 15.75 5 15.75 5C15.75 5 17.5 6 17.5 8H14Z" fill="currentColor" className="text-teal-300" />
-        <circle cx="15.75" cy="3.5" r="0.8" fill="#2DD4BF" className="animate-pulse" />
+        <circle cx="15.75" cy="3.5" r="0.8" fill="#2DD4BF" />
 
         {/* Minaret 3 (Inner Right) */}
         <rect x="30.5" y="8" width="3.5" height="10" rx="0.5" fill="currentColor" className="text-white/90 dark:text-slate-200" />
         <path d="M30.5 8C30.5 6 32.25 5 32.25 5C32.25 5 34 6 34 8H30.5Z" fill="currentColor" className="text-teal-300" />
-        <circle cx="32.25" cy="3.5" r="0.8" fill="#2DD4BF" className="animate-pulse" />
+        <circle cx="32.25" cy="3.5" r="0.8" fill="#2DD4BF" />
 
         {/* Minaret 4 (Far Right) */}
         <rect x="37" y="10" width="4" height="32" rx="1" fill="currentColor" className="text-white dark:text-slate-100" />
         <rect x="36" y="24" width="6" height="2" rx="0.5" fill="currentColor" className="text-emerald-400" />
         <rect x="36" y="14" width="6" height="2" rx="0.5" fill="currentColor" className="text-emerald-400" />
         <path d="M37 10C37 7.5 39 6 39 6C39 6 41 7.5 41 10H37Z" fill="currentColor" className="text-emerald-300" />
-        <circle cx="39" cy="4.5" r="1" fill="#34D399" className="animate-pulse" />
+        <circle cx="39" cy="4.5" r="1" fill="#34D399" />
 
         {/* Central Top Dome (Qutb Shahi Arch Dome) */}
         <path
@@ -83,7 +83,6 @@ export default function CharminarLogo({ className = "w-6 h-6 sm:w-8 sm:h-8" }) {
           fill="currentColor"
           className="text-emerald-400 dark:text-emerald-300"
         />
-        <circle cx="24" cy="3" r="1.2" fill="#6EE7B7" className="animate-ping opacity-75" />
         <circle cx="24" cy="3" r="1.2" fill="#A7F3D0" />
       </svg>
     </div>

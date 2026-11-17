@@ -655,7 +655,7 @@ export default function App() {
               className={`hidden lg:flex flex-col items-center justify-center w-3.5 hover:w-5 group cursor-col-resize rounded-2xl transition-all duration-200 z-20 shrink-0 ${
                 isDraggingSplit 
                   ? 'bg-emerald-500 shadow-xl shadow-emerald-500/50 w-5 ring-2 ring-emerald-400' 
-                  : 'hover:bg-emerald-500/20 dark:bg-slate-800/60 bg-white/60 backdrop-blur-md border dark:border-slate-700/60 border-slate-300/80 shadow-sm'
+                  : 'hover:bg-emerald-500/20 dark:bg-slate-800/85 bg-white/90 border dark:border-slate-700/60 border-slate-300/80 shadow-sm'
               }`}
               title="Drag horizontally to resize Map & Jobs (Double-click to reset 58:42)"
               onDoubleClick={() => {
@@ -816,16 +816,6 @@ export default function App() {
         {/* VIEW 3: JOB BOARD GRID VIEW */}
         {viewMode === 'jobs' && (
           <div className="space-y-5">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 dark:bg-[#0E1526]/90 bg-white/90 backdrop-blur-md p-4 sm:p-5 rounded-3xl border dark:border-slate-800 border-slate-200 shadow-md">
-              <div>
-                <h2 className="text-base sm:text-lg font-black dark:text-white text-slate-900">Hyderabad Startup Job Directory</h2>
-                <p className="text-xs dark:text-slate-400 text-slate-500">Curated opportunities across top startups, unicorns & global tech centers</p>
-              </div>
-              <span className="text-xs font-mono font-black dark:text-emerald-400 dark:bg-emerald-500/10 text-orange-700 bg-orange-500/10 px-3.5 py-1.5 rounded-xl border dark:border-emerald-500/20 border-orange-500/20">
-                Showing {Math.min(visibleJobsCount, filteredJobs.length)} of {filteredJobs.length} Positions Available
-              </span>
-            </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5">
               {filteredJobs.slice(0, visibleJobsCount).map((job) => (
                 <JobCard
@@ -879,16 +869,6 @@ export default function App() {
         {/* VIEW 4: COMPANY DIRECTORY GRID */}
         {viewMode === 'companies' && (
           <div className="space-y-5">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 dark:bg-[#0E1526]/90 bg-white/90 backdrop-blur-md p-4 sm:p-5 rounded-3xl border dark:border-slate-800 border-slate-200 shadow-md">
-              <div>
-                <h2 className="text-base sm:text-lg font-black dark:text-white text-slate-900">Hyderabad Tech Companies & Startups Directory</h2>
-                <p className="text-xs dark:text-slate-400 text-slate-500">Explore founders, tech stacks, valuations, and verified careers links</p>
-              </div>
-              <span className="text-xs font-mono font-black dark:text-cyan-400 dark:bg-cyan-500/10 text-purple-700 bg-purple-500/10 px-3.5 py-1.5 rounded-xl border dark:border-cyan-500/20 border-purple-500/20">
-                Showing {Math.min(visibleCompaniesCount, filteredCompanies.length)} of {filteredCompanies.length} Organizations
-              </span>
-            </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5">
               {filteredCompanies.slice(0, visibleCompaniesCount).map((company) => (
                 <CompanyCard

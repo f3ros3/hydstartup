@@ -96,7 +96,6 @@ html.light .leaflet-container {
 
 .leaflet-popup-content-wrapper {
   background: rgba(15, 23, 42, 0.96) !important;
-  backdrop-filter: blur(12px);
   color: #f1f5f9 !important;
   border-radius: 18px !important;
   border: 1px solid rgba(59, 130, 246, 0.25) !important;
@@ -164,6 +163,39 @@ html.light .leaflet-control-zoom a:hover {
 .custom-leaflet-marker {
   background: transparent;
   border: none;
+}
+
+.custom-marker-cluster {
+  background: transparent;
+  border: none;
+}
+
+.hyd-cluster-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
+  color: #020617;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  border: 3px solid #0f172a;
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+  transition: transform 0.15s ease;
+}
+
+html.light .hyd-cluster-badge {
+  background: linear-gradient(135deg, #ea580c 0%, #9333ea 100%);
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 0 6px 16px rgba(234, 88, 12, 0.35);
+}
+
+.hyd-cluster-badge:hover {
+  transform: scale(1.08);
 }
 
 /* Uiverse.io Silly-Cat-86 Animated Button Styling */

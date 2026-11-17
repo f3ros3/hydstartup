@@ -35,7 +35,7 @@ export default function Footer({
   setViewMode
 }) {
   return (
-    <footer className="relative z-10 mt-14 bg-transparent dark:bg-slate-950/40 bg-white/40 backdrop-blur-md border-t dark:border-slate-800/60 border-slate-200/60 pt-12 pb-8 px-4 sm:px-8 text-xs dark:text-slate-400 text-slate-600 transition-colors" role="contentinfo">
+    <footer className="relative z-10 mt-14 dark:bg-slate-950/92 bg-white/95 border-t dark:border-slate-800/60 border-slate-200/60 pt-12 pb-8 px-4 sm:px-8 text-xs dark:text-slate-400 text-slate-600 transition-colors" role="contentinfo">
       <div className="w-full max-w-7xl mx-auto space-y-10">
         
         {/* TOP ROW: Brand Column + Navigation + Community/Trust + Legal */}
