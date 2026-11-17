@@ -247,26 +247,23 @@ export default function Footer({
           </p>
         </div>
 
-        {/* BOTTOM ROW: Copyright & Publisher Credits */}
+        {/* BOTTOM ROW: Copyright & Animated Instagram Button */}
         <div className="pt-4 border-t dark:border-purple-400/25 border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-semibold dark:text-slate-200 text-slate-700">
           <div>
-            &copy; {new Date().getFullYear()} <strong className="dark:text-white text-slate-900">HydStartup Portal</strong>. Published by <strong className="dark:text-white text-slate-900">Tech With Shaik (TWS)</strong>. All rights reserved.
+            &copy; {new Date().getFullYear()} <strong className="dark:text-white text-slate-900">HydStartup Portal</strong>. All rights reserved. • Hyderabad, Telangana
           </div>
 
-          <div className="flex items-center gap-4">
-            <a 
-              href="https://www.instagram.com/techwithshaik" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="dark:text-purple-200 dark:hover:text-white hover:text-pink-600 transition-colors flex items-center gap-1 font-bold"
-              title="Follow Tech With Shaik on Instagram"
-            >
-              <InstagramIcon className="w-3.5 h-3.5" />
-              <span>@techwithshaik</span>
-            </a>
-            <span>•</span>
-            <span>Hyderabad, Telangana</span>
-          </div>
+          <a
+            href="https://www.instagram.com/@techwithshaik"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="tws-instagram-btn"
+            title="Visit Tech With Shaik on Instagram"
+            aria-label="created by Tech With Shaik | TWS on Instagram"
+          >
+            <InstagramIcon className="w-[18px] h-[18px] shrink-0" />
+            <span>created by Tech With Shaik | TWS</span>
+          </a>
         </div>
 
       </div>

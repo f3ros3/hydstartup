@@ -331,6 +331,60 @@ html.light .hyd-cluster-badge::after {
   transform: scale(1.08);
 }
 
+/* Instagram Radial Fill Button (created by Tech With Shaik | TWS) */
+.tws-instagram-btn {
+  background: transparent;
+  position: relative;
+  padding: 6px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgb(244, 114, 182);
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: rgb(251, 207, 232);
+  transition: color 0.3s 0.1s ease-out, border-color 0.3s ease-out;
+  text-align: center;
+  isolation: isolate;
+}
+
+html.light .tws-instagram-btn {
+  border-color: rgb(225, 48, 108);
+  color: rgb(225, 48, 108);
+}
+
+.tws-instagram-btn span {
+  margin-left: 8px;
+}
+
+.tws-instagram-btn::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  border-radius: 50%;
+  display: block;
+  width: 26em;
+  height: 26em;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+.tws-instagram-btn:hover {
+  color: #ffffff;
+  border-color: rgb(225, 48, 108);
+}
+
+.tws-instagram-btn:hover::before {
+  box-shadow: inset 0 0 0 13em rgb(225, 48, 108);
+}
+
 /* Uiverse.io Silly-Cat-86 Animated Button Styling */
 .uiverse-button {
   line-height: 1;

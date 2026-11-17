@@ -13,46 +13,9 @@ import {
 } from 'lucide-react';
 import CompanyLogo, { getCompanyLogoUrl } from './CompanyLogo';
 
-const TECH_HOTSPOTS = [
-  { name: 'HITEC City & Mindspace', center: [17.4475, 78.3785], radius: 850, color: '#a855f7' },
-  { name: 'T-Hub 2.0 / Knowledge City', center: [17.4338, 78.3756], radius: 650, color: '#c026d3' },
-  { name: 'Gachibowli Corridor', center: [17.4401, 78.3489], radius: 800, color: '#9333ea' },
-  { name: 'Financial District', center: [17.4172, 78.3446], radius: 850, color: '#7e22ce' },
-  { name: 'Madhapur & Durgam Cheruvu', center: [17.4375, 78.3888], radius: 650, color: '#d946ef' }
-];
-
-// Controller component to smoothly fly map, draw canvas hotspots, and handle container resizing (debounced)
+// Controller component to smoothly fly map and handle container resizing (debounced)
 function MapController({ targetCenter, targetZoom, selectedCompany }) {
   const map = useMap();
-
-  useEffect(() => {
-    const hotspotLayers = TECH_HOTSPOTS.flatMap((spot) => [
-      L.circle(spot.center, {
-        radius: spot.radius,
-        color: spot.color,
-        weight: 1.5,
-        opacity: 0.45,
-        fillColor: spot.color,
-        fillOpacity: 0.12,
-        interactive: false
-      }),
-      L.circle(spot.center, {
-        radius: Math.round(spot.radius * 0.45),
-        color: spot.color,
-        weight: 1,
-        opacity: 0.65,
-        fillColor: spot.color,
-        fillOpacity: 0.2,
-        interactive: false
-      })
-    ]);
-
-    hotspotLayers.forEach((layer) => layer.addTo(map));
-
-    return () => {
-      hotspotLayers.forEach((layer) => map.removeLayer(layer));
-    };
-  }, [map]);
 
   useEffect(() => {
     let debounceTimer = null;
