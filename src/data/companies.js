@@ -586,44 +586,6 @@ export const HYDERABAD_COMPANIES = [
     "ecosystemImpact": "Located strategically near Begumpet / Balanagar Hub, Hyderabad, Gayam Motor Works (GMW) actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
   },
   {
-    "id": "ctrls",
-    "name": "CtrlS Datacenters",
-    "logoText": "CS",
-    "color": "#16A34A",
-    "category": "Tier-4 Datacenters • Cloud Infrastructure",
-    "industry": "SaaS / Enterprise",
-    "stage": "Market Leader",
-    "valuation": "$1.2B+",
-    "employees": "1,500+",
-    "foundedYear": 2007,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "address": "CtrlS House, 16, Software Units Layout, Madhapur, HITEC City, Hyderabad 500081",
-    "coordinates": [
-      17.4452,
-      78.3795
-    ],
-    "careerUrl": "https://www.ctrls.in/careers.html",
-    "linkedInUrl": "https://www.linkedin.com/company/ctrls-datacenters",
-    "hrMail": "careers@ctrls.in",
-    "description": "Asia's largest Rated-4 hyperscale datacenter provider powering mission-critical cloud infrastructure, edge computing, and green colocation.",
-    "techStack": [
-      "Network Engineering",
-      "Hyperscale Infra",
-      "Linux Kernel",
-      "BGP",
-      "SDN",
-      "Cloud Architecture"
-    ],
-    "isStartup": false,
-    "isHiring": true,
-    "openRolesCount": 5,
-    "longOverview": "CtrlS Datacenters is a cornerstone of the Hyderabad technology and startup ecosystem, operating from its modern base in HITEC City, Hyderabad. Founded in 2007, the company has scaled rapidly to become a recognized powerhouse within the SaaS / Enterprise sector. Asia's largest Rated-4 hyperscale datacenter provider powering mission-critical cloud infrastructure, edge computing, and green colocation. With a dedicated team of 1,500+ professionals, CtrlS Datacenters plays a vital role in positioning Hyderabad as India's premier hub for technology and engineering excellence.",
-    "engineeringCulture": "The engineering team at CtrlS Datacenters builds with a modern stack centered around Network Engineering, Hyperscale Infra, Linux Kernel, BGP, SDN, Cloud Architecture. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
-    "hiringFocus": "CtrlS Datacenters actively seeks passionate engineering talent across backend systems (Network Engineering, Hyperscale Infra, Linux Kernel), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
-    "ecosystemImpact": "Located strategically near HITEC City, Hyderabad, CtrlS Datacenters actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
-  },
-  {
     "id": "evalueserve",
     "name": "Evalueserve",
     "logoText": "ES",
@@ -2322,43 +2284,6 @@ export const HYDERABAD_COMPANIES = [
     "ecosystemImpact": "Located strategically near HITEC City, Hyderabad, ETO Motors actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
   },
   {
-    "id": "gmw-india",
-    "name": "Gayam Motor Works (GMW)",
-    "logoText": "GW",
-    "color": "#F59E0B",
-    "category": "Smart Mobility • EV Engineering",
-    "industry": "CleanTech & EV",
-    "stage": "Growth",
-    "valuation": "$75M",
-    "employees": "250+",
-    "foundedYear": 2012,
-    "hubId": "gachibowli",
-    "area": "Gachibowli, Hyderabad",
-    "address": "Financial District Rd, Gachibowli, Hyderabad 500032",
-    "coordinates": [
-      17.4398,
-      78.3524
-    ],
-    "careerUrl": "https://gayammotorworks.com/careers",
-    "linkedInUrl": "https://www.linkedin.com/company/gayam-motor-works",
-    "hrMail": "jobs@gmw.in",
-    "description": "Pioneering smart electric three-wheelers and battery-swapping networks utilized by global logistics giants including Amazon, IKEA, and Flipkart.",
-    "techStack": [
-      "Embedded C",
-      "Battery Telemetry",
-      "Python",
-      "IoT",
-      "Cloud Analytics"
-    ],
-    "isStartup": true,
-    "isHiring": true,
-    "openRolesCount": 2,
-    "longOverview": "Gayam Motor Works (GMW) is a cornerstone of the Hyderabad technology and startup ecosystem, operating from its modern base in Gachibowli, Hyderabad. Founded in 2012, the company has scaled rapidly to become a recognized powerhouse within the CleanTech & EV sector. Pioneering smart electric three-wheelers and battery-swapping networks utilized by global logistics giants including Amazon, IKEA, and Flipkart. With a dedicated team of 250+ professionals, Gayam Motor Works (GMW) plays a vital role in positioning Hyderabad as India's premier hub for technology and engineering excellence.",
-    "engineeringCulture": "The engineering team at Gayam Motor Works (GMW) builds with a modern stack centered around Embedded C, Battery Telemetry, Python, IoT, Cloud Analytics. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
-    "hiringFocus": "Gayam Motor Works (GMW) actively seeks passionate engineering talent across backend systems (Embedded C, Battery Telemetry, Python), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
-    "ecosystemImpact": "Located strategically near Gachibowli, Hyderabad, Gayam Motor Works (GMW) actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
-  },
-  {
     "id": "ozonetel",
     "name": "Ozonetel Communications",
     "logoText": "OZ",
@@ -3131,45 +3056,6 @@ export const HYDERABAD_COMPANIES = [
     "ecosystemImpact": "Located strategically near HITEC City, Hyderabad, Verisk Hyderabad actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
   },
   {
-    "id": "pega-hyd",
-    "name": "Pegasystems Hyderabad",
-    "logoText": "PG",
-    "color": "#1D4ED8",
-    "category": "Low-Code • Autonomous Enterprise AI",
-    "industry": "SaaS / Enterprise",
-    "stage": "Global Leader ($6B)",
-    "valuation": "$6.0B",
-    "employees": "6,000+ (Hyd: 2,200+)",
-    "foundedYear": 1983,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "address": "Raheja Mindspace IT Park, Building 12A, HITEC City, Hyderabad 500081",
-    "coordinates": [
-      17.4478,
-      78.3752
-    ],
-    "careerUrl": "https://www.pega.com/about/careers",
-    "linkedInUrl": "https://www.linkedin.com/company/pegasystems",
-    "hrMail": "india-careers@pega.com",
-    "description": "Pega's primary global R&D powerhouse developing enterprise AI decisioning, workflow automation, and low-code platforms.",
-    "techStack": [
-      "Java",
-      "Pega Infinity",
-      "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "GenAI",
-      "PostgreSQL"
-    ],
-    "isStartup": false,
-    "isHiring": true,
-    "openRolesCount": 7,
-    "longOverview": "Pegasystems Hyderabad is a cornerstone of the Hyderabad technology and startup ecosystem, operating from its modern base in HITEC City, Hyderabad. Founded in 1983, the company has scaled rapidly to become a recognized powerhouse within the SaaS / Enterprise sector. Pega's primary global R&D powerhouse developing enterprise AI decisioning, workflow automation, and low-code platforms. With a dedicated team of 6,000+ (Hyd: 2,200+) professionals, Pegasystems Hyderabad plays a vital role in positioning Hyderabad as India's premier hub for technology and engineering excellence.",
-    "engineeringCulture": "The engineering team at Pegasystems Hyderabad builds with a modern stack centered around Java, Pega Infinity, React, Kubernetes, AWS/Azure, GenAI, PostgreSQL. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
-    "hiringFocus": "Pegasystems Hyderabad actively seeks passionate engineering talent across backend systems (Java, Pega Infinity, React), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
-    "ecosystemImpact": "Located strategically near HITEC City, Hyderabad, Pegasystems Hyderabad actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
-  },
-  {
     "id": "broadridge-hyd",
     "name": "Broadridge Financial Solutions",
     "logoText": "BR",
@@ -3440,45 +3326,6 @@ export const HYDERABAD_COMPANIES = [
     "ecosystemImpact": "Located strategically near HITEC City, Hyderabad, Signode India Tech Hub actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
   },
   {
-    "id": "turbonhire",
-    "name": "TurboHire",
-    "logoText": "TH",
-    "color": "#0284C7",
-    "category": "AI Recruitment • SaaS",
-    "industry": "SaaS / Enterprise",
-    "stage": "Series A ($3M+ Raised)",
-    "valuation": "$25M",
-    "employees": "120+",
-    "foundedYear": 2019,
-    "hubId": "t-hub-raidurg",
-    "area": "T-Hub 2.0 / Raidurg, Hyderabad",
-    "address": "T-Hub Phase 2, Knowledge City, Raidurg, Hyderabad 500081",
-    "coordinates": [
-      17.4332,
-      78.3765
-    ],
-    "careerUrl": "https://turbohire.co/careers",
-    "linkedInUrl": "https://www.linkedin.com/company/turbohire",
-    "hrMail": "careers@turbohire.co",
-    "description": "AI-powered recruitment automation and talent intelligence platform helping enterprise teams discover and evaluate top candidates at scale.",
-    "techStack": [
-      "Python",
-      "FastAPI",
-      "React",
-      "NLP",
-      "PostgreSQL",
-      "AWS",
-      "Docker"
-    ],
-    "isStartup": true,
-    "isHiring": true,
-    "openRolesCount": 4,
-    "longOverview": "TurboHire is a cornerstone of the Hyderabad technology and startup ecosystem, operating from its modern base in T-Hub 2.0 / Raidurg, Hyderabad. Founded in 2019, the company has scaled rapidly to become a recognized powerhouse within the SaaS / Enterprise sector. AI-powered recruitment automation and talent intelligence platform helping enterprise teams discover and evaluate top candidates at scale. With a dedicated team of 120+ professionals, TurboHire plays a vital role in positioning Hyderabad as India's premier hub for technology and engineering excellence.",
-    "engineeringCulture": "The engineering team at TurboHire builds with a modern stack centered around Python, FastAPI, React, NLP, PostgreSQL, AWS, Docker. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
-    "hiringFocus": "TurboHire actively seeks passionate engineering talent across backend systems (Python, FastAPI, React), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
-    "ecosystemImpact": "Located strategically near T-Hub 2.0 / Raidurg, Hyderabad, TurboHire actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
-  },
-  {
     "id": "callhub",
     "name": "CallHub",
     "logoText": "CH",
@@ -3516,45 +3363,6 @@ export const HYDERABAD_COMPANIES = [
     "engineeringCulture": "The engineering team at CallHub builds with a modern stack centered around Python, Django, React, WebRTC, PostgreSQL, AWS, Twilio API. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
     "hiringFocus": "CallHub actively seeks passionate engineering talent across backend systems (Python, Django, React), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
     "ecosystemImpact": "Located strategically near Madhapur & Durgam Cheruvu, CallHub actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
-  },
-  {
-    "id": "kellton",
-    "name": "Kellton Tech Solutions",
-    "logoText": "KT",
-    "color": "#4338CA",
-    "category": "Digital Transformation • Enterprise IT",
-    "industry": "SaaS / Enterprise",
-    "stage": "Public (NSE: KELLTONTEC)",
-    "valuation": "$150M",
-    "employees": "1,800+",
-    "foundedYear": 2009,
-    "hubId": "financial-district",
-    "area": "Financial District / Nanakramguda",
-    "address": "Plot No 1367, Road No 45, Jubilee Hills & Financial District, Hyderabad 500033",
-    "coordinates": [
-      17.4205,
-      78.3478
-    ],
-    "careerUrl": "https://www.kellton.com/careers",
-    "linkedInUrl": "https://www.linkedin.com/company/kellton-tech-solutions-ltd",
-    "hrMail": "careers.india@kellton.com",
-    "description": "Global enterprise IT consulting and digital transformation firm delivering bespoke AI, IoT, and ERP solutions for Fortune 500 clients.",
-    "techStack": [
-      "Java",
-      "React",
-      "Angular",
-      "Python",
-      "SAP",
-      "AWS",
-      "Microservices"
-    ],
-    "isStartup": false,
-    "isHiring": true,
-    "openRolesCount": 6,
-    "longOverview": "Kellton Tech Solutions is a cornerstone of the Hyderabad technology and startup ecosystem, operating from its modern base in Financial District / Nanakramguda. Founded in 2009, the company has scaled rapidly to become a recognized powerhouse within the SaaS / Enterprise sector. Global enterprise IT consulting and digital transformation firm delivering bespoke AI, IoT, and ERP solutions for Fortune 500 clients. With a dedicated team of 1,800+ professionals, Kellton Tech Solutions plays a vital role in positioning Hyderabad as India's premier hub for technology and engineering excellence.",
-    "engineeringCulture": "The engineering team at Kellton Tech Solutions builds with a modern stack centered around Java, React, Angular, Python, SAP, AWS, Microservices. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
-    "hiringFocus": "Kellton Tech Solutions actively seeks passionate engineering talent across backend systems (Java, React, Angular), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
-    "ecosystemImpact": "Located strategically near Financial District / Nanakramguda, Kellton Tech Solutions actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
   },
   {
     "id": "zaggle",
@@ -4352,41 +4160,5 @@ export const HYDERABAD_COMPANIES = [
     "engineeringCulture": "The engineering team at Biological E. Innovation Labs builds with a modern stack centered around Bioprocess Analytics, SCADA, Python, Bioinformatics, Cloud QA. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
     "hiringFocus": "Biological E. Innovation Labs actively seeks passionate engineering talent across backend systems (Bioprocess Analytics, SCADA, Python), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
     "ecosystemImpact": "Located strategically near Begumpet & Central Hyd, Biological E. Innovation Labs actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
-  },
-  {
-    "id": "gayam-motor",
-    "name": "Gayam Motor Works (GMW)",
-    "logoText": "GW",
-    "color": "#0891B2",
-    "category": "Electric 3-Wheelers • Fleet Mobility",
-    "industry": "CleanTech & EV",
-    "stage": "Growth Stage ($10M+ Raised)",
-    "valuation": "$40M",
-    "employees": "100+",
-    "foundedYear": 2011,
-    "hubId": "begumpet",
-    "area": "Begumpet & Central Hyd",
-    "address": "Cherlapally & Begumpet Corridor, Hyderabad 500051",
-    "coordinates": [
-      17.4475,
-      78.4712
-    ],
-    "careerUrl": "https://gayammotorworks.com/careers",
-    "linkedInUrl": "https://www.linkedin.com/company/gayam-motor-works",
-    "hrMail": "careers@gayammotorworks.com",
-    "description": "Pioneering electric three-wheeler manufacturer powering delivery fleets for Amazon, IKEA, Flipkart, and BigBasket across India.",
-    "techStack": [
-      "Automotive Design",
-      "Lithium Battery Systems",
-      "Embedded C",
-      "IoT Fleet Cloud"
-    ],
-    "isStartup": true,
-    "isHiring": true,
-    "openRolesCount": 3,
-    "longOverview": "Gayam Motor Works (GMW) is a cornerstone of the Hyderabad technology and startup ecosystem, operating from its modern base in Begumpet & Central Hyd. Founded in 2011, the company has scaled rapidly to become a recognized powerhouse within the CleanTech & EV sector. Pioneering electric three-wheeler manufacturer powering delivery fleets for Amazon, IKEA, Flipkart, and BigBasket across India. With a dedicated team of 100+ professionals, Gayam Motor Works (GMW) plays a vital role in positioning Hyderabad as India's premier hub for technology and engineering excellence.",
-    "engineeringCulture": "The engineering team at Gayam Motor Works (GMW) builds with a modern stack centered around Automotive Design, Lithium Battery Systems, Embedded C, IoT Fleet Cloud. The technical culture prioritizes high-availability microservices architecture, rapid continuous integration and deployment (CI/CD), robust automated testing, and developer autonomy to ship scalable solutions serving global and pan-India enterprises.",
-    "hiringFocus": "Gayam Motor Works (GMW) actively seeks passionate engineering talent across backend systems (Automotive Design, Lithium Battery Systems, Embedded C), modern frontend development (React, TypeScript), mobile architecture, DevOps / Cloud automation, and product management. The organization offers competitive compensation, structured learning stipends, and clear leadership progression paths.",
-    "ecosystemImpact": "Located strategically near Begumpet & Central Hyd, Gayam Motor Works (GMW) actively contributes to Telangana's tech talent density through mentorship, tech meetups, and partnerships with local academic and research institutions like IIIT Hyderabad, IIT Hyderabad, and T-Hub."
   }
 ];

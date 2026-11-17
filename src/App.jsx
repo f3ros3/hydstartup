@@ -58,7 +58,7 @@ export default function App() {
 
   // Pagination for Jobs Board & Company Directory (Performance Optimization)
   const [visibleJobsCount, setVisibleJobsCount] = useState(24);
-  const [visibleCompaniesCount, setVisibleCompaniesCount] = useState(24);
+  const [visibleCompaniesCount, setVisibleCompaniesCount] = useState(12);
 
   // Legal, Trust & Community Modals
   const [isPrivacyModalOpen, setIsPrivacyModalOpen] = useState(false);
@@ -257,7 +257,57 @@ export default function App() {
 
   // Active filters
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('');
   const [selectedRole, setSelectedRole] = useState('All Roles');
+
+  // Debounce search query (180ms) to avoid re-filtering & map marker thrashing on every keystroke
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearchQuery(searchQuery);
+    }, 180);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // Lazy-load Google AdSense after initial map/list render via requestIdleCallback or first interaction
+  useEffect(() => {
+    let loaded = false;
+    const loadAdSense = () => {
+      if (loaded) return;
+      loaded = true;
+      window.removeEventListener('pointerdown', loadAdSense);
+      window.removeEventListener('keydown', loadAdSense);
+      window.removeEventListener('scroll', loadAdSense);
+      if (document.querySelector('script[data-adsense="hyd"]')) return;
+      const script = document.createElement('script');
+      script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4703620599888014';
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      script.dataset.adsense = 'hyd';
+      document.head.appendChild(script);
+    };
+
+    window.addEventListener('pointerdown', loadAdSense, { once: true, passive: true });
+    window.addEventListener('keydown', loadAdSense, { once: true, passive: true });
+    window.addEventListener('scroll', loadAdSense, { once: true, passive: true });
+
+    let idleId;
+    let fallbackTimer;
+    if (typeof window.requestIdleCallback === 'function') {
+      idleId = window.requestIdleCallback(loadAdSense, { timeout: 3000 });
+    } else {
+      fallbackTimer = setTimeout(loadAdSense, 2500);
+    }
+
+    return () => {
+      window.removeEventListener('pointerdown', loadAdSense);
+      window.removeEventListener('keydown', loadAdSense);
+      window.removeEventListener('scroll', loadAdSense);
+      if (idleId && typeof window.cancelIdleCallback === 'function') {
+        window.cancelIdleCallback(idleId);
+      }
+      if (fallbackTimer) clearTimeout(fallbackTimer);
+    };
+  }, []);
   const [selectedIndustry, setSelectedIndustry] = useState('All Industries');
   const [selectedExp, setSelectedExp] = useState('All Levels');
   const [selectedWorkMode, setSelectedWorkMode] = useState('All Modes');
@@ -373,9 +423,9 @@ export default function App() {
     return allJobs.filter((job) => {
       const company = companyMap[job.companyId] || { name: job.companyName };
 
-      // Search Query
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
+      // Search Query (debounced)
+      if (debouncedSearchQuery.trim()) {
+        const q = debouncedSearchQuery.toLowerCase();
         const matchesTitle = job.title.toLowerCase().includes(q);
         const matchesCompany = job.companyName.toLowerCase().includes(q);
         const matchesSkills = job.skills?.some(s => s.toLowerCase().includes(q));
@@ -460,7 +510,7 @@ export default function App() {
           return (a.postedDaysAgo || 0) - (b.postedDaysAgo || 0);
       }
     });
-  }, [allJobs, companyMap, searchQuery, selectedRole, selectedIndustry, selectedExp, selectedWorkMode, selectedHub, companyTypeFilter, sortBy]);
+  }, [allJobs, companyMap, debouncedSearchQuery, selectedRole, selectedIndustry, selectedExp, selectedWorkMode, selectedHub, companyTypeFilter, sortBy]);
 
   // Filter Companies
   const filteredCompanies = useMemo(() => {
@@ -480,9 +530,9 @@ export default function App() {
         return false;
       }
 
-      // Search Query
-      if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
+      // Search Query (debounced)
+      if (debouncedSearchQuery.trim()) {
+        const q = debouncedSearchQuery.toLowerCase();
         const matchesName = company.name.toLowerCase().includes(q);
         const matchesCategory = company.category.toLowerCase().includes(q);
         const matchesTech = company.techStack?.some(t => t.toLowerCase().includes(q));
@@ -494,7 +544,7 @@ export default function App() {
 
       return true;
     });
-  }, [selectedHub, companyTypeFilter, selectedIndustry, searchQuery]);
+  }, [selectedHub, companyTypeFilter, selectedIndustry, debouncedSearchQuery]);
 
   // Active filter count check
   const hasActiveFilters = searchQuery !== '' || selectedRole !== 'All Roles' || selectedIndustry !== 'All Industries' || selectedExp !== 'All Levels' || selectedWorkMode !== 'All Modes' || companyTypeFilter !== 'all' || selectedHub !== 'all';
@@ -566,6 +616,9 @@ export default function App() {
   return (
     <div className="relative min-h-screen flex flex-col font-sans overflow-x-hidden">
 
+      {/* GPU-composited animated gradient background shared across entire site & footer */}
+      <div className="animated-bg-layer" aria-hidden="true" />
+
       {/* Top Navbar with Theme Toggle */}
       <Navbar
         viewMode={viewMode}
@@ -575,7 +628,6 @@ export default function App() {
         bookmarksCount={bookmarkedIds.length}
         onOpenBookmarks={() => setIsBookmarksDrawerOpen(true)}
         onOpenAnalytics={() => setIsAnalyticsModalOpen(true)}
-        onOpenSubmit={() => setIsSubmitModalOpen(true)}
         isDark={isDark}
         onToggleTheme={handleToggleTheme}
       />
@@ -672,15 +724,15 @@ export default function App() {
 
             {/* Right Pane: Startup Companies Stream (Adjustable Width on Desktop / Follows Map on Mobile) */}
             <div 
-              className={`h-auto lg:h-full w-full min-h-[420px] flex flex-col dark:bg-[#0E1526]/95 bg-white/95 rounded-3xl border dark:border-slate-800 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl ${
+              className={`h-auto lg:h-full w-full min-h-[420px] flex flex-col dark:bg-[#0e041f]/90 bg-white/95 rounded-3xl border dark:border-purple-900/60 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl ${
                 isDraggingSplit ? 'duration-0' : 'transition-[width] duration-150'
               }`}
               style={{ width: isDesktop ? `${100 - splitRatio}%` : '100%' }}
             >
               
-              <div className="flex items-center justify-between pb-3 mb-3 border-b dark:border-slate-800 border-slate-200">
+              <div className="flex items-center justify-between pb-3 mb-3 border-b dark:border-purple-900/50 border-slate-200">
                 <div className="flex items-center gap-2">
-                  <Building2 className="w-4 h-4 dark:text-emerald-400 text-orange-600" />
+                  <Building2 className="w-4 h-4 dark:text-purple-400 text-orange-600" />
                   <h2 className="font-extrabold text-sm sm:text-base dark:text-white text-slate-900">Startup Companies</h2>
                 </div>
 
@@ -689,7 +741,7 @@ export default function App() {
                   <div className="hidden xl:flex items-center gap-1 text-[10px] font-bold text-slate-400">
                     <button
                       onClick={() => { setSplitRatio(50); window.dispatchEvent(new Event('resize')); }}
-                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors cursor-pointer"
+                      className="px-1.5 py-0.5 rounded dark:hover:bg-purple-900/60 hover:bg-slate-100 dark:hover:text-purple-300 hover:text-orange-600 transition-colors cursor-pointer"
                       title="50% Map / 50% Companies"
                     >
                       50:50
@@ -697,14 +749,14 @@ export default function App() {
                     <span>|</span>
                     <button
                       onClick={() => { setSplitRatio(70); window.dispatchEvent(new Event('resize')); }}
-                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors cursor-pointer"
+                      className="px-1.5 py-0.5 rounded dark:hover:bg-purple-900/60 hover:bg-slate-100 dark:hover:text-purple-300 hover:text-orange-600 transition-colors cursor-pointer"
                       title="70% Map / 30% Companies"
                     >
                       70:30
                     </button>
                   </div>
 
-                  <span className="text-xs font-mono font-extrabold dark:text-emerald-400 dark:bg-emerald-500/10 text-orange-700 bg-orange-500/10 px-2.5 py-0.5 rounded-lg border dark:border-emerald-500/20 border-orange-500/20">
+                  <span className="text-xs font-mono font-extrabold dark:text-purple-300 dark:bg-purple-500/15 text-orange-700 bg-orange-500/10 px-2.5 py-0.5 rounded-lg border dark:border-purple-500/30 border-orange-500/20">
                     {filteredCompanies.length} Startups
                   </span>
                 </div>

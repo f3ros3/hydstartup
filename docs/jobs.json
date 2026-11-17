@@ -1609,7 +1609,7 @@
   },
   {
     "id": "job-ctrls-1",
-    "companyId": "ctrls",
+    "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
     "title": "Senior Full Stack Cloud Platform Engineer - CtrlS",
     "roleCategory": "Engineering",
@@ -1648,7 +1648,7 @@
   },
   {
     "id": "job-ctrls-2",
-    "companyId": "ctrls",
+    "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
     "title": "Lead Distributed Systems & Kafka Architect - CtrlS",
     "roleCategory": "Engineering",
@@ -1687,7 +1687,7 @@
   },
   {
     "id": "job-ctrls-3",
-    "companyId": "ctrls",
+    "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
     "title": "Frontend & Micro-UI Design Systems Engineer - CtrlS",
     "roleCategory": "Engineering",
@@ -6292,7 +6292,7 @@
   },
   {
     "id": "job-gmw-india-1",
-    "companyId": "gmw-india",
+    "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Battery Management System (BMS) Firmware Architect - Gayam",
     "roleCategory": "Engineering",
@@ -6331,7 +6331,7 @@
   },
   {
     "id": "job-gmw-india-2",
-    "companyId": "gmw-india",
+    "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Connected Vehicle IoT Telematics Platform Developer - Gayam",
     "roleCategory": "Engineering",
@@ -6370,7 +6370,7 @@
   },
   {
     "id": "job-gmw-india-3",
-    "companyId": "gmw-india",
+    "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "EV Powertrain & Power Electronics Calibration Engineer - Gayam",
     "roleCategory": "Engineering",
@@ -9205,7 +9205,7 @@
   },
   {
     "id": "job-pega-hyd-1",
-    "companyId": "pega-hyd",
+    "companyId": "pegasystems",
     "companyName": "Pegasystems Hyderabad",
     "title": "Senior Full Stack Cloud Platform Engineer - Pegasystems",
     "roleCategory": "Engineering",
@@ -9244,7 +9244,7 @@
   },
   {
     "id": "job-pega-hyd-2",
-    "companyId": "pega-hyd",
+    "companyId": "pegasystems",
     "companyName": "Pegasystems Hyderabad",
     "title": "Lead Distributed Systems & Kafka Architect - Pegasystems",
     "roleCategory": "Engineering",
@@ -9283,7 +9283,7 @@
   },
   {
     "id": "job-pega-hyd-3",
-    "companyId": "pega-hyd",
+    "companyId": "pegasystems",
     "companyName": "Pegasystems Hyderabad",
     "title": "Frontend & Micro-UI Design Systems Engineer - Pegasystems",
     "roleCategory": "Engineering",

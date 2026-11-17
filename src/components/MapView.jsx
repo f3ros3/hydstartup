@@ -13,9 +13,46 @@ import {
 } from 'lucide-react';
 import CompanyLogo, { getCompanyLogoUrl } from './CompanyLogo';
 
-// Controller component to smoothly fly map and automatically handle container resizing (debounced)
+const TECH_HOTSPOTS = [
+  { name: 'HITEC City & Mindspace', center: [17.4475, 78.3785], radius: 850, color: '#a855f7' },
+  { name: 'T-Hub 2.0 / Knowledge City', center: [17.4338, 78.3756], radius: 650, color: '#c026d3' },
+  { name: 'Gachibowli Corridor', center: [17.4401, 78.3489], radius: 800, color: '#9333ea' },
+  { name: 'Financial District', center: [17.4172, 78.3446], radius: 850, color: '#7e22ce' },
+  { name: 'Madhapur & Durgam Cheruvu', center: [17.4375, 78.3888], radius: 650, color: '#d946ef' }
+];
+
+// Controller component to smoothly fly map, draw canvas hotspots, and handle container resizing (debounced)
 function MapController({ targetCenter, targetZoom, selectedCompany }) {
   const map = useMap();
+
+  useEffect(() => {
+    const hotspotLayers = TECH_HOTSPOTS.flatMap((spot) => [
+      L.circle(spot.center, {
+        radius: spot.radius,
+        color: spot.color,
+        weight: 1.5,
+        opacity: 0.45,
+        fillColor: spot.color,
+        fillOpacity: 0.12,
+        interactive: false
+      }),
+      L.circle(spot.center, {
+        radius: Math.round(spot.radius * 0.45),
+        color: spot.color,
+        weight: 1,
+        opacity: 0.65,
+        fillColor: spot.color,
+        fillOpacity: 0.2,
+        interactive: false
+      })
+    ]);
+
+    hotspotLayers.forEach((layer) => layer.addTo(map));
+
+    return () => {
+      hotspotLayers.forEach((layer) => map.removeLayer(layer));
+    };
+  }, [map]);
 
   useEffect(() => {
     let debounceTimer = null;
@@ -103,7 +140,7 @@ function createCustomMarkerIcon(company, isSelected) {
 
         ${
           jobsCount > 0
-            ? `<span class="absolute -top-1.5 -right-1.5 bg-emerald-500 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded-full border-2 border-[#0B0F19] shadow-sm">
+            ? `<span class="absolute -top-1.5 -right-1.5 bg-purple-600 text-white text-[9px] font-black px-1.5 py-0.2 rounded-full border-2 border-[#090314] shadow-sm">
                 ${jobsCount}
               </span>`
             : ''
@@ -381,10 +418,10 @@ export default function MapView({
     <div className="relative w-full h-full min-h-[320px] rounded-3xl overflow-hidden border dark:border-slate-800 border-slate-200/90 shadow-2xl dark:bg-[#090D16] bg-slate-50 transition-colors">
       
       {/* Map Header Floating Overlay - Semi-transparent solid background (no costly backdrop-blur) */}
-      <div className="absolute top-3 left-14 sm:left-16 z-[1000] pointer-events-auto dark:bg-[#0B0F19]/92 bg-white/95 px-3.5 py-1.5 rounded-2xl border dark:border-slate-800/90 border-slate-200 shadow-xl flex items-center gap-2 text-xs">
-        <span className="w-2.5 h-2.5 rounded-full dark:bg-emerald-400 bg-orange-500"></span>
-        <span className="font-bold dark:text-slate-200 text-slate-800">Hyderabad Tech Corridor</span>
-        <span className="text-[10px] dark:text-slate-400 text-slate-500 font-mono">({companies.length} Mapped)</span>
+      <div className="absolute top-3 left-14 sm:left-16 z-[1000] pointer-events-auto dark:bg-[#090314]/92 bg-white/95 px-3.5 py-1.5 rounded-2xl border dark:border-purple-800/70 border-slate-200 shadow-xl flex items-center gap-2 text-xs">
+        <span className="w-2.5 h-2.5 rounded-full dark:bg-purple-400 bg-orange-500"></span>
+        <span className="font-bold dark:text-slate-100 text-slate-800">Hyderabad Tech Corridor</span>
+        <span className="text-[10px] dark:text-purple-300 text-slate-500 font-mono">({companies.length} Mapped)</span>
       </div>
 
       <MapContainer

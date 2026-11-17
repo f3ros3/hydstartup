@@ -35,10 +35,10 @@ export default function CompanyCard({
   return (
     <div
       onClick={handleCardClick}
-      className={`rounded-3xl border p-5 sm:p-6 flex flex-col justify-between transition-transform duration-200 group shadow-md hover:shadow-xl hover:-translate-y-1 cursor-pointer ${
+      className={`offscreen-card rounded-3xl border p-5 sm:p-6 flex flex-col justify-between transition-transform duration-200 group shadow-md hover:shadow-xl hover:-translate-y-1 cursor-pointer ${
         isSelected
-          ? 'dark:bg-slate-900 bg-white dark:border-emerald-500 border-orange-500 ring-1 dark:ring-emerald-500 ring-orange-500'
-          : 'dark:bg-[#111827]/95 bg-white/95 hover:bg-white dark:hover:bg-slate-900 dark:border-slate-800 border-slate-200/90 hover:border-orange-300 dark:hover:border-slate-700'
+          ? 'dark:bg-[#190933] bg-white dark:border-purple-400 border-orange-500 ring-1 dark:ring-purple-400 ring-orange-500'
+          : 'dark:bg-[#100622]/92 bg-white/95 hover:bg-white dark:hover:bg-[#170930] dark:border-purple-900/60 border-slate-200/90 hover:border-orange-300 dark:hover:border-purple-500/60'
       }`}
     >
       
@@ -139,7 +139,7 @@ export default function CompanyCard({
               }}
               size="sm"
               className="w-full justify-center"
-              color="#059669"
+              color="#7C3AED"
             >
               Open Roles ({company.openRolesCount || 0})
             </AnimatedApplyButton>

@@ -29,7 +29,7 @@
 
   /* Accessibility: High-contrast focus indicators for keyboard navigation */
   :focus-visible {
-    outline: 2px solid #10B981;
+    outline: 2px solid #A855F7;
     outline-offset: 2px;
   }
   
@@ -39,18 +39,59 @@
   }
 }
 
-/* DARK MODE DUAL GRADIENT (without fixed attachment to avoid scroll repaints) */
+/* GPU-COMPOSITED ANIMATED BACKGROUND LAYER (Zero layout/paint overhead) */
+@keyframes gradientDrift {
+  0% {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(-2%, -2.5%, 0) scale(1.05);
+  }
+  100% {
+    transform: translate3d(2%, -1%, 0) scale(1.03);
+  }
+}
+
+.animated-bg-layer {
+  position: fixed;
+  inset: -10%;
+  z-index: 0;
+  pointer-events: none;
+  will-change: transform;
+  animation: gradientDrift 18s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated-bg-layer,
+  .hyd-cluster-badge::after {
+    animation: none !important;
+  }
+}
+
+/* DARK MODE: DEEP BLACK TO ROYAL PURPLE & MAGENTA FADING GRADIENT */
 html.dark body {
-  background-color: #0B0F19;
-  background-image: radial-gradient(circle at 10% 10%, #111C35 0%, #0B0F19 55%, #180D2B 100%);
-  color: #f1f5f9;
+  background-color: #05010d;
+  color: #f5f3ff;
+}
+
+html.dark .animated-bg-layer {
+  background: linear-gradient(180deg, #030108 0%, #0d031d 26%, #2b0652 58%, #6d129c 84%, #c026d3 100%);
 }
 
 /* LIGHT MODE VIBRANT ORANGE & PURPLE FADING DUAL GRADIENT */
 html.light body {
   background-color: #FAF5FF;
-  background-image: linear-gradient(135deg, #FFF7ED 0%, #FAF5FF 40%, #F5F3FF 70%, #FFF1F2 100%);
   color: #0F172A;
+}
+
+html.light .animated-bg-layer {
+  background: linear-gradient(135deg, #FFF7ED 0%, #FAF5FF 40%, #F5F3FF 70%, #FFF1F2 100%);
+}
+
+/* Skip off-screen card layout/paint work */
+.offscreen-card {
+  content-visibility: auto;
+  contain-intrinsic-size: 260px;
 }
 
 /* Custom scrollbars */
@@ -59,10 +100,10 @@ html.light body {
   height: 6px;
 }
 html.dark ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #0a0318;
 }
 html.dark ::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: #581c87;
   border-radius: 9999px;
 }
 html.light ::-webkit-scrollbar-track {
@@ -170,21 +211,47 @@ html.light .leaflet-control-zoom a:hover {
   border: none;
 }
 
+@keyframes clusterPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.75;
+  }
+  70% {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+}
+
 .hyd-cluster-badge {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 42px;
   height: 42px;
   border-radius: 9999px;
-  background: linear-gradient(135deg, #10b981 0%, #0d9488 100%);
-  color: #020617;
+  background: linear-gradient(135deg, #9333ea 0%, #c026d3 100%);
+  color: #ffffff;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 900;
   font-size: 13px;
-  border: 3px solid #0f172a;
-  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+  border: 3px solid #1e0636;
+  box-shadow: 0 6px 18px rgba(147, 51, 234, 0.55);
   transition: transform 0.15s ease;
+}
+
+.hyd-cluster-badge::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 9999px;
+  border: 2px solid rgba(192, 38, 211, 0.75);
+  pointer-events: none;
+  animation: clusterPulse 2.4s cubic-bezier(0.24, 0, 0.38, 1) infinite;
 }
 
 html.light .hyd-cluster-badge {
@@ -192,6 +259,10 @@ html.light .hyd-cluster-badge {
   color: #ffffff;
   border-color: #ffffff;
   box-shadow: 0 6px 16px rgba(234, 88, 12, 0.35);
+}
+
+html.light .hyd-cluster-badge::after {
+  border-color: rgba(234, 88, 12, 0.7);
 }
 
 .hyd-cluster-badge:hover {

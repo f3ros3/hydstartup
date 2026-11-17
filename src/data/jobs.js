@@ -1829,7 +1829,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-ctrls-1",
-    "companyId": "ctrls",
+    "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
     "title": "Senior CtrlS Systems Software Engineer",
     "roleCategory": "Engineering",
@@ -1868,7 +1868,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-ctrls-2",
-    "companyId": "ctrls",
+    "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
     "title": "Site Reliability & Bare-Metal Automation Engineer",
     "roleCategory": "Engineering",
@@ -1909,7 +1909,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-ctrls-3",
-    "companyId": "ctrls",
+    "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
     "title": "Lead CtrlS Platform Developer (Data Center)",
     "roleCategory": "Engineering",
@@ -7536,7 +7536,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-gmw-india-1",
-    "companyId": "gmw-india",
+    "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Senior Gayam Systems Software Engineer (Tier 1)",
     "roleCategory": "Engineering",
@@ -7576,7 +7576,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-gmw-india-2",
-    "companyId": "gmw-india",
+    "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 6)",
     "roleCategory": "Engineering",
@@ -7616,7 +7616,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-gmw-india-3",
-    "companyId": "gmw-india",
+    "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Lead Gayam Platform Developer (Smart Mobility)",
     "roleCategory": "Engineering",
@@ -10699,7 +10699,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-pega-hyd-1",
-    "companyId": "pega-hyd",
+    "companyId": "pegasystems",
     "companyName": "Pegasystems Hyderabad",
     "title": "Senior Pegasystems Systems Software Engineer (Tier 1)",
     "roleCategory": "Engineering",
@@ -10738,7 +10738,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-pega-hyd-2",
-    "companyId": "pega-hyd",
+    "companyId": "pegasystems",
     "companyName": "Pegasystems Hyderabad",
     "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 21)",
     "roleCategory": "Engineering",
@@ -10779,7 +10779,7 @@ export const HYDERABAD_JOBS = [
   },
   {
     "id": "job-pega-hyd-3",
-    "companyId": "pega-hyd",
+    "companyId": "pegasystems",
     "companyName": "Pegasystems Hyderabad",
     "title": "Lead Pegasystems Platform Developer (Low-Code)",
     "roleCategory": "Engineering",

@@ -128,7 +128,7 @@ export default function FilterBar({
 
   return (
     <>
-      <div className="dark:bg-[#0B0F19]/95 bg-white/95 border-b dark:border-slate-800/70 border-slate-200/80 p-2.5 sm:p-3.5 sticky top-[88px] sm:top-[116px] z-30 shadow-sm transition-colors">
+      <div className="dark:bg-[#090314]/88 bg-white/95 border-b dark:border-purple-900/50 border-slate-200/80 p-2.5 sm:p-3.5 sticky top-[88px] sm:top-[116px] z-30 shadow-sm transition-colors">
         <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2 sm:space-y-2.5">
         
         {/* ROW 1: Full-Width Prominent Search Bar */}

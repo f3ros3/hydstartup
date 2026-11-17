@@ -77,9 +77,6 @@ function createHtmlDocument({
   <meta name="twitter:title" content="${title}">
   <meta name="twitter:description" content="${description}">
 
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4703620599888014" crossorigin="anonymous"></script>
-
   <!-- Favicon & Styles -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310B981'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -105,7 +102,7 @@ function createHtmlDocument({
     .prose a:hover { color: #059669; }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen antialiased selection:bg-emerald-500 selection:text-slate-950">
+<body class="bg-[#05010d] text-slate-100 min-h-screen antialiased selection:bg-purple-600 selection:text-white">
   
   <!-- Pre-rendered Static Content for Search Engines & No-JS Users -->
   <div id="static-content" class="max-w-6xl mx-auto px-4 sm:px-6 py-8">
