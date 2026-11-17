@@ -57,6 +57,7 @@ function createHtmlDocument({
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>${title}</title>
   <meta name="description" content="${description}">
   <meta name="keywords" content="${keywords}">
@@ -736,6 +737,15 @@ Allow: /
 Sitemap: ${SITE_URL}/sitemap.xml
 `;
     fs.writeFileSync(path.join(baseDir, 'robots.txt'), robotsTxt, 'utf8');
+    // 9. GENERATE _headers FOR STATIC/CDN HOSTING
+    const headersTxt = `/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+`;
+    fs.writeFileSync(path.join(baseDir, '_headers'), headersTxt, 'utf8');
+
 
   });
 

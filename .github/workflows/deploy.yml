@@ -34,7 +34,9 @@ jobs:
         run: npm install
 
       - name: Build Project
-        run: npm run build
+        run: |
+          npm run build
+          node scripts/generate_static_site.mjs
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

@@ -16,6 +16,7 @@ import AnimatedApplyButton from './AnimatedApplyButton';
 
 export default function CompanyCard({
   company,
+  isSelected = false,
   onSelectCompany,
   onViewOnMap,
   onViewCompanyJobs,
@@ -23,8 +24,23 @@ export default function CompanyCard({
 }) {
   const color = company.color || '#10B981';
 
+  const handleCardClick = () => {
+    if (onOpenDetails) {
+      onOpenDetails(company);
+    } else if (onSelectCompany) {
+      onSelectCompany(company);
+    }
+  };
+
   return (
-    <div className="dark:bg-[#111827]/90 bg-white/85 hover:bg-white dark:hover:bg-slate-900/90 rounded-3xl border dark:border-slate-800 border-slate-200/90 hover:border-orange-300 dark:hover:border-slate-700 p-5 sm:p-6 flex flex-col justify-between transition-all duration-200 group shadow-md hover:shadow-2xl hover:-translate-y-1">
+    <div
+      onClick={handleCardClick}
+      className={`rounded-3xl border p-5 sm:p-6 flex flex-col justify-between transition-transform duration-200 group shadow-md hover:shadow-xl hover:-translate-y-1 cursor-pointer ${
+        isSelected
+          ? 'dark:bg-slate-900 bg-white dark:border-emerald-500 border-orange-500 ring-1 dark:ring-emerald-500 ring-orange-500'
+          : 'dark:bg-[#111827]/95 bg-white/95 hover:bg-white dark:hover:bg-slate-900 dark:border-slate-800 border-slate-200/90 hover:border-orange-300 dark:hover:border-slate-700'
+      }`}
+    >
       
       {/* Top Section */}
       <div>
@@ -115,9 +131,12 @@ export default function CompanyCard({
       <div className="space-y-2.5 pt-3.5 border-t dark:border-slate-800/80 border-slate-200/80">
         <div className="flex items-center justify-between gap-2">
           
-          <div className="flex-1">
+          <div className="flex-1" onClick={(e) => e.stopPropagation()}>
             <AnimatedApplyButton
-              onClick={() => onViewCompanyJobs(company)}
+              onClick={(e) => {
+                e?.stopPropagation?.();
+                onViewCompanyJobs(company);
+              }}
               size="sm"
               className="w-full justify-center"
               color="#059669"
@@ -127,7 +146,10 @@ export default function CompanyCard({
           </div>
 
           <button
-            onClick={() => onViewOnMap(company)}
+            onClick={(e) => {
+              e.stopPropagation();
+              onViewOnMap(company);
+            }}
             className="p-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-400 bg-slate-100 hover:bg-slate-200 text-purple-600 border dark:border-slate-700 border-slate-200 transition-colors cursor-pointer"
             title="Locate on Hyderabad Map"
           >
@@ -135,7 +157,10 @@ export default function CompanyCard({
           </button>
 
           <button
-            onClick={() => onOpenDetails(company)}
+            onClick={(e) => {
+              e.stopPropagation();
+              onOpenDetails(company);
+            }}
             className="p-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-700 border dark:border-slate-700 border-slate-200 transition-colors cursor-pointer"
             title="Company Overview & Links"
           >
@@ -151,6 +176,7 @@ export default function CompanyCard({
               href={company.careerUrl} 
               target="_blank" 
               rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
               className="dark:hover:text-cyan-400 hover:text-orange-600 flex items-center gap-1 transition-colors font-medium"
             >
               <span>Careers</span>
@@ -164,6 +190,7 @@ export default function CompanyCard({
                 href={company.linkedInUrl} 
                 target="_blank" 
                 rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
                 className="hover:text-blue-500 transition-colors"
                 title="LinkedIn Profile"
               >
@@ -174,6 +201,7 @@ export default function CompanyCard({
             {company.hrMail && (
               <a 
                 href={`mailto:${company.hrMail}?subject=Application for Hyderabad Tech Roles`} 
+                onClick={(e) => e.stopPropagation()}
                 className="dark:hover:text-emerald-400 hover:text-orange-600 transition-colors"
                 title={`Official HR Email: ${company.hrMail}`}
               >

@@ -11,7 +11,6 @@ import PostJobModal from './components/PostJobModal';
 import BookmarksDrawer from './components/BookmarksDrawer';
 import AnalyticsModal from './components/AnalyticsModal';
 import NewsletterSection from './components/NewsletterSection';
-import FloatingTechBackground from './components/FloatingTechBackground';
 import JobsDisclaimerToast from './components/JobsDisclaimerToast';
 import Footer from './components/Footer';
 import PrivacyPolicyModal from './components/PrivacyPolicyModal';
@@ -181,8 +180,23 @@ export default function App() {
 
   const isDark = theme === 'dark';
 
+  const [isDesktop, setIsDesktop] = useState(() =>
+    typeof window !== 'undefined' ? window.innerWidth >= 1024 : true
+  );
+
+  useEffect(() => {
+    const onResize = () => setIsDesktop(window.innerWidth >= 1024);
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
+
   const handleToggleTheme = () => {
+    const root = document.documentElement;
+    root.classList.add('theme-transitioning');
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+    window.setTimeout(() => {
+      root.classList.remove('theme-transitioning');
+    }, 280);
   };
 
   // Cookie Consent Handlers
@@ -550,10 +564,7 @@ export default function App() {
   }, [allJobs, bookmarkedIds]);
 
   return (
-    <div className="relative min-h-screen flex flex-col font-sans overflow-x-hidden transition-colors duration-300">
-      
-      {/* Floating Tech Background Logos with Gaussian Blur */}
-      <FloatingTechBackground />
+    <div className="relative min-h-screen flex flex-col font-sans overflow-x-hidden">
 
       {/* Top Navbar with Theme Toggle */}
       <Navbar
@@ -565,16 +576,6 @@ export default function App() {
         onOpenBookmarks={() => setIsBookmarksDrawerOpen(true)}
         onOpenAnalytics={() => setIsAnalyticsModalOpen(true)}
         onOpenSubmit={() => setIsSubmitModalOpen(true)}
-        onOpenReport={handleOpenReport}
-        onOpenAbout={() => setIsAboutModalOpen(true)}
-        onOpenContact={() => setIsContactModalOpen(true)}
-        mobileSplitTab={mobileSplitTab}
-        setMobileSplitTab={(tab) => {
-          setMobileSplitTab(tab);
-          if (tab === 'jobs') {
-            setShowJobsDisclaimer(true);
-          }
-        }}
         isDark={isDark}
         onToggleTheme={handleToggleTheme}
       />
@@ -605,36 +606,6 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="relative z-10 flex-1 w-full px-3 sm:px-6 lg:px-10 py-4 sm:py-6">
-        
-        {/* Editorial Header & Trust / Methodology Bar */}
-        <div className="mb-5 p-4 sm:p-5 rounded-3xl dark:bg-slate-900/70 bg-white/80 backdrop-blur-md border dark:border-slate-800/80 border-slate-200/80 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-3">
-          <div className="space-y-1 max-w-3xl">
-            <h1 className="text-sm sm:text-base font-extrabold dark:text-white text-slate-900 flex items-center gap-2">
-              <span>Hyderabad Startups & Tech Job Portal</span>
-              <span className="text-[10px] px-2.5 py-0.5 rounded-full font-bold bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20">
-                Verified: October 2026
-              </span>
-            </h1>
-            <p className="text-xs dark:text-slate-300 text-slate-600 leading-relaxed">
-              Curated geospatial intelligence and direct career application links across 150+ verified technology companies in HITEC City, Gachibowli, Financial District, and T-Hub.
-            </p>
-          </div>
-
-          <div className="flex items-center gap-2 shrink-0">
-            <button
-              onClick={() => setIsAboutModalOpen(true)}
-              className="px-3 py-1.5 rounded-xl dark:bg-slate-800 dark:text-slate-200 bg-slate-100 text-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-bold transition-all"
-            >
-              🛡️ How We Verify Data
-            </button>
-            <button
-              onClick={() => setIsSubmitModalOpen(true)}
-              className="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md shadow-emerald-500/20 transition-all"
-            >
-              + Submit Listing
-            </button>
-          </div>
-        </div>
 
         {/* VIEW 5: RESEARCH & EDITORIAL ARTICLES */}
         {viewMode === 'articles' && (
@@ -648,15 +619,15 @@ export default function App() {
         {viewMode === 'split' && (
           <div 
             ref={splitContainerRef}
-            className="relative flex flex-col lg:flex-row gap-4 lg:gap-3 h-auto lg:h-[calc(100vh-270px)] min-h-0 lg:min-h-[580px] select-none"
+            className="relative flex flex-col lg:flex-row gap-4 lg:gap-3 h-auto lg:h-[calc(100vh-230px)] min-h-0 lg:min-h-[580px] select-none"
           >
             
             {/* Left Pane: Interactive Hyderabad Map (Adjustable Width on Desktop / Full Width Top on Mobile) */}
             <div 
-              className={`h-[360px] sm:h-[420px] lg:h-full w-full flex flex-col transition-[width] shrink-0 ${
-                isDraggingSplit ? 'duration-0 pointer-events-none' : 'duration-150'
+              className={`h-[360px] sm:h-[420px] lg:h-full w-full flex flex-col overflow-hidden rounded-3xl shrink-0 ${
+                isDraggingSplit ? 'duration-0 pointer-events-none' : 'transition-[width] duration-150'
               }`}
-              style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${splitRatio}%` : '100%' }}
+              style={{ width: isDesktop ? `${splitRatio}%` : '100%' }}
             >
               <MapView
                 companies={filteredCompanies}
@@ -699,18 +670,18 @@ export default function App() {
               </div>
             </div>
 
-            {/* Right Pane: Searchable Jobs & Startup Stream (Adjustable Width on Desktop / Follows Map on Mobile) */}
+            {/* Right Pane: Startup Companies Stream (Adjustable Width on Desktop / Follows Map on Mobile) */}
             <div 
-              className={`h-auto lg:h-full w-full min-h-[500px] flex flex-col dark:bg-[#0E1526]/85 bg-white/90 backdrop-blur-md rounded-3xl border dark:border-slate-800 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl transition-[width] ${
-                isDraggingSplit ? 'duration-0' : 'duration-150'
+              className={`h-auto lg:h-full w-full min-h-[420px] flex flex-col dark:bg-[#0E1526]/95 bg-white/95 rounded-3xl border dark:border-slate-800 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl ${
+                isDraggingSplit ? 'duration-0' : 'transition-[width] duration-150'
               }`}
-              style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${100 - splitRatio}%` : '100%' }}
+              style={{ width: isDesktop ? `${100 - splitRatio}%` : '100%' }}
             >
               
               <div className="flex items-center justify-between pb-3 mb-3 border-b dark:border-slate-800 border-slate-200">
                 <div className="flex items-center gap-2">
-                  <Briefcase className="w-4 h-4 dark:text-emerald-400 text-orange-600" />
-                  <h2 className="font-extrabold text-sm sm:text-base dark:text-white text-slate-900">Startup Job Opportunities</h2>
+                  <Building2 className="w-4 h-4 dark:text-emerald-400 text-orange-600" />
+                  <h2 className="font-extrabold text-sm sm:text-base dark:text-white text-slate-900">Startup Companies</h2>
                 </div>
 
                 <div className="flex items-center gap-2">
@@ -718,36 +689,36 @@ export default function App() {
                   <div className="hidden xl:flex items-center gap-1 text-[10px] font-bold text-slate-400">
                     <button
                       onClick={() => { setSplitRatio(50); window.dispatchEvent(new Event('resize')); }}
-                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors"
-                      title="50% Map / 50% Jobs"
+                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors cursor-pointer"
+                      title="50% Map / 50% Companies"
                     >
                       50:50
                     </button>
                     <span>|</span>
                     <button
                       onClick={() => { setSplitRatio(70); window.dispatchEvent(new Event('resize')); }}
-                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors"
-                      title="70% Map / 30% Jobs"
+                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors cursor-pointer"
+                      title="70% Map / 30% Companies"
                     >
                       70:30
                     </button>
                   </div>
 
                   <span className="text-xs font-mono font-extrabold dark:text-emerald-400 dark:bg-emerald-500/10 text-orange-700 bg-orange-500/10 px-2.5 py-0.5 rounded-lg border dark:border-emerald-500/20 border-orange-500/20">
-                    {filteredJobs.length} Roles
+                    {filteredCompanies.length} Startups
                   </span>
                 </div>
               </div>
 
-              {/* Scrollable Job List */}
+              {/* Scrollable Startup Companies List */}
               <div className="overflow-y-auto space-y-3.5 flex-1 pr-1">
-                {filteredJobs.length === 0 ? (
+                {filteredCompanies.length === 0 ? (
                   <div className="text-center py-16 space-y-3">
                     <div className="w-12 h-12 rounded-full dark:bg-slate-800 bg-slate-100 flex items-center justify-center mx-auto text-slate-400">
                       <Search className="w-6 h-6" />
                     </div>
-                    <p className="text-sm font-semibold dark:text-slate-300 text-slate-700">No jobs match your filter</p>
-                    <p className="text-xs text-slate-500">Try adjusting role, industry, or search keywords.</p>
+                    <p className="text-sm font-semibold dark:text-slate-300 text-slate-700">No startup companies match your filter</p>
+                    <p className="text-xs text-slate-500">Try adjusting hub, industry, or search keywords.</p>
                     <button
                       onClick={handleResetFilters}
                       className="px-4 py-2 dark:bg-slate-800 dark:hover:bg-slate-700 bg-slate-100 hover:bg-slate-200 text-xs dark:text-emerald-400 text-orange-600 rounded-xl font-bold transition-colors cursor-pointer"
@@ -757,49 +728,56 @@ export default function App() {
                   </div>
                 ) : (
                   <>
-                    {(typeof window !== 'undefined' && window.innerWidth < 1024 && !isMobileExpandedJobs
-                      ? filteredJobs.slice(0, 5)
-                      : filteredJobs
-                    ).map((job) => (
-                      <JobCard
-                        key={job.id}
-                        job={job}
-                        company={companyMap[job.companyId]}
-                        isSelected={selectedJob?.id === job.id}
-                        onSelectJob={(j) => {
-                          setSelectedJob(j);
-                          setIsJobModalOpen(true);
-                        }}
+                    {(!isDesktop && !isMobileExpandedJobs
+                      ? filteredCompanies.slice(0, 6)
+                      : filteredCompanies.slice(0, visibleCompaniesCount)
+                    ).map((company) => (
+                      <CompanyCard
+                        key={company.id}
+                        company={company}
+                        isSelected={selectedCompany?.id === company.id}
+                        onSelectCompany={(c) => setSelectedCompany(c)}
                         onViewOnMap={handleViewOnMap}
-                        isBookmarked={bookmarkedIds.includes(job.id)}
-                        onToggleBookmark={handleToggleBookmark}
-                        onOpenApplyModal={(j) => {
-                          setSelectedJob(j);
-                          setIsJobModalOpen(true);
+                        onViewCompanyJobs={handleViewCompanyJobs}
+                        onOpenDetails={(c) => {
+                          setSelectedCompany(c);
+                          setIsCompanyModalOpen(true);
                         }}
                       />
                     ))}
 
-                    {/* Mobile "See More Jobs" Button */}
-                    {filteredJobs.length > 5 && (
+                    {/* Mobile / Desktop Load More Companies in Split View */}
+                    {(!isDesktop && filteredCompanies.length > 6) && (
                       <div className="pt-2 pb-1 text-center lg:hidden">
                         {!isMobileExpandedJobs ? (
                           <button
                             onClick={() => setIsMobileExpandedJobs(true)}
-                            className="w-full py-3 px-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 via-teal-500/15 to-cyan-500/15 hover:from-emerald-500/25 hover:to-teal-500/25 border border-emerald-500/40 text-emerald-400 font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer transition-all active:scale-[0.98]"
+                            className="w-full py-3 px-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 via-teal-500/15 to-cyan-500/15 hover:from-emerald-500/25 hover:to-teal-500/25 border border-emerald-500/40 text-emerald-500 dark:text-emerald-400 font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer transition-transform active:scale-[0.98]"
                           >
-                            <span>See More Jobs ({filteredJobs.length - 5} More Available)</span>
+                            <span>See More Startups ({filteredCompanies.length - 6} More)</span>
                             <ChevronDown className="w-4 h-4" />
                           </button>
                         ) : (
                           <button
                             onClick={() => setIsMobileExpandedJobs(false)}
-                            className="w-full py-2.5 px-4 rounded-2xl dark:bg-slate-800/80 bg-slate-100 hover:bg-slate-200 dark:text-slate-300 text-slate-700 font-bold text-xs flex items-center justify-center gap-1.5 border dark:border-slate-700 border-slate-300 cursor-pointer transition-all"
+                            className="w-full py-2.5 px-4 rounded-2xl dark:bg-slate-800/80 bg-slate-100 hover:bg-slate-200 dark:text-slate-300 text-slate-700 font-bold text-xs flex items-center justify-center gap-1.5 border dark:border-slate-700 border-slate-300 cursor-pointer transition-colors"
                           >
                             <span>Show Less</span>
                             <ChevronUp className="w-4 h-4" />
                           </button>
                         )}
+                      </div>
+                    )}
+
+                    {(isDesktop && visibleCompaniesCount < filteredCompanies.length) && (
+                      <div className="pt-2 pb-1 text-center hidden lg:block">
+                        <button
+                          onClick={() => setVisibleCompaniesCount(prev => prev + 24)}
+                          className="w-full py-2.5 px-4 rounded-2xl dark:bg-slate-800/80 bg-slate-100 hover:bg-slate-200 dark:hover:bg-slate-700 dark:text-emerald-400 text-orange-600 font-extrabold text-xs flex items-center justify-center gap-2 border dark:border-slate-700 border-slate-200 cursor-pointer transition-colors"
+                        >
+                          <span>Load More Startups ({filteredCompanies.length - visibleCompaniesCount} Remaining)</span>
+                          <ChevronDown className="w-4 h-4" />
+                        </button>
                       </div>
                     )}
                   </>
@@ -916,6 +894,7 @@ export default function App() {
                 <CompanyCard
                   key={company.id}
                   company={company}
+                  isSelected={selectedCompany?.id === company.id}
                   onSelectCompany={(c) => setSelectedCompany(c)}
                   onViewOnMap={handleViewOnMap}
                   onViewCompanyJobs={handleViewCompanyJobs}

@@ -1,21 +1,12 @@
 import React from 'react';
 import { 
-  MapPin, 
   Briefcase, 
   Building2, 
   Bookmark, 
-  Sparkles, 
   BarChart3, 
-  Search, 
   Compass, 
-  LayoutGrid, 
   Map as MapIcon,
-  BookOpen,
-  Layers,
-  PlusCircle,
-  Flag,
-  HelpCircle,
-  Mail
+  PlusCircle
 } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import CharminarLogo from './CharminarLogo';
@@ -29,16 +20,11 @@ export default function Navbar({
   onOpenBookmarks, 
   onOpenAnalytics, 
   onOpenSubmit,
-  onOpenReport,
-  onOpenAbout,
-  onOpenContact,
-  mobileSplitTab, 
-  setMobileSplitTab,
   isDark,
   onToggleTheme
 }) {
   return (
-    <header className="sticky top-0 z-40 bg-transparent dark:bg-slate-950/30 bg-white/30 backdrop-blur-md border-b dark:border-slate-800/40 border-slate-200/40 transition-all" role="banner">
+    <header className="sticky top-0 z-40 dark:bg-[#0B0F19]/95 bg-white/95 border-b dark:border-slate-800/70 border-slate-200/80 shadow-sm" role="banner">
       <div className="w-full px-2.5 sm:px-6 lg:px-10">
         
         {/* ROW 1: Left Brand & Stats | CENTER HEADING | Right: Actions */}
@@ -54,11 +40,10 @@ export default function Navbar({
               title="HydStartupArena - Hyderabad Tech Ecosystem"
             >
               <CharminarLogo className="w-full h-full text-white" />
-              <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 bg-emerald-400 border-2 border-[#0B0F19] dark:border-[#0B0F19] border-white rounded-full animate-ping" aria-hidden="true"></span>
               <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 bg-emerald-400 border-2 border-[#0B0F19] dark:border-[#0B0F19] border-white rounded-full" aria-hidden="true"></span>
             </button>
 
-            <div className="hidden xl:flex flex-col text-xs dark:text-slate-200 text-slate-800 font-semibold drop-shadow-sm">
+            <div className="hidden xl:flex flex-col text-xs dark:text-slate-200 text-slate-800 font-semibold">
               <span className="flex items-center gap-1.5 text-emerald-500 dark:text-emerald-400 font-bold">
                 <Building2 className="w-3.5 h-3.5" aria-hidden="true" />
                 {totalCompanies}+ Startups & Tech Giants
@@ -94,7 +79,7 @@ export default function Navbar({
             <button
               onClick={onOpenSubmit}
               aria-label="Submit a Startup or Job"
-              className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md shadow-emerald-500/20 active:scale-95 transition-all cursor-pointer"
+              className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 sm:py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md shadow-emerald-500/20 active:scale-95 transition-transform cursor-pointer"
             >
               <PlusCircle className="w-3.5 h-3.5" />
               <span>Submit</span>
@@ -111,7 +96,7 @@ export default function Navbar({
             <button
               onClick={onOpenAnalytics}
               aria-label="View Hyderabad Ecosystem Intelligence and Analytics"
-              className="p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-cyan-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-purple-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-cyan-400"
+              className="p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-cyan-400 dark:bg-slate-900/70 dark:hover:bg-slate-800 dark:border-slate-700/60 text-slate-800 hover:text-purple-600 bg-slate-100 hover:bg-slate-200 border border-slate-300/80 transition-colors flex items-center gap-1.5 text-xs font-bold cursor-pointer shadow-sm focus-visible:ring-2 focus-visible:ring-cyan-400"
               title="Hyderabad Ecosystem Intelligence"
             >
               <BarChart3 className="w-4 h-4 dark:text-cyan-400 text-purple-600" aria-hidden="true" />
@@ -121,7 +106,7 @@ export default function Navbar({
             <button
               onClick={onOpenBookmarks}
               aria-label={`Saved Opportunities (${bookmarksCount} saved)`}
-              className="relative p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-emerald-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-emerald-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-emerald-400"
+              className="relative p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-emerald-400 dark:bg-slate-900/70 dark:hover:bg-slate-800 dark:border-slate-700/60 text-slate-800 hover:text-emerald-600 bg-slate-100 hover:bg-slate-200 border border-slate-300/80 transition-colors flex items-center gap-1.5 text-xs font-bold cursor-pointer shadow-sm focus-visible:ring-2 focus-visible:ring-emerald-400"
               title="Saved Opportunities"
             >
               <Bookmark className="w-4 h-4" aria-hidden="true" />
@@ -155,20 +140,20 @@ export default function Navbar({
           </div>
         </div>
 
-        {/* ROW 2: View Switchers & Navigation */}
-        <div className="py-1.5 sm:py-2 border-t dark:border-slate-800/40 border-slate-200/40 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-2">
+        {/* ROW 2: View Switchers */}
+        <div className="py-1.5 sm:py-2 border-t dark:border-slate-800/40 border-slate-200/40 flex items-center justify-between gap-2">
           
           {/* View Mode Switcher Buttons */}
-          <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none dark:bg-slate-900/50 bg-white/50 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm">
+          <div className="grid grid-cols-4 sm:inline-flex items-center gap-1 sm:gap-1.5 dark:bg-slate-900/70 bg-slate-100/90 p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/70 border-slate-200 shadow-sm w-full sm:w-auto">
             
             <button
               onClick={() => setViewMode('split')}
-              aria-label="Switch to Split Map and Jobs View"
+              aria-label="Switch to Split Map and Startups View"
               aria-pressed={viewMode === 'split'}
-              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2 sm:px-4 rounded-xl text-xs font-extrabold whitespace-nowrap transition-colors cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'split'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
-                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
+                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/70'
               }`}
             >
               <Compass className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
@@ -179,10 +164,10 @@ export default function Navbar({
               onClick={() => setViewMode('map')}
               aria-label="Switch to Full Map View"
               aria-pressed={viewMode === 'map'}
-              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2 sm:px-4 rounded-xl text-xs font-extrabold whitespace-nowrap transition-colors cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'map'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
-                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
+                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/70'
               }`}
             >
               <MapIcon className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
@@ -193,10 +178,10 @@ export default function Navbar({
               onClick={() => setViewMode('jobs')}
               aria-label="Switch to Jobs Board View"
               aria-pressed={viewMode === 'jobs'}
-              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2 sm:px-4 rounded-xl text-xs font-extrabold whitespace-nowrap transition-colors cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'jobs'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
-                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
+                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/70'
               }`}
             >
               <Briefcase className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
@@ -205,98 +190,19 @@ export default function Navbar({
 
             <button
               onClick={() => setViewMode('companies')}
-              aria-label="Switch to Company Directory View"
+              aria-label="Switch to Directory View"
               aria-pressed={viewMode === 'companies'}
-              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2 sm:px-4 rounded-xl text-xs font-extrabold whitespace-nowrap transition-colors cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 viewMode === 'companies'
                   ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
-                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
+                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/70'
               }`}
             >
               <Building2 className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-              <span>Startups Directory</span>
-            </button>
-
-            <button
-              onClick={() => setViewMode('articles')}
-              aria-label="Switch to Tech Articles & Guides"
-              aria-pressed={viewMode === 'articles'}
-              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
-                viewMode === 'articles'
-                  ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
-                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
-              }`}
-            >
-              <BookOpen className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-              <span>Research & Guides</span>
-            </button>
-
-            <button
-              onClick={() => setViewMode('sectors')}
-              aria-label="Switch to Industry Sectors"
-              aria-pressed={viewMode === 'sectors'}
-              className={`flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-2.5 sm:px-3.5 rounded-xl text-xs font-extrabold whitespace-nowrap transition-all cursor-pointer focus-visible:ring-2 focus-visible:ring-emerald-400 ${
-                viewMode === 'sectors'
-                  ? 'dark:bg-gradient-to-r dark:from-emerald-500 dark:to-teal-600 dark:text-slate-950 bg-gradient-to-r from-orange-500 to-purple-600 text-white shadow-md'
-                  : 'dark:text-slate-300 dark:hover:text-white dark:hover:bg-slate-800/60 text-slate-700 hover:text-slate-950 hover:bg-white/60'
-              }`}
-            >
-              <Layers className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-              <span>Sectors</span>
+              <span>Directory</span>
             </button>
 
           </div>
-
-          {/* Quick Info & Report Links */}
-          <div className="hidden md:flex items-center gap-3 text-xs font-semibold">
-            <button
-              onClick={onOpenAbout}
-              className="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
-            >
-              About
-            </button>
-            <span className="text-slate-300 dark:text-slate-700">•</span>
-            <button
-              onClick={onOpenContact}
-              className="text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
-            >
-              Contact
-            </button>
-            <span className="text-slate-300 dark:text-slate-700">•</span>
-            <button
-              onClick={() => onOpenReport('')}
-              className="inline-flex items-center gap-1 text-amber-600 dark:text-amber-400 hover:underline transition-colors"
-            >
-              <Flag className="w-3 h-3" />
-              Report Issue
-            </button>
-          </div>
-
-          {/* Mobile Split-View Mode Toggle */}
-          {viewMode === 'split' && (
-            <div className="flex lg:hidden items-center justify-center gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-xl border dark:border-slate-800/60 border-slate-200 text-xs">
-              <button
-                onClick={() => setMobileSplitTab('map')}
-                className={`flex-1 py-1.5 px-3 rounded-lg font-bold transition-all cursor-pointer ${
-                  mobileSplitTab === 'map'
-                    ? 'dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500/30 bg-orange-500/20 text-orange-700 border border-orange-500/30 shadow-sm'
-                    : 'dark:text-slate-300 text-slate-700'
-                }`}
-              >
-                🗺️ Show Map
-              </button>
-              <button
-                onClick={() => setMobileSplitTab('jobs')}
-                className={`flex-1 py-1.5 px-3 rounded-lg font-bold transition-all cursor-pointer ${
-                  mobileSplitTab === 'jobs'
-                    ? 'dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500/30 bg-orange-500/20 text-orange-700 border border-orange-500/30 shadow-sm'
-                    : 'dark:text-slate-300 text-slate-700'
-                }`}
-              >
-                💼 Show Jobs ({totalJobs})
-              </button>
-            </div>
-          )}
 
         </div>
 

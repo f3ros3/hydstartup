@@ -5,22 +5,26 @@
 @layer base {
   html {
     color-scheme: dark light;
+    scroll-behavior: smooth;
   }
   
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* Smooth targeted transitions on major structural surfaces */
-  header,
-  footer,
-  nav,
-  main,
-  aside,
-  dialog,
-  [role="dialog"] {
-    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  /* Smooth GPU-friendly theme transitions without layout/shadow thrashing */
+  html.theme-transitioning,
+  html.theme-transitioning body,
+  html.theme-transitioning header,
+  html.theme-transitioning footer,
+  html.theme-transitioning nav,
+  html.theme-transitioning main,
+  html.theme-transitioning section,
+  html.theme-transitioning div,
+  html.theme-transitioning button,
+  html.theme-transitioning a {
+    transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
   }
 
   /* Accessibility: High-contrast focus indicators for keyboard navigation */
@@ -35,11 +39,10 @@
   }
 }
 
-/* DARK MODE DUAL GRADIENT */
+/* DARK MODE DUAL GRADIENT (without fixed attachment to avoid scroll repaints) */
 html.dark body {
   background-color: #0B0F19;
   background-image: radial-gradient(circle at 10% 10%, #111C35 0%, #0B0F19 55%, #180D2B 100%);
-  background-attachment: fixed;
   color: #f1f5f9;
 }
 
@@ -47,7 +50,6 @@ html.dark body {
 html.light body {
   background-color: #FAF5FF;
   background-image: linear-gradient(135deg, #FFF7ED 0%, #FAF5FF 40%, #F5F3FF 70%, #FFF1F2 100%);
-  background-attachment: fixed;
   color: #0F172A;
 }
 
@@ -346,93 +348,4 @@ html.light .uiverse-button:hover .uiverse-button__icon-wrapper {
 
 #toggle:checked + svg #stars {
   opacity: 1;
-}
-
-/* Wide Roving Smooth Drifting Animations for Background Tech Logos */
-@keyframes driftOrbit1 {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-  25% {
-    transform: translate(140px, -70px) rotate(12deg) scale(1.06);
-  }
-  50% {
-    transform: translate(70px, 90px) rotate(-8deg) scale(0.95);
-  }
-  75% {
-    transform: translate(-120px, 40px) rotate(15deg) scale(1.03);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-}
-
-@keyframes driftOrbit2 {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-  25% {
-    transform: translate(-150px, -90px) rotate(-14deg) scale(1.05);
-  }
-  50% {
-    transform: translate(90px, -50px) rotate(10deg) scale(0.96);
-  }
-  75% {
-    transform: translate(-80px, 110px) rotate(-12deg) scale(1.04);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-}
-
-@keyframes driftOrbit3 {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-  30% {
-    transform: translate(180px, 60px) rotate(-10deg) scale(1.08);
-  }
-  60% {
-    transform: translate(90px, -90px) rotate(12deg) scale(0.94);
-  }
-  85% {
-    transform: translate(-130px, -40px) rotate(-6deg) scale(1.02);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-}
-
-@keyframes driftOrbit4 {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-  25% {
-    transform: translate(-90px, 120px) rotate(15deg) scale(0.97);
-  }
-  50% {
-    transform: translate(140px, 70px) rotate(-12deg) scale(1.07);
-  }
-  75% {
-    transform: translate(70px, -110px) rotate(8deg) scale(1.01);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg) scale(1);
-  }
-}
-
-.animate-drift-1 {
-  animation: driftOrbit1 14s ease-in-out infinite;
-}
-
-.animate-drift-2 {
-  animation: driftOrbit2 16s ease-in-out infinite;
-}
-
-.animate-drift-3 {
-  animation: driftOrbit3 18s ease-in-out infinite;
-}
-
-.animate-drift-4 {
-  animation: driftOrbit4 20s ease-in-out infinite;
 }

@@ -93,15 +93,27 @@ export default function FilterBar({
   const [isSortOpen, setIsSortOpen] = useState(false);
   const sortRef = useRef(null);
 
-  // Close sort menu on click outside
+  // Close sort & filter menus on click/touch outside or Escape key
   useEffect(() => {
     function handleClickOutside(event) {
       if (sortRef.current && !sortRef.current.contains(event.target)) {
         setIsSortOpen(false);
       }
     }
+    function handleKeyDown(event) {
+      if (event.key === 'Escape') {
+        setIsFiltersOpen(false);
+        setIsSortOpen(false);
+      }
+    }
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+      window.removeEventListener('keydown', handleKeyDown);
+    };
   }, []);
 
   // Calculate active filter count
@@ -115,8 +127,9 @@ export default function FilterBar({
   const currentSortObj = SORT_OPTIONS.find(s => s.value === sortBy) || SORT_OPTIONS[0];
 
   return (
-    <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-3.5 sticky top-[80px] sm:top-[100px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
-      <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2 sm:space-y-2.5">
+    <>
+      <div className="dark:bg-[#0B0F19]/95 bg-white/95 border-b dark:border-slate-800/70 border-slate-200/80 p-2.5 sm:p-3.5 sticky top-[88px] sm:top-[116px] z-30 shadow-sm transition-colors">
+        <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2 sm:space-y-2.5">
         
         {/* ROW 1: Full-Width Prominent Search Bar */}
         <div className="relative w-full">
@@ -212,9 +225,17 @@ export default function FilterBar({
               </button>
 
               {isSortOpen && (
-                <div className="absolute left-0 sm:left-auto sm:right-0 mt-2 w-56 rounded-2xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl p-1.5 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-100" role="listbox" aria-label="Sort options">
-                  <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b dark:border-slate-800 border-slate-100">
-                    Sort By
+                <div className="absolute left-0 sm:left-auto sm:right-0 mt-2 w-60 rounded-2xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl p-1.5 z-50 space-y-1" role="listbox" aria-label="Sort options">
+                  <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b dark:border-slate-800 border-slate-100 flex items-center justify-between">
+                    <span>Sort By</span>
+                    <button
+                      type="button"
+                      onClick={() => setIsSortOpen(false)}
+                      aria-label="Close sort menu"
+                      className="p-0.5 rounded-lg text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
                   </div>
                   {SORT_OPTIONS.map(opt => (
                     <button
@@ -254,7 +275,7 @@ export default function FilterBar({
           {/* Right Live Summary & Sync Badge */}
           <div className="flex items-center gap-2 sm:ml-auto shrink-0 text-[11px] sm:text-xs dark:text-slate-200 text-slate-800 font-mono font-bold">
             <span className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full dark:bg-emerald-500/10 dark:text-emerald-400 bg-emerald-100 text-emerald-800 font-sans font-extrabold text-[10px]">
-              <RefreshCw className="w-2.5 h-2.5 animate-spin duration-3000" />
+              <RefreshCw className="w-2.5 h-2.5" />
               <span>Auto-updated daily</span>
             </span>
             <div className="flex items-center gap-1">
@@ -267,143 +288,6 @@ export default function FilterBar({
           </div>
 
         </div>
-
-        {/* EXPANDABLE FULL FILTER PANEL (Rendered outside overflow containers) */}
-        {isFiltersOpen && (
-          <div className="p-4 sm:p-5 rounded-3xl dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-700/90 border-slate-200 shadow-2xl backdrop-blur-2xl space-y-4 animate-in fade-in slide-in-from-top-2 duration-150">
-            
-            <div className="flex items-center justify-between border-b dark:border-slate-800 border-slate-200 pb-3">
-              <div className="flex items-center gap-2">
-                <SlidersHorizontal className="w-4 h-4 text-emerald-500" />
-                <h3 className="text-xs sm:text-sm font-black dark:text-white text-slate-900">
-                  Filter Hyderabad Tech Opportunities
-                </h3>
-                {activeFilterCount > 0 && (
-                  <span className="px-2 py-0.5 rounded-full text-[10px] font-black dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800">
-                    {activeFilterCount} Active
-                  </span>
-                )}
-              </div>
-
-              {activeFilterCount > 0 && (
-                <button
-                  onClick={onResetFilters}
-                  className="text-xs font-bold text-rose-500 hover:underline flex items-center gap-1 cursor-pointer"
-                >
-                  <RotateCcw className="w-3.5 h-3.5" />
-                  <span>Reset All</span>
-                </button>
-              )}
-            </div>
-
-            {/* 5 Filter Selectors Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
-              
-              {/* 1. Hub / Location */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                  <MapPin className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>Location Hub</span>
-                </label>
-                <select
-                  value={selectedHub || 'all'}
-                  onChange={(e) => {
-                    const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
-                    if (hub && onSelectHub) onSelectHub(hub);
-                  }}
-                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 cursor-pointer shadow-sm"
-                >
-                  {HYDERABAD_HUBS.map(hub => (
-                    <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19]">
-                      📍 {hub.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
-
-              {/* 2. Role Category */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                  <Briefcase className="w-3.5 h-3.5 text-cyan-400" />
-                  <span>Role Category</span>
-                </label>
-                <select
-                  value={selectedRole}
-                  onChange={(e) => setSelectedRole(e.target.value)}
-                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-cyan-500/30 focus:border-cyan-500 cursor-pointer shadow-sm"
-                >
-                  {ROLE_CATEGORIES.map(r => (
-                    <option key={r} value={r} className="dark:bg-[#0B0F19]">{r}</option>
-                  ))}
-                </select>
-              </div>
-
-              {/* 3. Industry Domain */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                  <Building className="w-3.5 h-3.5 text-purple-400" />
-                  <span>Industry Domain</span>
-                </label>
-                <select
-                  value={selectedIndustry}
-                  onChange={(e) => setSelectedIndustry(e.target.value)}
-                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-purple-500/30 focus:border-purple-500 cursor-pointer shadow-sm"
-                >
-                  {INDUSTRIES.map(ind => (
-                    <option key={ind} value={ind} className="dark:bg-[#0B0F19]">{ind}</option>
-                  ))}
-                </select>
-              </div>
-
-              {/* 4. Experience Level */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                  <Clock className="w-3.5 h-3.5 text-pink-400" />
-                  <span>Experience Level</span>
-                </label>
-                <select
-                  value={selectedExp}
-                  onChange={(e) => setSelectedExp(e.target.value)}
-                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-pink-500/30 focus:border-pink-500 cursor-pointer shadow-sm"
-                >
-                  {EXPERIENCE_LEVELS.map(exp => (
-                    <option key={exp} value={exp} className="dark:bg-[#0B0F19]">{exp}</option>
-                  ))}
-                </select>
-              </div>
-
-              {/* 5. Work Mode */}
-              <div className="space-y-1.5">
-                <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
-                  <Globe className="w-3.5 h-3.5 text-amber-400" />
-                  <span>Work Mode</span>
-                </label>
-                <select
-                  value={selectedWorkMode}
-                  onChange={(e) => setSelectedWorkMode(e.target.value)}
-                  className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500/30 focus:border-amber-500 cursor-pointer shadow-sm"
-                >
-                  {WORK_MODES.map(wm => (
-                    <option key={wm} value={wm} className="dark:bg-[#0B0F19]">{wm}</option>
-                  ))}
-                </select>
-              </div>
-
-            </div>
-
-            {/* Bottom Actions inside Panel */}
-            <div className="flex items-center justify-end pt-2">
-              <button
-                onClick={() => setIsFiltersOpen(false)}
-                className="px-6 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 cursor-pointer flex items-center gap-1.5 hover:scale-[1.02] active:scale-[0.98] transition-all"
-              >
-                <Check className="w-3.5 h-3.5" />
-                <span>Apply Filters</span>
-              </button>
-            </div>
-
-          </div>
-        )}
 
         {/* Active Filter Summary Pills (Displayed when filters are active) */}
         {activeFilterCount > 0 && (
@@ -444,5 +328,171 @@ export default function FilterBar({
 
       </div>
     </div>
+
+    {/* FILTER POPUP MODAL (Backdrop click or top-right X closes without pushing page down) */}
+    {isFiltersOpen && (
+      <div
+        className="fixed inset-0 z-[80] flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm cursor-pointer"
+        onClick={() => setIsFiltersOpen(false)}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Filter Hyderabad Tech Opportunities"
+      >
+        <div
+          className="relative w-full max-w-3xl p-5 sm:p-6 rounded-3xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl space-y-5 cursor-default max-h-[90vh] overflow-y-auto"
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className="flex items-center justify-between border-b dark:border-slate-800 border-slate-200 pb-3.5">
+            <div className="flex items-center gap-2">
+              <SlidersHorizontal className="w-4 h-4 text-emerald-500" />
+              <h3 className="text-sm sm:text-base font-black dark:text-white text-slate-900">
+                Filter Hyderabad Tech Opportunities
+              </h3>
+              {activeFilterCount > 0 && (
+                <span className="px-2 py-0.5 rounded-full text-[10px] font-black dark:bg-emerald-500/20 dark:text-emerald-300 bg-orange-100 text-orange-800">
+                  {activeFilterCount} Active
+                </span>
+              )}
+            </div>
+
+            <div className="flex items-center gap-2">
+              {activeFilterCount > 0 && (
+                <button
+                  type="button"
+                  onClick={onResetFilters}
+                  className="text-xs font-bold text-rose-500 hover:underline flex items-center gap-1 cursor-pointer mr-1"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  <span>Reset All</span>
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={() => setIsFiltersOpen(false)}
+                aria-label="Close filters popup"
+                className="p-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300 dark:hover:text-white bg-slate-100 hover:bg-rose-100 text-slate-600 hover:text-rose-600 transition-colors cursor-pointer"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+
+          {/* 5 Filter Selectors Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            {/* 1. Hub / Location */}
+            <div className="space-y-1.5">
+              <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                <MapPin className="w-3.5 h-3.5 text-emerald-400" />
+                <span>Location Hub</span>
+              </label>
+              <select
+                value={selectedHub || 'all'}
+                onChange={(e) => {
+                  const hub = HYDERABAD_HUBS.find(h => h.id === e.target.value);
+                  if (hub && onSelectHub) onSelectHub(hub);
+                }}
+                className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 cursor-pointer shadow-sm"
+              >
+                {HYDERABAD_HUBS.map(hub => (
+                  <option key={hub.id} value={hub.id} className="dark:bg-[#0B0F19]">
+                    📍 {hub.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* 2. Role Category */}
+            <div className="space-y-1.5">
+              <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                <Briefcase className="w-3.5 h-3.5 text-cyan-400" />
+                <span>Role Category</span>
+              </label>
+              <select
+                value={selectedRole}
+                onChange={(e) => setSelectedRole(e.target.value)}
+                className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-cyan-500/30 focus:border-cyan-500 cursor-pointer shadow-sm"
+              >
+                {ROLE_CATEGORIES.map(r => (
+                  <option key={r} value={r} className="dark:bg-[#0B0F19]">{r}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* 3. Industry Domain */}
+            <div className="space-y-1.5">
+              <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                <Building className="w-3.5 h-3.5 text-purple-400" />
+                <span>Industry Domain</span>
+              </label>
+              <select
+                value={selectedIndustry}
+                onChange={(e) => setSelectedIndustry(e.target.value)}
+                className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-purple-500/30 focus:border-purple-500 cursor-pointer shadow-sm"
+              >
+                {INDUSTRIES.map(ind => (
+                  <option key={ind} value={ind} className="dark:bg-[#0B0F19]">{ind}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* 4. Experience Level */}
+            <div className="space-y-1.5">
+              <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                <Clock className="w-3.5 h-3.5 text-pink-400" />
+                <span>Experience Level</span>
+              </label>
+              <select
+                value={selectedExp}
+                onChange={(e) => setSelectedExp(e.target.value)}
+                className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-pink-500/30 focus:border-pink-500 cursor-pointer shadow-sm"
+              >
+                {EXPERIENCE_LEVELS.map(exp => (
+                  <option key={exp} value={exp} className="dark:bg-[#0B0F19]">{exp}</option>
+                ))}
+              </select>
+            </div>
+
+            {/* 5. Work Mode */}
+            <div className="space-y-1.5 sm:col-span-2">
+              <label className="text-[11px] font-bold dark:text-slate-300 text-slate-700 flex items-center gap-1.5">
+                <Globe className="w-3.5 h-3.5 text-amber-400" />
+                <span>Work Mode</span>
+              </label>
+              <select
+                value={selectedWorkMode}
+                onChange={(e) => setSelectedWorkMode(e.target.value)}
+                className="w-full text-xs px-3 py-2.5 rounded-xl dark:bg-slate-900 dark:border-slate-700 border border-slate-300 dark:text-white text-slate-900 font-bold focus:outline-none focus:ring-2 focus:ring-amber-500/30 focus:border-amber-500 cursor-pointer shadow-sm"
+              >
+                {WORK_MODES.map(wm => (
+                  <option key={wm} value={wm} className="dark:bg-[#0B0F19]">{wm}</option>
+                ))}
+              </select>
+            </div>
+
+          </div>
+
+          {/* Bottom Actions inside Popup */}
+          <div className="flex items-center justify-end gap-2 pt-3 border-t dark:border-slate-800 border-slate-200">
+            <button
+              type="button"
+              onClick={() => setIsFiltersOpen(false)}
+              className="px-4 py-2 rounded-xl dark:bg-slate-800 bg-slate-100 hover:bg-slate-200 dark:hover:bg-slate-700 dark:text-slate-300 text-slate-700 font-bold text-xs cursor-pointer transition-colors"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              onClick={() => setIsFiltersOpen(false)}
+              className="px-6 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 text-slate-950 font-black text-xs shadow-md shadow-emerald-500/20 cursor-pointer flex items-center gap-1.5 hover:scale-[1.02] active:scale-[0.98] transition-transform"
+            >
+              <Check className="w-3.5 h-3.5" />
+              <span>Apply Filters</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    )}
+    </>
   );
 }
