@@ -1,8 +1,6 @@
 import requests
 import json
 import logging
-import re
-from datetime import date
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 
@@ -55,7 +53,7 @@ def parse_lever(company_slug):
                     jobs.append({
                         'title': job.get('text', ''),
                         'location': job.get('categories', {}).get('location', ''),
-                        'applyUrl': job.get('hostedUrl', '') or job.get('applyUrl', ''),
+                        'applyUrl': job.get('applyUrl', '') or job.get('hostedUrl', ''),
                         'description': description,
                         'salary': '',
                         'experience': '',
@@ -69,7 +67,7 @@ def parse_ashby(company_slug):
     jobs = []
     url = f"https://api.ashbyhq.com/posting-api/job-board/{company_slug}"
     try:
-        response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        response = requests.post(url, headers=HEADERS, timeout=TIMEOUT, json={})
         if response.status_code == 200:
             data = response.json()
             for job in data.get('jobs', []):
@@ -155,88 +153,38 @@ def parse_smartrecruiters(company_id):
         logger.warning(f"Error parsing SmartRecruiters for {company_id}: {e}")
     return jobs
 
-def structured_postings(value):
-    if isinstance(value, list):
-        for item in value:
-            yield from structured_postings(item)
-    elif isinstance(value, dict):
-        types = value.get('@type', [])
-        if 'JobPosting' in ([types] if isinstance(types, str) else (types or [])):
-            yield value
-        yield from structured_postings(value.get('@graph'))
-
-
-def structured_jobs(soup, detail_url):
-    for script in soup.select('script[type="application/ld+json"]'):
-        try:
-            data = json.loads(script.get_text())
-        except (TypeError, ValueError):
-            continue
-        for job in structured_postings(data):
-            valid_until = job.get('validThrough')
-            if isinstance(valid_until, str) and valid_until[:10] < date.today().isoformat():
-                continue
-            addresses = job.get('jobLocation') or []
-            if isinstance(addresses, dict):
-                addresses = [addresses]
-            locations = ', '.join(
-                str(location.get('address', {}).get('addressLocality', ''))
-                for location in addresses
-                if isinstance(location, dict) and isinstance(location.get('address'), dict)
-            )
-            yield {
-                'title': job.get('title'),
-                'location': locations,
-                'applyUrl': urljoin(detail_url, job.get('url') or detail_url),
-                'description': job.get('description'),
-                'datePosted': job.get('datePosted'),
-                'workMode': 'Remote' if job.get('jobLocationType') == 'TELECOMMUTE' else '',
-            }
-
-
-DETAIL_PATTERN = (
-    r'/jobs/(?:careers/)?(?:\\d[\\w-]{3,}|[a-f0-9-]{20,})(?:/|$|\\?)'
-    r'|/careers/(?:jobdetails/)?\\d{3,}(?:/|$|\\?)'
-    r'|/job/(?:[^/?#]+/)*[^/?#]*\\d{3,}[^/?#]*(?:/|$|\\?)'
-    r'|[?&](?:gh_jid|job)=\\d+'
-)
-
-
-def parse_custom_html(career_url, company_name, page, detail_pattern=None):
-    if not career_url:
-        return []
-    try:
-        response = page.goto(career_url, timeout=12000, wait_until='domcontentloaded')
-        if not response or not response.ok:
-            return []
-        # Dynamic boards can render their posting links after the initial HTML.
-        page.wait_for_timeout(900)
-        soup = BeautifulSoup(page.content(), 'html.parser')
-        detail_urls = {}
-        for link in soup.select('a[href]'):
-            url = urljoin(page.url, link['href'])
-            if urlparse(url).scheme == 'https' and re.search(detail_pattern or DETAIL_PATTERN, url, re.I):
-                detail_urls[url] = None
-
-        jobs = []
-        for url in list(detail_urls)[:30]:
-            try:
-                response = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-                if not response.ok:
-                    continue
-                if not re.search(detail_pattern or DETAIL_PATTERN, response.url, re.I):
-                    continue
-                detail = BeautifulSoup(response.text, 'html.parser')
-                jobs.extend(structured_jobs(detail, response.url))
-                if len([job for job in jobs if 'hyderabad' in job['location'].lower()]) >= 5:
-                    break
-            except requests.RequestException:
-                continue
+def parse_custom_html(career_url, company_name, page=None):
+    jobs = []
+    if not page or not career_url:
         return jobs
-    except Exception as error:
-        logger.warning("Could not read %s careers: %s", company_name, error)
-        return []
-
+    try:
+        page.goto(career_url, timeout=12000, wait_until='domcontentloaded')
+        page.wait_for_timeout(1500)
+        links = page.locator('a').all()
+        for link in links:
+            if len(jobs) >= 4:
+                break
+            try:
+                text = link.inner_text().strip()
+                href = link.get_attribute('href')
+                if text and href and len(text) > 4 and len(text) < 80:
+                    t_low = text.lower()
+                    if any(kw in t_low for kw in ['engineer', 'developer', 'manager', 'lead', 'designer', 'analyst', 'specialist', 'architect', 'scientist']):
+                        full_url = urljoin(career_url, href)
+                        jobs.append({
+                            'title': text,
+                            'location': 'Hyderabad, India',
+                            'applyUrl': full_url,
+                            'description': '',
+                            'salary': '',
+                            'experience': '',
+                            'workMode': 'Hybrid'
+                        })
+            except Exception:
+                continue
+    except Exception as e:
+        logger.warning(f"Notice parsing {company_name}: {e}")
+    return jobs
 
 def detect_platform(career_url):
     if not career_url:

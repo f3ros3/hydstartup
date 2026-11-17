@@ -32,11 +32,13 @@ export default function Navbar({
   onOpenReport,
   onOpenAbout,
   onOpenContact,
+  mobileSplitTab, 
+  setMobileSplitTab,
   isDark,
   onToggleTheme
 }) {
   return (
-    <header className="sticky top-0 z-40 dark:bg-slate-950 bg-white border-b dark:border-slate-800/40 border-slate-200/40 transition-all" role="banner">
+    <header className="sticky top-0 z-40 bg-transparent dark:bg-slate-950/30 bg-white/30 backdrop-blur-md border-b dark:border-slate-800/40 border-slate-200/40 transition-all" role="banner">
       <div className="w-full px-2.5 sm:px-6 lg:px-10">
         
         {/* ROW 1: Left Brand & Stats | CENTER HEADING | Right: Actions */}
@@ -109,7 +111,7 @@ export default function Navbar({
             <button
               onClick={onOpenAnalytics}
               aria-label="View Hyderabad Ecosystem Intelligence and Analytics"
-              className="p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-cyan-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-purple-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer shadow-sm focus-visible:ring-2 focus-visible:ring-cyan-400"
+              className="p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-cyan-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-purple-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-cyan-400"
               title="Hyderabad Ecosystem Intelligence"
             >
               <BarChart3 className="w-4 h-4 dark:text-cyan-400 text-purple-600" aria-hidden="true" />
@@ -119,7 +121,7 @@ export default function Navbar({
             <button
               onClick={onOpenBookmarks}
               aria-label={`Saved Opportunities (${bookmarksCount} saved)`}
-              className="relative p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-emerald-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-emerald-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer shadow-sm focus-visible:ring-2 focus-visible:ring-emerald-400"
+              className="relative p-1.5 sm:px-2.5 sm:py-2 rounded-xl dark:text-slate-200 dark:hover:text-emerald-400 dark:bg-slate-900/40 dark:hover:bg-slate-800/80 dark:border-slate-700/60 text-slate-800 hover:text-emerald-600 bg-white/50 hover:bg-white/80 border border-slate-300/80 transition-all flex items-center gap-1.5 text-xs font-bold cursor-pointer backdrop-blur-md shadow-sm focus-visible:ring-2 focus-visible:ring-emerald-400"
               title="Saved Opportunities"
             >
               <Bookmark className="w-4 h-4" aria-hidden="true" />
@@ -157,7 +159,7 @@ export default function Navbar({
         <div className="py-1.5 sm:py-2 border-t dark:border-slate-800/40 border-slate-200/40 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-2">
           
           {/* View Mode Switcher Buttons */}
-          <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none dark:bg-slate-900/50 bg-white/50 p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm">
+          <div className="flex items-center gap-1 sm:gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-none dark:bg-slate-900/50 bg-white/50 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border dark:border-slate-800/60 border-slate-200/70 shadow-sm">
             
             <button
               onClick={() => setViewMode('split')}
@@ -270,6 +272,31 @@ export default function Navbar({
             </button>
           </div>
 
+          {/* Mobile Split-View Mode Toggle */}
+          {viewMode === 'split' && (
+            <div className="flex lg:hidden items-center justify-center gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-xl border dark:border-slate-800/60 border-slate-200 text-xs">
+              <button
+                onClick={() => setMobileSplitTab('map')}
+                className={`flex-1 py-1.5 px-3 rounded-lg font-bold transition-all cursor-pointer ${
+                  mobileSplitTab === 'map'
+                    ? 'dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500/30 bg-orange-500/20 text-orange-700 border border-orange-500/30 shadow-sm'
+                    : 'dark:text-slate-300 text-slate-700'
+                }`}
+              >
+                🗺️ Show Map
+              </button>
+              <button
+                onClick={() => setMobileSplitTab('jobs')}
+                className={`flex-1 py-1.5 px-3 rounded-lg font-bold transition-all cursor-pointer ${
+                  mobileSplitTab === 'jobs'
+                    ? 'dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500/30 bg-orange-500/20 text-orange-700 border border-orange-500/30 shadow-sm'
+                    : 'dark:text-slate-300 text-slate-700'
+                }`}
+              >
+                💼 Show Jobs ({totalJobs})
+              </button>
+            </div>
+          )}
 
         </div>
 

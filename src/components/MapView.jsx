@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import { 
@@ -19,9 +19,17 @@ function MapController({ targetCenter, targetZoom, selectedCompany }) {
   const map = useMap();
 
   useEffect(() => {
-    const observer = new ResizeObserver(() => map.invalidateSize({ pan: false, debounceMoveend: true }));
-    observer.observe(map.getContainer());
-    return () => observer.disconnect();
+    const handleResize = () => {
+      map.invalidateSize();
+    };
+
+    window.addEventListener('resize', handleResize);
+    const timer = setTimeout(handleResize, 100);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      clearTimeout(timer);
+    };
   }, [map]);
 
   useEffect(() => {
@@ -54,14 +62,15 @@ function MapEventsHandler({ onResetSearch }) {
 }
 
 // Generate custom Leaflet DivIcon with Real Company Logo (Performance Optimized)
-function createCustomMarkerIcon(company, isSelected, jobsCount) {
+function createCustomMarkerIcon(company, isSelected) {
   const color = company.color || '#10B981';
   const logoText = company.logoText || company.name.substring(0, 2).toUpperCase();
+  const jobsCount = company.openRolesCount || 0;
   const logoUrl = getCompanyLogoUrl(company);
 
   const html = `
     <div class="relative group cursor-pointer select-none" style="transform: translate(-50%, -50%); will-change: transform;">
-      ${isSelected ? `<div class="absolute -inset-1 rounded-2xl bg-emerald-500/40 opacity-75"></div>` : ''}
+      ${isSelected ? `<div class="absolute -inset-1 rounded-2xl bg-emerald-500/40 animate-ping opacity-75"></div>` : ''}
       <div class="relative flex items-center justify-center w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white border-2 shadow-lg transition-transform duration-200 ${
         isSelected
           ? 'scale-125 ring-3 ring-emerald-400 border-emerald-500 z-50 shadow-emerald-500/50'
@@ -106,7 +115,6 @@ function createCustomMarkerIcon(company, isSelected, jobsCount) {
 
 export default function MapView({
   companies,
-  jobCounts,
   selectedCompany,
   onSelectCompany,
   onSelectJobForCompany,
@@ -118,10 +126,6 @@ export default function MapView({
 }) {
   const defaultCenter = [17.438, 78.375]; // HITEC City / Raidurg core
   const markerRefs = useRef({});
-  const icons = useMemo(() => new Map(companies.map(company => {
-    const count = jobCounts.get(company.id) || 0;
-    return [company.id, createCustomMarkerIcon(company, selectedCompany?.id === company.id, count)];
-  })), [companies, jobCounts, selectedCompany]);
 
   useEffect(() => {
     if (selectedCompany && markerRefs.current[selectedCompany.id]) {
@@ -130,11 +134,11 @@ export default function MapView({
   }, [selectedCompany]);
 
   return (
-    <div className={`relative w-full h-full min-h-0 rounded-3xl overflow-hidden border dark:border-slate-800 border-slate-200/90 shadow-2xl dark:bg-[#090D16] bg-slate-50 transition-colors`}>
+    <div className={`relative w-full h-full min-h-[380px] sm:min-h-[440px] rounded-3xl overflow-hidden border dark:border-slate-800 border-slate-200/90 shadow-2xl dark:bg-[#090D16] bg-slate-50 transition-colors`}>
       
       {/* Map Header Floating Overlay - Positioned safely to the right of zoom controls */}
-      <div className="absolute top-3 left-14 sm:left-16 z-[1000] pointer-events-auto dark:bg-[#0B0F19]/90 bg-white/90 px-3.5 py-1.5 rounded-2xl border dark:border-slate-800/90 border-slate-200 shadow-xl flex items-center gap-2 text-xs">
-        <span className="w-2.5 h-2.5 rounded-full dark:bg-emerald-400 bg-orange-500 "></span>
+      <div className="absolute top-3 left-14 sm:left-16 z-[1000] pointer-events-auto dark:bg-[#0B0F19]/90 bg-white/90 backdrop-blur-md px-3.5 py-1.5 rounded-2xl border dark:border-slate-800/90 border-slate-200 shadow-xl flex items-center gap-2 text-xs">
+        <span className="w-2.5 h-2.5 rounded-full dark:bg-emerald-400 bg-orange-500 animate-pulse"></span>
         <span className="font-bold dark:text-slate-200 text-slate-800">Hyderabad Tech Corridor</span>
         <span className="text-[10px] dark:text-slate-400 text-slate-500 font-mono">({companies.length} Mapped)</span>
       </div>
@@ -142,7 +146,7 @@ export default function MapView({
       <MapContainer
         center={defaultCenter}
         zoom={12}
-        scrollWheelZoom={false}
+        scrollWheelZoom={true}
         preferCanvas={true}
         className="w-full h-full z-0"
       >
@@ -151,7 +155,7 @@ export default function MapView({
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           maxZoom={19}
-          keepBuffer={2}
+          keepBuffer={6}
           updateWhenZooming={false}
           updateWhenIdle={true}
         />
@@ -166,6 +170,7 @@ export default function MapView({
 
         {companies.map((company) => {
           if (!company.coordinates || company.coordinates.length !== 2) return null;
+          const isSelected = selectedCompany?.id === company.id;
 
           const careerUrl = company.careerUrl || `https://www.google.com/search?q=${encodeURIComponent(company.name + ' careers hyderabad')}`;
 
@@ -173,7 +178,7 @@ export default function MapView({
             <Marker
               key={company.id}
               position={company.coordinates}
-              icon={icons.get(company.id)}
+              icon={createCustomMarkerIcon(company, isSelected)}
               ref={(ref) => {
                 if (ref) markerRefs.current[company.id] = ref;
               }}
@@ -241,17 +246,24 @@ export default function MapView({
                   {/* Perfectly Aligned Actions Section */}
                   <div className="space-y-2 pt-2 border-t dark:border-slate-800/80 border-slate-200/80">
                     
-                    <button
-                      type="button"
-                      onClick={(event) => {
-                        event.stopPropagation();
+                    {/* Primary Button: Direct Redirect to Official Career Page with Crisp High-Contrast Color */}
+                    <a
+                      href={careerUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => {
+                        e.stopPropagation();
                         onSelectJobForCompany?.(company);
                       }}
-                      className="w-full h-9 px-3.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs flex items-center gap-2"
+                      className="w-full h-9 px-3.5 rounded-xl bg-gradient-to-r from-emerald-500 via-emerald-600 to-teal-600 hover:from-emerald-400 hover:to-teal-500 !text-white font-black text-xs flex items-center justify-between shadow-md shadow-emerald-500/25 transition-all cursor-pointer no-underline group"
+                      style={{ color: '#ffffff' }}
                     >
-                      <Briefcase className="w-4 h-4 shrink-0" />
-                      Explore Open Jobs ({jobCounts.get(company.id) || 0})
-                    </button>
+                      <div className="flex items-center gap-2">
+                        <Briefcase className="w-4 h-4 text-white shrink-0" />
+                        <span className="!text-white font-extrabold tracking-tight">Explore Open Jobs ({company.openRolesCount || 0})</span>
+                      </div>
+                      <ExternalLink className="w-3.5 h-3.5 text-white/90 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform shrink-0" />
+                    </a>
 
                     {/* Secondary Actions: Form-fitted buttons without excess empty spaces */}
                     <div className="flex items-center gap-2">

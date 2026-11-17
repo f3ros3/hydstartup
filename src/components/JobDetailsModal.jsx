@@ -50,7 +50,7 @@ export default function JobDetailsModal({
     }
   };
 
-  const applyUrl = getRealtimeApplyUrl(job);
+  const applyUrl = job.applyUrl || getRealtimeApplyUrl(job, comp);
 
   return (
     <div 
@@ -127,13 +127,13 @@ export default function JobDetailsModal({
               </span>
             )}
             <span className="px-3 py-1 rounded-xl dark:bg-slate-800 dark:text-slate-200 dark:border-slate-700 bg-slate-100 text-slate-800 border border-slate-200 font-semibold text-xs shadow-sm">
-              🎯 {job.experienceLevel || job.experience || 'Experience unspecified'}
+              🎯 {job.experienceLevel || job.experience}
             </span>
             <span className="px-3 py-1 rounded-xl dark:bg-cyan-500/15 dark:text-cyan-300 dark:border-cyan-500/30 bg-purple-50 text-purple-700 border border-purple-200 font-semibold text-xs shadow-sm">
-              🏢 {job.workMode || 'Work mode unspecified'}
+              🏢 {job.workMode || 'Hybrid'}
             </span>
             <span className="px-3 py-1 rounded-xl dark:bg-purple-500/15 dark:text-purple-300 dark:border-purple-500/30 bg-orange-50 text-orange-700 border border-orange-200 font-semibold text-xs shadow-sm">
-              {job.postedDaysAgo == null ? 'Posting date unspecified' : job.postedDaysAgo === 0 ? 'Posted today' : job.postedDaysAgo === 1 ? 'Posted yesterday' : `Posted ${job.postedDaysAgo} days ago`}
+              ⚡ Posted {job.postedDaysAgo === 1 ? 'Yesterday' : `${job.postedDaysAgo} days ago`}
             </span>
           </div>
 
@@ -156,7 +156,7 @@ export default function JobDetailsModal({
           </div>
 
           {/* Key Responsibilities */}
-          {job.responsibilities?.length > 0 && (
+          {job.responsibilities && (
             <div>
               <h4 className="text-xs font-black dark:text-slate-400 text-slate-500 uppercase tracking-wider mb-2.5">Key Responsibilities</h4>
               <ul className="space-y-2">
@@ -171,7 +171,7 @@ export default function JobDetailsModal({
           )}
 
           {/* Requirements & Skills */}
-          {job.requirements?.length > 0 && (
+          {job.requirements && (
             <div>
               <h4 className="text-xs font-black dark:text-slate-400 text-slate-500 uppercase tracking-wider mb-2.5">Requirements</h4>
               <ul className="space-y-2">
@@ -186,7 +186,7 @@ export default function JobDetailsModal({
           )}
 
           {/* Tech Stack Required */}
-          {job.skills?.length > 0 && (
+          {job.skills && (
             <div>
               <h4 className="text-xs font-black dark:text-slate-400 text-slate-500 uppercase tracking-wider mb-2">Required Skills & Tech Stack</h4>
               <div className="flex flex-wrap gap-1.5">
@@ -200,7 +200,7 @@ export default function JobDetailsModal({
           )}
 
           {/* Perks & Benefits */}
-          {job.perks?.length > 0 && (
+          {job.perks && (
             <div>
               <h4 className="text-xs font-black dark:text-slate-400 text-slate-500 uppercase tracking-wider mb-2">Perks & Benefits</h4>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -276,16 +276,16 @@ export default function JobDetailsModal({
           </div>
 
           {/* Animated Primary Apply Button */}
-          {applyUrl && <div className="flex-1 sm:flex-initial">
+          <div className="flex-1 sm:flex-initial">
             <AnimatedApplyButton
               href={applyUrl}
               size="md"
               iconType="external"
               className="w-full sm:w-auto"
             >
-              View official posting
+              Apply on Official Portal (Live)
             </AnimatedApplyButton>
-          </div>}
+          </div>
 
         </div>
 

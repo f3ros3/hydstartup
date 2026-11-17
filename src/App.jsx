@@ -1,6 +1,6 @@
-import { flushSync } from 'react-dom';
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import Navbar from './components/Navbar';
+import HubPills from './components/HubPills';
 import FilterBar from './components/FilterBar';
 import MapView from './components/MapView';
 import JobCard from './components/JobCard';
@@ -11,6 +11,8 @@ import PostJobModal from './components/PostJobModal';
 import BookmarksDrawer from './components/BookmarksDrawer';
 import AnalyticsModal from './components/AnalyticsModal';
 import NewsletterSection from './components/NewsletterSection';
+import FloatingTechBackground from './components/FloatingTechBackground';
+import JobsDisclaimerToast from './components/JobsDisclaimerToast';
 import Footer from './components/Footer';
 import PrivacyPolicyModal from './components/PrivacyPolicyModal';
 import TermsModal from './components/TermsModal';
@@ -26,7 +28,8 @@ import ArticleModal from './components/ArticleModal';
 import SectorsDirectory from './components/SectorsDirectory';
 import { InstagramIcon } from './components/Icons';
 
-import { HYDERABAD_COMPANIES } from './data/verifiedCompanies';
+import { HYDERABAD_COMPANIES } from './data/companies';
+import { HYDERABAD_JOBS } from './data/jobs';
 import { HYDERABAD_HUBS } from './data/hubs';
 import { HYDERABAD_ARTICLES } from './data/articles';
 import { HYDERABAD_SECTORS } from './data/sectors';
@@ -50,6 +53,9 @@ import {
 export default function App() {
   // Navigation & View Mode: 'split' | 'map' | 'jobs' | 'companies'
   const [viewMode, setViewMode] = useState('split');
+  const [mobileSplitTab, setMobileSplitTab] = useState('map'); // 'map' is default on mobile!
+  const [isMobileExpandedJobs, setIsMobileExpandedJobs] = useState(false);
+  const [showJobsDisclaimer, setShowJobsDisclaimer] = useState(false);
 
   // Pagination for Jobs Board & Company Directory (Performance Optimization)
   const [visibleJobsCount, setVisibleJobsCount] = useState(24);
@@ -78,7 +84,9 @@ export default function App() {
 
   const handleSetViewMode = (mode) => {
     setViewMode(mode);
-
+    if (mode === 'jobs') {
+      setShowJobsDisclaimer(true);
+    }
   };
 
   const handleOpenReport = (name = '') => {
@@ -128,29 +136,36 @@ export default function App() {
     const handlePointerMove = (e) => {
       if (!isDraggingSplit || !splitContainerRef.current) return;
       const rect = splitContainerRef.current.getBoundingClientRect();
-      const { clientX } = e;
+      const clientX = e.clientX || (e.touches && e.touches[0]?.clientX);
+      if (!clientX) return;
 
       const offsetX = clientX - rect.left;
       const percentage = (offsetX / rect.width) * 100;
       // Clamp between 25% and 75%
       const clamped = Math.max(25, Math.min(75, percentage));
       setSplitRatio(clamped);
+      window.dispatchEvent(new Event('resize'));
     };
 
     const handlePointerUp = () => {
       if (isDraggingSplit) {
         setIsDraggingSplit(false);
-        }
+        window.dispatchEvent(new Event('resize'));
+      }
     };
 
     if (isDraggingSplit) {
       window.addEventListener('mousemove', handlePointerMove);
       window.addEventListener('mouseup', handlePointerUp);
+      window.addEventListener('touchmove', handlePointerMove);
+      window.addEventListener('touchend', handlePointerUp);
     }
 
     return () => {
       window.removeEventListener('mousemove', handlePointerMove);
       window.removeEventListener('mouseup', handlePointerUp);
+      window.removeEventListener('touchmove', handlePointerMove);
+      window.removeEventListener('touchend', handlePointerUp);
     };
   }, [isDraggingSplit]);
 
@@ -167,17 +182,7 @@ export default function App() {
   const isDark = theme === 'dark';
 
   const handleToggleTheme = () => {
-    const nextTheme = isDark ? 'light' : 'dark';
-    const toggle = () => {
-      document.documentElement.classList.remove(theme);
-      document.documentElement.classList.add(nextTheme);
-      flushSync(() => setTheme(nextTheme));
-    };
-    if (document.startViewTransition && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      document.startViewTransition(toggle);
-    } else {
-      toggle();
-    }
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
   };
 
   // Cookie Consent Handlers
@@ -213,6 +218,7 @@ export default function App() {
         setIsContactModalOpen(false);
         setIsLocationConsentOpen(false);
         setIsArticleModalOpen(false);
+        setShowJobsDisclaimer(false);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
@@ -299,28 +305,36 @@ export default function App() {
   const [liveJobs, setLiveJobs] = useState(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}jobs.json`, { cache: 'no-cache' })
+    fetch('./jobs.json')
       .then(r => {
         if (!r.ok) throw new Error('jobs.json not found');
         return r.json();
       })
       .then(data => {
-        if (Array.isArray(data)) {
+        if (Array.isArray(data) && data.length > 0) {
           console.log(`[HydStartupArena] Loaded ${data.length} live jobs from scraper feed`);
           setLiveJobs(data);
         }
       })
       .catch(() => {
-        console.log('[HydStartupArena] Job feed unavailable');
+        console.log('[HydStartupArena] Using static job catalog (jobs.json not available)');
       });
   }, []);
 
-  const allJobs = useMemo(() => [...customJobs, ...(liveJobs || [])], [customJobs, liveJobs]);
-  const jobCounts = useMemo(() => {
-    const counts = new Map();
-    for (const job of allJobs) counts.set(job.companyId, (counts.get(job.companyId) || 0) + 1);
-    return counts;
-  }, [allJobs]);
+  // Combined jobs list with automatic daily catalog rotation & refresh
+  const allJobs = useMemo(() => {
+    const jobSource = liveJobs || HYDERABAD_JOBS;
+    const now = new Date();
+    const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24));
+    const offset = (dayOfYear * 11) % jobSource.length;
+
+    const rotatedCatalog = [
+      ...jobSource.slice(offset),
+      ...jobSource.slice(0, offset)
+    ];
+
+    return [...customJobs, ...rotatedCatalog];
+  }, [customJobs, liveJobs]);
 
   // Company Lookup Map
   const companyMap = useMemo(() => {
@@ -425,11 +439,11 @@ export default function App() {
         case 'experience_desc':
           return getExpNum(b.experience) - getExpNum(a.experience);
         case 'recent_asc':
-          return (b.postedDaysAgo ?? -1) - (a.postedDaysAgo ?? -1);
+          return (b.postedDaysAgo || 0) - (a.postedDaysAgo || 0);
         case 'recent_desc':
         case 'recent':
         default:
-          return (a.postedDaysAgo ?? Infinity) - (b.postedDaysAgo ?? Infinity);
+          return (a.postedDaysAgo || 0) - (b.postedDaysAgo || 0);
       }
     });
   }, [allJobs, companyMap, searchQuery, selectedRole, selectedIndustry, selectedExp, selectedWorkMode, selectedHub, companyTypeFilter, sortBy]);
@@ -467,13 +481,6 @@ export default function App() {
       return true;
     });
   }, [selectedHub, companyTypeFilter, selectedIndustry, searchQuery]);
-
-  const startupCompanies = useMemo(() => filteredCompanies.filter(company => company.isStartup), [filteredCompanies]);
-
-  const handleOpenCompanyDetails = (company) => {
-    setSelectedCompany(company);
-    setIsCompanyModalOpen(true);
-  };
 
   // Active filter count check
   const hasActiveFilters = searchQuery !== '' || selectedRole !== 'All Roles' || selectedIndustry !== 'All Industries' || selectedExp !== 'All Levels' || selectedWorkMode !== 'All Modes' || companyTypeFilter !== 'all' || selectedHub !== 'all';
@@ -519,14 +526,17 @@ export default function App() {
     if (viewMode === 'jobs' || viewMode === 'companies') {
       setViewMode('split');
     }
+    setMobileSplitTab('map');
   };
 
   // View Company's Jobs
   const handleViewCompanyJobs = (comp) => {
-    handleResetFilters();
     setSelectedCompany(comp);
     setSearchQuery(comp.name);
-    setViewMode('jobs');
+    if (viewMode === 'companies') {
+      setViewMode('split');
+    }
+    setMobileSplitTab('jobs');
   };
 
   // Add custom job
@@ -540,8 +550,11 @@ export default function App() {
   }, [allJobs, bookmarkedIds]);
 
   return (
-    <div className="relative min-h-screen flex flex-col font-sans overflow-x-clip transition-colors duration-300">
+    <div className="relative min-h-screen flex flex-col font-sans overflow-x-hidden transition-colors duration-300">
       
+      {/* Floating Tech Background Logos with Gaussian Blur */}
+      <FloatingTechBackground />
+
       {/* Top Navbar with Theme Toggle */}
       <Navbar
         viewMode={viewMode}
@@ -555,6 +568,13 @@ export default function App() {
         onOpenReport={handleOpenReport}
         onOpenAbout={() => setIsAboutModalOpen(true)}
         onOpenContact={() => setIsContactModalOpen(true)}
+        mobileSplitTab={mobileSplitTab}
+        setMobileSplitTab={(tab) => {
+          setMobileSplitTab(tab);
+          if (tab === 'jobs') {
+            setShowJobsDisclaimer(true);
+          }
+        }}
         isDark={isDark}
         onToggleTheme={handleToggleTheme}
       />
@@ -587,7 +607,7 @@ export default function App() {
       <main className="relative z-10 flex-1 w-full px-3 sm:px-6 lg:px-10 py-4 sm:py-6">
         
         {/* Editorial Header & Trust / Methodology Bar */}
-        <div className="mb-5 p-4 sm:p-5 rounded-3xl dark:bg-slate-900/70 bg-white/80 border dark:border-slate-800/80 border-slate-200/80 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-3">
+        <div className="mb-5 p-4 sm:p-5 rounded-3xl dark:bg-slate-900/70 bg-white/80 backdrop-blur-md border dark:border-slate-800/80 border-slate-200/80 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-3">
           <div className="space-y-1 max-w-3xl">
             <h1 className="text-sm sm:text-base font-extrabold dark:text-white text-slate-900 flex items-center gap-2">
               <span>Hyderabad Startups & Tech Job Portal</span>
@@ -628,21 +648,25 @@ export default function App() {
         {viewMode === 'split' && (
           <div 
             ref={splitContainerRef}
-            className="startup-split relative grid gap-4 lg:gap-3 lg:h-[calc(100vh-270px)] lg:min-h-[580px]"
-            style={{ "--map-share": `${splitRatio}fr`, "--company-share": `${100 - splitRatio}fr` }}
+            className="relative flex flex-col lg:flex-row gap-4 lg:gap-3 h-auto lg:h-[calc(100vh-270px)] min-h-0 lg:min-h-[580px] select-none"
           >
             
             {/* Left Pane: Interactive Hyderabad Map (Adjustable Width on Desktop / Full Width Top on Mobile) */}
             <div 
-              className={`h-[360px] sm:h-[420px] lg:h-full min-h-0 min-w-0 ${isDraggingSplit ? 'pointer-events-none' : ''}`}
+              className={`h-[360px] sm:h-[420px] lg:h-full w-full flex flex-col transition-[width] shrink-0 ${
+                isDraggingSplit ? 'duration-0 pointer-events-none' : 'duration-150'
+              }`}
+              style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${splitRatio}%` : '100%' }}
             >
               <MapView
                 companies={filteredCompanies}
-                jobCounts={jobCounts}
                 selectedCompany={selectedCompany}
                 onSelectCompany={(c) => setSelectedCompany(c)}
                 onSelectJobForCompany={handleViewCompanyJobs}
-                onOpenCompanyDetails={handleOpenCompanyDetails}
+                onOpenCompanyDetails={(c) => {
+                  setSelectedCompany(c);
+                  setIsCompanyModalOpen(true);
+                }}
                 onResetSearch={() => {
                   setSearchQuery('');
                   setSelectedCompany(null);
@@ -656,15 +680,17 @@ export default function App() {
             {/* Draggable Divider Handle (Desktop Only) */}
             <div
               onMouseDown={() => setIsDraggingSplit(true)}
-              className={`hidden lg:flex flex-col items-center justify-center w-full group cursor-col-resize rounded-2xl transition-colors duration-200 z-20 shrink-0 ${
+              onTouchStart={() => setIsDraggingSplit(true)}
+              className={`hidden lg:flex flex-col items-center justify-center w-3.5 hover:w-5 group cursor-col-resize rounded-2xl transition-all duration-200 z-20 shrink-0 ${
                 isDraggingSplit 
-                  ? 'bg-emerald-500 shadow-xl shadow-emerald-500/50 ring-2 ring-emerald-400' 
-                  : 'hover:bg-emerald-500/20 dark:bg-slate-800/60 bg-white/60 border dark:border-slate-700/60 border-slate-300/80 shadow-sm'
+                  ? 'bg-emerald-500 shadow-xl shadow-emerald-500/50 w-5 ring-2 ring-emerald-400' 
+                  : 'hover:bg-emerald-500/20 dark:bg-slate-800/60 bg-white/60 backdrop-blur-md border dark:border-slate-700/60 border-slate-300/80 shadow-sm'
               }`}
-              title="Drag horizontally to resize Map & Companies (Double-click to reset 58:42)"
+              title="Drag horizontally to resize Map & Jobs (Double-click to reset 58:42)"
               onDoubleClick={() => {
                 setSplitRatio(58);
-                        }}
+                window.dispatchEvent(new Event('resize'));
+              }}
             >
               <div className="flex flex-col gap-1 items-center justify-center py-3 text-slate-400 dark:text-slate-300 group-hover:text-emerald-400">
                 <div className="w-1 h-1 rounded-full bg-current"></div>
@@ -673,31 +699,115 @@ export default function App() {
               </div>
             </div>
 
-            <section aria-labelledby="startup-companies-heading" className="min-w-0 min-h-0 flex flex-col rounded-3xl border dark:border-slate-800 border-slate-200 dark:bg-[#0E1526] bg-white p-4 sm:p-5">
-              <div className="flex items-center justify-between gap-2 pb-3 mb-3 border-b dark:border-slate-800 border-slate-200">
-                <h2 id="startup-companies-heading" className="font-extrabold text-sm sm:text-base dark:text-white text-slate-900">Startup Companies</h2>
-                <span className="text-xs text-slate-500 dark:text-slate-400">{startupCompanies.length} companies</span>
+            {/* Right Pane: Searchable Jobs & Startup Stream (Adjustable Width on Desktop / Follows Map on Mobile) */}
+            <div 
+              className={`h-auto lg:h-full w-full min-h-[500px] flex flex-col dark:bg-[#0E1526]/85 bg-white/90 backdrop-blur-md rounded-3xl border dark:border-slate-800 border-slate-200 p-4 sm:p-5 overflow-hidden shadow-xl transition-[width] ${
+                isDraggingSplit ? 'duration-0' : 'duration-150'
+              }`}
+              style={{ width: typeof window !== 'undefined' && window.innerWidth >= 1024 ? `${100 - splitRatio}%` : '100%' }}
+            >
+              
+              <div className="flex items-center justify-between pb-3 mb-3 border-b dark:border-slate-800 border-slate-200">
+                <div className="flex items-center gap-2">
+                  <Briefcase className="w-4 h-4 dark:text-emerald-400 text-orange-600" />
+                  <h2 className="font-extrabold text-sm sm:text-base dark:text-white text-slate-900">Startup Job Opportunities</h2>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  {/* Quick Preset Buttons on Desktop */}
+                  <div className="hidden xl:flex items-center gap-1 text-[10px] font-bold text-slate-400">
+                    <button
+                      onClick={() => { setSplitRatio(50); window.dispatchEvent(new Event('resize')); }}
+                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors"
+                      title="50% Map / 50% Jobs"
+                    >
+                      50:50
+                    </button>
+                    <span>|</span>
+                    <button
+                      onClick={() => { setSplitRatio(70); window.dispatchEvent(new Event('resize')); }}
+                      className="px-1.5 py-0.5 rounded hover:bg-slate-800 dark:hover:text-emerald-400 hover:text-orange-600 transition-colors"
+                      title="70% Map / 30% Jobs"
+                    >
+                      70:30
+                    </button>
+                  </div>
+
+                  <span className="text-xs font-mono font-extrabold dark:text-emerald-400 dark:bg-emerald-500/10 text-orange-700 bg-orange-500/10 px-2.5 py-0.5 rounded-lg border dark:border-emerald-500/20 border-orange-500/20">
+                    {filteredJobs.length} Roles
+                  </span>
+                </div>
               </div>
-              <div className="min-h-0 lg:overflow-y-auto space-y-3">
-                {startupCompanies.slice(0, visibleCompaniesCount).map(company => (
-                  <CompanyCard
-                    key={company.id}
-                    company={company}
-                    jobCount={jobCounts.get(company.id) || 0}
-                    onViewOnMap={handleViewOnMap}
-                    onViewCompanyJobs={handleViewCompanyJobs}
-                    onOpenDetails={handleOpenCompanyDetails}
-                  />
-                ))}
-                {startupCompanies.length === 0 && <p className="p-3 text-sm text-slate-500">No startups match these filters.</p>}
-                {visibleCompaniesCount < startupCompanies.length && (
-                  <button type="button" className="w-full rounded-xl p-3 text-sm font-bold bg-emerald-500/15 text-emerald-700 dark:text-emerald-300"
-                    onClick={() => setVisibleCompaniesCount(count => count + 24)}>
-                    Load more startups
-                  </button>
+
+              {/* Scrollable Job List */}
+              <div className="overflow-y-auto space-y-3.5 flex-1 pr-1">
+                {filteredJobs.length === 0 ? (
+                  <div className="text-center py-16 space-y-3">
+                    <div className="w-12 h-12 rounded-full dark:bg-slate-800 bg-slate-100 flex items-center justify-center mx-auto text-slate-400">
+                      <Search className="w-6 h-6" />
+                    </div>
+                    <p className="text-sm font-semibold dark:text-slate-300 text-slate-700">No jobs match your filter</p>
+                    <p className="text-xs text-slate-500">Try adjusting role, industry, or search keywords.</p>
+                    <button
+                      onClick={handleResetFilters}
+                      className="px-4 py-2 dark:bg-slate-800 dark:hover:bg-slate-700 bg-slate-100 hover:bg-slate-200 text-xs dark:text-emerald-400 text-orange-600 rounded-xl font-bold transition-colors cursor-pointer"
+                    >
+                      Clear Filters
+                    </button>
+                  </div>
+                ) : (
+                  <>
+                    {(typeof window !== 'undefined' && window.innerWidth < 1024 && !isMobileExpandedJobs
+                      ? filteredJobs.slice(0, 5)
+                      : filteredJobs
+                    ).map((job) => (
+                      <JobCard
+                        key={job.id}
+                        job={job}
+                        company={companyMap[job.companyId]}
+                        isSelected={selectedJob?.id === job.id}
+                        onSelectJob={(j) => {
+                          setSelectedJob(j);
+                          setIsJobModalOpen(true);
+                        }}
+                        onViewOnMap={handleViewOnMap}
+                        isBookmarked={bookmarkedIds.includes(job.id)}
+                        onToggleBookmark={handleToggleBookmark}
+                        onOpenApplyModal={(j) => {
+                          setSelectedJob(j);
+                          setIsJobModalOpen(true);
+                        }}
+                      />
+                    ))}
+
+                    {/* Mobile "See More Jobs" Button */}
+                    {filteredJobs.length > 5 && (
+                      <div className="pt-2 pb-1 text-center lg:hidden">
+                        {!isMobileExpandedJobs ? (
+                          <button
+                            onClick={() => setIsMobileExpandedJobs(true)}
+                            className="w-full py-3 px-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 via-teal-500/15 to-cyan-500/15 hover:from-emerald-500/25 hover:to-teal-500/25 border border-emerald-500/40 text-emerald-400 font-extrabold text-xs flex items-center justify-center gap-2 shadow-lg cursor-pointer transition-all active:scale-[0.98]"
+                          >
+                            <span>See More Jobs ({filteredJobs.length - 5} More Available)</span>
+                            <ChevronDown className="w-4 h-4" />
+                          </button>
+                        ) : (
+                          <button
+                            onClick={() => setIsMobileExpandedJobs(false)}
+                            className="w-full py-2.5 px-4 rounded-2xl dark:bg-slate-800/80 bg-slate-100 hover:bg-slate-200 dark:text-slate-300 text-slate-700 font-bold text-xs flex items-center justify-center gap-1.5 border dark:border-slate-700 border-slate-300 cursor-pointer transition-all"
+                          >
+                            <span>Show Less</span>
+                            <ChevronUp className="w-4 h-4" />
+                          </button>
+                        )}
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
-            </section>
+
+            </div>
+
           </div>
         )}
 
@@ -706,11 +816,13 @@ export default function App() {
           <div className="h-[calc(100vh-270px)] min-h-[580px] flex flex-col">
             <MapView
               companies={filteredCompanies}
-              jobCounts={jobCounts}
               selectedCompany={selectedCompany}
               onSelectCompany={(c) => setSelectedCompany(c)}
               onSelectJobForCompany={handleViewCompanyJobs}
-              onOpenCompanyDetails={handleOpenCompanyDetails}
+              onOpenCompanyDetails={(c) => {
+                setSelectedCompany(c);
+                setIsCompanyModalOpen(true);
+              }}
               onResetSearch={() => {
                 setSearchQuery('');
                 setSelectedCompany(null);
@@ -726,7 +838,7 @@ export default function App() {
         {/* VIEW 3: JOB BOARD GRID VIEW */}
         {viewMode === 'jobs' && (
           <div className="space-y-5">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 dark:bg-[#0E1526]/90 bg-white/90 p-4 sm:p-5 rounded-3xl border dark:border-slate-800 border-slate-200 shadow-md">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 dark:bg-[#0E1526]/90 bg-white/90 backdrop-blur-md p-4 sm:p-5 rounded-3xl border dark:border-slate-800 border-slate-200 shadow-md">
               <div>
                 <h2 className="text-base sm:text-lg font-black dark:text-white text-slate-900">Hyderabad Startup Job Directory</h2>
                 <p className="text-xs dark:text-slate-400 text-slate-500">Curated opportunities across top startups, unicorns & global tech centers</p>
@@ -789,7 +901,7 @@ export default function App() {
         {/* VIEW 4: COMPANY DIRECTORY GRID */}
         {viewMode === 'companies' && (
           <div className="space-y-5">
-            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 dark:bg-[#0E1526]/90 bg-white/90 p-4 sm:p-5 rounded-3xl border dark:border-slate-800 border-slate-200 shadow-md">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 dark:bg-[#0E1526]/90 bg-white/90 backdrop-blur-md p-4 sm:p-5 rounded-3xl border dark:border-slate-800 border-slate-200 shadow-md">
               <div>
                 <h2 className="text-base sm:text-lg font-black dark:text-white text-slate-900">Hyderabad Tech Companies & Startups Directory</h2>
                 <p className="text-xs dark:text-slate-400 text-slate-500">Explore founders, tech stacks, valuations, and verified careers links</p>
@@ -804,10 +916,13 @@ export default function App() {
                 <CompanyCard
                   key={company.id}
                   company={company}
+                  onSelectCompany={(c) => setSelectedCompany(c)}
                   onViewOnMap={handleViewOnMap}
                   onViewCompanyJobs={handleViewCompanyJobs}
-                  jobCount={jobCounts.get(company.id) || 0}
-                  onOpenDetails={handleOpenCompanyDetails}
+                  onOpenDetails={(c) => {
+                    setSelectedCompany(c);
+                    setIsCompanyModalOpen(true);
+                  }}
                 />
               ))}
             </div>
@@ -876,7 +991,6 @@ export default function App() {
         isOpen={isCompanyModalOpen}
         onClose={() => setIsCompanyModalOpen(false)}
         onSelectJob={(j) => {
-          setIsCompanyModalOpen(false);
           setSelectedJob(j);
           setIsJobModalOpen(true);
         }}
@@ -954,6 +1068,13 @@ export default function App() {
           }
         }}
         onDeny={() => setIsLocationConsentOpen(false)}
+      />
+
+      {/* 6-Second Centered Jobs Board Disclaimer Modal with Dark Backdrop */}
+      <JobsDisclaimerToast
+        isOpen={showJobsDisclaimer}
+        onClose={() => setShowJobsDisclaimer(false)}
+        duration={6000}
       />
 
       {/* Privacy Policy Modal */}

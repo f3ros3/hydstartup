@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import PopupDialog from './PopupDialog';
+import React, { useState, useRef, useEffect } from 'react';
 import { 
   Search, 
   SlidersHorizontal, 
@@ -92,6 +91,18 @@ export default function FilterBar({
 }) {
   const [isFiltersOpen, setIsFiltersOpen] = useState(false);
   const [isSortOpen, setIsSortOpen] = useState(false);
+  const sortRef = useRef(null);
+
+  // Close sort menu on click outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (sortRef.current && !sortRef.current.contains(event.target)) {
+        setIsSortOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   // Calculate active filter count
   let activeFilterCount = 0;
@@ -104,7 +115,7 @@ export default function FilterBar({
   const currentSortObj = SORT_OPTIONS.find(s => s.value === sortBy) || SORT_OPTIONS[0];
 
   return (
-    <div className="dark:bg-slate-950 bg-white border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-3.5 z-30 shadow-sm transition-colors">
+    <div className="bg-transparent dark:bg-slate-950/20 bg-white/20 border-b dark:border-slate-800/40 border-slate-200/40 p-2.5 sm:p-3.5 sticky top-[80px] sm:top-[100px] z-30 shadow-sm backdrop-blur-[3px] transition-colors">
       <div className="w-full px-1 sm:px-4 lg:px-6 space-y-2 sm:space-y-2.5">
         
         {/* ROW 1: Full-Width Prominent Search Bar */}
@@ -118,7 +129,7 @@ export default function FilterBar({
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search jobs, tech stack (React, Python, GenAI), or startups..."
             aria-label="Search jobs, tech stack, or startups"
-            className="w-full pl-10 pr-10 py-2.5 sm:py-3 dark:bg-slate-900/75 bg-white/85 border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 focus-visible:ring-2 focus-visible:ring-emerald-500 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none shadow-sm transition-all"
+            className="w-full pl-10 pr-10 py-2.5 sm:py-3 dark:bg-slate-900/75 bg-white/85 backdrop-blur-md border dark:border-slate-700/70 border-slate-300 hover:border-slate-400 dark:hover:border-slate-500 focus:border-emerald-500 dark:focus:border-emerald-400 focus-visible:ring-2 focus-visible:ring-emerald-500 rounded-2xl text-xs sm:text-sm dark:text-white text-slate-950 font-semibold placeholder-slate-400 focus:outline-none shadow-sm transition-all"
           />
           {searchQuery && (
             <button
@@ -138,7 +149,7 @@ export default function FilterBar({
           <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap shrink-0">
             
             {/* 1. All Entities vs Startups */}
-            <div className="flex items-center gap-0.5 sm:gap-1 dark:bg-slate-900/60 bg-white/60 p-1 rounded-2xl border dark:border-slate-700/60 border-slate-300/80 shrink-0 shadow-sm" role="group" aria-label="Filter company type">
+            <div className="flex items-center gap-0.5 sm:gap-1 dark:bg-slate-900/60 bg-white/60 backdrop-blur-md p-1 rounded-2xl border dark:border-slate-700/60 border-slate-300/80 shrink-0 shadow-sm" role="group" aria-label="Filter company type">
               <button
                 onClick={() => setCompanyTypeFilter('all')}
                 aria-pressed={companyTypeFilter === 'all'}
@@ -168,9 +179,8 @@ export default function FilterBar({
             <button
               onClick={() => setIsFiltersOpen(!isFiltersOpen)}
               aria-expanded={isFiltersOpen}
-              aria-haspopup="dialog"
               aria-label={`Toggle advanced filters panel (${activeFilterCount} active)`}
-              className={`flex items-center gap-1.5 px-3.5 py-2 rounded-2xl text-xs font-extrabold border transition-all cursor-pointer shadow-sm shrink-0 focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+              className={`flex items-center gap-1.5 px-3.5 py-2 rounded-2xl text-xs font-extrabold border transition-all cursor-pointer backdrop-blur-md shadow-sm shrink-0 focus-visible:ring-2 focus-visible:ring-emerald-400 ${
                 isFiltersOpen || activeFilterCount > 0
                   ? 'dark:bg-emerald-500/25 dark:border-emerald-500/60 dark:text-emerald-300 bg-orange-500/20 border-orange-500/50 text-orange-800 ring-2 dark:ring-emerald-500/20 ring-orange-500/20'
                   : 'dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400'
@@ -187,13 +197,13 @@ export default function FilterBar({
             </button>
 
             {/* 3. SORT BUTTON & DROPDOWN MENU */}
-            <div className="relative shrink-0">
+            <div className="relative shrink-0" ref={sortRef}>
               <button
                 onClick={() => setIsSortOpen(!isSortOpen)}
                 aria-expanded={isSortOpen}
-                aria-haspopup="dialog"
+                aria-haspopup="listbox"
                 aria-label={`Sort opportunities. Currently sorted by ${currentSortObj?.label || 'Recent'}`}
-                className="flex items-center gap-1.5 px-3 py-2 rounded-2xl text-xs font-extrabold dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400 border shadow-sm cursor-pointer focus-visible:ring-2 focus-visible:ring-cyan-400"
+                className="flex items-center gap-1.5 px-3 py-2 rounded-2xl text-xs font-extrabold dark:bg-slate-900/70 dark:border-slate-700/70 dark:text-slate-200 bg-white/80 border-slate-300 text-slate-800 hover:border-slate-400 border backdrop-blur-md shadow-sm cursor-pointer focus-visible:ring-2 focus-visible:ring-cyan-400"
                 title="Sort Opportunities"
               >
                 <ArrowUpDown className="w-3.5 h-3.5 text-cyan-400" aria-hidden="true" />
@@ -202,12 +212,9 @@ export default function FilterBar({
               </button>
 
               {isSortOpen && (
-                <PopupDialog onClose={() => setIsSortOpen(false)} labelledBy="sort-heading" className="max-w-sm p-4 space-y-2">
-                  <div className="flex items-center justify-between">
-                    <h3 id="sort-heading" className="font-bold">Sort by</h3>
-                    <button type="button" aria-label="Close sort" onClick={() => setIsSortOpen(false)} className="p-2">
-                      <X className="h-4 w-4" />
-                    </button>
+                <div className="absolute left-0 sm:left-auto sm:right-0 mt-2 w-56 rounded-2xl dark:bg-[#0E1526] bg-white border dark:border-slate-700 border-slate-200 shadow-2xl p-1.5 z-50 space-y-1 animate-in fade-in zoom-in-95 duration-100" role="listbox" aria-label="Sort options">
+                  <div className="px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-slate-400 border-b dark:border-slate-800 border-slate-100">
+                    Sort By
                   </div>
                   {SORT_OPTIONS.map(opt => (
                     <button
@@ -226,7 +233,7 @@ export default function FilterBar({
                       {sortBy === opt.value && <Check className="w-3.5 h-3.5 text-emerald-500" />}
                     </button>
                   ))}
-                </PopupDialog>
+                </div>
               )}
             </div>
 
@@ -234,7 +241,7 @@ export default function FilterBar({
             {hasActiveFilters && (
               <button
                 onClick={onResetFilters}
-                className="flex items-center gap-1 px-3 py-2 bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/35 text-rose-500 dark:text-rose-300 rounded-2xl text-xs font-extrabold transition-all shrink-0 cursor-pointer shadow-sm"
+                className="flex items-center gap-1 px-3 py-2 bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/35 text-rose-500 dark:text-rose-300 rounded-2xl text-xs font-extrabold transition-all shrink-0 cursor-pointer backdrop-blur-md shadow-sm"
                 title="Reset all filters"
               >
                 <RotateCcw className="w-3.5 h-3.5" />
@@ -263,12 +270,12 @@ export default function FilterBar({
 
         {/* EXPANDABLE FULL FILTER PANEL (Rendered outside overflow containers) */}
         {isFiltersOpen && (
-          <PopupDialog onClose={() => setIsFiltersOpen(false)} labelledBy="filter-heading" className="max-w-3xl p-4 sm:p-5 space-y-4">
+          <div className="p-4 sm:p-5 rounded-3xl dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-700/90 border-slate-200 shadow-2xl backdrop-blur-2xl space-y-4 animate-in fade-in slide-in-from-top-2 duration-150">
             
             <div className="flex items-center justify-between border-b dark:border-slate-800 border-slate-200 pb-3">
               <div className="flex items-center gap-2">
                 <SlidersHorizontal className="w-4 h-4 text-emerald-500" />
-                <h3 id="filter-heading" className="text-xs sm:text-sm font-black dark:text-white text-slate-900">
+                <h3 className="text-xs sm:text-sm font-black dark:text-white text-slate-900">
                   Filter Hyderabad Tech Opportunities
                 </h3>
                 {activeFilterCount > 0 && (
@@ -278,16 +285,15 @@ export default function FilterBar({
                 )}
               </div>
 
-              <div className="flex items-center gap-2">
-                {activeFilterCount > 0 && (
-                  <button type="button" onClick={onResetFilters} className="text-xs font-bold text-rose-500 hover:underline">
-                    Reset all
-                  </button>
-                )}
-                <button type="button" aria-label="Close filters" onClick={() => setIsFiltersOpen(false)} className="p-2">
-                  <X className="h-4 w-4" />
+              {activeFilterCount > 0 && (
+                <button
+                  onClick={onResetFilters}
+                  className="text-xs font-bold text-rose-500 hover:underline flex items-center gap-1 cursor-pointer"
+                >
+                  <RotateCcw className="w-3.5 h-3.5" />
+                  <span>Reset All</span>
                 </button>
-              </div>
+              )}
             </div>
 
             {/* 5 Filter Selectors Grid */}
@@ -396,7 +402,7 @@ export default function FilterBar({
               </button>
             </div>
 
-          </PopupDialog>
+          </div>
         )}
 
         {/* Active Filter Summary Pills (Displayed when filters are active) */}

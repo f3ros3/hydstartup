@@ -16,7 +16,7 @@ import AnimatedApplyButton from './AnimatedApplyButton';
 
 export default function CompanyCard({
   company,
-  jobCount = 0,
+  onSelectCompany,
   onViewOnMap,
   onViewCompanyJobs,
   onOpenDetails
@@ -24,11 +24,7 @@ export default function CompanyCard({
   const color = company.color || '#10B981';
 
   return (
-    <div
-      onClick={event => {
-        if (!event.target.closest('button, a')) onOpenDetails(company);
-      }}
-      className="listing-card relative cursor-pointer dark:bg-[#111827]/90 bg-white/85 hover:bg-white dark:hover:bg-slate-900/90 rounded-3xl border dark:border-slate-800 border-slate-200/90 hover:border-orange-300 dark:hover:border-slate-700 p-5 sm:p-6 flex flex-col justify-between transition-all duration-200 group shadow-md hover:-translate-y-1">
+    <div className="dark:bg-[#111827]/90 bg-white/85 hover:bg-white dark:hover:bg-slate-900/90 rounded-3xl border dark:border-slate-800 border-slate-200/90 hover:border-orange-300 dark:hover:border-slate-700 p-5 sm:p-6 flex flex-col justify-between transition-all duration-200 group shadow-md hover:shadow-2xl hover:-translate-y-1">
       
       {/* Top Section */}
       <div>
@@ -40,9 +36,7 @@ export default function CompanyCard({
             <div>
               <div className="flex items-center gap-1.5">
                 <h3 className="font-bold text-base sm:text-lg dark:text-white text-slate-900 group-hover:text-orange-600 dark:group-hover:text-emerald-400 transition-colors">
-                  <button type="button" onClick={() => onOpenDetails(company)} aria-haspopup="dialog" className="text-left focus-visible:outline-emerald-500">
-                    {company.name}
-                  </button>
+                  {company.name}
                 </h3>
                 {company.isStartup && (
                   <span className="text-[9px] px-2 py-0.5 dark:bg-emerald-500/15 dark:text-emerald-400 bg-orange-500/15 text-orange-700 font-extrabold rounded-md border dark:border-emerald-500/30 border-orange-500/30">
@@ -128,7 +122,7 @@ export default function CompanyCard({
               className="w-full justify-center"
               color="#059669"
             >
-              Open Roles ({jobCount})
+              Open Roles ({company.openRolesCount || 0})
             </AnimatedApplyButton>
           </div>
 
@@ -143,7 +137,6 @@ export default function CompanyCard({
           <button
             onClick={() => onOpenDetails(company)}
             className="p-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-300 bg-slate-100 hover:bg-slate-200 text-slate-700 border dark:border-slate-700 border-slate-200 transition-colors cursor-pointer"
-            aria-label={`View ${company.name} details`}
             title="Company Overview & Links"
           >
             <ChevronRight className="w-4 h-4" />

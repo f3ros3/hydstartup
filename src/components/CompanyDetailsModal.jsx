@@ -1,5 +1,4 @@
 import React from 'react';
-import PopupDialog from './PopupDialog';
 import { 
   X, 
   MapPin, 
@@ -29,8 +28,14 @@ export default function CompanyDetailsModal({
   const color = company.color || '#10B981';
 
   return (
-    <PopupDialog onClose={onClose} labelledBy="company-details-heading" className="max-w-3xl">
-      <div>
+    <div 
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/75 dark:bg-black/85 backdrop-blur-md overflow-y-auto cursor-pointer"
+      onClick={onClose}
+    >
+      <div 
+        className="relative w-full max-w-2xl lg:max-w-3xl dark:bg-[#0F172A] bg-white/95 backdrop-blur-2xl border dark:border-slate-700/80 border-orange-200/80 rounded-3xl shadow-2xl dark:shadow-emerald-950/20 shadow-orange-500/10 overflow-hidden my-4 sm:my-8 max-h-[92vh] flex flex-col animate-in fade-in zoom-in-95 duration-200 cursor-default"
+        onClick={(e) => e.stopPropagation()}
+      >
         {/* Header */}
         <div className="p-4 sm:p-6 dark:bg-gradient-to-b dark:from-slate-900 dark:to-[#0F172A] bg-gradient-to-b from-orange-50/90 via-purple-50/40 to-white/90 border-b dark:border-slate-800 border-orange-100">
           <div className="flex items-start justify-between gap-3">
@@ -40,7 +45,7 @@ export default function CompanyDetailsModal({
 
               <div>
                 <div className="flex items-center gap-2">
-                  <h2 id="company-details-heading" className="text-xl sm:text-2xl font-black dark:text-white text-slate-950 tracking-tight">{company.name}</h2>
+                  <h2 className="text-xl sm:text-2xl font-black dark:text-white text-slate-950 tracking-tight">{company.name}</h2>
                   {company.isStartup && (
                     <span className="text-[10px] px-2 py-0.5 dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500/30 bg-orange-100 text-orange-700 border border-orange-200 font-bold rounded-md">
                       Startup
@@ -59,7 +64,6 @@ export default function CompanyDetailsModal({
 
             <button
               onClick={onClose}
-              aria-label="Close company details"
               className="p-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-slate-400 dark:hover:text-white bg-slate-100 hover:bg-rose-100 text-slate-500 hover:text-rose-600 border dark:border-transparent border-slate-200 transition-colors shrink-0 cursor-pointer"
             >
               <X className="w-5 h-5" />
@@ -213,6 +217,6 @@ export default function CompanyDetailsModal({
         </div>
 
       </div>
-    </PopupDialog>
+    </div>
   );
 }
