@@ -31,9 +31,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
-        run: |
-          npm pkg delete 'devDependencies.@rollup/rollup-win32-x64-msvc'
-          npm install
+        run: npm install
 
       - name: Build Project
         run: npm run build
