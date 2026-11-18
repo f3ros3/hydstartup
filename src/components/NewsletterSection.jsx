@@ -178,10 +178,14 @@ export default function NewsletterSection() {
           aria-hidden="true"
         />
 
-        <div className="relative z-10 flex flex-col items-center justify-center space-y-6">
-          <h3 className="text-2xl sm:text-4xl font-black tracking-tight text-white leading-tight max-w-xl drop-shadow-md">
+        <div className="cta-font-stencil relative z-10 flex flex-col items-center justify-center space-y-5">
+          <h3 className="text-3xl sm:text-5xl font-bold tracking-tight text-white leading-[1.05] max-w-xl drop-shadow-md">
             Stay Ahead in Hyderabad&apos;s Tech Ecosystem
           </h3>
+
+          <p className="cta-font-array text-xs sm:text-sm uppercase tracking-[0.3em] text-white/80 m-0">
+            Say Hello
+          </p>
 
           {/* Liquid Glass Email Pill + Liquid Glass Email me Button */}
           <div className="flex flex-col items-center gap-3.5 pt-1">

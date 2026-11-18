@@ -422,6 +422,19 @@ html.light .tws-instagram-btn {
   isolation: isolate;
 }
 
+/* CTA banner typography (Fontshare) */
+.cta-font-stencil,
+.cta-font-stencil h3,
+.cta-font-stencil a,
+.cta-font-stencil span {
+  font-family: 'Bespoke Stencil', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.cta-font-stencil .cta-font-array {
+  font-family: 'Array', ui-monospace, 'Courier New', monospace;
+  font-weight: 600;
+}
+
 .cta-liquid-wave-1,
 .cta-liquid-wave-2 {
   position: absolute;
