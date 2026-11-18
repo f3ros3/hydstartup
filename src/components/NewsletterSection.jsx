@@ -2,39 +2,46 @@ import React, { useEffect, useRef } from 'react';
 import { Mail } from 'lucide-react';
 
 /*
- * Live motion graphic: flowing glowing light ribbons (blue / purple / orange)
- * inspired by abstract "flowing light waves" backgrounds.
- * - Rendered at reduced internal resolution and upscaled by CSS (cheap on CPU/GPU)
- * - Additive ("lighter") blending gives the glowing silk/light-wave look
+ * Live motion graphic: psychedelic holographic "blue ocean waves" liquify gradient.
+ * - Per-pixel domain-warped liquid gradient rendered at a tiny internal resolution
+ *   (~160px wide) and upscaled smoothly by the browser -> very low CPU/GPU cost
+ * - Slow, calm motion; light ~10% softening blur
  * - Paused automatically when the banner is off-screen or the tab is hidden
  * - Always animates; when the OS requests reduced motion it simply moves slower
  */
 
-// Each ribbon is a bundle of thin glowing strands following a travelling wave.
-const RIBBONS = [
-  {
-    base: 0.62, amp: 0.2, freq: 0.9, speed: 0.55, phase: 0.0, spread: 0.26, strands: 16,
-    colors: ['rgba(37, 99, 235, A)', 'rgba(56, 189, 248, A)', 'rgba(147, 51, 234, A)'],
-    alpha: 0.2, glow: 0.22
-  },
-  {
-    base: 0.42, amp: 0.24, freq: 0.7, speed: -0.42, phase: 2.1, spread: 0.3, strands: 14,
-    colors: ['rgba(168, 85, 247, A)', 'rgba(99, 102, 241, A)', 'rgba(59, 130, 246, A)'],
-    alpha: 0.17, glow: 0.18
-  },
-  {
-    base: 0.74, amp: 0.16, freq: 1.15, speed: 0.68, phase: 4.2, spread: 0.18, strands: 12,
-    colors: ['rgba(249, 115, 22, A)', 'rgba(236, 72, 153, A)', 'rgba(124, 58, 237, A)'],
-    alpha: 0.18, glow: 0.2
-  },
-  {
-    base: 0.3, amp: 0.14, freq: 1.35, speed: 0.36, phase: 5.6, spread: 0.16, strands: 10,
-    colors: ['rgba(14, 165, 233, A)', 'rgba(59, 130, 246, A)', 'rgba(251, 146, 60, A)'],
-    alpha: 0.14, glow: 0.14
-  }
+// Cyclic holographic ocean palette (deep navy -> cobalt -> cyan -> pearl highlight -> violet tint)
+const PALETTE_STOPS = [
+  [0.0, [2, 8, 38]],
+  [0.16, [10, 40, 140]],
+  [0.32, [30, 100, 255]],
+  [0.46, [60, 190, 255]],
+  [0.56, [200, 240, 255]],
+  [0.64, [110, 160, 255]],
+  [0.76, [80, 70, 220]],
+  [0.88, [18, 36, 130]],
+  [1.0, [2, 8, 38]]
 ];
 
-const withAlpha = (c, a) => c.replace('A', a.toFixed(3));
+const LUT_SIZE = 512;
+
+function buildLut() {
+  const lut = new Uint32Array(LUT_SIZE);
+  for (let i = 0; i < LUT_SIZE; i++) {
+    const p = i / (LUT_SIZE - 1);
+    let s = 0;
+    while (s < PALETTE_STOPS.length - 2 && p > PALETTE_STOPS[s + 1][0]) s++;
+    const [p0, c0] = PALETTE_STOPS[s];
+    const [p1, c1] = PALETTE_STOPS[s + 1];
+    let f = (p - p0) / (p1 - p0);
+    f = f * f * (3 - 2 * f); // smoothstep for silky transitions
+    const r = Math.round(c0[0] + (c1[0] - c0[0]) * f);
+    const g = Math.round(c0[1] + (c1[1] - c0[1]) * f);
+    const b = Math.round(c0[2] + (c1[2] - c0[2]) * f);
+    lut[i] = (255 << 24) | (b << 16) | (g << 8) | r; // little-endian RGBA
+  }
+  return lut;
+}
 
 export default function NewsletterSection() {
   const canvasRef = useRef(null);
@@ -52,112 +59,59 @@ export default function NewsletterSection() {
       typeof window !== 'undefined' &&
       window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const speedScale = reducedMotion ? 0.45 : 1;
+    // Slow, calm liquid motion
+    const SPEED = reducedMotion ? 0.12 : 0.22;
 
-    let W = 0;
-    let H = 0;
-    const SEGMENTS = 36;
+    const lut = buildLut();
+    const W = 160;
+    let H = 100;
+    let image = null;
+    let pixels = null;
 
-    // Internal resolution ~ 45% of display size, capped (upscaled smoothly by CSS)
     const resize = () => {
       const rect = container.getBoundingClientRect();
-      const scale = 0.45;
-      W = Math.max(160, Math.min(420, Math.round(rect.width * scale)));
-      H = Math.max(100, Math.min(300, Math.round(rect.height * scale)));
+      const aspect = rect.width > 0 ? rect.height / rect.width : 0.6;
+      H = Math.max(60, Math.min(160, Math.round(W * aspect)));
       canvas.width = W;
       canvas.height = H;
+      image = ctx.createImageData(W, H);
+      pixels = new Uint32Array(image.data.buffer);
     };
     resize();
 
-    const ribbonY = (r, x, t, k) => {
-      const u = x / W;
-      return (
-        H *
-        (r.base +
-          r.amp * Math.sin(u * Math.PI * 2 * r.freq + t * r.speed + r.phase + k * 0.18) +
-          r.amp * 0.45 * Math.sin(u * Math.PI * 2 * r.freq * 1.7 - t * r.speed * 0.8 + r.phase * 1.3 + k * 0.1))
-      );
-    };
-
     const drawFrame = (now) => {
-      const t = (now / 1000) * speedScale;
-
-      // Deep dark base with subtle moving colour glows
-      ctx.globalCompositeOperation = 'source-over';
-      ctx.fillStyle = '#03030a';
-      ctx.fillRect(0, 0, W, H);
-
-      const g1x = W * (0.3 + 0.2 * Math.sin(t * 0.3));
-      const g1 = ctx.createRadialGradient(g1x, H * 0.4, 0, g1x, H * 0.4, W * 0.6);
-      g1.addColorStop(0, 'rgba(30, 64, 175, 0.45)');
-      g1.addColorStop(1, 'rgba(3, 3, 10, 0)');
-      ctx.fillStyle = g1;
-      ctx.fillRect(0, 0, W, H);
-
-      const g2x = W * (0.75 + 0.15 * Math.cos(t * 0.25));
-      const g2 = ctx.createRadialGradient(g2x, H * 0.75, 0, g2x, H * 0.75, W * 0.5);
-      g2.addColorStop(0, 'rgba(126, 34, 206, 0.35)');
-      g2.addColorStop(1, 'rgba(3, 3, 10, 0)');
-      ctx.fillStyle = g2;
-      ctx.fillRect(0, 0, W, H);
-
-      // Additive glowing ribbons
-      ctx.globalCompositeOperation = 'lighter';
-      ctx.lineCap = 'round';
-      const step = W / SEGMENTS;
-
-      for (const r of RIBBONS) {
-        // Colour sweeps along the ribbon over time
-        const shift = 0.5 + 0.5 * Math.sin(t * 0.35 + r.phase);
-        const makeGrad = (a) => {
-          const g = ctx.createLinearGradient(0, 0, W, 0);
-          g.addColorStop(0, withAlpha(r.colors[0], a));
-          g.addColorStop(0.2 + shift * 0.6, withAlpha(r.colors[1], a));
-          g.addColorStop(1, withAlpha(r.colors[2], a));
-          return g;
-        };
-
-        // Soft wide glow body
-        ctx.beginPath();
-        for (let i = 0; i <= SEGMENTS; i++) {
-          const x = i * step;
-          const y = ribbonY(r, x, t, 0) - (H * r.spread) / 2;
-          if (i === 0) ctx.moveTo(x, y);
-          else ctx.lineTo(x, y);
-        }
-        for (let i = SEGMENTS; i >= 0; i--) {
-          const x = i * step;
-          ctx.lineTo(x, ribbonY(r, x, t, r.strands) + (H * r.spread) / 2);
-        }
-        ctx.closePath();
-        ctx.fillStyle = makeGrad(r.glow);
-        ctx.fill();
-
-        // Fine light strands (the silky "light wave" texture)
-        const strandGrad = makeGrad(r.alpha);
-        ctx.strokeStyle = strandGrad;
-        ctx.lineWidth = Math.max(1, W / 260);
-        for (let k = 0; k < r.strands; k++) {
-          const off = (k / (r.strands - 1) - 0.5) * H * r.spread;
-          ctx.beginPath();
-          for (let i = 0; i <= SEGMENTS; i++) {
-            const x = i * step;
-            const y = ribbonY(r, x, t, k) + off;
-            if (i === 0) ctx.moveTo(x, y);
-            else ctx.lineTo(x, y);
-          }
-          ctx.stroke();
+      const t = (now / 1000) * SPEED;
+      const inv = 3.2 / W; // spatial scale
+      let idx = 0;
+      for (let y = 0; y < H; y++) {
+        const py0 = y * inv;
+        for (let x = 0; x < W; x++) {
+          let px = x * inv;
+          let py = py0;
+          // Domain warping -> liquify / ocean-wave folds
+          px += 0.7 * Math.sin(py * 1.3 + t * 1.1);
+          py += 0.7 * Math.cos(px * 1.1 - t * 0.9);
+          px += 0.35 * Math.sin(py * 2.3 - t * 0.7 + 1.7);
+          py += 0.35 * Math.cos(px * 2.1 + t * 1.3 + 0.6);
+          px += 0.18 * Math.sin(py * 3.7 + t * 0.5 + 3.1);
+          const v = 0.5 + 0.5 * Math.sin(px * 1.6 + py * 1.2 + t * 0.6);
+          const w = (v * 0.85 + 0.08 * Math.sin(py * 2.0 - t) + 0.08) % 1;
+          pixels[idx++] = lut[((w < 0 ? w + 1 : w) * (LUT_SIZE - 1)) | 0];
         }
       }
-      ctx.globalCompositeOperation = 'source-over';
+      ctx.putImageData(image, 0, 0);
     };
 
     let rafId = null;
     let onScreen = true;
+    let last = 0;
 
+    // ~40fps is plenty for slow liquid motion and saves battery
     const loop = (now) => {
-      drawFrame(now);
       rafId = requestAnimationFrame(loop);
+      if (now - last < 24) return;
+      last = now;
+      drawFrame(now);
     };
     const start = () => {
       if (rafId == null && onScreen && !document.hidden) rafId = requestAnimationFrame(loop);
@@ -209,17 +163,17 @@ export default function NewsletterSection() {
         ref={containerRef}
         className="cta-liquid-banner rounded-3xl px-6 py-12 sm:px-12 sm:py-16 border border-white/20 shadow-2xl text-center"
       >
-        {/* Live flowing light-ribbon motion graphic (soft ~20% blur) */}
+        {/* Live holographic blue-ocean liquify gradient (light ~10% blur) */}
         <canvas
           ref={canvasRef}
           aria-hidden="true"
           className="absolute inset-0 w-full h-full pointer-events-none"
-          style={{ filter: 'blur(4px) saturate(1.2)', transform: 'scale(1.06)', zIndex: 0 }}
+          style={{ filter: 'blur(2px) saturate(1.15)', transform: 'scale(1.04)', zIndex: 0 }}
         />
 
         {/* Subtle dark vignette for crisp text readability */}
         <div
-          className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/25 via-black/5 to-black/30"
+          className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/30 via-black/10 to-black/35"
           style={{ zIndex: 1 }}
           aria-hidden="true"
         />
