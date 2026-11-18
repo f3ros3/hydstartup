@@ -5,8 +5,9 @@ export default function NewsletterSection() {
   return (
     <section className="relative z-10 w-full max-w-3xl mx-auto my-8 sm:my-12 px-3 sm:px-6">
       <div className="cta-liquid-banner rounded-3xl px-6 py-12 sm:px-12 sm:py-16 border border-white/15 shadow-2xl text-center">
-        {/* Smooth GPU-animated fluid wave gradient under the banner */}
-        <div className="cta-liquid-bg" aria-hidden="true" />
+        {/* Smooth GPU-animated fluid gradient wave layers under the banner */}
+        <div className="cta-liquid-wave-1" aria-hidden="true" />
+        <div className="cta-liquid-wave-2" aria-hidden="true" />
 
         <div className="relative z-10 flex flex-col items-center justify-center space-y-6">
           <h3 className="text-2xl sm:text-4xl font-black tracking-tight text-white leading-tight max-w-xl drop-shadow-sm">

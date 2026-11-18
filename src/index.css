@@ -391,42 +391,68 @@ html.light .tws-instagram-btn {
 }
 
 /* Liquid Flowing CTA Banner (crownzdesigns-inspired) */
-@keyframes ctaFluidFlow {
+@keyframes ctaWavePrimary {
   0% {
-    transform: translate3d(-4%, -3%, 0) scale(1.06) rotate(0deg);
+    transform: translate3d(-6%, -4%, 0) scale(1.08) rotate(-2deg);
   }
   50% {
-    transform: translate3d(4%, 3%, 0) scale(1.12) rotate(3deg);
+    transform: translate3d(5%, 3%, 0) scale(1.16) rotate(3deg);
   }
   100% {
-    transform: translate3d(-2%, 2%, 0) scale(1.08) rotate(-2deg);
+    transform: translate3d(-3%, 5%, 0) scale(1.1) rotate(-1deg);
+  }
+}
+
+@keyframes ctaWaveSecondary {
+  0% {
+    transform: translate3d(5%, 4%, 0) scale(1.1) rotate(2deg);
+  }
+  50% {
+    transform: translate3d(-6%, -3%, 0) scale(1.18) rotate(-4deg);
+  }
+  100% {
+    transform: translate3d(4%, -5%, 0) scale(1.08) rotate(1deg);
   }
 }
 
 .cta-liquid-banner {
   position: relative;
   overflow: hidden;
-  background-color: #030712;
+  background-color: #02040a;
   isolation: isolate;
 }
 
-.cta-liquid-bg {
+.cta-liquid-wave-1,
+.cta-liquid-wave-2 {
   position: absolute;
-  inset: -25%;
+  inset: -30%;
   z-index: -1;
   pointer-events: none;
   will-change: transform;
+  filter: blur(28px);
+}
+
+.cta-liquid-wave-1 {
   background:
-    radial-gradient(ellipse 65% 55% at 22% 35%, rgba(56, 189, 248, 0.72) 0%, transparent 65%),
-    radial-gradient(ellipse 60% 55% at 78% 25%, rgba(37, 99, 235, 0.85) 0%, transparent 60%),
-    radial-gradient(ellipse 70% 60% at 62% 78%, rgba(147, 51, 234, 0.65) 0%, transparent 65%),
-    radial-gradient(ellipse 50% 50% at 15% 80%, rgba(14, 165, 233, 0.45) 0%, transparent 60%),
-    linear-gradient(135deg, #020617 0%, #0a192f 50%, #090d1f 100%);
-  animation: ctaFluidFlow 16s ease-in-out infinite alternate;
+    radial-gradient(ellipse 55% 45% at 22% 40%, rgba(56, 189, 248, 0.85) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 50% at 78% 28%, rgba(29, 78, 216, 0.95) 0%, transparent 62%),
+    radial-gradient(ellipse 45% 65% at 48% 55%, rgba(2, 6, 23, 0.95) 0%, transparent 60%),
+    radial-gradient(ellipse 65% 50% at 75% 82%, rgba(37, 99, 235, 0.8) 0%, transparent 65%);
+  animation: ctaWavePrimary 18s ease-in-out infinite alternate;
+}
+
+.cta-liquid-wave-2 {
+  opacity: 0.78;
+  background:
+    radial-gradient(ellipse 50% 60% at 72% 45%, rgba(96, 165, 250, 0.65) 0%, transparent 58%),
+    radial-gradient(ellipse 55% 40% at 30% 75%, rgba(14, 165, 233, 0.7) 0%, transparent 62%),
+    radial-gradient(ellipse 40% 70% at 42% 30%, rgba(3, 7, 18, 0.9) 0%, transparent 55%);
+  animation: ctaWaveSecondary 14s ease-in-out infinite alternate;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .cta-liquid-bg {
+  .cta-liquid-wave-1,
+  .cta-liquid-wave-2 {
     animation: none !important;
   }
 }
@@ -435,34 +461,40 @@ html.light .tws-instagram-btn {
   background: rgba(255, 255, 255, 0.11);
   border: 1px solid rgba(255, 255, 255, 0.28);
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.28),
-    inset 0 -1px 1px rgba(0, 0, 0, 0.15),
+    inset 0 1px 1.5px rgba(255, 255, 255, 0.35),
+    inset 0 -1px 1.5px rgba(0, 0, 0, 0.2),
     0 8px 24px rgba(0, 0, 0, 0.28);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
 .cta-liquid-glass-pill:hover {
   background: rgba(255, 255, 255, 0.18);
-  border-color: rgba(255, 255, 255, 0.42);
+  border-color: rgba(255, 255, 255, 0.45);
   transform: translateY(-1px);
 }
 
 .cta-email-me-btn {
-  background: linear-gradient(180deg, #5eb2ff 0%, #2589f5 55%, #1d6fe8 100%);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.42) 0%, rgba(37, 99, 235, 0.32) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.42);
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.55),
-    0 10px 24px rgba(29, 111, 232, 0.45);
-  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.65),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.22),
+    0 10px 26px rgba(29, 111, 232, 0.35);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cta-email-me-btn:hover {
-  filter: brightness(1.08);
+  background: linear-gradient(180deg, rgba(125, 211, 252, 0.52) 0%, rgba(59, 130, 246, 0.42) 100%);
+  border-color: rgba(255, 255, 255, 0.65);
   transform: translateY(-1px) scale(1.02);
   box-shadow:
-    inset 0 1px 1px rgba(255, 255, 255, 0.65),
-    0 12px 28px rgba(37, 137, 245, 0.55);
+    inset 0 1.5px 2px rgba(255, 255, 255, 0.78),
+    inset 0 -2px 3px rgba(0, 0, 0, 0.22),
+    0 12px 30px rgba(56, 189, 248, 0.45);
 }
 
 .cta-email-me-btn:active {
