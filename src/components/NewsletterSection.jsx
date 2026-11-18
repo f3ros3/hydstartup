@@ -1,6 +1,41 @@
 import React, { useEffect, useRef } from 'react';
 import { Mail } from 'lucide-react';
 
+/*
+ * Live motion graphic: flowing glowing light ribbons (blue / purple / orange)
+ * inspired by abstract "flowing light waves" backgrounds.
+ * - Rendered at reduced internal resolution and upscaled by CSS (cheap on CPU/GPU)
+ * - Additive ("lighter") blending gives the glowing silk/light-wave look
+ * - Paused automatically when the banner is off-screen or the tab is hidden
+ * - Always animates; when the OS requests reduced motion it simply moves slower
+ */
+
+// Each ribbon is a bundle of thin glowing strands following a travelling wave.
+const RIBBONS = [
+  {
+    base: 0.62, amp: 0.2, freq: 0.9, speed: 0.55, phase: 0.0, spread: 0.26, strands: 16,
+    colors: ['rgba(37, 99, 235, A)', 'rgba(56, 189, 248, A)', 'rgba(147, 51, 234, A)'],
+    alpha: 0.2, glow: 0.22
+  },
+  {
+    base: 0.42, amp: 0.24, freq: 0.7, speed: -0.42, phase: 2.1, spread: 0.3, strands: 14,
+    colors: ['rgba(168, 85, 247, A)', 'rgba(99, 102, 241, A)', 'rgba(59, 130, 246, A)'],
+    alpha: 0.17, glow: 0.18
+  },
+  {
+    base: 0.74, amp: 0.16, freq: 1.15, speed: 0.68, phase: 4.2, spread: 0.18, strands: 12,
+    colors: ['rgba(249, 115, 22, A)', 'rgba(236, 72, 153, A)', 'rgba(124, 58, 237, A)'],
+    alpha: 0.18, glow: 0.2
+  },
+  {
+    base: 0.3, amp: 0.14, freq: 1.35, speed: 0.36, phase: 5.6, spread: 0.16, strands: 10,
+    colors: ['rgba(14, 165, 233, A)', 'rgba(59, 130, 246, A)', 'rgba(251, 146, 60, A)'],
+    alpha: 0.14, glow: 0.14
+  }
+];
+
+const withAlpha = (c, a) => c.replace('A', a.toFixed(3));
+
 export default function NewsletterSection() {
   const canvasRef = useRef(null);
   const containerRef = useRef(null);
@@ -8,155 +43,163 @@ export default function NewsletterSection() {
   useEffect(() => {
     const canvas = canvasRef.current;
     const container = containerRef.current;
-    if (!canvas || !container) return;
+    if (!canvas || !container) return undefined;
 
-    const prefersReducedMotion =
+    const ctx = canvas.getContext('2d', { alpha: false });
+    if (!ctx) return undefined;
+
+    const reducedMotion =
       typeof window !== 'undefined' &&
       window.matchMedia &&
       window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const speedScale = reducedMotion ? 0.45 : 1;
 
-    const ctx = canvas.getContext('2d', { alpha: false });
-    if (!ctx) return;
+    let W = 0;
+    let H = 0;
+    const SEGMENTS = 36;
 
-    // Low internal resolution scaled up smoothly via CSS for zero CPU/GPU overhead
-    const W = 160;
-    const H = 96;
-    canvas.width = W;
-    canvas.height = H;
+    // Internal resolution ~ 45% of display size, capped (upscaled smoothly by CSS)
+    const resize = () => {
+      const rect = container.getBoundingClientRect();
+      const scale = 0.45;
+      W = Math.max(160, Math.min(420, Math.round(rect.width * scale)));
+      H = Math.max(100, Math.min(300, Math.round(rect.height * scale)));
+      canvas.width = W;
+      canvas.height = H;
+    };
+    resize();
 
-    let rafId = null;
-    let isVisible = true;
-    let startTime = performance.now();
-
-    const drawFrame = (now) => {
-      const t = (now - startTime) * 0.0011;
-
-      // Deep obsidian base
-      ctx.fillStyle = '#020617';
-      ctx.fillRect(0, 0, W, H);
-
-      // Draw 5 smooth flowing silk/ribbon waves with radial gradients
-      const ribbons = [
-        {
-          cx: W * (0.28 + 0.22 * Math.sin(t * 0.85)),
-          cy: H * (0.35 + 0.24 * Math.cos(t * 0.7)),
-          r: W * 0.62,
-          stops: [
-            [0, 'rgba(56, 189, 248, 0.95)'],
-            [0.42, 'rgba(37, 99, 235, 0.75)'],
-            [1, 'rgba(2, 6, 23, 0)']
-          ]
-        },
-        {
-          cx: W * (0.76 + 0.2 * Math.cos(t * 0.75 + 1.2)),
-          cy: H * (0.32 + 0.26 * Math.sin(t * 0.9 + 0.6)),
-          r: W * 0.68,
-          stops: [
-            [0, 'rgba(29, 78, 216, 0.95)'],
-            [0.45, 'rgba(59, 130, 246, 0.65)'],
-            [1, 'rgba(2, 6, 23, 0)']
-          ]
-        },
-        {
-          cx: W * (0.55 + 0.26 * Math.sin(t * 0.65 + 2.4)),
-          cy: H * (0.78 + 0.2 * Math.cos(t * 0.8 + 1.8)),
-          r: W * 0.58,
-          stops: [
-            [0, 'rgba(96, 165, 250, 0.9)'],
-            [0.4, 'rgba(14, 165, 233, 0.55)'],
-            [1, 'rgba(2, 6, 23, 0)']
-          ]
-        },
-        {
-          // Dark obsidian fold carving silk ridges (creates the reference's dramatic folds)
-          cx: W * (0.45 + 0.22 * Math.cos(t * 0.95 + 0.5)),
-          cy: H * (0.52 + 0.22 * Math.sin(t * 0.8 + 2.1)),
-          r: W * 0.42,
-          stops: [
-            [0, 'rgba(2, 4, 12, 0.96)'],
-            [0.65, 'rgba(3, 7, 18, 0.65)'],
-            [1, 'rgba(2, 6, 23, 0)']
-          ]
-        },
-        {
-          cx: W * (0.18 + 0.18 * Math.sin(t * 1.05 + 3.1)),
-          cy: H * (0.82 + 0.18 * Math.cos(t * 0.9 + 0.9)),
-          r: W * 0.52,
-          stops: [
-            [0, 'rgba(14, 165, 233, 0.85)'],
-            [0.5, 'rgba(30, 64, 175, 0.45)'],
-            [1, 'rgba(2, 6, 23, 0)']
-          ]
-        }
-      ];
-
-      for (const b of ribbons) {
-        const grad = ctx.createRadialGradient(b.cx, b.cy, 0, b.cx, b.cy, b.r);
-        for (const [offset, color] of b.stops) {
-          grad.addColorStop(offset, color);
-        }
-        ctx.fillStyle = grad;
-        ctx.fillRect(0, 0, W, H);
-      }
-
-      // Flowing sweeping highlight wave curve across the canvas
-      ctx.save();
-      ctx.globalCompositeOperation = 'screen';
-      ctx.beginPath();
-      const waveY = H * (0.48 + 0.18 * Math.sin(t * 0.9));
-      ctx.moveTo(-10, H);
-      ctx.bezierCurveTo(
-        W * 0.25,
-        waveY + Math.sin(t * 1.4) * 28,
-        W * 0.72,
-        waveY - Math.cos(t * 1.2) * 30,
-        W + 10,
-        H * (0.35 + 0.2 * Math.cos(t * 0.8))
+    const ribbonY = (r, x, t, k) => {
+      const u = x / W;
+      return (
+        H *
+        (r.base +
+          r.amp * Math.sin(u * Math.PI * 2 * r.freq + t * r.speed + r.phase + k * 0.18) +
+          r.amp * 0.45 * Math.sin(u * Math.PI * 2 * r.freq * 1.7 - t * r.speed * 0.8 + r.phase * 1.3 + k * 0.1))
       );
-      ctx.lineTo(W + 10, H);
-      ctx.closePath();
-      const waveGrad = ctx.createLinearGradient(0, 0, W, H);
-      waveGrad.addColorStop(0, 'rgba(56, 189, 248, 0.28)');
-      waveGrad.addColorStop(0.5, 'rgba(37, 99, 235, 0.36)');
-      waveGrad.addColorStop(1, 'rgba(14, 165, 233, 0.22)');
-      ctx.fillStyle = waveGrad;
-      ctx.fill();
-      ctx.restore();
     };
 
+    const drawFrame = (now) => {
+      const t = (now / 1000) * speedScale;
+
+      // Deep dark base with subtle moving colour glows
+      ctx.globalCompositeOperation = 'source-over';
+      ctx.fillStyle = '#03030a';
+      ctx.fillRect(0, 0, W, H);
+
+      const g1x = W * (0.3 + 0.2 * Math.sin(t * 0.3));
+      const g1 = ctx.createRadialGradient(g1x, H * 0.4, 0, g1x, H * 0.4, W * 0.6);
+      g1.addColorStop(0, 'rgba(30, 64, 175, 0.45)');
+      g1.addColorStop(1, 'rgba(3, 3, 10, 0)');
+      ctx.fillStyle = g1;
+      ctx.fillRect(0, 0, W, H);
+
+      const g2x = W * (0.75 + 0.15 * Math.cos(t * 0.25));
+      const g2 = ctx.createRadialGradient(g2x, H * 0.75, 0, g2x, H * 0.75, W * 0.5);
+      g2.addColorStop(0, 'rgba(126, 34, 206, 0.35)');
+      g2.addColorStop(1, 'rgba(3, 3, 10, 0)');
+      ctx.fillStyle = g2;
+      ctx.fillRect(0, 0, W, H);
+
+      // Additive glowing ribbons
+      ctx.globalCompositeOperation = 'lighter';
+      ctx.lineCap = 'round';
+      const step = W / SEGMENTS;
+
+      for (const r of RIBBONS) {
+        // Colour sweeps along the ribbon over time
+        const shift = 0.5 + 0.5 * Math.sin(t * 0.35 + r.phase);
+        const makeGrad = (a) => {
+          const g = ctx.createLinearGradient(0, 0, W, 0);
+          g.addColorStop(0, withAlpha(r.colors[0], a));
+          g.addColorStop(0.2 + shift * 0.6, withAlpha(r.colors[1], a));
+          g.addColorStop(1, withAlpha(r.colors[2], a));
+          return g;
+        };
+
+        // Soft wide glow body
+        ctx.beginPath();
+        for (let i = 0; i <= SEGMENTS; i++) {
+          const x = i * step;
+          const y = ribbonY(r, x, t, 0) - (H * r.spread) / 2;
+          if (i === 0) ctx.moveTo(x, y);
+          else ctx.lineTo(x, y);
+        }
+        for (let i = SEGMENTS; i >= 0; i--) {
+          const x = i * step;
+          ctx.lineTo(x, ribbonY(r, x, t, r.strands) + (H * r.spread) / 2);
+        }
+        ctx.closePath();
+        ctx.fillStyle = makeGrad(r.glow);
+        ctx.fill();
+
+        // Fine light strands (the silky "light wave" texture)
+        const strandGrad = makeGrad(r.alpha);
+        ctx.strokeStyle = strandGrad;
+        ctx.lineWidth = Math.max(1, W / 260);
+        for (let k = 0; k < r.strands; k++) {
+          const off = (k / (r.strands - 1) - 0.5) * H * r.spread;
+          ctx.beginPath();
+          for (let i = 0; i <= SEGMENTS; i++) {
+            const x = i * step;
+            const y = ribbonY(r, x, t, k) + off;
+            if (i === 0) ctx.moveTo(x, y);
+            else ctx.lineTo(x, y);
+          }
+          ctx.stroke();
+        }
+      }
+      ctx.globalCompositeOperation = 'source-over';
+    };
+
+    let rafId = null;
+    let onScreen = true;
+
     const loop = (now) => {
-      if (!isVisible) return;
       drawFrame(now);
       rafId = requestAnimationFrame(loop);
     };
+    const start = () => {
+      if (rafId == null && onScreen && !document.hidden) rafId = requestAnimationFrame(loop);
+    };
+    const stop = () => {
+      if (rafId != null) cancelAnimationFrame(rafId);
+      rafId = null;
+    };
 
-    drawFrame(startTime);
+    drawFrame(performance.now());
+    start();
 
-    if (prefersReducedMotion) return;
-
-    let observer;
+    let io;
     if (typeof IntersectionObserver !== 'undefined') {
-      observer = new IntersectionObserver(
-        (entries) => {
-          const entry = entries[0];
-          isVisible = Boolean(entry?.isIntersecting);
-          if (isVisible && !rafId) {
-            rafId = requestAnimationFrame(loop);
-          } else if (!isVisible && rafId) {
-            cancelAnimationFrame(rafId);
-            rafId = null;
-          }
+      io = new IntersectionObserver(
+        ([entry]) => {
+          onScreen = Boolean(entry && entry.isIntersecting);
+          if (onScreen) start();
+          else stop();
         },
-        { threshold: 0.05 }
+        { rootMargin: '100px' }
       );
-      observer.observe(container);
-    } else {
-      rafId = requestAnimationFrame(loop);
+      io.observe(container);
     }
 
+    let ro;
+    if (typeof ResizeObserver !== 'undefined') {
+      ro = new ResizeObserver(() => {
+        resize();
+        drawFrame(performance.now());
+      });
+      ro.observe(container);
+    }
+
+    const onVisibility = () => (document.hidden ? stop() : start());
+    document.addEventListener('visibilitychange', onVisibility);
+
     return () => {
-      if (rafId) cancelAnimationFrame(rafId);
-      if (observer) observer.disconnect();
+      stop();
+      if (io) io.disconnect();
+      if (ro) ro.disconnect();
+      document.removeEventListener('visibilitychange', onVisibility);
     };
   }, []);
 
@@ -166,17 +209,18 @@ export default function NewsletterSection() {
         ref={containerRef}
         className="cta-liquid-banner rounded-3xl px-6 py-12 sm:px-12 sm:py-16 border border-white/20 shadow-2xl text-center"
       >
-        {/* Live 60fps low-CPU fluid silk motion graphic canvas */}
+        {/* Live flowing light-ribbon motion graphic (soft ~20% blur) */}
         <canvas
           ref={canvasRef}
           aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover pointer-events-none scale-110"
-          style={{ filter: 'blur(16px) contrast(1.15) saturate(1.2)' }}
+          className="absolute inset-0 w-full h-full pointer-events-none"
+          style={{ filter: 'blur(4px) saturate(1.2)', transform: 'scale(1.06)', zIndex: 0 }}
         />
 
         {/* Subtle dark vignette for crisp text readability */}
         <div
-          className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/15 via-transparent to-black/25"
+          className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/25 via-black/5 to-black/30"
+          style={{ zIndex: 1 }}
           aria-hidden="true"
         />
 
