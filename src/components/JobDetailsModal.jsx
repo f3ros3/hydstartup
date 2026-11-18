@@ -228,7 +228,6 @@ export default function JobDetailsModal({
 
             <button
               onClick={() => {
-                onClose();
                 onViewOnMap(comp);
               }}
               className="px-3.5 py-1.5 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-400 dark:border-slate-700 bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 text-xs font-bold border border-slate-200 shadow-sm transition-all shrink-0 cursor-pointer"

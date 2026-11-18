@@ -172,7 +172,6 @@ export default function CompanyDetailsModal({
           <div className="flex items-center gap-2">
             <button
               onClick={() => {
-                onClose();
                 onViewOnMap(company);
               }}
               className="px-3.5 py-2 rounded-xl dark:bg-slate-800 dark:hover:bg-slate-700 dark:text-cyan-400 dark:border-slate-700 bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 text-xs font-bold border border-slate-200 shadow-sm flex items-center gap-1.5 transition-colors cursor-pointer"

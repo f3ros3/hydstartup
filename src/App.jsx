@@ -82,8 +82,32 @@ export default function App() {
     }
   });
 
+  const handleResetMapToDefault = (hubId = selectedHub) => {
+    const hub = HYDERABAD_HUBS.find((h) => h.id === hubId) || HYDERABAD_HUBS[0];
+    setSelectedCompany(null);
+    setSelectedJob(null);
+    setActiveHubCenter([...hub.center]);
+    setActiveHubZoom(hub.zoom);
+  };
+
+  const handleCloseCompanyModal = () => {
+    setIsCompanyModalOpen(false);
+    handleResetMapToDefault();
+  };
+
+  const handleCloseJobModal = () => {
+    setIsJobModalOpen(false);
+    setSelectedJob(null);
+    if (!isCompanyModalOpen) {
+      handleResetMapToDefault();
+    }
+  };
+
   const handleSetViewMode = (mode) => {
     setViewMode(mode);
+    if (mode === 'split' || mode === 'map') {
+      handleResetMapToDefault();
+    }
     if (mode === 'jobs') {
       setShowJobsDisclaimer(true);
     }
@@ -221,6 +245,9 @@ export default function App() {
       if (e.key === 'Escape') {
         setIsJobModalOpen(false);
         setIsCompanyModalOpen(false);
+        setSelectedCompany(null);
+        setSelectedJob(null);
+        setActiveHubCenter((prev) => [...prev]);
         setIsPostJobModalOpen(false);
         setIsBookmarksDrawerOpen(false);
         setIsAnalyticsModalOpen(false);
@@ -318,7 +345,7 @@ export default function App() {
   // Active Hub
   const [selectedHub, setSelectedHub] = useState('all');
   const [activeHubCenter, setActiveHubCenter] = useState([17.438, 78.375]);
-  const [activeHubZoom, setActiveHubZoom] = useState(12);
+  const [activeHubZoom, setActiveHubZoom] = useState(13);
 
   // Selected entities for interaction
   const [selectedCompany, setSelectedCompany] = useState(null);
@@ -559,8 +586,9 @@ export default function App() {
     setCompanyTypeFilter('all');
     setSelectedHub('all');
     setActiveHubCenter([17.438, 78.375]);
-    setActiveHubZoom(12);
+    setActiveHubZoom(13);
     setSelectedCompany(null);
+    setSelectedJob(null);
   };
 
   // Toggle Bookmark
@@ -583,9 +611,11 @@ export default function App() {
 
   // Fly to company on map
   const handleViewOnMap = (comp) => {
+    setIsCompanyModalOpen(false);
+    setIsJobModalOpen(false);
     setSelectedCompany(comp);
     if (comp.coordinates) {
-      setActiveHubCenter(comp.coordinates);
+      setActiveHubCenter([...comp.coordinates]);
       setActiveHubZoom(16);
     }
     if (viewMode === 'jobs' || viewMode === 'companies') {
@@ -693,8 +723,7 @@ export default function App() {
                 }}
                 onResetSearch={() => {
                   setSearchQuery('');
-                  setSelectedCompany(null);
-                  setSelectedJob(null);
+                  handleResetMapToDefault();
                 }}
                 activeHubCenter={activeHubCenter}
                 activeHubZoom={activeHubZoom}
@@ -856,8 +885,7 @@ export default function App() {
               }}
               onResetSearch={() => {
                 setSearchQuery('');
-                setSelectedCompany(null);
-                setSelectedJob(null);
+                handleResetMapToDefault();
               }}
               activeHubCenter={activeHubCenter}
               activeHubZoom={activeHubZoom}
@@ -1014,7 +1042,7 @@ export default function App() {
         job={selectedJob}
         company={selectedJob ? companyMap[selectedJob.companyId] : null}
         isOpen={isJobModalOpen}
-        onClose={() => setIsJobModalOpen(false)}
+        onClose={handleCloseJobModal}
         isBookmarked={selectedJob ? bookmarkedIds.includes(selectedJob.id) : false}
         onToggleBookmark={handleToggleBookmark}
         onViewOnMap={handleViewOnMap}
@@ -1024,7 +1052,7 @@ export default function App() {
         company={selectedCompany}
         jobs={selectedCompany ? allJobs.filter(j => j.companyId === selectedCompany.id) : []}
         isOpen={isCompanyModalOpen}
-        onClose={() => setIsCompanyModalOpen(false)}
+        onClose={handleCloseCompanyModal}
         onSelectJob={(j) => {
           setSelectedJob(j);
           setIsJobModalOpen(true);

@@ -433,7 +433,7 @@ html.light .tws-instagram-btn {
 
 .company-ribbon-track {
   will-change: transform;
-  animation: companyRibbonRoll 210s linear infinite;
+  animation: companyRibbonRoll 340s linear infinite;
 }
 
 .company-ribbon-wrapper:hover .company-ribbon-track,

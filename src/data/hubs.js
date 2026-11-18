@@ -4,7 +4,7 @@ export const HYDERABAD_HUBS = [
     name: "All Hyderabad",
     tagline: "Greater Hyderabad Tech Ecosystem",
     center: [17.438, 78.375],
-    zoom: 12,
+    zoom: 13,
     badge: "75+ Tech Startups & MNCs"
   },
   {

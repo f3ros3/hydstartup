@@ -53,7 +53,7 @@ export default function CompanyLogoRibbon({ onSelectCompany }) {
   return (
     <section
       aria-label="Featured Hyderabad Startups and Tech Companies"
-      className="company-ribbon-wrapper relative z-10 w-full my-4 sm:my-6 py-3.5 sm:py-4 border-y dark:border-purple-800/50 border-slate-200/90 dark:bg-[#090314]/75 bg-white/90"
+      className="company-ribbon-wrapper relative z-10 w-full my-4 sm:my-6 py-3.5 sm:py-4 border-y dark:border-purple-300/20 border-slate-400/35 dark:bg-purple-950/20 bg-white/30 backdrop-blur-md"
     >
       <div className="company-ribbon-track flex items-center gap-6 sm:gap-8 w-max">
         {trackItems.map(({ company, logoUrl, logoText, color }, idx) => {
@@ -68,7 +68,7 @@ export default function CompanyLogoRibbon({ onSelectCompany }) {
                 title={`View ${company.name}`}
                 className="group inline-flex items-center gap-2.5 sm:gap-3 shrink-0 cursor-pointer bg-transparent border-0 p-0 focus:outline-none"
               >
-                <span className="relative flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white shadow-sm border border-slate-200/80 dark:border-white/15 p-1 shrink-0 overflow-hidden transition-transform duration-200 group-hover:scale-110">
+                <span className="relative flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-lg dark:bg-white/80 bg-white/65 shadow-sm border border-slate-300/50 dark:border-white/20 p-1 shrink-0 overflow-hidden transition-transform duration-200 group-hover:scale-110">
                   <img
                     src={logoUrl}
                     alt={company.name}

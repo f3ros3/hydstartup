@@ -51,6 +51,7 @@ function MapController({ targetCenter, targetZoom, selectedCompany }) {
         easeLinearity: 0.25
       });
     } else if (targetCenter) {
+      map.closePopup();
       map.flyTo(targetCenter, targetZoom || 13, {
         duration: 0.9,
         easeLinearity: 0.25
@@ -238,7 +239,8 @@ function ClusteredMarkers({
   selectedCompany,
   onSelectCompany,
   onSelectJobForCompany,
-  onOpenCompanyDetails
+  onOpenCompanyDetails,
+  onResetSearch
 }) {
   const map = useMap();
   const clusterGroupRef = useRef(null);
@@ -248,12 +250,14 @@ function ClusteredMarkers({
   const callbacksRef = useRef({
     onSelectCompany,
     onSelectJobForCompany,
-    onOpenCompanyDetails
+    onOpenCompanyDetails,
+    onResetSearch
   });
   callbacksRef.current = {
     onSelectCompany,
     onSelectJobForCompany,
-    onOpenCompanyDetails
+    onOpenCompanyDetails,
+    onResetSearch
   };
 
   useEffect(() => {
@@ -337,6 +341,15 @@ function ClusteredMarkers({
         callbacksRef.current.onSelectCompany?.(company);
       });
 
+      marker.on('popupopen', (e) => {
+        const closeBtn = e.popup?.getElement()?.querySelector('.leaflet-popup-close-button');
+        if (closeBtn) {
+          closeBtn.onclick = () => {
+            callbacksRef.current.onResetSearch?.();
+          };
+        }
+      });
+
       markerMapRef.current[company.id] = { marker, company };
       markers.push(marker);
     });
@@ -359,8 +372,10 @@ function ClusteredMarkers({
       clusterGroup.zoomToShowLayer(marker, () => {
         marker.openPopup();
       });
+    } else if (!selectedCompany) {
+      map.closePopup();
     }
-  }, [selectedCompany]);
+  }, [selectedCompany, map]);
 
   return null;
 }
@@ -389,7 +404,7 @@ export default function MapView({
 
       <MapContainer
         center={defaultCenter}
-        zoom={12}
+        zoom={13}
         scrollWheelZoom={true}
         preferCanvas={true}
         className="w-full h-full z-0"
@@ -418,6 +433,7 @@ export default function MapView({
           onSelectCompany={onSelectCompany}
           onSelectJobForCompany={onSelectJobForCompany}
           onOpenCompanyDetails={onOpenCompanyDetails}
+          onResetSearch={onResetSearch}
         />
       </MapContainer>
     </div>
