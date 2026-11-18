@@ -1,151 +1,37 @@
-import React, { useState } from 'react';
-import { Mail, Sparkles, CheckCircle2, ArrowRight, ShieldCheck, BellRing, Rocket } from 'lucide-react';
+import React from 'react';
+import { Mail } from 'lucide-react';
 
 export default function NewsletterSection() {
-  const [email, setEmail] = useState('');
-  const [isSubscribed, setIsSubscribed] = useState(() => {
-    try {
-      return localStorage.getItem('hyd_newsletter_subscribed') === 'true';
-    } catch {
-      return false;
-    }
-  });
-  const [loading, setLoading] = useState(false);
-  const [errorMsg, setErrorMsg] = useState('');
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    setErrorMsg('');
-
-    if (!email || !email.includes('@') || !email.includes('.')) {
-      setErrorMsg('Please enter a valid email address.');
-      return;
-    }
-
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      setIsSubscribed(true);
-      try {
-        localStorage.setItem('hyd_newsletter_subscribed', 'true');
-        localStorage.setItem('hyd_newsletter_email', email);
-      } catch (err) {}
-    }, 600);
-  };
-
   return (
-    <section className="relative z-10 w-full max-w-6xl mx-auto my-8 sm:my-12 px-3 sm:px-6">
-      <div className="relative overflow-hidden rounded-3xl p-6 sm:p-10 dark:bg-[#0E1526]/95 bg-white/95 border dark:border-slate-800/80 border-slate-200/90 shadow-xl transition-colors">
+    <section className="relative z-10 w-full max-w-3xl mx-auto my-8 sm:my-12 px-3 sm:px-6">
+      <div className="cta-liquid-banner rounded-3xl px-6 py-12 sm:px-12 sm:py-16 border border-white/15 shadow-2xl text-center">
+        {/* Smooth GPU-animated fluid wave gradient under the banner */}
+        <div className="cta-liquid-bg" aria-hidden="true" />
 
-        <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-          
-          {/* Left Text Column */}
-          <div className="flex-1 text-center lg:text-left space-y-3">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-black dark:bg-emerald-500/20 dark:text-emerald-300 dark:border-emerald-500/30 bg-orange-500/20 text-orange-700 border border-orange-500/30 shadow-sm">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Hyderabad Tech Weekly Digest</span>
-            </div>
+        <div className="relative z-10 flex flex-col items-center justify-center space-y-6">
+          <h3 className="text-2xl sm:text-4xl font-black tracking-tight text-white leading-tight max-w-xl drop-shadow-sm">
+            Stay Ahead in Hyderabad&apos;s Tech Ecosystem
+          </h3>
 
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight dark:text-white text-slate-900">
-              Stay Ahead in Hyderabad's <span className="dark:text-emerald-400 text-orange-600">Tech Ecosystem</span> 🚀
-            </h3>
+          {/* Liquid Glass Email Pill + Email me Button */}
+          <div className="flex flex-col items-center gap-3.5 pt-1">
+            <a
+              href="mailto:techwithshaik2@gmail.com"
+              className="cta-liquid-glass-pill inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold text-white no-underline"
+              aria-label="Compose email to techwithshaik2@gmail.com"
+            >
+              <Mail className="w-4 h-4 text-white/90 shrink-0" aria-hidden="true" />
+              <span>techwithshaik2@gmail.com</span>
+            </a>
 
-            <p className="text-xs sm:text-sm dark:text-slate-300 text-slate-700 font-medium max-w-xl leading-relaxed">
-              Join <strong>4,500+</strong> Hyderabad developers, engineers, and startup founders. Receive weekly curated tech job openings, unicorn funding alerts, and T-Hub/HITEC City networking meetups.
-            </p>
-
-            {/* Perks Badges */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-1 text-[11px] font-bold dark:text-slate-400 text-slate-600">
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
-                Verified Active Openings
-              </span>
-              <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-3.5 h-3.5 text-cyan-500" />
-                Zero Spam Guarantee
-              </span>
-              <span className="flex items-center gap-1.5">
-                <BellRing className="w-3.5 h-3.5 text-amber-500" />
-                Every Thursday Morning
-              </span>
-            </div>
+            <a
+              href="mailto:techwithshaik2@gmail.com"
+              className="cta-email-me-btn inline-flex items-center justify-center px-8 py-2.5 rounded-full text-xs sm:text-sm font-bold text-white no-underline cursor-pointer"
+            >
+              Email me
+            </a>
           </div>
-
-          {/* Right Form Column */}
-          <div className="w-full lg:w-auto lg:min-w-[380px] shrink-0">
-            {isSubscribed ? (
-              <div className="p-6 rounded-2xl dark:bg-emerald-500/10 bg-emerald-50 border dark:border-emerald-500/30 border-emerald-300 text-center space-y-2.5 shadow-lg">
-                <div className="w-12 h-12 rounded-full bg-emerald-500 text-slate-950 flex items-center justify-center mx-auto shadow-md shadow-emerald-500/30">
-                  <CheckCircle2 className="w-6 h-6 stroke-[2.5]" />
-                </div>
-                <h4 className="text-base font-extrabold dark:text-white text-slate-900">You're Subscribed! 🎉</h4>
-                <p className="text-xs dark:text-slate-300 text-slate-700">
-                  You'll receive the next edition of Hyderabad Tech Opportunities straight to your inbox.
-                </p>
-                <button
-                  onClick={() => {
-                    setIsSubscribed(false);
-                    try {
-                      localStorage.removeItem('hyd_newsletter_subscribed');
-                    } catch (e) {}
-                  }}
-                  className="text-[11px] font-bold text-slate-400 hover:text-emerald-500 underline cursor-pointer pt-1"
-                >
-                  Change email address
-                </button>
-              </div>
-            ) : (
-              <form onSubmit={handleSubscribe} className="space-y-2.5">
-                <div className="relative flex flex-col sm:flex-row items-stretch gap-2">
-                  <div className="relative flex-1">
-                    <Mail className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-                    <label htmlFor="newsletter-email" className="sr-only">Email address for Hyderabad Tech Digest</label>
-                    <input
-                      id="newsletter-email"
-                      name="email"
-                      type="email"
-                      autoComplete="email"
-                      value={email}
-                      onChange={(e) => {
-                        setEmail(e.target.value);
-                        if (errorMsg) setErrorMsg('');
-                      }}
-                      placeholder="Enter your email (e.g. shaik@tech.io)"
-                      aria-label="Email address for Hyderabad Tech Digest"
-                      className="w-full pl-10 pr-4 py-3 rounded-2xl dark:bg-slate-900/80 bg-white border dark:border-slate-700 border-slate-300 text-xs sm:text-sm font-semibold dark:text-white text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 focus-visible:ring-2 focus-visible:ring-emerald-500 shadow-sm transition-all"
-                    />
-                  </div>
-
-                  <button
-                    type="submit"
-                    disabled={loading}
-                    aria-label="Subscribe to weekly Hyderabad tech opportunities"
-                    className="py-3 px-6 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-slate-950 font-black text-xs sm:text-sm shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2 cursor-pointer hover:scale-[1.02] active:scale-[0.98] focus-visible:ring-2 focus-visible:ring-emerald-500 transition-all shrink-0"
-                  >
-                    {loading ? (
-                      <span className="w-4 h-4 border-2 border-slate-950 border-t-transparent rounded-full animate-spin" aria-hidden="true"></span>
-                    ) : (
-                      <>
-                        <span>Subscribe</span>
-                        <ArrowRight className="w-4 h-4" aria-hidden="true" />
-                      </>
-                    )}
-                  </button>
-                </div>
-
-                {errorMsg && (
-                  <p className="text-[11px] font-bold text-rose-500 pl-1" role="alert">{errorMsg}</p>
-                )}
-
-                <p className="text-[10px] text-center dark:text-slate-400 text-slate-500 font-medium">
-                  🔒 We respect your privacy under DPDP Act &amp; GDPR. Unsubscribe anytime with 1 click.
-                </p>
-              </form>
-            )}
-          </div>
-
         </div>
-
       </div>
     </section>
   );

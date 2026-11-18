@@ -390,6 +390,85 @@ html.light .tws-instagram-btn {
   transform: translate(-50%, -50%) scale(1);
 }
 
+/* Liquid Flowing CTA Banner (crownzdesigns-inspired) */
+@keyframes ctaFluidFlow {
+  0% {
+    transform: translate3d(-4%, -3%, 0) scale(1.06) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(4%, 3%, 0) scale(1.12) rotate(3deg);
+  }
+  100% {
+    transform: translate3d(-2%, 2%, 0) scale(1.08) rotate(-2deg);
+  }
+}
+
+.cta-liquid-banner {
+  position: relative;
+  overflow: hidden;
+  background-color: #030712;
+  isolation: isolate;
+}
+
+.cta-liquid-bg {
+  position: absolute;
+  inset: -25%;
+  z-index: -1;
+  pointer-events: none;
+  will-change: transform;
+  background:
+    radial-gradient(ellipse 65% 55% at 22% 35%, rgba(56, 189, 248, 0.72) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 55% at 78% 25%, rgba(37, 99, 235, 0.85) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 60% at 62% 78%, rgba(147, 51, 234, 0.65) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 50% at 15% 80%, rgba(14, 165, 233, 0.45) 0%, transparent 60%),
+    linear-gradient(135deg, #020617 0%, #0a192f 50%, #090d1f 100%);
+  animation: ctaFluidFlow 16s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cta-liquid-bg {
+    animation: none !important;
+  }
+}
+
+.cta-liquid-glass-pill {
+  background: rgba(255, 255, 255, 0.11);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.28),
+    inset 0 -1px 1px rgba(0, 0, 0, 0.15),
+    0 8px 24px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(8px);
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-liquid-glass-pill:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.42);
+  transform: translateY(-1px);
+}
+
+.cta-email-me-btn {
+  background: linear-gradient(180deg, #5eb2ff 0%, #2589f5 55%, #1d6fe8 100%);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.55),
+    0 10px 24px rgba(29, 111, 232, 0.45);
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-email-me-btn:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px) scale(1.02);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.65),
+    0 12px 28px rgba(37, 137, 245, 0.55);
+}
+
+.cta-email-me-btn:active {
+  transform: scale(0.98);
+}
+
 /* Uiverse.io Silly-Cat-86 Animated Button Styling */
 .uiverse-button {
   line-height: 1;
