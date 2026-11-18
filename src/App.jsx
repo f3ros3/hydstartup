@@ -10,6 +10,7 @@ import CompanyDetailsModal from './components/CompanyDetailsModal';
 import PostJobModal from './components/PostJobModal';
 import BookmarksDrawer from './components/BookmarksDrawer';
 import AnalyticsModal from './components/AnalyticsModal';
+import CompanyLogoRibbon from './components/CompanyLogoRibbon';
 import NewsletterSection from './components/NewsletterSection';
 import JobsDisclaimerToast from './components/JobsDisclaimerToast';
 import Footer from './components/Footer';
@@ -967,6 +968,14 @@ export default function App() {
         )}
 
       </main>
+
+      {/* Slow Rolling Company Logos Ribbon (pauses on hover) */}
+      <CompanyLogoRibbon
+        onSelectCompany={(company) => {
+          setSelectedCompany(company);
+          setIsCompanyModalOpen(true);
+        }}
+      />
 
       {/* Newsletter Subscription Section */}
       <NewsletterSection />
