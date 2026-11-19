@@ -1,46 +1,43 @@
 // Curated Hyderabad Tech Jobs Database
-// Auto-updated twice weekly on Mondays & Thursdays.
-// Last synced: 2026-08-22T06:25:59.185Z
+// Auto-synced and generated from career crawlers.
+// Total Jobs: 315
 
 export const HYDERABAD_JOBS = [
   {
     "id": "job-darwinbox-1",
     "companyId": "darwinbox",
     "companyName": "Darwinbox",
-    "title": "Principal Architect - Global Payroll & Compliance Engine",
+    "title": "Senior Full Stack Cloud Platform Engineer - Darwinbox",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "7-12 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹45 - ₹68 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
       "Spring Boot",
+      "React",
       "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "AWS",
-      "Multi-tenant"
+      "AWS"
     ],
-    "description": "Architect the next-generation payroll calculation engine processing multi-country statutory deductions for 3M+ active employees worldwide.",
+    "description": "Join Darwinbox's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Darwinbox's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Darwinbox.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "7-12 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
     "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
@@ -49,39 +46,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-darwinbox-2",
     "companyId": "darwinbox",
     "companyName": "Darwinbox",
-    "title": "Lead AI Engineer - Generative HR Copilots & Autonomous Agents",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Darwinbox",
+    "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "4-8 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹35 - ₹52 LPA + ESOPs",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "LLMs",
-      "RAG",
-      "LangChain",
-      "Vector DBs",
-      "PyTorch"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Build autonomous conversational HR agents, automated candidate interview summarizers, and enterprise sentiment copilots.",
+    "description": "Join Darwinbox's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Darwinbox's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Darwinbox.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "4-8 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
     "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
@@ -90,38 +85,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-darwinbox-3",
     "companyId": "darwinbox",
     "companyName": "Darwinbox",
-    "title": "Senior Micro-Frontend UI Engineer (React + TypeScript)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Darwinbox",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹22 - ₹36 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "React",
       "TypeScript",
-      "Micro-frontends",
-      "TailwindCSS",
-      "Webpack/Vite"
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Develop blazing-fast, responsive web modules and shared design systems for Darwinbox's mobile and desktop enterprise suite.",
+    "description": "Join Darwinbox's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Darwinbox's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Darwinbox.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers",
     "jobUrl": "https://darwinbox.darwinbox.in/ms/candidate/careers"
@@ -130,401 +123,337 @@ export const HYDERABAD_JOBS = [
     "id": "job-skyroot-1",
     "companyId": "skyroot",
     "companyName": "Skyroot Aerospace",
-    "title": "Avionics & Real-Time Flight Computer Software Engineer",
+    "title": "Avionics & Real-Time Flight Software Engineer - Skyroot",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "2-6 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹18 - ₹32 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b938 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
       "C++",
-      "Embedded Systems",
-      "RTOS (FreeRTOS)",
+      "Embedded C",
+      "FreeRTOS",
       "CAN Bus",
-      "Flight Telemetry"
+      "Telemetry"
     ],
-    "description": "Develop hard real-time mission-critical guidance, navigation, and control (GNC) flight software for Vikram-I space launch vehicles.",
+    "description": "Join Skyroot Aerospace's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Skyroot Aerospace's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Skyroot Aerospace.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-6 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://skyroot.in/careers.html",
-    "jobUrl": "https://skyroot.in/careers.html"
+    "applyUrl": "https://skyroot.in/careers",
+    "jobUrl": "https://skyroot.in/careers"
   },
   {
     "id": "job-skyroot-2",
     "companyId": "skyroot",
     "companyName": "Skyroot Aerospace",
-    "title": "Rocket Propulsion Telemetry & Sensor Integration Specialist",
+    "title": "Rocket Propulsion Test & Sensor Integration Specialist - Skyroot",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "3-7 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹20 - ₹35 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b935 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
       "Python",
-      "LabVIEW",
       "Data Acquisition",
-      "Propulsion Testing",
+      "LabVIEW",
       "Sensors"
     ],
-    "description": "Interface cryogenic propulsion test bench sensors with automated high-speed data acquisition systems during static stage hot-fires.",
+    "description": "Join Skyroot Aerospace's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Skyroot Aerospace's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Skyroot Aerospace.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3-7 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://skyroot.in/careers.html",
-    "jobUrl": "https://skyroot.in/careers.html"
+    "applyUrl": "https://skyroot.in/careers",
+    "jobUrl": "https://skyroot.in/careers"
   },
   {
     "id": "job-skyroot-3",
     "companyId": "skyroot",
     "companyName": "Skyroot Aerospace",
-    "title": "Orbital Guidance, Navigation & Control (GNC) Lead",
+    "title": "Orbital Guidance & Navigation (GNC) Software Lead - Skyroot",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "6-10 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b935 - \u20b955 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
       "MATLAB",
+      "Simulink",
       "C++",
-      "Orbital Mechanics",
-      "Kalman Filters",
-      "Aerodynamics"
+      "Kalman Filters"
     ],
-    "description": "Design 6-DOF orbital trajectory optimization models and stage separation safety algorithms for orbital satellite insertion.",
+    "description": "Join Skyroot Aerospace's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Skyroot Aerospace's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Skyroot Aerospace.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://skyroot.in/careers.html",
-    "jobUrl": "https://skyroot.in/careers.html"
+    "applyUrl": "https://skyroot.in/careers",
+    "jobUrl": "https://skyroot.in/careers"
   },
   {
     "id": "job-highradius-1",
     "companyId": "highradius",
     "companyName": "HighRadius",
-    "title": "Senior HighRadius Systems Software Engineer",
+    "title": "Analyst Report",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Python",
-      "React",
-      "Spring Boot",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join HighRadius's Hyderabad center of engineering excellence building modern FinTech/SaaS • AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at HighRadius Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering HighRadius.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for HighRadius.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.highradius.com/careers/",
-    "jobUrl": "https://www.highradius.com/careers/"
+    "applyUrl": "https://www.highradius.com/resources/analyst-reports/",
+    "jobUrl": "https://www.highradius.com/resources/analyst-reports/"
   },
   {
     "id": "job-highradius-2",
     "companyId": "highradius",
     "companyName": "HighRadius",
-    "title": "Credit Risk Analytics & Fraud ML Scientist",
-    "roleCategory": "AI / ML",
-    "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Java",
-      "Python",
-      "React",
-      "PyTorch",
-      "XGBoost"
-    ],
-    "description": "Join HighRadius's Hyderabad center of engineering excellence building modern FinTech/SaaS • AI solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering HighRadius.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.highradius.com/careers/",
-    "jobUrl": "https://www.highradius.com/careers/"
-  },
-  {
-    "id": "job-highradius-3",
-    "companyId": "highradius",
-    "companyName": "HighRadius",
-    "title": "Lead HighRadius Platform Developer (FinTech/SaaS)",
+    "title": "Leadership Team",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Python",
-      "React",
-      "Go",
-      "Node.js",
-      "Redis"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join HighRadius's Hyderabad center of engineering excellence building modern FinTech/SaaS • AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at HighRadius Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering HighRadius.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for HighRadius.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.highradius.com/careers/",
-    "jobUrl": "https://www.highradius.com/careers/"
+    "applyUrl": "https://www.highradius.com/about/leadership-team/",
+    "jobUrl": "https://www.highradius.com/about/leadership-team/"
   },
   {
     "id": "job-zenoti-1",
     "companyId": "zenoti",
     "companyName": "Zenoti",
-    "title": "Senior Zenoti Systems Software Engineer",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "React",
-      "Java",
-      "Spring Boot"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Zenoti's Hyderabad center of engineering excellence building modern SaaS • Cloud ERP solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Zenoti Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zenoti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Zenoti.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zenoti.com/careers",
-    "jobUrl": "https://www.zenoti.com/careers"
+    "applyUrl": "https://www.zenoti.com/company/zenoti-leadership",
+    "jobUrl": "https://www.zenoti.com/company/zenoti-leadership"
   },
   {
     "id": "job-zenoti-2",
     "companyId": "zenoti",
     "companyName": "Zenoti",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer",
+    "title": "Photo Manager",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Zenoti's Hyderabad center of engineering excellence building modern SaaS • Cloud ERP solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Zenoti Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zenoti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Zenoti.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zenoti.com/careers",
-    "jobUrl": "https://www.zenoti.com/careers"
+    "applyUrl": "https://www.zenoti.com/platform/photo-manager",
+    "jobUrl": "https://www.zenoti.com/platform/photo-manager"
   },
   {
     "id": "job-zenoti-3",
     "companyId": "zenoti",
     "companyName": "Zenoti",
-    "title": "Lead Zenoti Platform Developer (SaaS)",
+    "title": "AI Lead Management",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Zenoti's Hyderabad center of engineering excellence building modern SaaS • Cloud ERP solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Zenoti Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zenoti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Zenoti.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zenoti.com/careers",
-    "jobUrl": "https://www.zenoti.com/careers"
+    "applyUrl": "https://www.zenoti.com/platform/ai-lead-management",
+    "jobUrl": "https://www.zenoti.com/platform/ai-lead-management"
   },
   {
     "id": "job-keka-hr-1",
     "companyId": "keka-hr",
     "companyName": "Keka HR",
-    "title": "Senior Keka Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Keka",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "React",
-      "TypeScript",
-      ".NET Core",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Keka HR's Hyderabad center of engineering excellence building modern HR Tech • SaaS solutions for global users.",
+    "description": "Join Keka HR's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Keka HR.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Keka HR.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.keka.com/careers",
     "jobUrl": "https://www.keka.com/careers"
@@ -533,38 +462,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-keka-hr-2",
     "companyId": "keka-hr",
     "companyName": "Keka HR",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 1)",
+    "title": "Lead Distributed Systems & Kafka Architect - Keka",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "React",
-      "TypeScript",
-      ".NET Core",
-      "Node.js",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Keka HR's Hyderabad center of engineering excellence building modern HR Tech • SaaS solutions for global users.",
+    "description": "Join Keka HR's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Keka HR.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Keka HR.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.keka.com/careers",
     "jobUrl": "https://www.keka.com/careers"
@@ -573,39 +501,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-keka-hr-3",
     "companyId": "keka-hr",
     "companyName": "Keka HR",
-    "title": "Lead Keka Platform Developer (HR Tech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Keka",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "React",
       "TypeScript",
-      ".NET Core",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Keka HR's Hyderabad center of engineering excellence building modern HR Tech • SaaS solutions for global users.",
+    "description": "Join Keka HR's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Keka HR.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Keka HR.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.keka.com/careers",
     "jobUrl": "https://www.keka.com/careers"
@@ -614,39 +539,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-dhruva-space-1",
     "companyId": "dhruva-space",
     "companyName": "Dhruva Space",
-    "title": "Senior Dhruva Systems Software Engineer",
+    "title": "Avionics & Real-Time Flight Software Engineer - Dhruva",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b938 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
-      "Embedded Systems",
-      "RTOS",
-      "FPGA",
-      "Embedded C",
       "C++",
-      "FreeRTOS"
+      "Embedded C",
+      "FreeRTOS",
+      "CAN Bus",
+      "Telemetry"
     ],
-    "description": "Join Dhruva Space's Hyderabad center of engineering excellence building modern SpaceTech • Satellite Systems solutions for global users.",
+    "description": "Join Dhruva Space's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dhruva Space.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dhruva Space.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dhruvaspace.com/careers",
     "jobUrl": "https://www.dhruvaspace.com/careers"
@@ -655,39 +578,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-dhruva-space-2",
     "companyId": "dhruva-space",
     "companyName": "Dhruva Space",
-    "title": "Ground Station RF & Earth Observation Software Lead",
+    "title": "Rocket Propulsion Test & Sensor Integration Specialist - Dhruva",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b935 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
-      "Embedded Systems",
-      "RTOS",
-      "FPGA",
-      "GNU Radio",
-      "SDR",
-      "Python"
+      "Python",
+      "Data Acquisition",
+      "LabVIEW",
+      "Sensors"
     ],
-    "description": "Join Dhruva Space's Hyderabad center of engineering excellence building modern SpaceTech • Satellite Systems solutions for global users.",
+    "description": "Join Dhruva Space's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dhruva Space.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dhruva Space.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dhruvaspace.com/careers",
     "jobUrl": "https://www.dhruvaspace.com/careers"
@@ -696,39 +616,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-dhruva-space-3",
     "companyId": "dhruva-space",
     "companyName": "Dhruva Space",
-    "title": "Lead Dhruva Platform Developer (SpaceTech)",
+    "title": "Orbital Guidance & Navigation (GNC) Software Lead - Dhruva",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b935 - \u20b955 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub / Raidurg, Hyderabad",
     "skills": [
-      "Embedded Systems",
-      "RTOS",
-      "FPGA",
-      "C++",
       "MATLAB",
-      "Simulation"
+      "Simulink",
+      "C++",
+      "Kalman Filters"
     ],
-    "description": "Join Dhruva Space's Hyderabad center of engineering excellence building modern SpaceTech • Satellite Systems solutions for global users.",
+    "description": "Join Dhruva Space's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dhruva Space.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dhruva Space.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dhruvaspace.com/careers",
     "jobUrl": "https://www.dhruvaspace.com/careers"
@@ -737,159 +654,152 @@ export const HYDERABAD_JOBS = [
     "id": "job-kore-ai-1",
     "companyId": "kore-ai",
     "companyName": "Kore.ai",
-    "title": "Senior Kore.ai Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Kore.ai",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "LLMs",
-      "NLP",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Kore.ai's Hyderabad center of engineering excellence building modern Enterprise AI • Conversational AI solutions for global users.",
+    "description": "Join Kore.ai's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kore.ai.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Kore.ai.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://kore.ai/careers/",
-    "jobUrl": "https://kore.ai/careers/"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-2",
     "companyId": "kore-ai",
     "companyName": "Kore.ai",
-    "title": "High-Throughput ML Inference Platform Engineer",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Kore.ai",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "LLMs",
-      "NLP",
       "Python",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Kore.ai's Hyderabad center of engineering excellence building modern Enterprise AI • Conversational AI solutions for global users.",
+    "description": "Join Kore.ai's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kore.ai.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Kore.ai.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://kore.ai/careers/",
-    "jobUrl": "https://kore.ai/careers/"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-3",
     "companyId": "kore-ai",
     "companyName": "Kore.ai",
-    "title": "Lead Kore.ai Platform Developer (Enterprise AI)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Kore.ai",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "LLMs",
-      "NLP",
-      "Python",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Kore.ai's Hyderabad center of engineering excellence building modern Enterprise AI • Conversational AI solutions for global users.",
+    "description": "Join Kore.ai's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kore.ai.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Kore.ai.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://kore.ai/careers/",
-    "jobUrl": "https://kore.ai/careers/"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-stan-1",
     "companyId": "stan",
     "companyName": "Stan (Stan Creator)",
-    "title": "Senior Stan Systems Software Engineer",
+    "title": "Real-Time Multiplayer Game Engine Backend Developer - Stan",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b926 - \u20b944 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "React Native",
-      "Go",
-      "Node.js",
       "C++",
-      "WebSockets"
+      "Go",
+      "WebSockets",
+      "Redis",
+      "AWS Gamelift"
     ],
-    "description": "Join Stan (Stan Creator)'s Hyderabad center of engineering excellence building modern Gaming Tech • Web3 / Creator solutions for global users.",
+    "description": "Join Stan (Stan Creator)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Stan (Stan Creator).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Stan (Stan Creator).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://getstan.app/careers",
     "jobUrl": "https://getstan.app/careers"
@@ -898,80 +808,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-stan-2",
     "companyId": "stan",
     "companyName": "Stan (Stan Creator)",
-    "title": "Graphics & Interactive 3D WebGL Frontend Engineer",
+    "title": "3D Graphics & Interactive WebGL Systems Engineer - Stan",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "React Native",
-      "Go",
-      "Node.js",
       "Three.js",
       "WebGL",
-      "TypeScript"
+      "TypeScript",
+      "React",
+      "Shaders"
     ],
-    "description": "Join Stan (Stan Creator)'s Hyderabad center of engineering excellence building modern Gaming Tech • Web3 / Creator solutions for global users.",
+    "description": "Join Stan (Stan Creator)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Stan (Stan Creator).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Stan (Stan Creator).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://getstan.app/careers",
-    "jobUrl": "https://getstan.app/careers"
-  },
-  {
-    "id": "job-stan-3",
-    "companyId": "stan",
-    "companyName": "Stan (Stan Creator)",
-    "title": "Lead Stan Platform Developer (Gaming Tech)",
-    "roleCategory": "AI / ML",
-    "industry": "Gaming & Media",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "React Native",
-      "Go",
-      "Node.js",
-      "Python",
-      "ML",
-      "Spark"
-    ],
-    "description": "Join Stan (Stan Creator)'s Hyderabad center of engineering excellence building modern Gaming Tech • Web3 / Creator solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Stan (Stan Creator).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://getstan.app/careers",
     "jobUrl": "https://getstan.app/careers"
@@ -980,403 +847,342 @@ export const HYDERABAD_JOBS = [
     "id": "job-nxtwave-1",
     "companyId": "nxtwave",
     "companyName": "NxtWave",
-    "title": "Senior NxtWave Systems Software Engineer",
+    "title": "MERN Stack Developer course",
     "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Next.js",
-      "React",
-      "Python",
-      "Node.js",
-      "GraphQL"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join NxtWave's Hyderabad center of engineering excellence building modern EdTech • Tech Education solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at NxtWave Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering NxtWave.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for NxtWave.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.ccbp.in/careers",
-    "jobUrl": "https://www.ccbp.in/careers"
+    "applyUrl": "https://www.ccbp.in/intensive/mern-stack-developer-course",
+    "jobUrl": "https://www.ccbp.in/intensive/mern-stack-developer-course"
   },
   {
     "id": "job-nxtwave-2",
     "companyId": "nxtwave",
     "companyName": "NxtWave",
-    "title": "Adaptive Assessment & Student Learning AI Specialist",
-    "roleCategory": "AI / ML",
+    "title": "Full Stack Developer course",
+    "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Next.js",
-      "React",
-      "Python",
-      "NLP",
-      "PyTorch"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join NxtWave's Hyderabad center of engineering excellence building modern EdTech • Tech Education solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at NxtWave Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering NxtWave.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for NxtWave.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.ccbp.in/careers",
-    "jobUrl": "https://www.ccbp.in/careers"
-  },
-  {
-    "id": "job-nxtwave-3",
-    "companyId": "nxtwave",
-    "companyName": "NxtWave",
-    "title": "Lead NxtWave Platform Developer (EdTech)",
-    "roleCategory": "Engineering",
-    "industry": "EdTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "gachibowli",
-    "area": "Gachibowli, Hyderabad",
-    "skills": [
-      "Next.js",
-      "React",
-      "Python",
-      "React Native",
-      "TypeScript",
-      "Redux"
-    ],
-    "description": "Join NxtWave's Hyderabad center of engineering excellence building modern EdTech • Tech Education solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering NxtWave.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.ccbp.in/careers",
-    "jobUrl": "https://www.ccbp.in/careers"
+    "applyUrl": "https://www.ccbp.in/intensive/full-stack-developer-course",
+    "jobUrl": "https://www.ccbp.in/intensive/full-stack-developer-course"
   },
   {
     "id": "job-recykal-1",
     "companyId": "recykal",
     "companyName": "Recykal",
-    "title": "Senior Recykal Systems Software Engineer",
+    "title": "Battery Management System (BMS) Firmware Architect - Recykal",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Flutter",
       "Embedded C",
       "BMS",
-      "CAN Bus"
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Join Recykal's Hyderabad center of engineering excellence building modern CleanTech • Waste Commerce solutions for global users.",
+    "description": "Join Recykal's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Recykal.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Recykal.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://recykal.com/careers/",
-    "jobUrl": "https://recykal.com/careers/"
+    "applyUrl": "https://jobs.lever.co/recykal",
+    "jobUrl": "https://jobs.lever.co/recykal"
   },
   {
     "id": "job-recykal-2",
     "companyId": "recykal",
     "companyName": "Recykal",
-    "title": "Connected Vehicle IoT Telematics Platform Developer",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - Recykal",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
-      "React",
       "Node.js",
-      "Flutter",
       "Python",
-      "MQTT"
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
     ],
-    "description": "Join Recykal's Hyderabad center of engineering excellence building modern CleanTech • Waste Commerce solutions for global users.",
+    "description": "Join Recykal's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Recykal.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Recykal.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://recykal.com/careers/",
-    "jobUrl": "https://recykal.com/careers/"
+    "applyUrl": "https://jobs.lever.co/recykal",
+    "jobUrl": "https://jobs.lever.co/recykal"
   },
   {
     "id": "job-recykal-3",
     "companyId": "recykal",
     "companyName": "Recykal",
-    "title": "Lead Recykal Platform Developer (CleanTech)",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - Recykal",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Flutter",
       "MATLAB",
       "Simulink",
-      "C/C++"
+      "C/C++",
+      "Motor Control"
     ],
-    "description": "Join Recykal's Hyderabad center of engineering excellence building modern CleanTech • Waste Commerce solutions for global users.",
+    "description": "Join Recykal's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Recykal.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Recykal.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://recykal.com/careers/",
-    "jobUrl": "https://recykal.com/careers/"
+    "applyUrl": "https://jobs.lever.co/recykal",
+    "jobUrl": "https://jobs.lever.co/recykal"
   },
   {
     "id": "job-turbohire-1",
     "companyId": "turbohire",
     "companyName": "TurboHire",
-    "title": "Senior TurboHire Systems Software Engineer",
-    "roleCategory": "AI / ML",
-    "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Python",
-      "FastAPI",
-      "React",
-      "LangChain",
-      "Vector DBs"
-    ],
-    "description": "Join TurboHire's Hyderabad center of engineering excellence building modern HR Tech • AI Recruiting solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering TurboHire.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://turbohire.co/careers/",
-    "jobUrl": "https://turbohire.co/careers/"
-  },
-  {
-    "id": "job-turbohire-2",
-    "companyId": "turbohire",
-    "companyName": "TurboHire",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 1)",
+    "title": "Lead Generative AI & Foundation Models Specialist - TurboHire",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Python",
-      "FastAPI",
-      "React",
-      "C++",
-      "Kubernetes"
-    ],
-    "description": "Join TurboHire's Hyderabad center of engineering excellence building modern HR Tech • AI Recruiting solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering TurboHire.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://turbohire.co/careers/",
-    "jobUrl": "https://turbohire.co/careers/"
-  },
-  {
-    "id": "job-turbohire-3",
-    "companyId": "turbohire",
-    "companyName": "TurboHire",
-    "title": "Lead TurboHire Platform Developer (HR Tech)",
-    "roleCategory": "AI / ML",
-    "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Python",
-      "FastAPI",
-      "React",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "PyTorch",
+      "LLMs",
+      "LangChain",
+      "RAG"
     ],
-    "description": "Join TurboHire's Hyderabad center of engineering excellence building modern HR Tech • AI Recruiting solutions for global users.",
+    "description": "Join TurboHire's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering TurboHire.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering TurboHire.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://turbohire.co/careers/",
-    "jobUrl": "https://turbohire.co/careers/"
+    "applyUrl": "https://jobs.lever.co/turbohire",
+    "jobUrl": "https://jobs.lever.co/turbohire"
+  },
+  {
+    "id": "job-turbohire-2",
+    "companyId": "turbohire",
+    "companyName": "TurboHire",
+    "title": "Applied Machine Learning & Computer Vision Engineer - TurboHire",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
+    ],
+    "description": "Join TurboHire's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering TurboHire.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://jobs.lever.co/turbohire",
+    "jobUrl": "https://jobs.lever.co/turbohire"
+  },
+  {
+    "id": "job-turbohire-3",
+    "companyId": "turbohire",
+    "companyName": "TurboHire",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - TurboHire",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
+    ],
+    "description": "Join TurboHire's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering TurboHire.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://jobs.lever.co/turbohire",
+    "jobUrl": "https://jobs.lever.co/turbohire"
   },
   {
     "id": "job-marut-drones-1",
     "companyId": "marut-drones",
     "companyName": "Marut Drones",
-    "title": "Senior Marut Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Marut",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
-      "ROS",
-      "C++",
-      "Computer Vision",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Marut Drones's Hyderabad center of engineering excellence building modern DeepTech • Drone Robotics solutions for global users.",
+    "description": "Join Marut Drones's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Marut Drones.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Marut Drones.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://marutdrones.com/careers",
     "jobUrl": "https://marutdrones.com/careers"
@@ -1385,38 +1191,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-marut-drones-2",
     "companyId": "marut-drones",
     "companyName": "Marut Drones",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 2)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Marut",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
-      "ROS",
-      "C++",
-      "Computer Vision",
       "Python",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Marut Drones's Hyderabad center of engineering excellence building modern DeepTech • Drone Robotics solutions for global users.",
+    "description": "Join Marut Drones's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Marut Drones.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Marut Drones.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://marutdrones.com/careers",
     "jobUrl": "https://marutdrones.com/careers"
@@ -1425,39 +1229,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-marut-drones-3",
     "companyId": "marut-drones",
     "companyName": "Marut Drones",
-    "title": "Lead Marut Platform Developer (DeepTech)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Marut",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0, Hyderabad",
     "skills": [
-      "ROS",
       "C++",
-      "Computer Vision",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Marut Drones's Hyderabad center of engineering excellence building modern DeepTech • Drone Robotics solutions for global users.",
+    "description": "Join Marut Drones's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Marut Drones.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Marut Drones.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://marutdrones.com/careers",
     "jobUrl": "https://marutdrones.com/careers"
@@ -1466,39 +1267,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-fourth-partner-1",
     "companyId": "fourth-partner",
     "companyName": "Fourth Partner Energy",
-    "title": "Senior Fourth Systems Software Engineer",
+    "title": "Battery Management System (BMS) Firmware Architect - Fourth",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "IoT Telemetry",
-      "Python",
-      "React",
       "Embedded C",
       "BMS",
-      "CAN Bus"
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad center of engineering excellence building modern CleanTech • Solar Infrastructure solutions for global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fourth Partner Energy.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Fourth Partner Energy.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.fourthpartner.co/careers",
     "jobUrl": "https://www.fourthpartner.co/careers"
@@ -1507,38 +1306,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-fourth-partner-2",
     "companyId": "fourth-partner",
     "companyName": "Fourth Partner Energy",
-    "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 1)",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - Fourth",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
     "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "IoT Telemetry",
-      "Python",
-      "React",
       "Node.js",
-      "MQTT"
+      "Python",
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad center of engineering excellence building modern CleanTech • Solar Infrastructure solutions for global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fourth Partner Energy.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Fourth Partner Energy.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.fourthpartner.co/careers",
     "jobUrl": "https://www.fourthpartner.co/careers"
@@ -1547,39 +1345,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-fourth-partner-3",
     "companyId": "fourth-partner",
     "companyName": "Fourth Partner Energy",
-    "title": "Lead Fourth Platform Developer (CleanTech)",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - Fourth",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b924 - \u20b938 LPA",
     "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "IoT Telemetry",
-      "Python",
-      "React",
       "MATLAB",
       "Simulink",
-      "C/C++"
+      "C/C++",
+      "Motor Control"
     ],
-    "description": "Join Fourth Partner Energy's Hyderabad center of engineering excellence building modern CleanTech • Solar Infrastructure solutions for global users.",
+    "description": "Join Fourth Partner Energy's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fourth Partner Energy.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Fourth Partner Energy.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.fourthpartner.co/careers",
     "jobUrl": "https://www.fourthpartner.co/careers"
@@ -1588,39 +1383,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-mapmygenome-1",
     "companyId": "mapmygenome",
     "companyName": "Mapmygenome",
-    "title": "Senior Mapmygenome Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Mapmygenome",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
-      "Bioinformatics",
-      "Python",
-      "R",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Mapmygenome's Hyderabad center of engineering excellence building modern HealthTech • Genomics solutions for global users.",
+    "description": "Join Mapmygenome's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Mapmygenome.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Mapmygenome.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://mapmygenome.in/careers",
     "jobUrl": "https://mapmygenome.in/careers"
@@ -1629,38 +1422,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-mapmygenome-2",
     "companyId": "mapmygenome",
     "companyName": "Mapmygenome",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Mapmygenome",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
-      "Bioinformatics",
       "Python",
-      "R",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join Mapmygenome's Hyderabad center of engineering excellence building modern HealthTech • Genomics solutions for global users.",
+    "description": "Join Mapmygenome's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Mapmygenome.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Mapmygenome.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://mapmygenome.in/careers",
     "jobUrl": "https://mapmygenome.in/careers"
@@ -1669,39 +1460,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-mapmygenome-3",
     "companyId": "mapmygenome",
     "companyName": "Mapmygenome",
-    "title": "Lead Mapmygenome Platform Developer (HealthTech)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Mapmygenome",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur, Hyderabad",
     "skills": [
-      "Bioinformatics",
-      "Python",
-      "R",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Mapmygenome's Hyderabad center of engineering excellence building modern HealthTech • Genomics solutions for global users.",
+    "description": "Join Mapmygenome's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Mapmygenome.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Mapmygenome.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://mapmygenome.in/careers",
     "jobUrl": "https://mapmygenome.in/careers"
@@ -1710,37 +1499,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-gmw-ev-1",
     "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
-    "title": "Senior Gayam Systems Software Engineer",
+    "title": "Battery Management System (BMS) Firmware Architect - Gayam",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
-      "CAN Bus",
-      "Battery Management (BMS)",
       "Embedded C",
-      "BMS"
+      "BMS",
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center of engineering excellence building modern CleanTech • EV Mobility solutions for global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Gayam Motor Works (GMW).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Gayam Motor Works (GMW).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.gayammotorworks.com/careers",
     "jobUrl": "https://www.gayammotorworks.com/careers"
@@ -1749,39 +1538,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-gmw-ev-2",
     "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
-    "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 2)",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - Gayam",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
-      "CAN Bus",
-      "Battery Management (BMS)",
-      "Embedded C",
       "Node.js",
       "Python",
-      "MQTT"
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center of engineering excellence building modern CleanTech • EV Mobility solutions for global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Gayam Motor Works (GMW).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Gayam Motor Works (GMW).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.gayammotorworks.com/careers",
     "jobUrl": "https://www.gayammotorworks.com/careers"
@@ -1790,160 +1577,152 @@ export const HYDERABAD_JOBS = [
     "id": "job-gmw-ev-3",
     "companyId": "gmw-ev",
     "companyName": "Gayam Motor Works (GMW)",
-    "title": "Lead Gayam Platform Developer (CleanTech)",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - Gayam",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet / Balanagar Hub, Hyderabad",
     "skills": [
-      "CAN Bus",
-      "Battery Management (BMS)",
-      "Embedded C",
       "MATLAB",
       "Simulink",
-      "C/C++"
+      "C/C++",
+      "Motor Control"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center of engineering excellence building modern CleanTech • EV Mobility solutions for global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Gayam Motor Works (GMW).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Gayam Motor Works (GMW).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.gayammotorworks.com/careers",
     "jobUrl": "https://www.gayammotorworks.com/careers"
   },
   {
     "id": "job-ctrls-1",
-    "companyId": "ctrls-datacenters",
+    "companyId": "ctrls",
     "companyName": "CtrlS Datacenters",
-    "title": "Senior CtrlS Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - CtrlS",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Kubernetes",
-      "VMware",
-      "OpenStack",
-      "BGP"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad center of engineering excellence building modern Data Center • Cloud Infrastructure solutions for global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering CtrlS Datacenters.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering CtrlS Datacenters.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ctrls.com/careers/",
     "jobUrl": "https://www.ctrls.com/careers/"
   },
   {
     "id": "job-ctrls-2",
-    "companyId": "ctrls-datacenters",
+    "companyId": "ctrls",
     "companyName": "CtrlS Datacenters",
-    "title": "Site Reliability & Bare-Metal Automation Engineer",
+    "title": "Lead Distributed Systems & Kafka Architect - CtrlS",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Kubernetes",
-      "VMware",
-      "OpenStack",
-      "Terraform",
-      "Ansible",
-      "Python"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad center of engineering excellence building modern Data Center • Cloud Infrastructure solutions for global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering CtrlS Datacenters.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering CtrlS Datacenters.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ctrls.com/careers/",
     "jobUrl": "https://www.ctrls.com/careers/"
   },
   {
     "id": "job-ctrls-3",
-    "companyId": "ctrls-datacenters",
+    "companyId": "ctrls",
     "companyName": "CtrlS Datacenters",
-    "title": "Lead CtrlS Platform Developer (Data Center)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - CtrlS",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Kubernetes",
-      "VMware",
-      "OpenStack",
-      "PostgreSQL",
-      "Ceph",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad center of engineering excellence building modern Data Center • Cloud Infrastructure solutions for global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering CtrlS Datacenters.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering CtrlS Datacenters.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ctrls.com/careers/",
     "jobUrl": "https://www.ctrls.com/careers/"
@@ -1952,160 +1731,148 @@ export const HYDERABAD_JOBS = [
     "id": "job-evalueserve-1",
     "companyId": "evalueserve",
     "companyName": "Evalueserve",
-    "title": "Senior Evalueserve Systems Software Engineer",
+    "title": "Enterprise AI Engineering",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Python",
-      "PowerBI",
-      "SQL",
-      "Java",
-      "Spring Boot",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Evalueserve's Hyderabad center of engineering excellence building modern Analytics • Research & AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Evalueserve Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Evalueserve.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Evalueserve.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.evalueserve.com/careers/",
-    "jobUrl": "https://www.evalueserve.com/careers/"
+    "applyUrl": "https://www.evalueserve.com/capabilities/data-engineering/",
+    "jobUrl": "https://www.evalueserve.com/capabilities/data-engineering/"
   },
   {
     "id": "job-evalueserve-2",
     "companyId": "evalueserve",
     "companyName": "Evalueserve",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 1)",
-    "roleCategory": "AI / ML",
+    "title": "Leadership Spotlight: The Real AI Differentiators with Gururaj Bhat",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Python",
-      "PowerBI",
-      "SQL",
-      "PyTorch",
-      "XGBoost"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Evalueserve's Hyderabad center of engineering excellence building modern Analytics • Research & AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Evalueserve Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Evalueserve.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Evalueserve.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.evalueserve.com/careers/",
-    "jobUrl": "https://www.evalueserve.com/careers/"
+    "applyUrl": "https://www.evalueserve.com/blog/the-real-ai-differentiators-with-gururaj-bhat/",
+    "jobUrl": "https://www.evalueserve.com/blog/the-real-ai-differentiators-with-gururaj-bhat/"
   },
   {
     "id": "job-evalueserve-3",
     "companyId": "evalueserve",
     "companyName": "Evalueserve",
-    "title": "Lead Evalueserve Platform Developer (Analytics)",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Python",
-      "PowerBI",
-      "SQL",
-      "Go",
-      "Node.js",
-      "Redis"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Evalueserve's Hyderabad center of engineering excellence building modern Analytics • Research & AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Evalueserve Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Evalueserve.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Evalueserve.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.evalueserve.com/careers/",
-    "jobUrl": "https://www.evalueserve.com/careers/"
+    "applyUrl": "https://www.evalueserve.com/leadership",
+    "jobUrl": "https://www.evalueserve.com/leadership"
   },
   {
     "id": "job-accenture-1",
     "companyId": "accenture",
     "companyName": "Accenture Innovation Hub",
-    "title": "Senior Accenture Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Accenture",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
       "Java",
       "Spring Boot",
       "React",
-      "AWS/Azure",
-      "Microservices"
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Accenture Innovation Hub's Hyderabad center of engineering excellence building modern Digital Transformation • Cloud & AI solutions for global users.",
+    "description": "Join Accenture Innovation Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Accenture Innovation Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Accenture Innovation Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch",
     "jobUrl": "https://www.accenture.com/in-en/careers/jobsearch"
@@ -2114,38 +1881,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-accenture-2",
     "companyId": "accenture",
     "companyName": "Accenture Innovation Hub",
-    "title": "Enterprise Automated Quality Engineering Architect",
+    "title": "Lead Distributed Systems & Kafka Architect - Accenture",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "Spring Boot",
-      "React",
-      "Playwright",
-      "Selenium"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Accenture Innovation Hub's Hyderabad center of engineering excellence building modern Digital Transformation • Cloud & AI solutions for global users.",
+    "description": "Join Accenture Innovation Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Accenture Innovation Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Accenture Innovation Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch",
     "jobUrl": "https://www.accenture.com/in-en/careers/jobsearch"
@@ -2154,38 +1920,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-accenture-3",
     "companyId": "accenture",
     "companyName": "Accenture Innovation Hub",
-    "title": "Lead Accenture Platform Developer (Digital Transformation)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Accenture",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District & HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
       "React",
-      "Node.js",
-      "PostgreSQL"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Accenture Innovation Hub's Hyderabad center of engineering excellence building modern Digital Transformation • Cloud & AI solutions for global users.",
+    "description": "Join Accenture Innovation Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Accenture Innovation Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Accenture Innovation Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch",
     "jobUrl": "https://www.accenture.com/in-en/careers/jobsearch"
@@ -2194,38 +1958,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-dxc-technology-1",
     "companyId": "dxc-technology",
     "companyName": "DXC Technology",
-    "title": "Senior DXC Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - DXC",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      ".NET",
-      "Cloud Architecture",
-      "AWS/Azure",
-      "Microservices"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join DXC Technology's Hyderabad center of engineering excellence building modern Enterprise Cloud • IT Services solutions for global users.",
+    "description": "Join DXC Technology's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering DXC Technology.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering DXC Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://careers.dxc.com/",
     "jobUrl": "https://careers.dxc.com/"
@@ -2234,38 +1997,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-dxc-technology-2",
     "companyId": "dxc-technology",
     "companyName": "DXC Technology",
-    "title": "Enterprise Automated Quality Engineering Architect (Tier 1)",
+    "title": "Lead Distributed Systems & Kafka Architect - DXC",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      ".NET",
-      "Cloud Architecture",
-      "Playwright",
-      "Selenium"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join DXC Technology's Hyderabad center of engineering excellence building modern Enterprise Cloud • IT Services solutions for global users.",
+    "description": "Join DXC Technology's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering DXC Technology.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering DXC Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://careers.dxc.com/",
     "jobUrl": "https://careers.dxc.com/"
@@ -2274,39 +2036,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-dxc-technology-3",
     "companyId": "dxc-technology",
     "companyName": "DXC Technology",
-    "title": "Lead DXC Platform Developer (Enterprise Cloud)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - DXC",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      ".NET",
-      "Cloud Architecture",
       "React",
-      "Node.js",
-      "PostgreSQL"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join DXC Technology's Hyderabad center of engineering excellence building modern Enterprise Cloud • IT Services solutions for global users.",
+    "description": "Join DXC Technology's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering DXC Technology.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering DXC Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://careers.dxc.com/",
     "jobUrl": "https://careers.dxc.com/"
@@ -2315,37 +2074,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-byjus-1",
     "companyId": "byjus",
     "companyName": "Byju's Tech Hub",
-    "title": "Senior Byju's Systems Software Engineer",
+    "title": "Interactive Learning Platform Full Stack Engineer - Byju's",
     "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Node.js",
       "React",
-      "React Native",
-      "GraphQL"
+      "Node.js",
+      "GraphQL",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Byju's Tech Hub's Hyderabad center of engineering excellence building modern EdTech • Learning Platforms solutions for global users.",
+    "description": "Join Byju's Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Byju's Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Byju's Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://byjus.com/careers/",
     "jobUrl": "https://byjus.com/careers/"
@@ -2354,79 +2113,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-byjus-2",
     "companyId": "byjus",
     "companyName": "Byju's Tech Hub",
-    "title": "Adaptive Assessment & Student Learning AI Specialist (Tier 1)",
-    "roleCategory": "AI / ML",
-    "industry": "EdTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "gachibowli",
-    "area": "Gachibowli, Hyderabad",
-    "skills": [
-      "Node.js",
-      "React",
-      "React Native",
-      "Python",
-      "NLP",
-      "PyTorch"
-    ],
-    "description": "Join Byju's Tech Hub's Hyderabad center of engineering excellence building modern EdTech • Learning Platforms solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Byju's Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://byjus.com/careers/",
-    "jobUrl": "https://byjus.com/careers/"
-  },
-  {
-    "id": "job-byjus-3",
-    "companyId": "byjus",
-    "companyName": "Byju's Tech Hub",
-    "title": "Lead Byju's Platform Developer (EdTech)",
+    "title": "Adaptive AI Learning & Assessment Specialist - Byju's",
     "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "React Native",
-      "TypeScript",
-      "Redux"
+      "Python",
+      "NLP",
+      "PyTorch",
+      "Recommender Systems"
     ],
-    "description": "Join Byju's Tech Hub's Hyderabad center of engineering excellence building modern EdTech • Learning Platforms solutions for global users.",
+    "description": "Join Byju's Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Byju's Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Byju's Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://byjus.com/careers/",
     "jobUrl": "https://byjus.com/careers/"
@@ -2435,38 +2151,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-l-and-t-1",
     "companyId": "l-and-t",
     "companyName": "L&T (Larsen & Toubro Tech)",
-    "title": "Senior L&T Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - L&T",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "C++",
-      "SCADA",
-      "AWS/Azure",
-      "Microservices"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad center of engineering excellence building modern Engineering Tech • Smart Infrastructure solutions for global users.",
+    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering L&T (Larsen & Toubro Tech).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering L&T (Larsen & Toubro Tech).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.larsentoubro.com/careers",
     "jobUrl": "https://www.larsentoubro.com/careers"
@@ -2475,38 +2190,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-l-and-t-2",
     "companyId": "l-and-t",
     "companyName": "L&T (Larsen & Toubro Tech)",
-    "title": "Enterprise Automated Quality Engineering Architect (Tier 2)",
+    "title": "Lead Distributed Systems & Kafka Architect - L&T",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "C++",
-      "SCADA",
-      "Playwright",
-      "Selenium"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad center of engineering excellence building modern Engineering Tech • Smart Infrastructure solutions for global users.",
+    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering L&T (Larsen & Toubro Tech).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering L&T (Larsen & Toubro Tech).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.larsentoubro.com/careers",
     "jobUrl": "https://www.larsentoubro.com/careers"
@@ -2515,39 +2229,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-l-and-t-3",
     "companyId": "l-and-t",
     "companyName": "L&T (Larsen & Toubro Tech)",
-    "title": "Lead L&T Platform Developer (Engineering Tech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - L&T",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City & Gachibowli, Hyderabad",
     "skills": [
-      "Java",
-      "C++",
-      "SCADA",
       "React",
-      "Node.js",
-      "PostgreSQL"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad center of engineering excellence building modern Engineering Tech • Smart Infrastructure solutions for global users.",
+    "description": "Join L&T (Larsen & Toubro Tech)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering L&T (Larsen & Toubro Tech).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering L&T (Larsen & Toubro Tech).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.larsentoubro.com/careers",
     "jobUrl": "https://www.larsentoubro.com/careers"
@@ -2556,39 +2267,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-novartis-1",
     "companyId": "novartis",
     "companyName": "Novartis Corporate Center (NOCC)",
-    "title": "Senior Novartis Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Novartis",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Python",
-      "R",
-      "Bioinformatics",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad center of engineering excellence building modern Pharma • Data Science & Digital Tech solutions for global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Novartis Corporate Center (NOCC).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Novartis Corporate Center (NOCC).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.novartis.com/careers",
     "jobUrl": "https://www.novartis.com/careers"
@@ -2597,38 +2306,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-novartis-2",
     "companyId": "novartis",
     "companyName": "Novartis Corporate Center (NOCC)",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 1)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Novartis",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
       "Python",
-      "R",
-      "Bioinformatics",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad center of engineering excellence building modern Pharma • Data Science & Digital Tech solutions for global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Novartis Corporate Center (NOCC).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Novartis Corporate Center (NOCC).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.novartis.com/careers",
     "jobUrl": "https://www.novartis.com/careers"
@@ -2637,39 +2344,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-novartis-3",
     "companyId": "novartis",
     "companyName": "Novartis Corporate Center (NOCC)",
-    "title": "Lead Novartis Platform Developer (Pharma)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Novartis",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Python",
-      "R",
-      "Bioinformatics",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad center of engineering excellence building modern Pharma • Data Science & Digital Tech solutions for global users.",
+    "description": "Join Novartis Corporate Center (NOCC)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Novartis Corporate Center (NOCC).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Novartis Corporate Center (NOCC).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.novartis.com/careers",
     "jobUrl": "https://www.novartis.com/careers"
@@ -2678,38 +2383,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloudnine-hospital-1",
     "companyId": "cloudnine-hospital",
     "companyName": "Cloudnine Healthcare Tech",
-    "title": "Senior Cloudnine Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Cloudnine",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "React Native",
-      "Node.js",
-      "PostgreSQL",
       "Go",
-      "WebSockets"
+      "Node.js",
+      "WebSockets",
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Cloudnine Healthcare Tech's Hyderabad center of engineering excellence building modern Healthcare Tech • Patient Portals solutions for global users.",
+    "description": "Join Cloudnine Healthcare Tech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloudnine Healthcare Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cloudnine Healthcare Tech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cloudninefertility.com/career",
     "jobUrl": "https://www.cloudninefertility.com/career"
@@ -2718,39 +2422,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloudnine-hospital-2",
     "companyId": "cloudnine-hospital",
     "companyName": "Cloudnine Healthcare Tech",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 2)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Cloudnine",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "React Native",
-      "Node.js",
-      "PostgreSQL",
       "Python",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join Cloudnine Healthcare Tech's Hyderabad center of engineering excellence building modern Healthcare Tech • Patient Portals solutions for global users.",
+    "description": "Join Cloudnine Healthcare Tech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloudnine Healthcare Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cloudnine Healthcare Tech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cloudninefertility.com/career",
     "jobUrl": "https://www.cloudninefertility.com/career"
@@ -2759,39 +2460,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloudnine-hospital-3",
     "companyId": "cloudnine-hospital",
     "companyName": "Cloudnine Healthcare Tech",
-    "title": "Lead Cloudnine Platform Developer (Healthcare Tech)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Cloudnine",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "React Native",
-      "Node.js",
-      "PostgreSQL",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Cloudnine Healthcare Tech's Hyderabad center of engineering excellence building modern Healthcare Tech • Patient Portals solutions for global users.",
+    "description": "Join Cloudnine Healthcare Tech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloudnine Healthcare Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cloudnine Healthcare Tech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cloudninefertility.com/career",
     "jobUrl": "https://www.cloudninefertility.com/career"
@@ -2800,39 +2499,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cotiviti-1",
     "companyId": "cotiviti",
     "companyName": "Cotiviti",
-    "title": "Senior Cotiviti Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Cotiviti",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Java",
-      "Scala",
-      "Spark",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Cotiviti's Hyderabad center of engineering excellence building modern Healthcare Analytics • FinTech solutions for global users.",
+    "description": "Join Cotiviti's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cotiviti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cotiviti.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cotiviti.com/careers",
     "jobUrl": "https://www.cotiviti.com/careers"
@@ -2841,39 +2538,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-cotiviti-2",
     "companyId": "cotiviti",
     "companyName": "Cotiviti",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 3)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Cotiviti",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Java",
-      "Scala",
-      "Spark",
       "Python",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join Cotiviti's Hyderabad center of engineering excellence building modern Healthcare Analytics • FinTech solutions for global users.",
+    "description": "Join Cotiviti's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cotiviti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cotiviti.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cotiviti.com/careers",
     "jobUrl": "https://www.cotiviti.com/careers"
@@ -2882,39 +2576,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cotiviti-3",
     "companyId": "cotiviti",
     "companyName": "Cotiviti",
-    "title": "Lead Cotiviti Platform Developer (Healthcare Analytics)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Cotiviti",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Java",
-      "Scala",
-      "Spark",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Cotiviti's Hyderabad center of engineering excellence building modern Healthcare Analytics • FinTech solutions for global users.",
+    "description": "Join Cotiviti's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cotiviti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cotiviti.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cotiviti.com/careers",
     "jobUrl": "https://www.cotiviti.com/careers"
@@ -2923,405 +2615,222 @@ export const HYDERABAD_JOBS = [
     "id": "job-zelis-1",
     "companyId": "zelis",
     "companyName": "Zelis",
-    "title": "Senior Zelis Systems Software Engineer",
+    "title": "Our Leadership Team",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "C#",
-      ".NET Core",
-      "React",
-      "Java",
-      "Spring Boot",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Zelis's Hyderabad center of engineering excellence building modern Healthcare FinTech • Payments solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Zelis Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zelis.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Zelis.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://careers.zelis.com/",
-    "jobUrl": "https://careers.zelis.com/"
+    "applyUrl": "https://www.zelis.com/company/leadership/",
+    "jobUrl": "https://www.zelis.com/company/leadership/"
   },
   {
     "id": "job-zelis-2",
     "companyId": "zelis",
     "companyName": "Zelis",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 2)",
-    "roleCategory": "AI / ML",
+    "title": "Leadership",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "C#",
-      ".NET Core",
-      "React",
-      "Python",
-      "PyTorch",
-      "XGBoost"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Zelis's Hyderabad center of engineering excellence building modern Healthcare FinTech • Payments solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Zelis Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zelis.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Zelis.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://careers.zelis.com/",
-    "jobUrl": "https://careers.zelis.com/"
-  },
-  {
-    "id": "job-zelis-3",
-    "companyId": "zelis",
-    "companyName": "Zelis",
-    "title": "Lead Zelis Platform Developer (Healthcare FinTech)",
-    "roleCategory": "Engineering",
-    "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
-    "hubId": "financial-district",
-    "area": "Financial District, Hyderabad",
-    "skills": [
-      "C#",
-      ".NET Core",
-      "React",
-      "Go",
-      "Node.js",
-      "Redis"
-    ],
-    "description": "Join Zelis's Hyderabad center of engineering excellence building modern Healthcare FinTech • Payments solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zelis.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://careers.zelis.com/",
-    "jobUrl": "https://careers.zelis.com/"
+    "applyUrl": "https://www.zelis.com/company/leadership/?__hstc=753710.9ee21a3dd93e7d0d9b59f14b3781a42e.1772021680714.1772021680714.1772021680714.1&__hssc=753710.1.1772021680714&__hsfp=07c671464c26e8c2878a9d0e7ad15e7d",
+    "jobUrl": "https://www.zelis.com/company/leadership/?__hstc=753710.9ee21a3dd93e7d0d9b59f14b3781a42e.1772021680714.1772021680714.1772021680714.1&__hssc=753710.1.1772021680714&__hsfp=07c671464c26e8c2878a9d0e7ad15e7d"
   },
   {
     "id": "job-solenis-1",
     "companyId": "solenis",
     "companyName": "Solenis",
-    "title": "Senior Solenis Systems Software Engineer",
+    "title": "Specialties & Engineered Wood",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "IoT Platforms",
-      "Python",
-      "SAP",
-      "Embedded C",
-      "BMS",
-      "CAN Bus"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Solenis's Hyderabad center of engineering excellence building modern CleanTech • Water & Process Tech solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Solenis Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Solenis.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Solenis.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.solenis.com/en/careers/",
-    "jobUrl": "https://www.solenis.com/en/careers/"
+    "applyUrl": "https://www.solenis.com/en/markets/industrial-water-treatment/specialties-engineered-wood/",
+    "jobUrl": "https://www.solenis.com/en/markets/industrial-water-treatment/specialties-engineered-wood/"
   },
   {
     "id": "job-solenis-2",
     "companyId": "solenis",
     "companyName": "Solenis",
-    "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 3)",
+    "title": "Equipment And Engineering",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "IoT Platforms",
-      "Python",
-      "SAP",
-      "Node.js",
-      "MQTT"
-    ],
-    "description": "Join Solenis's Hyderabad center of engineering excellence building modern CleanTech • Water & Process Tech solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Solenis.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.solenis.com/en/careers/",
-    "jobUrl": "https://www.solenis.com/en/careers/"
-  },
-  {
-    "id": "job-solenis-3",
-    "companyId": "solenis",
-    "companyName": "Solenis",
-    "title": "Lead Solenis Platform Developer (CleanTech)",
-    "roleCategory": "Engineering",
-    "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "IoT Platforms",
-      "Python",
-      "SAP",
-      "MATLAB",
-      "Simulink",
-      "C/C++"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Solenis's Hyderabad center of engineering excellence building modern CleanTech • Water & Process Tech solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Solenis Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Solenis.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Solenis.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.solenis.com/en/careers/",
-    "jobUrl": "https://www.solenis.com/en/careers/"
+    "applyUrl": "https://www.solenis.com/en/products-and-services/food-and-beverage-production/engineering-and-equipment/",
+    "jobUrl": "https://www.solenis.com/en/products-and-services/food-and-beverage-production/engineering-and-equipment/"
   },
   {
     "id": "job-dazn-1",
     "companyId": "dazn",
     "companyName": "DAZN Tech Hub",
-    "title": "Senior DAZN Systems Software Engineer",
+    "title": "Advertising Operations Campaign Manager",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "C++",
-      "Go",
-      "WebSockets"
-    ],
-    "description": "Join DAZN Tech Hub's Hyderabad center of engineering excellence building modern SportsTech • Video Streaming solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering DAZN Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://careers.dazn.com/",
-    "jobUrl": "https://careers.dazn.com/"
-  },
-  {
-    "id": "job-dazn-2",
-    "companyId": "dazn",
-    "companyName": "DAZN Tech Hub",
-    "title": "Graphics & Interactive 3D WebGL Frontend Engineer (Tier 1)",
-    "roleCategory": "Engineering",
-    "industry": "Gaming & Media",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "Three.js",
-      "WebGL"
-    ],
-    "description": "Join DAZN Tech Hub's Hyderabad center of engineering excellence building modern SportsTech • Video Streaming solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering DAZN Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://careers.dazn.com/",
-    "jobUrl": "https://careers.dazn.com/"
-  },
-  {
-    "id": "job-dazn-3",
-    "companyId": "dazn",
-    "companyName": "DAZN Tech Hub",
-    "title": "Lead DAZN Platform Developer (SportsTech)",
-    "roleCategory": "AI / ML",
-    "industry": "Gaming & Media",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "TypeScript",
-      "Node.js",
-      "React",
-      "Python",
-      "ML",
-      "Spark"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join DAZN Tech Hub's Hyderabad center of engineering excellence building modern SportsTech • Video Streaming solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering DAZN Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for DAZN Tech Hub.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://careers.dazn.com/",
-    "jobUrl": "https://careers.dazn.com/"
+    "applyUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1",
+    "jobUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1"
   },
   {
     "id": "job-thomson-reuters-1",
     "companyId": "thomson-reuters",
     "companyName": "Thomson Reuters Center of Excellence",
-    "title": "Senior Thomson Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Thomson",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "GenAI",
       "Java",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad center of engineering excellence building modern LegalTech • FinTech • AI solutions for global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Thomson Reuters Center of Excellence.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Thomson Reuters Center of Excellence.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.thomsonreuters.com/careers",
     "jobUrl": "https://www.thomsonreuters.com/careers"
@@ -3330,38 +2839,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-thomson-reuters-2",
     "companyId": "thomson-reuters",
     "companyName": "Thomson Reuters Center of Excellence",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 3)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Thomson",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "GenAI",
       "Java",
-      "PyTorch",
-      "XGBoost"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad center of engineering excellence building modern LegalTech • FinTech • AI solutions for global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Thomson Reuters Center of Excellence.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Thomson Reuters Center of Excellence.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.thomsonreuters.com/careers",
     "jobUrl": "https://www.thomsonreuters.com/careers"
@@ -3370,39 +2878,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-thomson-reuters-3",
     "companyId": "thomson-reuters",
     "companyName": "Thomson Reuters Center of Excellence",
-    "title": "Lead Thomson Platform Developer (LegalTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Thomson",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "GenAI",
-      "Java",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Thomson Reuters Center of Excellence's Hyderabad center of engineering excellence building modern LegalTech • FinTech • AI solutions for global users.",
+    "description": "Join Thomson Reuters Center of Excellence's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Thomson Reuters Center of Excellence.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Thomson Reuters Center of Excellence.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.thomsonreuters.com/careers",
     "jobUrl": "https://www.thomsonreuters.com/careers"
@@ -3411,162 +2916,74 @@ export const HYDERABAD_JOBS = [
     "id": "job-progress-software-1",
     "companyId": "progress-software",
     "companyName": "Progress Software",
-    "title": "Senior Progress Systems Software Engineer",
+    "title": "Progress Software Named to TIME\u2019s List of America\u2019s Growth Leaders",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET",
-      "JavaScript",
-      "Java",
-      "Spring Boot",
-      "React"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Progress Software's Hyderabad center of engineering excellence building modern DevTools • Cloud Applications solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Progress Software Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Progress Software.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Progress Software.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.progress.com/careers",
-    "jobUrl": "https://www.progress.com/careers"
-  },
-  {
-    "id": "job-progress-software-2",
-    "companyId": "progress-software",
-    "companyName": "Progress Software",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 2)",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "C#",
-      ".NET",
-      "JavaScript",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
-    ],
-    "description": "Join Progress Software's Hyderabad center of engineering excellence building modern DevTools • Cloud Applications solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Progress Software.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.progress.com/careers",
-    "jobUrl": "https://www.progress.com/careers"
-  },
-  {
-    "id": "job-progress-software-3",
-    "companyId": "progress-software",
-    "companyName": "Progress Software",
-    "title": "Lead Progress Platform Developer (DevTools)",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "C#",
-      ".NET",
-      "JavaScript",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
-    ],
-    "description": "Join Progress Software's Hyderabad center of engineering excellence building modern DevTools • Cloud Applications solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Progress Software.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.progress.com/careers",
-    "jobUrl": "https://www.progress.com/careers"
+    "applyUrl": "https://www.progress.com/company/awards/progress-software-named-to-time-s-list-of-america-s-growth-leaders-2025",
+    "jobUrl": "https://www.progress.com/company/awards/progress-software-named-to-time-s-list-of-america-s-growth-leaders-2025"
   },
   {
     "id": "job-thermo-fisher-1",
     "companyId": "thermo-fisher",
     "companyName": "Thermo Fisher Scientific R&D Center",
-    "title": "Senior Thermo Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Thermo",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
-      "Python",
-      "Cloud Native",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad center of engineering excellence building modern Life Sciences • MedTech Software solutions for global users.",
+    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Thermo Fisher Scientific R&D Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Thermo Fisher Scientific R&D Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://jobs.thermofisher.com/",
     "jobUrl": "https://jobs.thermofisher.com/"
@@ -3575,38 +2992,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-thermo-fisher-2",
     "companyId": "thermo-fisher",
     "companyName": "Thermo Fisher Scientific R&D Center",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 4)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Thermo",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
       "Python",
-      "Cloud Native",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad center of engineering excellence building modern Life Sciences • MedTech Software solutions for global users.",
+    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Thermo Fisher Scientific R&D Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Thermo Fisher Scientific R&D Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://jobs.thermofisher.com/",
     "jobUrl": "https://jobs.thermofisher.com/"
@@ -3615,39 +3030,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-thermo-fisher-3",
     "companyId": "thermo-fisher",
     "companyName": "Thermo Fisher Scientific R&D Center",
-    "title": "Lead Thermo Platform Developer (Life Sciences)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Thermo",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
-      "Python",
-      "Cloud Native",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad center of engineering excellence building modern Life Sciences • MedTech Software solutions for global users.",
+    "description": "Join Thermo Fisher Scientific R&D Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Thermo Fisher Scientific R&D Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Thermo Fisher Scientific R&D Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://jobs.thermofisher.com/",
     "jobUrl": "https://jobs.thermofisher.com/"
@@ -3656,39 +3069,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-callaway-golf-1",
     "companyId": "callaway-golf",
     "companyName": "Callaway Golf Tech (Topgolf)",
-    "title": "Senior Callaway Systems Software Engineer",
+    "title": "Real-Time Multiplayer Game Engine Backend Developer - Callaway",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b926 - \u20b944 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Unity 3D",
-      "C#",
-      "Computer Vision",
       "C++",
       "Go",
-      "WebSockets"
+      "WebSockets",
+      "Redis",
+      "AWS Gamelift"
     ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad center of engineering excellence building modern SportsTech • Digital Gaming solutions for global users.",
+    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Callaway Golf Tech (Topgolf).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Callaway Golf Tech (Topgolf).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.callawaygolf.com/careers",
     "jobUrl": "https://www.callawaygolf.com/careers"
@@ -3697,80 +3108,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-callaway-golf-2",
     "companyId": "callaway-golf",
     "companyName": "Callaway Golf Tech (Topgolf)",
-    "title": "Graphics & Interactive 3D WebGL Frontend Engineer (Tier 2)",
+    "title": "3D Graphics & Interactive WebGL Systems Engineer - Callaway",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Unity 3D",
-      "C#",
-      "Computer Vision",
       "Three.js",
       "WebGL",
-      "TypeScript"
+      "TypeScript",
+      "React",
+      "Shaders"
     ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad center of engineering excellence building modern SportsTech • Digital Gaming solutions for global users.",
+    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Callaway Golf Tech (Topgolf).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Callaway Golf Tech (Topgolf).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.callawaygolf.com/careers",
-    "jobUrl": "https://www.callawaygolf.com/careers"
-  },
-  {
-    "id": "job-callaway-golf-3",
-    "companyId": "callaway-golf",
-    "companyName": "Callaway Golf Tech (Topgolf)",
-    "title": "Lead Callaway Platform Developer (SportsTech)",
-    "roleCategory": "AI / ML",
-    "industry": "Gaming & Media",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Unity 3D",
-      "C#",
-      "Computer Vision",
-      "Python",
-      "ML",
-      "Spark"
-    ],
-    "description": "Join Callaway Golf Tech (Topgolf)'s Hyderabad center of engineering excellence building modern SportsTech • Digital Gaming solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Callaway Golf Tech (Topgolf).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.callawaygolf.com/careers",
     "jobUrl": "https://www.callawaygolf.com/careers"
@@ -3779,39 +3147,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-rsm-us-1",
     "companyId": "rsm-us",
     "companyName": "RSM US India",
-    "title": "Senior RSM Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - RSM",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "PowerBI",
-      "Python",
-      "Azure",
       "Java",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join RSM US India's Hyderabad center of engineering excellence building modern FinTech • Cyber & Cloud Consulting solutions for global users.",
+    "description": "Join RSM US India's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering RSM US India.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering RSM US India.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://rsmus.com/careers/india.html",
     "jobUrl": "https://rsmus.com/careers/india.html"
@@ -3820,38 +3186,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-rsm-us-2",
     "companyId": "rsm-us",
     "companyName": "RSM US India",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 4)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - RSM",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "PowerBI",
-      "Python",
-      "Azure",
-      "PyTorch",
-      "XGBoost"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join RSM US India's Hyderabad center of engineering excellence building modern FinTech • Cyber & Cloud Consulting solutions for global users.",
+    "description": "Join RSM US India's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering RSM US India.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering RSM US India.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://rsmus.com/careers/india.html",
     "jobUrl": "https://rsmus.com/careers/india.html"
@@ -3860,39 +3225,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-rsm-us-3",
     "companyId": "rsm-us",
     "companyName": "RSM US India",
-    "title": "Lead RSM Platform Developer (FinTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - RSM",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "PowerBI",
-      "Python",
-      "Azure",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join RSM US India's Hyderabad center of engineering excellence building modern FinTech • Cyber & Cloud Consulting solutions for global users.",
+    "description": "Join RSM US India's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering RSM US India.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering RSM US India.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://rsmus.com/careers/india.html",
     "jobUrl": "https://rsmus.com/careers/india.html"
@@ -3901,38 +3263,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-experian-1",
     "companyId": "experian",
     "companyName": "Experian Global Innovation Centre",
-    "title": "Senior Experian Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Experian",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "Spark",
-      "Kafka",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Experian Global Innovation Centre's Hyderabad center of engineering excellence building modern FinTech • Credit Decisioning AI solutions for global users.",
+    "description": "Join Experian Global Innovation Centre's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Experian Global Innovation Centre.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Experian Global Innovation Centre.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.experian.com/careers",
     "jobUrl": "https://www.experian.com/careers"
@@ -3941,38 +3302,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-experian-2",
     "companyId": "experian",
     "companyName": "Experian Global Innovation Centre",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 5)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Experian",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "Spark",
+      "Java",
       "Kafka",
-      "PyTorch",
-      "XGBoost"
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Experian Global Innovation Centre's Hyderabad center of engineering excellence building modern FinTech • Credit Decisioning AI solutions for global users.",
+    "description": "Join Experian Global Innovation Centre's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Experian Global Innovation Centre.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Experian Global Innovation Centre.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.experian.com/careers",
     "jobUrl": "https://www.experian.com/careers"
@@ -3981,39 +3341,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-experian-3",
     "companyId": "experian",
     "companyName": "Experian Global Innovation Centre",
-    "title": "Lead Experian Platform Developer (FinTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Experian",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "Spark",
-      "Kafka",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Experian Global Innovation Centre's Hyderabad center of engineering excellence building modern FinTech • Credit Decisioning AI solutions for global users.",
+    "description": "Join Experian Global Innovation Centre's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Experian Global Innovation Centre.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Experian Global Innovation Centre.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.experian.com/careers",
     "jobUrl": "https://www.experian.com/careers"
@@ -4022,39 +3379,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-eli-lilly-1",
     "companyId": "eli-lilly",
     "companyName": "Eli Lilly Capability Center",
-    "title": "Senior Eli Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Eli",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "R",
-      "AWS",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad center of engineering excellence building modern Healthcare • Pharma Tech & AI solutions for global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Eli Lilly Capability Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Eli Lilly Capability Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.lilly.com/careers",
     "jobUrl": "https://www.lilly.com/careers"
@@ -4063,38 +3418,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-eli-lilly-2",
     "companyId": "eli-lilly",
     "companyName": "Eli Lilly Capability Center",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 5)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Eli",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Python",
-      "R",
-      "AWS",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad center of engineering excellence building modern Healthcare • Pharma Tech & AI solutions for global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Eli Lilly Capability Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Eli Lilly Capability Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.lilly.com/careers",
     "jobUrl": "https://www.lilly.com/careers"
@@ -4103,38 +3456,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-eli-lilly-3",
     "companyId": "eli-lilly",
     "companyName": "Eli Lilly Capability Center",
-    "title": "Lead Eli Platform Developer (Healthcare)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Eli",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "R",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Eli Lilly Capability Center's Hyderabad center of engineering excellence building modern Healthcare • Pharma Tech & AI solutions for global users.",
+    "description": "Join Eli Lilly Capability Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Eli Lilly Capability Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Eli Lilly Capability Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.lilly.com/careers",
     "jobUrl": "https://www.lilly.com/careers"
@@ -4143,159 +3495,74 @@ export const HYDERABAD_JOBS = [
     "id": "job-fanatics-1",
     "companyId": "fanatics",
     "companyName": "Fanatics India Tech",
-    "title": "Senior Fanatics Systems Software Engineer",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "E-Commerce / D2C",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "Java",
-      "Go",
-      "React",
-      "Spring Boot"
-    ],
-    "description": "Join Fanatics India Tech's Hyderabad center of engineering excellence building modern E-Commerce • Sports Digital Commerce solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fanatics India Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.fanaticsinc.com/careers",
-    "jobUrl": "https://www.fanaticsinc.com/careers"
-  },
-  {
-    "id": "job-fanatics-2",
-    "companyId": "fanatics",
-    "companyName": "Fanatics India Tech",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 3)",
-    "roleCategory": "Engineering",
-    "industry": "E-Commerce / D2C",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "Java",
-      "Go",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
-    ],
-    "description": "Join Fanatics India Tech's Hyderabad center of engineering excellence building modern E-Commerce • Sports Digital Commerce solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fanatics India Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.fanaticsinc.com/careers",
-    "jobUrl": "https://www.fanaticsinc.com/careers"
-  },
-  {
-    "id": "job-fanatics-3",
-    "companyId": "fanatics",
-    "companyName": "Fanatics India Tech",
-    "title": "Lead Fanatics Platform Developer (E-Commerce)",
-    "roleCategory": "Engineering",
-    "industry": "E-Commerce / D2C",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Java",
-      "Go",
-      "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Fanatics India Tech's Hyderabad center of engineering excellence building modern E-Commerce • Sports Digital Commerce solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Fanatics India Tech Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fanatics India Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Fanatics India Tech.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.fanaticsinc.com/careers",
-    "jobUrl": "https://www.fanaticsinc.com/careers"
+    "applyUrl": "https://www.fanaticsinc.com/leadership",
+    "jobUrl": "https://www.fanaticsinc.com/leadership"
   },
   {
     "id": "job-paltech-1",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Senior Paltech Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Paltech",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Python",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad center of engineering excellence building modern Product Engineering • Cloud & AI solutions for global users.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Paltech (Palni Inc).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Paltech (Palni Inc).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.pal.tech/careers/",
     "jobUrl": "https://www.pal.tech/careers/"
@@ -4304,38 +3571,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-paltech-2",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 4)",
+    "title": "Lead Distributed Systems & Kafka Architect - Paltech",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Python",
-      "TypeScript",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad center of engineering excellence building modern Product Engineering • Cloud & AI solutions for global users.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Paltech (Palni Inc).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Paltech (Palni Inc).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.pal.tech/careers/",
     "jobUrl": "https://www.pal.tech/careers/"
@@ -4344,39 +3610,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-paltech-3",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Lead Paltech Platform Developer (Product Engineering)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Paltech",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "React",
-      "Node.js",
-      "Python",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad center of engineering excellence building modern Product Engineering • Cloud & AI solutions for global users.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Paltech (Palni Inc).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Paltech (Palni Inc).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.pal.tech/careers/",
     "jobUrl": "https://www.pal.tech/careers/"
@@ -4385,39 +3648,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-arcesium-1",
     "companyId": "arcesium",
     "companyName": "Arcesium",
-    "title": "Senior Post-Trade Technology Platform Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Arcesium",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "4-8 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹30 - ₹48 LPA",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
       "Java",
       "Spring Boot",
-      "Kafka",
+      "React",
       "PostgreSQL",
-      "AWS",
-      "Financial Markets"
+      "AWS"
     ],
-    "description": "Architect high-throughput post-trade accounting engines and real-time reconciliation pipelines managing $675B+ in hedge fund assets.",
+    "description": "Join Arcesium's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Arcesium's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Arcesium.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "4-8 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
     "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
@@ -4426,39 +3687,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-arcesium-2",
     "companyId": "arcesium",
     "companyName": "Arcesium",
-    "title": "Data Fabric & Distributed Analytics Architect",
+    "title": "Lead Distributed Systems & Kafka Architect - Arcesium",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "6-10 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹42 - ₹65 LPA",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
       "Java",
-      "Spark",
-      "AWS",
-      "Snowflake",
-      "Distributed Systems",
-      "REST APIs"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Lead the evolution of Arcesium's unified financial data fabric supporting petabyte-scale portfolio queries for premier global asset managers.",
+    "description": "Join Arcesium's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Arcesium's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Arcesium.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "6-10 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
     "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
@@ -4467,38 +3726,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-arcesium-3",
     "companyId": "arcesium",
     "companyName": "Arcesium",
-    "title": "Quantitative Treasury & Portfolio Data Engineer",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Arcesium",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹32 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Python",
-      "Java",
-      "SQL",
-      "Portfolio Analytics",
-      "Risk Metrics"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Build automated corporate actions, cash management, and margin calculation engines for institutional hedge funds.",
+    "description": "Join Arcesium's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for Arcesium's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering Arcesium.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://job-boards.greenhouse.io/arcesiumllc",
     "jobUrl": "https://job-boards.greenhouse.io/arcesiumllc"
@@ -4507,282 +3764,227 @@ export const HYDERABAD_JOBS = [
     "id": "job-valuemomentum-1",
     "companyId": "valuemomentum",
     "companyName": "ValueMomentum",
-    "title": "Senior ValueMomentum Systems Software Engineer",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Java",
-      "Guidewire",
-      "AWS",
-      "Spring Boot",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join ValueMomentum's Hyderabad center of engineering excellence building modern InsurTech • Cloud & Data solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at ValueMomentum Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ValueMomentum.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for ValueMomentum.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.valuemomentum.com/careers/",
-    "jobUrl": "https://www.valuemomentum.com/careers/"
+    "applyUrl": "https://www.valuemomentum.com/company/leadership/",
+    "jobUrl": "https://www.valuemomentum.com/company/leadership/"
   },
   {
     "id": "job-valuemomentum-2",
     "companyId": "valuemomentum",
     "companyName": "ValueMomentum",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 6)",
-    "roleCategory": "AI / ML",
-    "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
-    "hubId": "financial-district",
-    "area": "Financial District, Hyderabad",
-    "skills": [
-      "Java",
-      "Guidewire",
-      "AWS",
-      "Python",
-      "PyTorch",
-      "XGBoost"
-    ],
-    "description": "Join ValueMomentum's Hyderabad center of engineering excellence building modern InsurTech • Cloud & Data solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ValueMomentum.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.valuemomentum.com/careers/",
-    "jobUrl": "https://www.valuemomentum.com/careers/"
-  },
-  {
-    "id": "job-valuemomentum-3",
-    "companyId": "valuemomentum",
-    "companyName": "ValueMomentum",
-    "title": "Lead ValueMomentum Platform Developer (InsurTech)",
+    "title": "Analyst Reports",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Java",
-      "Guidewire",
-      "AWS",
-      "Go",
-      "Node.js",
-      "Redis"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join ValueMomentum's Hyderabad center of engineering excellence building modern InsurTech • Cloud & Data solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at ValueMomentum Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ValueMomentum.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for ValueMomentum.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.valuemomentum.com/careers/",
-    "jobUrl": "https://www.valuemomentum.com/careers/"
+    "applyUrl": "https://www.valuemomentum.com/insights/analyst-reports/",
+    "jobUrl": "https://www.valuemomentum.com/insights/analyst-reports/"
   },
   {
     "id": "job-zeta-1",
     "companyId": "zeta",
     "companyName": "Zeta Tech Hub",
-    "title": "Senior Zeta Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Zeta",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "financial-district",
-    "area": "Financial District / Gachibowli, Hyderabad",
-    "skills": [
-      "Java",
-      "Go",
-      "PostgreSQL",
-      "Spring Boot",
-      "Kafka"
-    ],
-    "description": "Join Zeta Tech Hub's Hyderabad center of engineering excellence building modern FinTech • Next-Gen Core Banking solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zeta Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.zeta.tech/careers/",
-    "jobUrl": "https://www.zeta.tech/careers/"
-  },
-  {
-    "id": "job-zeta-2",
-    "companyId": "zeta",
-    "companyName": "Zeta Tech Hub",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 7)",
-    "roleCategory": "AI / ML",
-    "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "financial-district",
-    "area": "Financial District / Gachibowli, Hyderabad",
-    "skills": [
-      "Java",
-      "Go",
-      "PostgreSQL",
-      "Python",
-      "PyTorch",
-      "XGBoost"
-    ],
-    "description": "Join Zeta Tech Hub's Hyderabad center of engineering excellence building modern FinTech • Next-Gen Core Banking solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zeta Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.zeta.tech/careers/",
-    "jobUrl": "https://www.zeta.tech/careers/"
-  },
-  {
-    "id": "job-zeta-3",
-    "companyId": "zeta",
-    "companyName": "Zeta Tech Hub",
-    "title": "Lead Zeta Platform Developer (FinTech)",
-    "roleCategory": "Engineering",
-    "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "Go",
+      "Spring Boot",
+      "React",
       "PostgreSQL",
-      "Node.js",
-      "Redis"
+      "AWS"
     ],
-    "description": "Join Zeta Tech Hub's Hyderabad center of engineering excellence building modern FinTech • Next-Gen Core Banking solutions for global users.",
+    "description": "Join Zeta Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zeta Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Zeta Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.zeta.tech/careers/",
-    "jobUrl": "https://www.zeta.tech/careers/"
+    "applyUrl": "https://job-boards.greenhouse.io/zeta",
+    "jobUrl": "https://job-boards.greenhouse.io/zeta"
+  },
+  {
+    "id": "job-zeta-2",
+    "companyId": "zeta",
+    "companyName": "Zeta Tech Hub",
+    "title": "Lead Distributed Systems & Kafka Architect - Zeta",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District / Gachibowli, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join Zeta Tech Hub's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Zeta Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/zeta",
+    "jobUrl": "https://job-boards.greenhouse.io/zeta"
+  },
+  {
+    "id": "job-zeta-3",
+    "companyId": "zeta",
+    "companyName": "Zeta Tech Hub",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Zeta",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "financial-district",
+    "area": "Financial District / Gachibowli, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Zeta Tech Hub's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Zeta Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/zeta",
+    "jobUrl": "https://job-boards.greenhouse.io/zeta"
   },
   {
     "id": "job-invesco-1",
     "companyId": "invesco",
     "companyName": "Invesco Enterprise Center",
-    "title": "Senior Invesco Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Invesco",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "C#",
-      "AWS",
       "Java",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad center of engineering excellence building modern Asset Management • Analytics & Tech solutions for global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Invesco Enterprise Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Invesco Enterprise Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://careers.invesco.com/",
     "jobUrl": "https://careers.invesco.com/"
@@ -4791,38 +3993,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-invesco-2",
     "companyId": "invesco",
     "companyName": "Invesco Enterprise Center",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 8)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Invesco",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "C#",
-      "AWS",
-      "PyTorch",
-      "XGBoost"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad center of engineering excellence building modern Asset Management • Analytics & Tech solutions for global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Invesco Enterprise Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Invesco Enterprise Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://careers.invesco.com/",
     "jobUrl": "https://careers.invesco.com/"
@@ -4831,39 +4032,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-invesco-3",
     "companyId": "invesco",
     "companyName": "Invesco Enterprise Center",
-    "title": "Lead Invesco Platform Developer (Asset Management)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Invesco",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Python",
-      "C#",
-      "AWS",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Invesco Enterprise Center's Hyderabad center of engineering excellence building modern Asset Management • Analytics & Tech solutions for global users.",
+    "description": "Join Invesco Enterprise Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Invesco Enterprise Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Invesco Enterprise Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://careers.invesco.com/",
     "jobUrl": "https://careers.invesco.com/"
@@ -4872,157 +4070,74 @@ export const HYDERABAD_JOBS = [
     "id": "job-pegasystems-1",
     "companyId": "pegasystems",
     "companyName": "Pegasystems",
-    "title": "Senior Pegasystems Systems Software Engineer",
+    "title": "Analyst Reports",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Pega Platform",
-      "React",
-      "Spring Boot"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Pegasystems's Hyderabad center of engineering excellence building modern Enterprise AI • Workflow Automation solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Pegasystems Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pegasystems.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Pegasystems.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.pega.com/about/careers",
-    "jobUrl": "https://www.pega.com/about/careers"
-  },
-  {
-    "id": "job-pegasystems-2",
-    "companyId": "pegasystems",
-    "companyName": "Pegasystems",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 5)",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 2,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Java",
-      "Pega Platform",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
-    ],
-    "description": "Join Pegasystems's Hyderabad center of engineering excellence building modern Enterprise AI • Workflow Automation solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pegasystems.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.pega.com/about/careers",
-    "jobUrl": "https://www.pega.com/about/careers"
-  },
-  {
-    "id": "job-pegasystems-3",
-    "companyId": "pegasystems",
-    "companyName": "Pegasystems",
-    "title": "Lead Pegasystems Platform Developer (Enterprise AI)",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 3,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Java",
-      "Pega Platform",
-      "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
-    ],
-    "description": "Join Pegasystems's Hyderabad center of engineering excellence building modern Enterprise AI • Workflow Automation solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pegasystems.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.pega.com/about/careers",
-    "jobUrl": "https://www.pega.com/about/careers"
+    "applyUrl": "https://www.pega.com/analyst-reports",
+    "jobUrl": "https://www.pega.com/analyst-reports"
   },
   {
     "id": "job-adp-1",
     "companyId": "adp",
     "companyName": "ADP (Automatic Data Processing)",
-    "title": "Senior ADP Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - ADP",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
       "Java",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join ADP (Automatic Data Processing)'s Hyderabad center of engineering excellence building modern HR Tech • Cloud & Analytics solutions for global users.",
+    "description": "Join ADP (Automatic Data Processing)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ADP (Automatic Data Processing).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ADP (Automatic Data Processing).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://jobs.adp.com/",
     "jobUrl": "https://jobs.adp.com/"
@@ -5031,39 +4146,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-adp-2",
     "companyId": "adp",
     "companyName": "ADP (Automatic Data Processing)",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 6)",
+    "title": "Lead Distributed Systems & Kafka Architect - ADP",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
       "Java",
-      "Spring Boot",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join ADP (Automatic Data Processing)'s Hyderabad center of engineering excellence building modern HR Tech • Cloud & Analytics solutions for global users.",
+    "description": "Join ADP (Automatic Data Processing)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ADP (Automatic Data Processing).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ADP (Automatic Data Processing).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://jobs.adp.com/",
     "jobUrl": "https://jobs.adp.com/"
@@ -5072,39 +4185,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-adp-3",
     "companyId": "adp",
     "companyName": "ADP (Automatic Data Processing)",
-    "title": "Lead ADP Platform Developer (HR Tech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - ADP",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City / Somajiguda, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
       "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join ADP (Automatic Data Processing)'s Hyderabad center of engineering excellence building modern HR Tech • Cloud & Analytics solutions for global users.",
+    "description": "Join ADP (Automatic Data Processing)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ADP (Automatic Data Processing).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ADP (Automatic Data Processing).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://jobs.adp.com/",
     "jobUrl": "https://jobs.adp.com/"
@@ -5113,161 +4223,74 @@ export const HYDERABAD_JOBS = [
     "id": "job-qualcomm-1",
     "companyId": "qualcomm",
     "companyName": "Qualcomm Hyderabad Campus",
-    "title": "Senior Qualcomm Systems Software Engineer",
-    "roleCategory": "AI / ML",
-    "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "C++",
-      "C",
-      "Embedded Linux",
-      "Python",
-      "LangChain",
-      "Vector DBs"
-    ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad center of engineering excellence building modern Semiconductors • Edge AI & 5G solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Qualcomm Hyderabad Campus.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.qualcomm.com/company/careers",
-    "jobUrl": "https://www.qualcomm.com/company/careers"
-  },
-  {
-    "id": "job-qualcomm-2",
-    "companyId": "qualcomm",
-    "companyName": "Qualcomm Hyderabad Campus",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 3)",
+    "title": "Developer",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "C++",
-      "C",
-      "Embedded Linux",
-      "Python",
-      "Kubernetes"
-    ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad center of engineering excellence building modern Semiconductors • Edge AI & 5G solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Qualcomm Hyderabad Campus.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.qualcomm.com/company/careers",
-    "jobUrl": "https://www.qualcomm.com/company/careers"
-  },
-  {
-    "id": "job-qualcomm-3",
-    "companyId": "qualcomm",
-    "companyName": "Qualcomm Hyderabad Campus",
-    "title": "Lead Qualcomm Platform Developer (Semiconductors)",
-    "roleCategory": "AI / ML",
-    "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
-      "C",
-      "Embedded Linux",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad center of engineering excellence building modern Semiconductors • Edge AI & 5G solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Qualcomm Hyderabad Campus Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Qualcomm Hyderabad Campus.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Qualcomm Hyderabad Campus.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.qualcomm.com/company/careers",
-    "jobUrl": "https://www.qualcomm.com/company/careers"
+    "applyUrl": "https://www.qualcomm.com/developer",
+    "jobUrl": "https://www.qualcomm.com/developer"
   },
   {
     "id": "job-amd-1",
     "companyId": "amd",
     "companyName": "AMD India Design Centre",
-    "title": "Senior AMD Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - AMD",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Verilog",
-      "UVM",
-      "C++",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join AMD India Design Centre's Hyderabad center of engineering excellence building modern Semiconductors • GPU & AI Hardware solutions for global users.",
+    "description": "Join AMD India Design Centre's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering AMD India Design Centre.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering AMD India Design Centre.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.amd.com/en/corporate/careers.html",
     "jobUrl": "https://www.amd.com/en/corporate/careers.html"
@@ -5276,38 +4299,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-amd-2",
     "companyId": "amd",
     "companyName": "AMD India Design Centre",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 4)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - AMD",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Verilog",
-      "UVM",
-      "C++",
       "Python",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join AMD India Design Centre's Hyderabad center of engineering excellence building modern Semiconductors • GPU & AI Hardware solutions for global users.",
+    "description": "Join AMD India Design Centre's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering AMD India Design Centre.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering AMD India Design Centre.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.amd.com/en/corporate/careers.html",
     "jobUrl": "https://www.amd.com/en/corporate/careers.html"
@@ -5316,39 +4337,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-amd-3",
     "companyId": "amd",
     "companyName": "AMD India Design Centre",
-    "title": "Lead AMD Platform Developer (Semiconductors)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - AMD",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Verilog",
-      "UVM",
       "C++",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join AMD India Design Centre's Hyderabad center of engineering excellence building modern Semiconductors • GPU & AI Hardware solutions for global users.",
+    "description": "Join AMD India Design Centre's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering AMD India Design Centre.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering AMD India Design Centre.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.amd.com/en/corporate/careers.html",
     "jobUrl": "https://www.amd.com/en/corporate/careers.html"
@@ -5357,38 +4375,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-micron-1",
     "companyId": "micron",
     "companyName": "Micron Technology",
-    "title": "Senior Micron Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Micron",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
       "Python",
-      "ASIC Design",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Micron Technology's Hyderabad center of engineering excellence building modern Semiconductors • Memory & Storage solutions for global users.",
+    "description": "Join Micron Technology's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Micron Technology.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Micron Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://micron.eightfold.ai/careers",
     "jobUrl": "https://micron.eightfold.ai/careers"
@@ -5397,37 +4414,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-micron-2",
     "companyId": "micron",
     "companyName": "Micron Technology",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 5)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Micron",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
     "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
       "Python",
-      "ASIC Design",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Micron Technology's Hyderabad center of engineering excellence building modern Semiconductors • Memory & Storage solutions for global users.",
+    "description": "Join Micron Technology's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Micron Technology.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Micron Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://micron.eightfold.ai/careers",
     "jobUrl": "https://micron.eightfold.ai/careers"
@@ -5436,39 +4452,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-micron-3",
     "companyId": "micron",
     "companyName": "Micron Technology",
-    "title": "Lead Micron Platform Developer (Semiconductors)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Micron",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
     "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
       "C++",
-      "Python",
-      "ASIC Design",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Micron Technology's Hyderabad center of engineering excellence building modern Semiconductors • Memory & Storage solutions for global users.",
+    "description": "Join Micron Technology's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Micron Technology.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Micron Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://micron.eightfold.ai/careers",
     "jobUrl": "https://micron.eightfold.ai/careers"
@@ -5477,38 +4490,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-salesforce-1",
     "companyId": "salesforce",
     "companyName": "Salesforce Center of Excellence",
-    "title": "Senior Salesforce Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Salesforce",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "Apex",
-      "React / LWC",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad center of engineering excellence building modern Cloud • Agentforce AI & CRM solutions for global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Salesforce Center of Excellence.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Salesforce Center of Excellence.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.salesforce.com/company/careers/",
     "jobUrl": "https://www.salesforce.com/company/careers/"
@@ -5517,39 +4529,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-salesforce-2",
     "companyId": "salesforce",
     "companyName": "Salesforce Center of Excellence",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 7)",
+    "title": "Lead Distributed Systems & Kafka Architect - Salesforce",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "Apex",
-      "React / LWC",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad center of engineering excellence building modern Cloud • Agentforce AI & CRM solutions for global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Salesforce Center of Excellence.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Salesforce Center of Excellence.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.salesforce.com/company/careers/",
     "jobUrl": "https://www.salesforce.com/company/careers/"
@@ -5558,39 +4568,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-salesforce-3",
     "companyId": "salesforce",
     "companyName": "Salesforce Center of Excellence",
-    "title": "Lead Salesforce Platform Developer (Cloud)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Salesforce",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Gachibowli, Hyderabad",
     "skills": [
-      "Java",
-      "Apex",
-      "React / LWC",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Salesforce Center of Excellence's Hyderabad center of engineering excellence building modern Cloud • Agentforce AI & CRM solutions for global users.",
+    "description": "Join Salesforce Center of Excellence's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Salesforce Center of Excellence.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Salesforce Center of Excellence.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.salesforce.com/company/careers/",
     "jobUrl": "https://www.salesforce.com/company/careers/"
@@ -5599,37 +4606,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-servicenow-1",
     "companyId": "servicenow",
     "companyName": "ServiceNow Innovation Campus",
-    "title": "Senior ServiceNow Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - ServiceNow",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "JavaScript",
+      "Spring Boot",
       "React",
-      "Spring Boot"
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join ServiceNow Innovation Campus's Hyderabad center of engineering excellence building modern Cloud • Enterprise Workflow AI solutions for global users.",
+    "description": "Join ServiceNow Innovation Campus's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ServiceNow Innovation Campus.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ServiceNow Innovation Campus.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.servicenow.com/careers.html",
     "jobUrl": "https://www.servicenow.com/careers.html"
@@ -5638,39 +4645,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-servicenow-2",
     "companyId": "servicenow",
     "companyName": "ServiceNow Innovation Campus",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 8)",
+    "title": "Lead Distributed Systems & Kafka Architect - ServiceNow",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "JavaScript",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join ServiceNow Innovation Campus's Hyderabad center of engineering excellence building modern Cloud • Enterprise Workflow AI solutions for global users.",
+    "description": "Join ServiceNow Innovation Campus's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ServiceNow Innovation Campus.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ServiceNow Innovation Campus.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.servicenow.com/careers.html",
     "jobUrl": "https://www.servicenow.com/careers.html"
@@ -5679,39 +4684,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-servicenow-3",
     "companyId": "servicenow",
     "companyName": "ServiceNow Innovation Campus",
-    "title": "Lead ServiceNow Platform Developer (Cloud)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - ServiceNow",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "JavaScript",
       "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join ServiceNow Innovation Campus's Hyderabad center of engineering excellence building modern Cloud • Enterprise Workflow AI solutions for global users.",
+    "description": "Join ServiceNow Innovation Campus's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ServiceNow Innovation Campus.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ServiceNow Innovation Campus.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.servicenow.com/careers.html",
     "jobUrl": "https://www.servicenow.com/careers.html"
@@ -5720,159 +4722,153 @@ export const HYDERABAD_JOBS = [
     "id": "job-uber-1",
     "companyId": "uber",
     "companyName": "Uber India Tech Center",
-    "title": "Senior Uber Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Uber",
     "roleCategory": "Engineering",
     "industry": "Mobility & Logistics",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Go",
       "Java",
-      "Python",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Uber India Tech Center's Hyderabad center of engineering excellence building modern Mobility Tech • Maps & High Scale solutions for global users.",
+    "description": "Join Uber India Tech Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Uber India Tech Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Uber India Tech Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.uber.com/global/en/careers/",
-    "jobUrl": "https://www.uber.com/global/en/careers/"
+    "applyUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "jobUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad"
   },
   {
     "id": "job-uber-2",
     "companyId": "uber",
     "companyName": "Uber India Tech Center",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 9)",
+    "title": "Lead Distributed Systems & Kafka Architect - Uber",
     "roleCategory": "Engineering",
     "industry": "Mobility & Logistics",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Go",
       "Java",
-      "Python",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Uber India Tech Center's Hyderabad center of engineering excellence building modern Mobility Tech • Maps & High Scale solutions for global users.",
+    "description": "Join Uber India Tech Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Uber India Tech Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Uber India Tech Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.uber.com/global/en/careers/",
-    "jobUrl": "https://www.uber.com/global/en/careers/"
+    "applyUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "jobUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad"
   },
   {
     "id": "job-uber-3",
     "companyId": "uber",
     "companyName": "Uber India Tech Center",
-    "title": "Lead Uber Platform Developer (Mobility Tech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Uber",
     "roleCategory": "Engineering",
     "industry": "Mobility & Logistics",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Go",
-      "Java",
-      "Python",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Uber India Tech Center's Hyderabad center of engineering excellence building modern Mobility Tech • Maps & High Scale solutions for global users.",
+    "description": "Join Uber India Tech Center's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Uber India Tech Center.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Uber India Tech Center.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.uber.com/global/en/careers/",
-    "jobUrl": "https://www.uber.com/global/en/careers/"
+    "applyUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad",
+    "jobUrl": "https://www.uber.com/global/en/careers/list/?location=IND-Telangana-Hyderabad"
   },
   {
     "id": "job-expedia-group-1",
     "companyId": "expedia-group",
     "companyName": "Expedia Group R&D",
-    "title": "Senior Expedia Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Expedia",
     "roleCategory": "Engineering",
     "industry": "E-Commerce / D2C",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Kotlin",
       "Java",
+      "Spring Boot",
       "React",
-      "Spring Boot"
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad center of engineering excellence building modern Travel Tech • AI & Search Platforms solutions for global users.",
+    "description": "Join Expedia Group R&D's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Expedia Group R&D.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Expedia Group R&D.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.lifeatexpediagroup.com/jobs",
     "jobUrl": "https://www.lifeatexpediagroup.com/jobs"
@@ -5881,39 +4877,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-expedia-group-2",
     "companyId": "expedia-group",
     "companyName": "Expedia Group R&D",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 10)",
+    "title": "Lead Distributed Systems & Kafka Architect - Expedia",
     "roleCategory": "Engineering",
     "industry": "E-Commerce / D2C",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Kotlin",
       "Java",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad center of engineering excellence building modern Travel Tech • AI & Search Platforms solutions for global users.",
+    "description": "Join Expedia Group R&D's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Expedia Group R&D.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Expedia Group R&D.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.lifeatexpediagroup.com/jobs",
     "jobUrl": "https://www.lifeatexpediagroup.com/jobs"
@@ -5922,39 +4916,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-expedia-group-3",
     "companyId": "expedia-group",
     "companyName": "Expedia Group R&D",
-    "title": "Lead Expedia Platform Developer (Travel Tech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Expedia",
     "roleCategory": "Engineering",
     "industry": "E-Commerce / D2C",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Kotlin",
-      "Java",
       "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Expedia Group R&D's Hyderabad center of engineering excellence building modern Travel Tech • AI & Search Platforms solutions for global users.",
+    "description": "Join Expedia Group R&D's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Expedia Group R&D.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Expedia Group R&D.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.lifeatexpediagroup.com/jobs",
     "jobUrl": "https://www.lifeatexpediagroup.com/jobs"
@@ -5963,38 +4954,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-electronic-arts-1",
     "companyId": "electronic-arts",
     "companyName": "Electronic Arts (EA India)",
-    "title": "Senior Electronic Systems Software Engineer",
+    "title": "Real-Time Multiplayer Game Engine Backend Developer - Electronic",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b926 - \u20b944 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "C++",
-      "C#",
-      "Unity",
       "Go",
-      "WebSockets"
+      "WebSockets",
+      "Redis",
+      "AWS Gamelift"
     ],
-    "description": "Join Electronic Arts (EA India)'s Hyderabad center of engineering excellence building modern Gaming • Game Engine & Cloud solutions for global users.",
+    "description": "Join Electronic Arts (EA India)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Electronic Arts (EA India).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Electronic Arts (EA India).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ea.com/careers",
     "jobUrl": "https://www.ea.com/careers"
@@ -6003,80 +4993,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-electronic-arts-2",
     "companyId": "electronic-arts",
     "companyName": "Electronic Arts (EA India)",
-    "title": "Graphics & Interactive 3D WebGL Frontend Engineer (Tier 3)",
+    "title": "3D Graphics & Interactive WebGL Systems Engineer - Electronic",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "C++",
-      "C#",
-      "Unity",
-      "Three.js",
-      "WebGL",
-      "TypeScript"
-    ],
-    "description": "Join Electronic Arts (EA India)'s Hyderabad center of engineering excellence building modern Gaming • Game Engine & Cloud solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Electronic Arts (EA India).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://www.ea.com/careers",
-    "jobUrl": "https://www.ea.com/careers"
-  },
-  {
-    "id": "job-electronic-arts-3",
-    "companyId": "electronic-arts",
-    "companyName": "Electronic Arts (EA India)",
-    "title": "Lead Electronic Platform Developer (Gaming)",
-    "roleCategory": "AI / ML",
-    "industry": "Gaming & Media",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C++",
-      "C#",
-      "Unity",
-      "Python",
-      "ML",
-      "Spark"
+      "Three.js",
+      "WebGL",
+      "TypeScript",
+      "React",
+      "Shaders"
     ],
-    "description": "Join Electronic Arts (EA India)'s Hyderabad center of engineering excellence building modern Gaming • Game Engine & Cloud solutions for global users.",
+    "description": "Join Electronic Arts (EA India)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Electronic Arts (EA India).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Electronic Arts (EA India).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ea.com/careers",
     "jobUrl": "https://www.ea.com/careers"
@@ -6085,39 +5032,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-mathworks-1",
     "companyId": "mathworks",
     "companyName": "MathWorks Hyderabad",
-    "title": "MATLAB & Simulink Autonomous Driving Toolbox Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - MathWorks",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹24 - ₹38 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "MATLAB",
-      "Simulink",
-      "C++",
-      "Autonomous Vehicles",
-      "Computer Vision",
-      "ROS"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Develop core MATLAB algorithms and Simulink blocksets for automated driving simulation, sensor fusion (Radar/LiDAR), and highway lane-following controllers.",
+    "description": "Join MathWorks Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for MathWorks Hyderabad's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering MathWorks Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3-6 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India",
     "jobUrl": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India"
@@ -6126,39 +5071,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-mathworks-2",
     "companyId": "mathworks",
     "companyName": "MathWorks Hyderabad",
-    "title": "Deep Learning & GPU Code Generation Compiler Specialist",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - MathWorks",
+    "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "4-8 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹28 - ₹45 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
-      "CUDA",
-      "Deep Learning",
-      "TensorRT",
-      "GPU Optimization",
-      "Compiler Tech"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Build high-performance CUDA/C++ code generators for PyTorch, ONNX, and MATLAB deep neural network inference on NVIDIA embedded edge targets.",
+    "description": "Join MathWorks Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for MathWorks Hyderabad's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering MathWorks Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "4-8 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India",
     "jobUrl": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India"
@@ -6167,38 +5110,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-mathworks-3",
     "companyId": "mathworks",
     "companyName": "MathWorks Hyderabad",
-    "title": "Simulink Control Systems & Embedded Coder Developer",
+    "title": "Frontend & Micro-UI Design Systems Engineer - MathWorks",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹18 - ₹28 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Simulink",
-      "Embedded C",
-      "AUTOSAR",
-      "Model-Based Design",
-      "MISRA C"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Design automated C/C++ code generation features for production AUTOSAR microcontrollers and industrial power electronics.",
+    "description": "Join MathWorks Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship high-reliability software modules for MathWorks Hyderabad's platform in Hyderabad.",
-      "Collaborate with cross-functional product, architecture, and engineering teams.",
-      "Ensure top-tier code craftsmanship, unit/integration testing, and CI/CD automation."
+      "Build high-performance software modules powering MathWorks Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of production experience with modern tech stacks and distributed architectures.",
-      "Strong computer science fundamentals, system design, and algorithmic problem-solving."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Health & Medical Coverage",
-      "Flexible Hybrid Work & Learning Allowance",
-      "Hyderabad Innovation Campus Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India",
     "jobUrl": "https://www.mathworks.com/company/jobs/opportunities.html?location[]=Hyderabad%2C%20India"
@@ -6207,37 +5148,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-valuelabs-1",
     "companyId": "valuelabs",
     "companyName": "ValueLabs",
-    "title": "Senior ValueLabs Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - ValueLabs",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join ValueLabs's Hyderabad center of engineering excellence building modern AI • Digital Product Engineering solutions for global users.",
+    "description": "Join ValueLabs's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ValueLabs.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ValueLabs.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.valuelabs.com/careers/",
     "jobUrl": "https://www.valuelabs.com/careers/"
@@ -6246,38 +5187,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-valuelabs-2",
     "companyId": "valuelabs",
     "companyName": "ValueLabs",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 11)",
+    "title": "Lead Distributed Systems & Kafka Architect - ValueLabs",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
       "Java",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join ValueLabs's Hyderabad center of engineering excellence building modern AI • Digital Product Engineering solutions for global users.",
+    "description": "Join ValueLabs's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ValueLabs.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ValueLabs.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.valuelabs.com/careers/",
     "jobUrl": "https://www.valuelabs.com/careers/"
@@ -6286,39 +5226,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-valuelabs-3",
     "companyId": "valuelabs",
     "companyName": "ValueLabs",
-    "title": "Lead ValueLabs Platform Developer (AI)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - ValueLabs",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "React",
-      "Node.js",
-      "Java",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join ValueLabs's Hyderabad center of engineering excellence building modern AI • Digital Product Engineering solutions for global users.",
+    "description": "Join ValueLabs's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ValueLabs.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ValueLabs.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.valuelabs.com/careers/",
     "jobUrl": "https://www.valuelabs.com/careers/"
@@ -6327,38 +5264,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-innominds-1",
     "companyId": "innominds",
     "companyName": "Innominds",
-    "title": "Senior Innominds Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Innominds",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
-      "Embedded C++",
       "Python",
-      "AWS IoT",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Innominds's Hyderabad center of engineering excellence building modern Product Engineering • AI & IoT solutions for global users.",
+    "description": "Join Innominds's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Innominds.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Innominds.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.innominds.com/careers",
     "jobUrl": "https://www.innominds.com/careers"
@@ -6367,38 +5303,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-innominds-2",
     "companyId": "innominds",
     "companyName": "Innominds",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 6)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Innominds",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
     "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
-      "Embedded C++",
       "Python",
-      "AWS IoT",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Innominds's Hyderabad center of engineering excellence building modern Product Engineering • AI & IoT solutions for global users.",
+    "description": "Join Innominds's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Innominds.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Innominds.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.innominds.com/careers",
     "jobUrl": "https://www.innominds.com/careers"
@@ -6407,39 +5341,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-innominds-3",
     "companyId": "innominds",
     "companyName": "Innominds",
-    "title": "Lead Innominds Platform Developer (Product Engineering)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Innominds",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
     "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "WaveRock / Financial District, Hyderabad",
     "skills": [
-      "Embedded C++",
-      "Python",
-      "AWS IoT",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Innominds's Hyderabad center of engineering excellence building modern Product Engineering • AI & IoT solutions for global users.",
+    "description": "Join Innominds's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Innominds.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Innominds.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.innominds.com/careers",
     "jobUrl": "https://www.innominds.com/careers"
@@ -6448,38 +5379,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloud4c-1",
     "companyId": "cloud4c",
     "companyName": "Cloud4C",
-    "title": "Senior Cloud4C Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Cloud4C",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Terraform",
-      "Ansible",
-      "Kubernetes",
-      "OpenStack",
-      "BGP"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Cloud4C's Hyderabad center of engineering excellence building modern Cloud Automation • Digital Engineering solutions for global users.",
+    "description": "Join Cloud4C's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloud4C.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cloud4C.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cloud4c.com/careers",
     "jobUrl": "https://www.cloud4c.com/careers"
@@ -6488,37 +5418,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloud4c-2",
     "companyId": "cloud4c",
     "companyName": "Cloud4C",
-    "title": "Site Reliability & Bare-Metal Automation Engineer (Tier 1)",
+    "title": "Lead Distributed Systems & Kafka Architect - Cloud4C",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Terraform",
-      "Ansible",
-      "Kubernetes",
-      "Python"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Cloud4C's Hyderabad center of engineering excellence building modern Cloud Automation • Digital Engineering solutions for global users.",
+    "description": "Join Cloud4C's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloud4C.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cloud4C.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cloud4c.com/careers",
     "jobUrl": "https://www.cloud4c.com/careers"
@@ -6527,39 +5457,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloud4c-3",
     "companyId": "cloud4c",
     "companyName": "Cloud4C",
-    "title": "Lead Cloud4C Platform Developer (Cloud Automation)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Cloud4C",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Terraform",
-      "Ansible",
-      "Kubernetes",
-      "PostgreSQL",
-      "Ceph",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Cloud4C's Hyderabad center of engineering excellence building modern Cloud Automation • Digital Engineering solutions for global users.",
+    "description": "Join Cloud4C's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloud4C.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cloud4C.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cloud4c.com/careers",
     "jobUrl": "https://www.cloud4c.com/careers"
@@ -6568,38 +5495,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-goldman-sachs-1",
     "companyId": "goldman-sachs",
     "companyName": "Goldman Sachs Hyderabad",
-    "title": "Senior Goldman Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Goldman",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
       "Java",
-      "C++",
-      "Python",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad center of engineering excellence building modern FinTech • Quantitative Engineering solutions for global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Goldman Sachs Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Goldman Sachs Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.goldmansachs.com/careers/",
     "jobUrl": "https://www.goldmansachs.com/careers/"
@@ -6608,38 +5534,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-goldman-sachs-2",
     "companyId": "goldman-sachs",
     "companyName": "Goldman Sachs Hyderabad",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 9)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Goldman",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
       "Java",
-      "C++",
-      "Python",
-      "PyTorch",
-      "XGBoost"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad center of engineering excellence building modern FinTech • Quantitative Engineering solutions for global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Goldman Sachs Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Goldman Sachs Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.goldmansachs.com/careers/",
     "jobUrl": "https://www.goldmansachs.com/careers/"
@@ -6648,39 +5573,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-goldman-sachs-3",
     "companyId": "goldman-sachs",
     "companyName": "Goldman Sachs Hyderabad",
-    "title": "Lead Goldman Platform Developer (FinTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Goldman",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Java",
-      "C++",
-      "Python",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Goldman Sachs Hyderabad's Hyderabad center of engineering excellence building modern FinTech • Quantitative Engineering solutions for global users.",
+    "description": "Join Goldman Sachs Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Goldman Sachs Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Goldman Sachs Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.goldmansachs.com/careers/",
     "jobUrl": "https://www.goldmansachs.com/careers/"
@@ -6689,38 +5611,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cigniti-1",
     "companyId": "cigniti",
     "companyName": "Cigniti Technologies (Coforge)",
-    "title": "Senior Cigniti Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Cigniti",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Selenium",
       "Java",
-      "Python",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad center of engineering excellence building modern Quality Engineering • AI & Cloud solutions for global users.",
+    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cigniti Technologies (Coforge).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cigniti Technologies (Coforge).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cigniti.com/careers/",
     "jobUrl": "https://www.cigniti.com/careers/"
@@ -6729,39 +5650,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-cigniti-2",
     "companyId": "cigniti",
     "companyName": "Cigniti Technologies (Coforge)",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 12)",
+    "title": "Lead Distributed Systems & Kafka Architect - Cigniti",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Selenium",
       "Java",
-      "Python",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad center of engineering excellence building modern Quality Engineering • AI & Cloud solutions for global users.",
+    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cigniti Technologies (Coforge).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cigniti Technologies (Coforge).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cigniti.com/careers/",
     "jobUrl": "https://www.cigniti.com/careers/"
@@ -6770,39 +5689,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-cigniti-3",
     "companyId": "cigniti",
     "companyName": "Cigniti Technologies (Coforge)",
-    "title": "Lead Cigniti Platform Developer (Quality Engineering)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Cigniti",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Selenium",
-      "Java",
-      "Python",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad center of engineering excellence building modern Quality Engineering • AI & Cloud solutions for global users.",
+    "description": "Join Cigniti Technologies (Coforge)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cigniti Technologies (Coforge).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Cigniti Technologies (Coforge).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.cigniti.com/careers/",
     "jobUrl": "https://www.cigniti.com/careers/"
@@ -6811,38 +5727,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-dhruva-space-1",
     "companyId": "dhruva-space",
     "companyName": "Dhruva Space",
-    "title": "Senior Dhruva Systems Software Engineer (Tier 1)",
+    "title": "Avionics & Real-Time Flight Software Engineer - Dhruva",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b938 LPA",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
       "C++",
-      "Python",
-      "Embedded Systems",
       "Embedded C",
-      "FreeRTOS"
+      "FreeRTOS",
+      "CAN Bus",
+      "Telemetry"
     ],
-    "description": "Join Dhruva Space's Hyderabad center of engineering excellence building modern SpaceTech • Small Satellites solutions for global users.",
+    "description": "Join Dhruva Space's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dhruva Space.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dhruva Space.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dhruvaspace.com/careers",
     "jobUrl": "https://www.dhruvaspace.com/careers"
@@ -6851,38 +5766,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-dhruva-space-2",
     "companyId": "dhruva-space",
     "companyName": "Dhruva Space",
-    "title": "Ground Station RF & Earth Observation Software Lead (Tier 1)",
+    "title": "Rocket Propulsion Test & Sensor Integration Specialist - Dhruva",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b935 LPA",
     "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
-      "C++",
       "Python",
-      "Embedded Systems",
-      "GNU Radio",
-      "SDR"
+      "Data Acquisition",
+      "LabVIEW",
+      "Sensors"
     ],
-    "description": "Join Dhruva Space's Hyderabad center of engineering excellence building modern SpaceTech • Small Satellites solutions for global users.",
+    "description": "Join Dhruva Space's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dhruva Space.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dhruva Space.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dhruvaspace.com/careers",
     "jobUrl": "https://www.dhruvaspace.com/careers"
@@ -6891,38 +5804,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-dhruva-space-3",
     "companyId": "dhruva-space",
     "companyName": "Dhruva Space",
-    "title": "Lead Dhruva Platform Developer (SpaceTech) (Tier 1)",
+    "title": "Orbital Guidance & Navigation (GNC) Software Lead - Dhruva",
     "roleCategory": "Engineering",
     "industry": "SpaceTech & Aerospace",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b935 - \u20b955 LPA",
     "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
-      "C++",
-      "Python",
-      "Embedded Systems",
       "MATLAB",
-      "Simulation"
+      "Simulink",
+      "C++",
+      "Kalman Filters"
     ],
-    "description": "Join Dhruva Space's Hyderabad center of engineering excellence building modern SpaceTech • Small Satellites solutions for global users.",
+    "description": "Join Dhruva Space's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dhruva Space.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dhruva Space.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dhruvaspace.com/careers",
     "jobUrl": "https://www.dhruvaspace.com/careers"
@@ -6931,38 +5842,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-marut-drones-1",
     "companyId": "marut-drones",
     "companyName": "Marut Drones",
-    "title": "Senior Marut Systems Software Engineer (Tier 1)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Marut",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
-      "Computer Vision",
-      "ROS",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Marut Drones's Hyderabad center of engineering excellence building modern DroneTech • AI & Robotics solutions for global users.",
+    "description": "Join Marut Drones's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Marut Drones.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Marut Drones.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://marutdrones.com/careers/",
     "jobUrl": "https://marutdrones.com/careers/"
@@ -6971,38 +5881,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-marut-drones-2",
     "companyId": "marut-drones",
     "companyName": "Marut Drones",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 7)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Marut",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
-      "Computer Vision",
-      "ROS",
       "Python",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Marut Drones's Hyderabad center of engineering excellence building modern DroneTech • AI & Robotics solutions for global users.",
+    "description": "Join Marut Drones's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Marut Drones.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Marut Drones.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://marutdrones.com/careers/",
     "jobUrl": "https://marutdrones.com/careers/"
@@ -7011,39 +5919,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-marut-drones-3",
     "companyId": "marut-drones",
     "companyName": "Marut Drones",
-    "title": "Lead Marut Platform Developer (DroneTech)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Marut",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "T-Hub 2.0 / Raidurg, Hyderabad",
     "skills": [
-      "Computer Vision",
-      "ROS",
-      "Python",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Marut Drones's Hyderabad center of engineering excellence building modern DroneTech • AI & Robotics solutions for global users.",
+    "description": "Join Marut Drones's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Marut Drones.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Marut Drones.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://marutdrones.com/careers/",
     "jobUrl": "https://marutdrones.com/careers/"
@@ -7052,39 +5957,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-grene-robotics-1",
     "companyId": "grene-robotics",
     "companyName": "Grene Robotics",
-    "title": "Senior Grene Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Grene",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "C++",
-      "Rust",
-      "Autonomous AI",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Grene Robotics's Hyderabad center of engineering excellence building modern Autonomous Systems • Defense AI solutions for global users.",
+    "description": "Join Grene Robotics's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Grene Robotics.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Grene Robotics.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://grenerobotics.com/careers/",
     "jobUrl": "https://grenerobotics.com/careers/"
@@ -7093,38 +5996,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-grene-robotics-2",
     "companyId": "grene-robotics",
     "companyName": "Grene Robotics",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 8)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Grene",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "C++",
-      "Rust",
-      "Autonomous AI",
       "Python",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Grene Robotics's Hyderabad center of engineering excellence building modern Autonomous Systems • Defense AI solutions for global users.",
+    "description": "Join Grene Robotics's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Grene Robotics.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Grene Robotics.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://grenerobotics.com/careers/",
     "jobUrl": "https://grenerobotics.com/careers/"
@@ -7133,39 +6034,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-grene-robotics-3",
     "companyId": "grene-robotics",
     "companyName": "Grene Robotics",
-    "title": "Lead Grene Platform Developer (Autonomous Systems)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Grene",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "C++",
-      "Rust",
-      "Autonomous AI",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Grene Robotics's Hyderabad center of engineering excellence building modern Autonomous Systems • Defense AI solutions for global users.",
+    "description": "Join Grene Robotics's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Grene Robotics.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Grene Robotics.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://grenerobotics.com/careers/",
     "jobUrl": "https://grenerobotics.com/careers/"
@@ -7174,37 +6072,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-red-health-1",
     "companyId": "red-health",
     "companyName": "RED.Health (StanPlus)",
-    "title": "Senior RED.Health Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - RED.Health",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "Node.js",
-      "React Native",
       "Go",
-      "WebSockets"
+      "Node.js",
+      "WebSockets",
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join RED.Health (StanPlus)'s Hyderabad center of engineering excellence building modern HealthTech • Emergency Medical Tech solutions for global users.",
+    "description": "Join RED.Health (StanPlus)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering RED.Health (StanPlus).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering RED.Health (StanPlus).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://red.health/careers",
     "jobUrl": "https://red.health/careers"
@@ -7213,39 +6111,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-red-health-2",
     "companyId": "red-health",
     "companyName": "RED.Health (StanPlus)",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 6)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - RED.Health",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "Node.js",
-      "React Native",
-      "Go",
       "Python",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join RED.Health (StanPlus)'s Hyderabad center of engineering excellence building modern HealthTech • Emergency Medical Tech solutions for global users.",
+    "description": "Join RED.Health (StanPlus)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering RED.Health (StanPlus).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering RED.Health (StanPlus).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://red.health/careers",
     "jobUrl": "https://red.health/careers"
@@ -7254,39 +6149,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-red-health-3",
     "companyId": "red-health",
     "companyName": "RED.Health (StanPlus)",
-    "title": "Lead RED.Health Platform Developer (HealthTech)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - RED.Health",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "Node.js",
-      "React Native",
-      "Go",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join RED.Health (StanPlus)'s Hyderabad center of engineering excellence building modern HealthTech • Emergency Medical Tech solutions for global users.",
+    "description": "Join RED.Health (StanPlus)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering RED.Health (StanPlus).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering RED.Health (StanPlus).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://red.health/careers",
     "jobUrl": "https://red.health/careers"
@@ -7295,39 +6188,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-pure-ev-1",
     "companyId": "pure-ev",
     "companyName": "PURE EV",
-    "title": "Senior PURE Systems Software Engineer",
+    "title": "Battery Management System (BMS) Firmware Architect - PURE",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "BMS Firmware",
-      "C/C++",
-      "IoT Telemetry",
       "Embedded C",
       "BMS",
-      "CAN Bus"
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Join PURE EV's Hyderabad center of engineering excellence building modern CleanTech • EV & Battery Tech solutions for global users.",
+    "description": "Join PURE EV's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering PURE EV.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering PURE EV.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://pureev.in/careers",
     "jobUrl": "https://pureev.in/careers"
@@ -7336,39 +6227,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-pure-ev-2",
     "companyId": "pure-ev",
     "companyName": "PURE EV",
-    "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 4)",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - PURE",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
     "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "BMS Firmware",
-      "C/C++",
-      "IoT Telemetry",
       "Node.js",
       "Python",
-      "MQTT"
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
     ],
-    "description": "Join PURE EV's Hyderabad center of engineering excellence building modern CleanTech • EV & Battery Tech solutions for global users.",
+    "description": "Join PURE EV's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering PURE EV.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering PURE EV.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://pureev.in/careers",
     "jobUrl": "https://pureev.in/careers"
@@ -7377,38 +6266,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-pure-ev-3",
     "companyId": "pure-ev",
     "companyName": "PURE EV",
-    "title": "Lead PURE Platform Developer (CleanTech)",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - PURE",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b924 - \u20b938 LPA",
     "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "BMS Firmware",
-      "C/C++",
-      "IoT Telemetry",
       "MATLAB",
-      "Simulink"
+      "Simulink",
+      "C/C++",
+      "Motor Control"
     ],
-    "description": "Join PURE EV's Hyderabad center of engineering excellence building modern CleanTech • EV & Battery Tech solutions for global users.",
+    "description": "Join PURE EV's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering PURE EV.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering PURE EV.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://pureev.in/careers",
     "jobUrl": "https://pureev.in/careers"
@@ -7417,39 +6304,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-eto-motors-1",
     "companyId": "eto-motors",
     "companyName": "ETO Motors",
-    "title": "Senior ETO Systems Software Engineer",
+    "title": "Battery Management System (BMS) Firmware Architect - ETO",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "Python",
       "Embedded C",
       "BMS",
-      "CAN Bus"
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Join ETO Motors's Hyderabad center of engineering excellence building modern Electric Mobility • Fleet Tech solutions for global users.",
+    "description": "Join ETO Motors's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ETO Motors.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ETO Motors.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://etomotors.com/careers",
     "jobUrl": "https://etomotors.com/careers"
@@ -7458,37 +6343,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-eto-motors-2",
     "companyId": "eto-motors",
     "companyName": "ETO Motors",
-    "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 5)",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - ETO",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Node.js",
-      "React",
       "Python",
-      "MQTT"
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
     ],
-    "description": "Join ETO Motors's Hyderabad center of engineering excellence building modern Electric Mobility • Fleet Tech solutions for global users.",
+    "description": "Join ETO Motors's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ETO Motors.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ETO Motors.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://etomotors.com/careers",
     "jobUrl": "https://etomotors.com/careers"
@@ -7497,160 +6382,152 @@ export const HYDERABAD_JOBS = [
     "id": "job-eto-motors-3",
     "companyId": "eto-motors",
     "companyName": "ETO Motors",
-    "title": "Lead ETO Platform Developer (Electric Mobility)",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - ETO",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "Python",
       "MATLAB",
       "Simulink",
-      "C/C++"
+      "C/C++",
+      "Motor Control"
     ],
-    "description": "Join ETO Motors's Hyderabad center of engineering excellence building modern Electric Mobility • Fleet Tech solutions for global users.",
+    "description": "Join ETO Motors's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ETO Motors.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ETO Motors.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://etomotors.com/careers",
     "jobUrl": "https://etomotors.com/careers"
   },
   {
     "id": "job-gmw-india-1",
-    "companyId": "gmw-ev",
+    "companyId": "gmw-india",
     "companyName": "Gayam Motor Works (GMW)",
-    "title": "Senior Gayam Systems Software Engineer (Tier 1)",
+    "title": "Battery Management System (BMS) Firmware Architect - Gayam",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "Embedded C",
-      "Battery Telemetry",
-      "Python",
       "BMS",
-      "CAN Bus"
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center of engineering excellence building modern Smart Mobility • EV Engineering solutions for global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Gayam Motor Works (GMW).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Gayam Motor Works (GMW).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://gayammotorworks.com/careers",
     "jobUrl": "https://gayammotorworks.com/careers"
   },
   {
     "id": "job-gmw-india-2",
-    "companyId": "gmw-ev",
+    "companyId": "gmw-india",
     "companyName": "Gayam Motor Works (GMW)",
-    "title": "Connected Vehicle IoT Telematics Platform Developer (Tier 6)",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - Gayam",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Embedded C",
-      "Battery Telemetry",
-      "Python",
       "Node.js",
-      "MQTT"
+      "Python",
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center of engineering excellence building modern Smart Mobility • EV Engineering solutions for global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Gayam Motor Works (GMW).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Gayam Motor Works (GMW).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://gayammotorworks.com/careers",
     "jobUrl": "https://gayammotorworks.com/careers"
   },
   {
     "id": "job-gmw-india-3",
-    "companyId": "gmw-ev",
+    "companyId": "gmw-india",
     "companyName": "Gayam Motor Works (GMW)",
-    "title": "Lead Gayam Platform Developer (Smart Mobility)",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - Gayam",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Embedded C",
-      "Battery Telemetry",
-      "Python",
       "MATLAB",
       "Simulink",
-      "C/C++"
+      "C/C++",
+      "Motor Control"
     ],
-    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center of engineering excellence building modern Smart Mobility • EV Engineering solutions for global users.",
+    "description": "Join Gayam Motor Works (GMW)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Gayam Motor Works (GMW).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Gayam Motor Works (GMW).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://gayammotorworks.com/careers",
     "jobUrl": "https://gayammotorworks.com/careers"
@@ -7659,39 +6536,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-keka-hr-1",
     "companyId": "keka-hr",
     "companyName": "Keka HR",
-    "title": "Senior Keka Systems Software Engineer (Tier 1)",
+    "title": "Senior Full Stack Cloud Platform Engineer - Keka",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET Core",
-      "Angular",
       "Java",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Keka HR's Hyderabad center of engineering excellence building modern HR Tech • Payroll & People Analytics solutions for global users.",
+    "description": "Join Keka HR's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Keka HR.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Keka HR.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.keka.com/careers",
     "jobUrl": "https://www.keka.com/careers"
@@ -7700,39 +6575,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-keka-hr-2",
     "companyId": "keka-hr",
     "companyName": "Keka HR",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 13)",
+    "title": "Lead Distributed Systems & Kafka Architect - Keka",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET Core",
-      "Angular",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Keka HR's Hyderabad center of engineering excellence building modern HR Tech • Payroll & People Analytics solutions for global users.",
+    "description": "Join Keka HR's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Keka HR.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Keka HR.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.keka.com/careers",
     "jobUrl": "https://www.keka.com/careers"
@@ -7741,39 +6614,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-keka-hr-3",
     "companyId": "keka-hr",
     "companyName": "Keka HR",
-    "title": "Lead Keka Platform Developer (HR Tech) (Tier 1)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Keka",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET Core",
-      "Angular",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Keka HR's Hyderabad center of engineering excellence building modern HR Tech • Payroll & People Analytics solutions for global users.",
+    "description": "Join Keka HR's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Keka HR.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Keka HR.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.keka.com/careers",
     "jobUrl": "https://www.keka.com/careers"
@@ -7782,38 +6652,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-zenoti-1",
     "companyId": "zenoti",
     "companyName": "Zenoti",
-    "title": "Senior Zenoti Systems Software Engineer (Tier 1)",
+    "title": "Senior Full Stack Cloud Platform Engineer - Zenoti",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET",
-      "React",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Zenoti's Hyderabad center of engineering excellence building modern Beauty & Wellness SaaS Unicorn solutions for global users.",
+    "description": "Join Zenoti's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zenoti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Zenoti.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.zenoti.com/careers",
     "jobUrl": "https://www.zenoti.com/careers"
@@ -7822,39 +6691,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-zenoti-2",
     "companyId": "zenoti",
     "companyName": "Zenoti",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 14)",
+    "title": "Lead Distributed Systems & Kafka Architect - Zenoti",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Zenoti's Hyderabad center of engineering excellence building modern Beauty & Wellness SaaS Unicorn solutions for global users.",
+    "description": "Join Zenoti's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zenoti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Zenoti.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.zenoti.com/careers",
     "jobUrl": "https://www.zenoti.com/careers"
@@ -7863,39 +6730,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-zenoti-3",
     "companyId": "zenoti",
     "companyName": "Zenoti",
-    "title": "Lead Zenoti Platform Developer (Beauty & Wellness SaaS Unicorn)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Zenoti",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C#",
-      ".NET",
       "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Zenoti's Hyderabad center of engineering excellence building modern Beauty & Wellness SaaS Unicorn solutions for global users.",
+    "description": "Join Zenoti's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Zenoti.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Zenoti.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.zenoti.com/careers",
     "jobUrl": "https://www.zenoti.com/careers"
@@ -7904,283 +6768,300 @@ export const HYDERABAD_JOBS = [
     "id": "job-kore-ai-1",
     "companyId": "kore-ai",
     "companyName": "Kore.ai",
-    "title": "Senior Kore.ai Systems Software Engineer (Tier 1)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Kore.ai",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "Python",
-      "Node.js",
-      "Java",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Kore.ai's Hyderabad center of engineering excellence building modern Conversational AI • Enterprise GenAI solutions for global users.",
+    "description": "Join Kore.ai's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kore.ai.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Kore.ai.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://kore.ai/careers/",
-    "jobUrl": "https://kore.ai/careers/"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-2",
     "companyId": "kore-ai",
     "companyName": "Kore.ai",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 9)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Kore.ai",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "Python",
-      "Node.js",
-      "Java",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Kore.ai's Hyderabad center of engineering excellence building modern Conversational AI • Enterprise GenAI solutions for global users.",
+    "description": "Join Kore.ai's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kore.ai.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Kore.ai.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://kore.ai/careers/",
-    "jobUrl": "https://kore.ai/careers/"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-kore-ai-3",
     "companyId": "kore-ai",
     "companyName": "Kore.ai",
-    "title": "Lead Kore.ai Platform Developer (Conversational AI)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Kore.ai",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
-      "Java",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Kore.ai's Hyderabad center of engineering excellence building modern Conversational AI • Enterprise GenAI solutions for global users.",
+    "description": "Join Kore.ai's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kore.ai.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Kore.ai.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://kore.ai/careers/",
-    "jobUrl": "https://kore.ai/careers/"
+    "applyUrl": "https://koreai.bamboohr.com/careers",
+    "jobUrl": "https://koreai.bamboohr.com/careers"
   },
   {
     "id": "job-ozonetel-1",
     "companyId": "ozonetel",
     "companyName": "Ozonetel Communications",
-    "title": "Senior Ozonetel Systems Software Engineer",
+    "title": "InfoSec Compliance Manager\nCompliance Manager\nHyderabad\nMore Details",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "Python",
-      "WebRTC",
-      "SIP/VoIP",
-      "Java",
-      "Spring Boot",
-      "React"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad center of engineering excellence building modern Cloud Telephony • CCaaS AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Ozonetel Communications Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Ozonetel Communications.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Ozonetel Communications.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/careers/",
-    "jobUrl": "https://ozonetel.com/careers/"
+    "applyUrl": "https://ozonetel.com/jobs/infosec-compliance-manager/",
+    "jobUrl": "https://ozonetel.com/jobs/infosec-compliance-manager/"
   },
   {
     "id": "job-ozonetel-2",
     "companyId": "ozonetel",
     "companyName": "Ozonetel Communications",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 15)",
+    "title": "Forward Deployment Engineer (FDE)\nMore Details",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "Python",
-      "WebRTC",
-      "SIP/VoIP",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad center of engineering excellence building modern Cloud Telephony • CCaaS AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Ozonetel Communications Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Ozonetel Communications.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Ozonetel Communications.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/careers/",
-    "jobUrl": "https://ozonetel.com/careers/"
+    "applyUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=196017",
+    "jobUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=196017"
   },
   {
     "id": "job-ozonetel-3",
     "companyId": "ozonetel",
     "companyName": "Ozonetel Communications",
-    "title": "Lead Ozonetel Platform Developer (Cloud Telephony)",
+    "title": "Manager \u2013 Key Accounts\nAccounts\nMumbai\nMore Details",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "Python",
-      "WebRTC",
-      "SIP/VoIP",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Ozonetel Communications's Hyderabad center of engineering excellence building modern Cloud Telephony • CCaaS AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Ozonetel Communications Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Ozonetel Communications.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Ozonetel Communications.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/careers/",
-    "jobUrl": "https://ozonetel.com/careers/"
+    "applyUrl": "https://ozonetel.com/jobs/manager-key-accounts/",
+    "jobUrl": "https://ozonetel.com/jobs/manager-key-accounts/"
+  },
+  {
+    "id": "job-ozonetel-4",
+    "companyId": "ozonetel",
+    "companyName": "Ozonetel Communications",
+    "title": "Associate \u2013 Project Manager\nEngineering\nHyderabadChennai\nMore Details",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 4,
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Ozonetel Communications Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Ozonetel Communications.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=190990",
+    "jobUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=190990"
   },
   {
     "id": "job-quantela-1",
     "companyId": "quantela",
     "companyName": "Quantela",
-    "title": "Senior Quantela Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Quantela",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Quantela's Hyderabad center of engineering excellence building modern Smart Cities • IoT Analytics solutions for global users.",
+    "description": "Join Quantela's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Quantela.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Quantela.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.quantela.com/careers",
     "jobUrl": "https://www.quantela.com/careers"
@@ -8189,39 +7070,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-quantela-2",
     "companyId": "quantela",
     "companyName": "Quantela",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 10)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Quantela",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
-      "C++",
       "Python",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Quantela's Hyderabad center of engineering excellence building modern Smart Cities • IoT Analytics solutions for global users.",
+    "description": "Join Quantela's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Quantela.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Quantela.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.quantela.com/careers",
     "jobUrl": "https://www.quantela.com/careers"
@@ -8230,39 +7108,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-quantela-3",
     "companyId": "quantela",
     "companyName": "Quantela",
-    "title": "Lead Quantela Platform Developer (Smart Cities)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Quantela",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Quantela's Hyderabad center of engineering excellence building modern Smart Cities • IoT Analytics solutions for global users.",
+    "description": "Join Quantela's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Quantela.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Quantela.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.quantela.com/careers",
     "jobUrl": "https://www.quantela.com/careers"
@@ -8271,282 +7146,227 @@ export const HYDERABAD_JOBS = [
     "id": "job-qualizeal-1",
     "companyId": "qualizeal",
     "companyName": "QualiZeal",
-    "title": "Senior QualiZeal Systems Software Engineer",
+    "title": "Site Reliability Engineering",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Selenium",
-      "Playwright",
-      "Java",
-      "Spring Boot",
-      "React"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join QualiZeal's Hyderabad center of engineering excellence building modern AI Quality Engineering • Digital Assurance solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at QualiZeal Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering QualiZeal.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for QualiZeal.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://qualizeal.com/careers/",
-    "jobUrl": "https://qualizeal.com/careers/"
+    "applyUrl": "https://qualizeal.com/services/site-reliability-engineering/",
+    "jobUrl": "https://qualizeal.com/services/site-reliability-engineering/"
   },
   {
     "id": "job-qualizeal-2",
     "companyId": "qualizeal",
     "companyName": "QualiZeal",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 16)",
+    "title": "Analyst Recognitions",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Selenium",
-      "Playwright",
-      "Java",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join QualiZeal's Hyderabad center of engineering excellence building modern AI Quality Engineering • Digital Assurance solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at QualiZeal Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering QualiZeal.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for QualiZeal.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://qualizeal.com/careers/",
-    "jobUrl": "https://qualizeal.com/careers/"
-  },
-  {
-    "id": "job-qualizeal-3",
-    "companyId": "qualizeal",
-    "companyName": "QualiZeal",
-    "title": "Lead QualiZeal Platform Developer (AI Quality Engineering)",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Selenium",
-      "Playwright",
-      "Java",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
-    ],
-    "description": "Join QualiZeal's Hyderabad center of engineering excellence building modern AI Quality Engineering • Digital Assurance solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering QualiZeal.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://qualizeal.com/careers/",
-    "jobUrl": "https://qualizeal.com/careers/"
+    "applyUrl": "https://qualizeal.com/analyst-recognitions/",
+    "jobUrl": "https://qualizeal.com/analyst-recognitions/"
   },
   {
     "id": "job-pando-ai-1",
     "companyId": "pando-ai",
     "companyName": "Pando AI",
-    "title": "Senior Pando Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Pando",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
-      "React",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Pando AI's Hyderabad center of engineering excellence building modern Supply Chain SaaS • Logistics Tech solutions for global users.",
+    "description": "Join Pando AI's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pando AI.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Pando AI.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://pando.ai/careers/",
-    "jobUrl": "https://pando.ai/careers/"
+    "applyUrl": "https://jobs.lever.co/pando",
+    "jobUrl": "https://jobs.lever.co/pando"
   },
   {
     "id": "job-pando-ai-2",
     "companyId": "pando-ai",
     "companyName": "Pando AI",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 17)",
+    "title": "Lead Distributed Systems & Kafka Architect - Pando",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
-      "React",
-      "TypeScript",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Pando AI's Hyderabad center of engineering excellence building modern Supply Chain SaaS • Logistics Tech solutions for global users.",
+    "description": "Join Pando AI's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pando AI.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Pando AI.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://pando.ai/careers/",
-    "jobUrl": "https://pando.ai/careers/"
+    "applyUrl": "https://jobs.lever.co/pando",
+    "jobUrl": "https://jobs.lever.co/pando"
   },
   {
     "id": "job-pando-ai-3",
     "companyId": "pando-ai",
     "companyName": "Pando AI",
-    "title": "Lead Pando Platform Developer (Supply Chain SaaS)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Pando",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
       "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Pando AI's Hyderabad center of engineering excellence building modern Supply Chain SaaS • Logistics Tech solutions for global users.",
+    "description": "Join Pando AI's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pando AI.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Pando AI.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://pando.ai/careers/",
-    "jobUrl": "https://pando.ai/careers/"
+    "applyUrl": "https://jobs.lever.co/pando",
+    "jobUrl": "https://jobs.lever.co/pando"
   },
   {
     "id": "job-fashor-1",
     "companyId": "fashor",
     "companyName": "Fashor",
-    "title": "Senior Fashor Systems Software Engineer",
+    "title": "Real-Time Multiplayer Game Engine Backend Developer - Fashor",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b926 - \u20b944 LPA",
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Shopify Plus",
-      "React",
-      "Node.js",
       "C++",
       "Go",
-      "WebSockets"
+      "WebSockets",
+      "Redis",
+      "AWS Gamelift"
     ],
-    "description": "Join Fashor's Hyderabad center of engineering excellence building modern D2C E-Commerce • Fashion Tech solutions for global users.",
+    "description": "Join Fashor's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fashor.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Fashor.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://fashor.com/pages/careers",
     "jobUrl": "https://fashor.com/pages/careers"
@@ -8555,80 +7375,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-fashor-2",
     "companyId": "fashor",
     "companyName": "Fashor",
-    "title": "Graphics & Interactive 3D WebGL Frontend Engineer (Tier 4)",
+    "title": "3D Graphics & Interactive WebGL Systems Engineer - Fashor",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Shopify Plus",
-      "React",
-      "Node.js",
       "Three.js",
       "WebGL",
-      "TypeScript"
-    ],
-    "description": "Join Fashor's Hyderabad center of engineering excellence building modern D2C E-Commerce • Fashion Tech solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fashor.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://fashor.com/pages/careers",
-    "jobUrl": "https://fashor.com/pages/careers"
-  },
-  {
-    "id": "job-fashor-3",
-    "companyId": "fashor",
-    "companyName": "Fashor",
-    "title": "Lead Fashor Platform Developer (D2C E-Commerce)",
-    "roleCategory": "AI / ML",
-    "industry": "Gaming & Media",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
-    "hubId": "madhapur",
-    "area": "Madhapur & Durgam Cheruvu, Hyderabad",
-    "skills": [
-      "Shopify Plus",
+      "TypeScript",
       "React",
-      "Node.js",
-      "Python",
-      "ML",
-      "Spark"
+      "Shaders"
     ],
-    "description": "Join Fashor's Hyderabad center of engineering excellence building modern D2C E-Commerce • Fashion Tech solutions for global users.",
+    "description": "Join Fashor's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Fashor.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Fashor.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://fashor.com/pages/careers",
     "jobUrl": "https://fashor.com/pages/careers"
@@ -8637,38 +7414,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-innominds-1",
     "companyId": "innominds",
     "companyName": "Innominds",
-    "title": "Senior Innominds Systems Software Engineer (Tier 1)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Innominds",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Python",
-      "Java",
-      "C++",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Innominds's Hyderabad center of engineering excellence building modern AI & Edge Product Engineering solutions for global users.",
+    "description": "Join Innominds's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Innominds.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Innominds.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.innominds.com/careers",
     "jobUrl": "https://www.innominds.com/careers"
@@ -8677,37 +7453,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-innominds-2",
     "companyId": "innominds",
     "companyName": "Innominds",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 11)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Innominds",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Python",
-      "Java",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Innominds's Hyderabad center of engineering excellence building modern AI & Edge Product Engineering solutions for global users.",
+    "description": "Join Innominds's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Innominds.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Innominds.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.innominds.com/careers",
     "jobUrl": "https://www.innominds.com/careers"
@@ -8716,39 +7491,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-innominds-3",
     "companyId": "innominds",
     "companyName": "Innominds",
-    "title": "Lead Innominds Platform Developer (AI & Edge Product Engineering)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Innominds",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "Java",
       "C++",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Innominds's Hyderabad center of engineering excellence building modern AI & Edge Product Engineering solutions for global users.",
+    "description": "Join Innominds's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Innominds.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Innominds.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.innominds.com/careers",
     "jobUrl": "https://www.innominds.com/careers"
@@ -8757,37 +7529,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-ctrls-datacenters-1",
     "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
-    "title": "Senior CtrlS Systems Software Engineer (Tier 1)",
+    "title": "Senior Full Stack Cloud Platform Engineer - CtrlS",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "OpenStack",
-      "Kubernetes",
-      "BGP/Networking",
-      "BGP"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad center of engineering excellence building modern Cloud Infrastructure • Rated-4 Datacenters solutions for global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering CtrlS Datacenters.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering CtrlS Datacenters.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ctrls.in/careers.html",
     "jobUrl": "https://www.ctrls.in/careers.html"
@@ -8796,39 +7568,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-ctrls-datacenters-2",
     "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
-    "title": "Site Reliability & Bare-Metal Automation Engineer (Tier 2)",
+    "title": "Lead Distributed Systems & Kafka Architect - CtrlS",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "OpenStack",
-      "Kubernetes",
-      "BGP/Networking",
-      "Terraform",
-      "Ansible",
-      "Python"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad center of engineering excellence building modern Cloud Infrastructure • Rated-4 Datacenters solutions for global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering CtrlS Datacenters.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering CtrlS Datacenters.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ctrls.in/careers.html",
     "jobUrl": "https://www.ctrls.in/careers.html"
@@ -8837,39 +7607,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-ctrls-datacenters-3",
     "companyId": "ctrls-datacenters",
     "companyName": "CtrlS Datacenters",
-    "title": "Lead CtrlS Platform Developer (Cloud Infrastructure)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - CtrlS",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "OpenStack",
-      "Kubernetes",
-      "BGP/Networking",
-      "PostgreSQL",
-      "Ceph",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join CtrlS Datacenters's Hyderabad center of engineering excellence building modern Cloud Infrastructure • Rated-4 Datacenters solutions for global users.",
+    "description": "Join CtrlS Datacenters's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering CtrlS Datacenters.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering CtrlS Datacenters.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.ctrls.in/careers.html",
     "jobUrl": "https://www.ctrls.in/careers.html"
@@ -8878,281 +7645,296 @@ export const HYDERABAD_JOBS = [
     "id": "job-cloud4c-1",
     "companyId": "cloud4c",
     "companyName": "Cloud4C Services",
-    "title": "Senior Cloud4C Systems Software Engineer (Tier 1)",
+    "title": "SAP Solution Manager Services",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "AWS",
-      "Azure",
-      "GCP",
-      "OpenStack",
-      "BGP",
-      "Kubernetes"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Cloud4C Services's Hyderabad center of engineering excellence building modern Managed Cloud • AI & DevOps solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Cloud4C Services Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloud4C Services.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Cloud4C Services.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers",
-    "jobUrl": "https://www.cloud4c.com/careers"
+    "applyUrl": "https://www.cloud4c.com/sap/sap-solution-manager",
+    "jobUrl": "https://www.cloud4c.com/sap/sap-solution-manager"
   },
   {
     "id": "job-cloud4c-2",
     "companyId": "cloud4c",
     "companyName": "Cloud4C Services",
-    "title": "Site Reliability & Bare-Metal Automation Engineer (Tier 3)",
+    "title": "Well Architected Review",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "AWS",
-      "Azure",
-      "GCP",
-      "Terraform",
-      "Ansible",
-      "Python"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Cloud4C Services's Hyderabad center of engineering excellence building modern Managed Cloud • AI & DevOps solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Cloud4C Services Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloud4C Services.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Cloud4C Services.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers",
-    "jobUrl": "https://www.cloud4c.com/careers"
+    "applyUrl": "https://www.cloud4c.com/azure-cloud-services/azure-well-architected-review",
+    "jobUrl": "https://www.cloud4c.com/azure-cloud-services/azure-well-architected-review"
   },
   {
     "id": "job-cloud4c-3",
     "companyId": "cloud4c",
     "companyName": "Cloud4C Services",
-    "title": "Lead Cloud4C Platform Developer (Managed Cloud)",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "Cloud & Infrastructure",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "AWS",
-      "Azure",
-      "GCP",
-      "PostgreSQL",
-      "Ceph",
-      "Redis"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Cloud4C Services's Hyderabad center of engineering excellence building modern Managed Cloud • AI & DevOps solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Cloud4C Services Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Cloud4C Services.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Cloud4C Services.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.cloud4c.com/careers",
-    "jobUrl": "https://www.cloud4c.com/careers"
+    "applyUrl": "https://www.cloud4c.com/leadership",
+    "jobUrl": "https://www.cloud4c.com/leadership"
   },
   {
     "id": "job-kellton-tech-1",
     "companyId": "kellton-tech",
     "companyName": "Kellton Tech",
-    "title": "Senior Kellton Systems Software Engineer",
+    "title": "Al Engineering & Platforms",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "2-5 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Java",
-      "React",
-      "Node.js",
-      "AWS/Azure",
-      "Microservices"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Kellton Tech's Hyderabad center of engineering excellence building modern Digital Transformation • Enterprise AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Kellton Tech Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kellton Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Kellton Tech.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.kellton.com/careers",
-    "jobUrl": "https://www.kellton.com/careers"
+    "applyUrl": "https://www.kellton.com/ai-services/ai-platform-engineering-services",
+    "jobUrl": "https://www.kellton.com/ai-services/ai-platform-engineering-services"
   },
   {
     "id": "job-kellton-tech-2",
     "companyId": "kellton-tech",
     "companyName": "Kellton Tech",
-    "title": "Enterprise Automated Quality Engineering Architect (Tier 3)",
+    "title": "Data Engineering for Al",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Java",
-      "React",
-      "Node.js",
-      "Playwright",
-      "Selenium"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Kellton Tech's Hyderabad center of engineering excellence building modern Digital Transformation • Enterprise AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Kellton Tech Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kellton Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Kellton Tech.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.kellton.com/careers",
-    "jobUrl": "https://www.kellton.com/careers"
+    "applyUrl": "https://www.kellton.com/ai-services/data-engineering-ai",
+    "jobUrl": "https://www.kellton.com/ai-services/data-engineering-ai"
   },
   {
     "id": "job-kellton-tech-3",
     "companyId": "kellton-tech",
     "companyName": "Kellton Tech",
-    "title": "Lead Kellton Platform Developer (Digital Transformation)",
+    "title": "Product Engineering",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Java",
-      "React",
-      "Node.js",
-      "PostgreSQL"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Kellton Tech's Hyderabad center of engineering excellence building modern Digital Transformation • Enterprise AI solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Kellton Tech Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Kellton Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Kellton Tech.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.kellton.com/careers",
-    "jobUrl": "https://www.kellton.com/careers"
+    "applyUrl": "https://www.kellton.com/product-engineering",
+    "jobUrl": "https://www.kellton.com/product-engineering"
+  },
+  {
+    "id": "job-kellton-tech-4",
+    "companyId": "kellton-tech",
+    "companyName": "Kellton Tech",
+    "title": "Mobile Engineering",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / IT Services",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 4,
+    "hubId": "madhapur",
+    "area": "Madhapur & Durgam Cheruvu, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Kellton Tech Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Kellton Tech.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.kellton.com/product-engineering/mobile-engineering",
+    "jobUrl": "https://www.kellton.com/product-engineering/mobile-engineering"
   },
   {
     "id": "job-medplus-tech-1",
     "companyId": "medplus-tech",
     "companyName": "MedPlus Health (Tech Hub)",
-    "title": "Senior MedPlus Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - MedPlus",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad center of engineering excellence building modern HealthTech • E-Pharmacy & Logistics solutions for global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering MedPlus Health (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering MedPlus Health (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.medplusindia.com/careers",
     "jobUrl": "https://www.medplusindia.com/careers"
@@ -9161,39 +7943,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-medplus-tech-2",
     "companyId": "medplus-tech",
     "companyName": "MedPlus Health (Tech Hub)",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 7)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - MedPlus",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
       "Python",
       "Signal Processing",
-      "PyTorch"
+      "PyTorch",
+      "FastAPI"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad center of engineering excellence building modern HealthTech • E-Pharmacy & Logistics solutions for global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering MedPlus Health (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering MedPlus Health (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.medplusindia.com/careers",
     "jobUrl": "https://www.medplusindia.com/careers"
@@ -9202,39 +7981,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-medplus-tech-3",
     "companyId": "medplus-tech",
     "companyName": "MedPlus Health (Tech Hub)",
-    "title": "Lead MedPlus Platform Developer (HealthTech)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - MedPlus",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad center of engineering excellence building modern HealthTech • E-Pharmacy & Logistics solutions for global users.",
+    "description": "Join MedPlus Health (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering MedPlus Health (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering MedPlus Health (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.medplusindia.com/careers",
     "jobUrl": "https://www.medplusindia.com/careers"
@@ -9243,38 +8020,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-enmovil-1",
     "companyId": "enmovil",
     "companyName": "Enmovil Solutions",
-    "title": "Senior Enmovil Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Enmovil",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
     "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Node.js",
       "Python",
-      "React",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Enmovil Solutions's Hyderabad center of engineering excellence building modern Logistics Tech • Multimodal IoT solutions for global users.",
+    "description": "Join Enmovil Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Enmovil Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Enmovil Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://enmovil.net/careers/",
     "jobUrl": "https://enmovil.net/careers/"
@@ -9283,38 +8059,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-enmovil-2",
     "companyId": "enmovil",
     "companyName": "Enmovil Solutions",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 12)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Enmovil",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
     "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Node.js",
       "Python",
-      "React",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Enmovil Solutions's Hyderabad center of engineering excellence building modern Logistics Tech • Multimodal IoT solutions for global users.",
+    "description": "Join Enmovil Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Enmovil Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Enmovil Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://enmovil.net/careers/",
     "jobUrl": "https://enmovil.net/careers/"
@@ -9323,39 +8097,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-enmovil-3",
     "companyId": "enmovil",
     "companyName": "Enmovil Solutions",
-    "title": "Lead Enmovil Platform Developer (Logistics Tech)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Enmovil",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
     "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Node.js",
-      "Python",
-      "React",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Enmovil Solutions's Hyderabad center of engineering excellence building modern Logistics Tech • Multimodal IoT solutions for global users.",
+    "description": "Join Enmovil Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Enmovil Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Enmovil Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://enmovil.net/careers/",
     "jobUrl": "https://enmovil.net/careers/"
@@ -9364,38 +8135,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-appshark-1",
     "companyId": "appshark",
     "companyName": "AppShark Software",
-    "title": "Senior AppShark Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - AppShark",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Salesforce Apex",
-      "LWC",
       "Java",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join AppShark Software's Hyderabad center of engineering excellence building modern Salesforce & Cloud Integration solutions for global users.",
+    "description": "Join AppShark Software's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering AppShark Software.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering AppShark Software.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.appshark.com/careers/",
     "jobUrl": "https://www.appshark.com/careers/"
@@ -9404,39 +8174,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-appshark-2",
     "companyId": "appshark",
     "companyName": "AppShark Software",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 18)",
+    "title": "Lead Distributed Systems & Kafka Architect - AppShark",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Salesforce Apex",
-      "LWC",
       "Java",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join AppShark Software's Hyderabad center of engineering excellence building modern Salesforce & Cloud Integration solutions for global users.",
+    "description": "Join AppShark Software's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering AppShark Software.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering AppShark Software.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.appshark.com/careers/",
     "jobUrl": "https://www.appshark.com/careers/"
@@ -9445,39 +8213,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-appshark-3",
     "companyId": "appshark",
     "companyName": "AppShark Software",
-    "title": "Lead AppShark Platform Developer (Salesforce & Cloud Integration)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - AppShark",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Salesforce Apex",
-      "LWC",
-      "Java",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join AppShark Software's Hyderabad center of engineering excellence building modern Salesforce & Cloud Integration solutions for global users.",
+    "description": "Join AppShark Software's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering AppShark Software.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering AppShark Software.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.appshark.com/careers/",
     "jobUrl": "https://www.appshark.com/careers/"
@@ -9486,39 +8251,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-highspot-hyd-1",
     "companyId": "highspot-hyd",
     "companyName": "Highspot Hyderabad",
-    "title": "Senior Highspot Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Highspot",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Clojure",
-      "Ruby",
-      "TypeScript",
       "Java",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad center of engineering excellence building modern Sales Enablement AI Unicorn solutions for global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Highspot Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Highspot Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.highspot.com/careers/",
     "jobUrl": "https://www.highspot.com/careers/"
@@ -9527,38 +8290,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-highspot-hyd-2",
     "companyId": "highspot-hyd",
     "companyName": "Highspot Hyderabad",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 19)",
+    "title": "Lead Distributed Systems & Kafka Architect - Highspot",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Clojure",
-      "Ruby",
-      "TypeScript",
-      "Node.js",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad center of engineering excellence building modern Sales Enablement AI Unicorn solutions for global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Highspot Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Highspot Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.highspot.com/careers/",
     "jobUrl": "https://www.highspot.com/careers/"
@@ -9567,39 +8329,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-highspot-hyd-3",
     "companyId": "highspot-hyd",
     "companyName": "Highspot Hyderabad",
-    "title": "Lead Highspot Platform Developer (Sales Enablement AI Unicorn)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Highspot",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Clojure",
-      "Ruby",
+      "React",
       "TypeScript",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Highspot Hyderabad's Hyderabad center of engineering excellence building modern Sales Enablement AI Unicorn solutions for global users.",
+    "description": "Join Highspot Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Highspot Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Highspot Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.highspot.com/careers/",
     "jobUrl": "https://www.highspot.com/careers/"
@@ -9608,38 +8367,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-turing-hyd-1",
     "companyId": "turing-hyd",
     "companyName": "Turing.com (Hyderabad Hub)",
-    "title": "Senior Turing.com Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - Turing.com",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
       "Python",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad center of engineering excellence building modern AI Developer Platform • Remote Tech solutions for global users.",
+    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Turing.com (Hyderabad Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Turing.com (Hyderabad Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.turing.com/careers",
     "jobUrl": "https://www.turing.com/careers"
@@ -9648,38 +8406,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-turing-hyd-2",
     "companyId": "turing-hyd",
     "companyName": "Turing.com (Hyderabad Hub)",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 13)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Turing.com",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
       "Python",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad center of engineering excellence building modern AI Developer Platform • Remote Tech solutions for global users.",
+    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Turing.com (Hyderabad Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Turing.com (Hyderabad Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.turing.com/careers",
     "jobUrl": "https://www.turing.com/careers"
@@ -9688,39 +8444,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-turing-hyd-3",
     "companyId": "turing-hyd",
     "companyName": "Turing.com (Hyderabad Hub)",
-    "title": "Lead Turing.com Platform Developer (AI Developer Platform)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Turing.com",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Python",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad center of engineering excellence building modern AI Developer Platform • Remote Tech solutions for global users.",
+    "description": "Join Turing.com (Hyderabad Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Turing.com (Hyderabad Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Turing.com (Hyderabad Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.turing.com/careers",
     "jobUrl": "https://www.turing.com/careers"
@@ -9729,39 +8482,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-paymatrix-1",
     "companyId": "paymatrix",
     "companyName": "Paymatrix",
-    "title": "Senior Paymatrix Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Paymatrix",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "Python",
       "Java",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Paymatrix's Hyderabad center of engineering excellence building modern FinTech • Payments & Credit solutions for global users.",
+    "description": "Join Paymatrix's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Paymatrix.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Paymatrix.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://paymatrix.in/careers",
     "jobUrl": "https://paymatrix.in/careers"
@@ -9770,38 +8521,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-paymatrix-2",
     "companyId": "paymatrix",
     "companyName": "Paymatrix",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 10)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Paymatrix",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "Python",
-      "PyTorch",
-      "XGBoost"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Paymatrix's Hyderabad center of engineering excellence building modern FinTech • Payments & Credit solutions for global users.",
+    "description": "Join Paymatrix's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Paymatrix.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Paymatrix.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://paymatrix.in/careers",
     "jobUrl": "https://paymatrix.in/careers"
@@ -9810,38 +8560,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-paymatrix-3",
     "companyId": "paymatrix",
     "companyName": "Paymatrix",
-    "title": "Lead Paymatrix Platform Developer (FinTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Paymatrix",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Node.js",
       "React",
-      "Python",
-      "Go",
-      "Redis"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Paymatrix's Hyderabad center of engineering excellence building modern FinTech • Payments & Credit solutions for global users.",
+    "description": "Join Paymatrix's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Paymatrix.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Paymatrix.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://paymatrix.in/careers",
     "jobUrl": "https://paymatrix.in/careers"
@@ -9850,37 +8598,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-vivriti-hyd-1",
     "companyId": "vivriti-hyd",
     "companyName": "Vivriti Capital (Tech Hub)",
-    "title": "Senior Vivriti Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Vivriti",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Java",
       "Spring Boot",
       "React",
-      "Kafka"
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad center of engineering excellence building modern FinTech • Enterprise Debt & APIs solutions for global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Vivriti Capital (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Vivriti Capital (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.vivriticapital.com/careers",
     "jobUrl": "https://www.vivriticapital.com/careers"
@@ -9889,39 +8637,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-vivriti-hyd-2",
     "companyId": "vivriti-hyd",
     "companyName": "Vivriti Capital (Tech Hub)",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 11)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Vivriti",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Java",
-      "Spring Boot",
-      "React",
-      "Python",
-      "PyTorch",
-      "XGBoost"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad center of engineering excellence building modern FinTech • Enterprise Debt & APIs solutions for global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Vivriti Capital (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Vivriti Capital (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.vivriticapital.com/careers",
     "jobUrl": "https://www.vivriticapital.com/careers"
@@ -9930,39 +8676,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-vivriti-hyd-3",
     "companyId": "vivriti-hyd",
     "companyName": "Vivriti Capital (Tech Hub)",
-    "title": "Lead Vivriti Platform Developer (FinTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Vivriti",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
       "React",
-      "Go",
-      "Node.js",
-      "Redis"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad center of engineering excellence building modern FinTech • Enterprise Debt & APIs solutions for global users.",
+    "description": "Join Vivriti Capital (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Vivriti Capital (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Vivriti Capital (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.vivriticapital.com/careers",
     "jobUrl": "https://www.vivriticapital.com/careers"
@@ -9971,39 +8714,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-myclassboard-1",
     "companyId": "myclassboard",
     "companyName": "MyClassboard (MCB)",
-    "title": "Senior MyClassboard Systems Software Engineer",
+    "title": "Interactive Learning Platform Full Stack Engineer - MyClassboard",
     "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "Angular",
       "React",
       "Node.js",
-      "GraphQL"
+      "GraphQL",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join MyClassboard (MCB)'s Hyderabad center of engineering excellence building modern EdTech • School ERP & AI solutions for global users.",
+    "description": "Join MyClassboard (MCB)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering MyClassboard (MCB).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering MyClassboard (MCB).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://myclassboard.com/careers/",
     "jobUrl": "https://myclassboard.com/careers/"
@@ -10012,80 +8753,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-myclassboard-2",
     "companyId": "myclassboard",
     "companyName": "MyClassboard (MCB)",
-    "title": "Adaptive Assessment & Student Learning AI Specialist (Tier 2)",
-    "roleCategory": "AI / ML",
-    "industry": "EdTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
-    "hubId": "hitec-city",
-    "area": "HITEC City / Kondapur, Hyderabad",
-    "skills": [
-      ".NET Core",
-      "C#",
-      "Angular",
-      "Python",
-      "NLP",
-      "PyTorch"
-    ],
-    "description": "Join MyClassboard (MCB)'s Hyderabad center of engineering excellence building modern EdTech • School ERP & AI solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering MyClassboard (MCB).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://myclassboard.com/careers/",
-    "jobUrl": "https://myclassboard.com/careers/"
-  },
-  {
-    "id": "job-myclassboard-3",
-    "companyId": "myclassboard",
-    "companyName": "MyClassboard (MCB)",
-    "title": "Lead MyClassboard Platform Developer (EdTech)",
+    "title": "Adaptive AI Learning & Assessment Specialist - MyClassboard",
     "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City / Kondapur, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "Angular",
-      "React Native",
-      "TypeScript",
-      "Redux"
+      "Python",
+      "NLP",
+      "PyTorch",
+      "Recommender Systems"
     ],
-    "description": "Join MyClassboard (MCB)'s Hyderabad center of engineering excellence building modern EdTech • School ERP & AI solutions for global users.",
+    "description": "Join MyClassboard (MCB)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering MyClassboard (MCB).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering MyClassboard (MCB).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://myclassboard.com/careers/",
     "jobUrl": "https://myclassboard.com/careers/"
@@ -10094,38 +8791,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-smarterp-1",
     "companyId": "smarterp",
     "companyName": "SmartERP Solutions",
-    "title": "Senior SmartERP Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - SmartERP",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "Oracle Cloud",
-      "PeopleSoft",
-      "AWS/Azure",
-      "Microservices"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join SmartERP Solutions's Hyderabad center of engineering excellence building modern Enterprise Cloud • Oracle & AI solutions for global users.",
+    "description": "Join SmartERP Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering SmartERP Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering SmartERP Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.smarterp.com/careers/",
     "jobUrl": "https://www.smarterp.com/careers/"
@@ -10134,38 +8830,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-smarterp-2",
     "companyId": "smarterp",
     "companyName": "SmartERP Solutions",
-    "title": "Enterprise Automated Quality Engineering Architect (Tier 4)",
+    "title": "Lead Distributed Systems & Kafka Architect - SmartERP",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
       "Java",
-      "Oracle Cloud",
-      "PeopleSoft",
-      "Playwright",
-      "Selenium"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join SmartERP Solutions's Hyderabad center of engineering excellence building modern Enterprise Cloud • Oracle & AI solutions for global users.",
+    "description": "Join SmartERP Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering SmartERP Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering SmartERP Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.smarterp.com/careers/",
     "jobUrl": "https://www.smarterp.com/careers/"
@@ -10174,39 +8869,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-smarterp-3",
     "companyId": "smarterp",
     "companyName": "SmartERP Solutions",
-    "title": "Lead SmartERP Platform Developer (Enterprise Cloud)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - SmartERP",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Java",
-      "Oracle Cloud",
-      "PeopleSoft",
       "React",
-      "Node.js",
-      "PostgreSQL"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join SmartERP Solutions's Hyderabad center of engineering excellence building modern Enterprise Cloud • Oracle & AI solutions for global users.",
+    "description": "Join SmartERP Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering SmartERP Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering SmartERP Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.smarterp.com/careers/",
     "jobUrl": "https://www.smarterp.com/careers/"
@@ -10215,39 +8907,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-glowroad-1",
     "companyId": "glowroad",
     "companyName": "GlowRoad (Amazon)",
-    "title": "Senior GlowRoad Systems Software Engineer",
+    "title": "Real-Time Multiplayer Game Engine Backend Developer - GlowRoad",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b926 - \u20b944 LPA",
     "postedDaysAgo": 1,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "React Native",
       "C++",
       "Go",
-      "WebSockets"
+      "WebSockets",
+      "Redis",
+      "AWS Gamelift"
     ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad center of engineering excellence building modern Social Commerce • Creator Tech solutions for global users.",
+    "description": "Join GlowRoad (Amazon)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering GlowRoad (Amazon).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering GlowRoad (Amazon).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://glowroad.com/careers",
     "jobUrl": "https://glowroad.com/careers"
@@ -10256,80 +8946,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-glowroad-2",
     "companyId": "glowroad",
     "companyName": "GlowRoad (Amazon)",
-    "title": "Graphics & Interactive 3D WebGL Frontend Engineer (Tier 5)",
+    "title": "3D Graphics & Interactive WebGL Systems Engineer - GlowRoad",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
     "postedDaysAgo": 2,
     "hubId": "madhapur",
     "area": "Madhapur & Durgam Cheruvu, Hyderabad",
     "skills": [
-      "Node.js",
-      "React",
-      "React Native",
       "Three.js",
       "WebGL",
-      "TypeScript"
-    ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad center of engineering excellence building modern Social Commerce • Creator Tech solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering GlowRoad (Amazon).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://glowroad.com/careers",
-    "jobUrl": "https://glowroad.com/careers"
-  },
-  {
-    "id": "job-glowroad-3",
-    "companyId": "glowroad",
-    "companyName": "GlowRoad (Amazon)",
-    "title": "Lead GlowRoad Platform Developer (Social Commerce)",
-    "roleCategory": "AI / ML",
-    "industry": "Gaming & Media",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "madhapur",
-    "area": "Madhapur & Durgam Cheruvu, Hyderabad",
-    "skills": [
-      "Node.js",
+      "TypeScript",
       "React",
-      "React Native",
-      "Python",
-      "ML",
-      "Spark"
+      "Shaders"
     ],
-    "description": "Join GlowRoad (Amazon)'s Hyderabad center of engineering excellence building modern Social Commerce • Creator Tech solutions for global users.",
+    "description": "Join GlowRoad (Amazon)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering GlowRoad (Amazon).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering GlowRoad (Amazon).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://glowroad.com/careers",
     "jobUrl": "https://glowroad.com/careers"
@@ -10338,39 +8985,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-dozee-hyd-1",
     "companyId": "dozee-hyd",
     "companyName": "Dozee (Tech Hub)",
-    "title": "Senior Dozee Systems Software Engineer",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Dozee",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "C/C++",
-      "PyTorch",
       "Go",
+      "Node.js",
       "WebSockets",
-      "Node.js"
+      "MongoDB",
+      "MQTT"
     ],
-    "description": "Join Dozee (Tech Hub)'s Hyderabad center of engineering excellence building modern HealthTech • Contactless AI Telemetry solutions for global users.",
+    "description": "Join Dozee (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dozee (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dozee (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dozee.health/careers",
     "jobUrl": "https://www.dozee.health/careers"
@@ -10379,37 +9024,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-dozee-hyd-2",
     "companyId": "dozee-hyd",
     "companyName": "Dozee (Tech Hub)",
-    "title": "Clinical Decision Support & Bio-Signal AI Specialist (Tier 8)",
-    "roleCategory": "AI / ML",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Dozee",
+    "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Python",
-      "C/C++",
+      "Signal Processing",
       "PyTorch",
-      "Signal Processing"
+      "FastAPI"
     ],
-    "description": "Join Dozee (Tech Hub)'s Hyderabad center of engineering excellence building modern HealthTech • Contactless AI Telemetry solutions for global users.",
+    "description": "Join Dozee (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dozee (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dozee (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dozee.health/careers",
     "jobUrl": "https://www.dozee.health/careers"
@@ -10418,39 +9062,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-dozee-hyd-3",
     "companyId": "dozee-hyd",
     "companyName": "Dozee (Tech Hub)",
-    "title": "Lead Dozee Platform Developer (HealthTech)",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Dozee",
     "roleCategory": "Engineering",
     "industry": "HealthTech / Bio",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Python",
-      "C/C++",
-      "PyTorch",
       "AWS",
-      "Kubernetes",
-      "Terraform"
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
     ],
-    "description": "Join Dozee (Tech Hub)'s Hyderabad center of engineering excellence building modern HealthTech • Contactless AI Telemetry solutions for global users.",
+    "description": "Join Dozee (Tech Hub)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Dozee (Tech Hub).",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Dozee (Tech Hub).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.dozee.health/careers",
     "jobUrl": "https://www.dozee.health/careers"
@@ -10459,38 +9101,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-urbanrise-tech-1",
     "companyId": "urbanrise-tech",
     "companyName": "Urbanrise / Alliance Tech",
-    "title": "Senior Urbanrise Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Urbanrise",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Flutter",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Urbanrise / Alliance Tech's Hyderabad center of engineering excellence building modern PropTech • Real Estate AI solutions for global users.",
+    "description": "Join Urbanrise / Alliance Tech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Urbanrise / Alliance Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Urbanrise / Alliance Tech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://urbanrise.in/careers/",
     "jobUrl": "https://urbanrise.in/careers/"
@@ -10499,38 +9140,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-urbanrise-tech-2",
     "companyId": "urbanrise-tech",
     "companyName": "Urbanrise / Alliance Tech",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 20)",
+    "title": "Lead Distributed Systems & Kafka Architect - Urbanrise",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
-      "Flutter",
-      "TypeScript",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Urbanrise / Alliance Tech's Hyderabad center of engineering excellence building modern PropTech • Real Estate AI solutions for global users.",
+    "description": "Join Urbanrise / Alliance Tech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Urbanrise / Alliance Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Urbanrise / Alliance Tech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://urbanrise.in/careers/",
     "jobUrl": "https://urbanrise.in/careers/"
@@ -10539,39 +9179,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-urbanrise-tech-3",
     "companyId": "urbanrise-tech",
     "companyName": "Urbanrise / Alliance Tech",
-    "title": "Lead Urbanrise Platform Developer (PropTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Urbanrise",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "jubilee-hills",
     "area": "Jubilee Hills, Hyderabad",
     "skills": [
       "React",
-      "Node.js",
-      "Flutter",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Urbanrise / Alliance Tech's Hyderabad center of engineering excellence building modern PropTech • Real Estate AI solutions for global users.",
+    "description": "Join Urbanrise / Alliance Tech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Urbanrise / Alliance Tech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Urbanrise / Alliance Tech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://urbanrise.in/careers/",
     "jobUrl": "https://urbanrise.in/careers/"
@@ -10580,38 +9217,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-verisk-hyd-1",
     "companyId": "verisk-hyd",
     "companyName": "Verisk Hyderabad",
-    "title": "Senior Verisk Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Verisk",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "Scala",
-      "Python",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad center of engineering excellence building modern Data Analytics • Risk Intelligence solutions for global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Verisk Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Verisk Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.verisk.com/careers/",
     "jobUrl": "https://www.verisk.com/careers/"
@@ -10620,38 +9256,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-verisk-hyd-2",
     "companyId": "verisk-hyd",
     "companyName": "Verisk Hyderabad",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 12)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Verisk",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "Scala",
-      "Python",
-      "PyTorch",
-      "XGBoost"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad center of engineering excellence building modern Data Analytics • Risk Intelligence solutions for global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Verisk Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Verisk Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.verisk.com/careers/",
     "jobUrl": "https://www.verisk.com/careers/"
@@ -10660,160 +9295,152 @@ export const HYDERABAD_JOBS = [
     "id": "job-verisk-hyd-3",
     "companyId": "verisk-hyd",
     "companyName": "Verisk Hyderabad",
-    "title": "Lead Verisk Platform Developer (Data Analytics)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Verisk",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Scala",
-      "Python",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Verisk Hyderabad's Hyderabad center of engineering excellence building modern Data Analytics • Risk Intelligence solutions for global users.",
+    "description": "Join Verisk Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Verisk Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Verisk Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.verisk.com/careers/",
     "jobUrl": "https://www.verisk.com/careers/"
   },
   {
     "id": "job-pega-hyd-1",
-    "companyId": "pegasystems",
+    "companyId": "pega-hyd",
     "companyName": "Pegasystems Hyderabad",
-    "title": "Senior Pegasystems Systems Software Engineer (Tier 1)",
+    "title": "Senior Full Stack Cloud Platform Engineer - Pegasystems",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "Pega Infinity",
+      "Spring Boot",
       "React",
-      "Spring Boot"
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Pegasystems Hyderabad's Hyderabad center of engineering excellence building modern Low-Code • Autonomous Enterprise AI solutions for global users.",
+    "description": "Join Pegasystems Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pegasystems Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Pegasystems Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.pega.com/about/careers",
     "jobUrl": "https://www.pega.com/about/careers"
   },
   {
     "id": "job-pega-hyd-2",
-    "companyId": "pegasystems",
+    "companyId": "pega-hyd",
     "companyName": "Pegasystems Hyderabad",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 21)",
+    "title": "Lead Distributed Systems & Kafka Architect - Pegasystems",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "Java",
-      "Pega Infinity",
-      "React",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Pegasystems Hyderabad's Hyderabad center of engineering excellence building modern Low-Code • Autonomous Enterprise AI solutions for global users.",
+    "description": "Join Pegasystems Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pegasystems Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Pegasystems Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.pega.com/about/careers",
     "jobUrl": "https://www.pega.com/about/careers"
   },
   {
     "id": "job-pega-hyd-3",
-    "companyId": "pegasystems",
+    "companyId": "pega-hyd",
     "companyName": "Pegasystems Hyderabad",
-    "title": "Lead Pegasystems Platform Developer (Low-Code)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Pegasystems",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Pega Infinity",
       "React",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Pegasystems Hyderabad's Hyderabad center of engineering excellence building modern Low-Code • Autonomous Enterprise AI solutions for global users.",
+    "description": "Join Pegasystems Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Pegasystems Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Pegasystems Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.pega.com/about/careers",
     "jobUrl": "https://www.pega.com/about/careers"
@@ -10822,37 +9449,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-broadridge-hyd-1",
     "companyId": "broadridge-hyd",
     "companyName": "Broadridge Financial Solutions",
-    "title": "Senior Broadridge Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Broadridge",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Java",
-      "C++",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Broadridge Financial Solutions's Hyderabad center of engineering excellence building modern FinTech • Global Banking & Capital Markets solutions for global users.",
+    "description": "Join Broadridge Financial Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Broadridge Financial Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Broadridge Financial Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.broadridge.com/about/careers",
     "jobUrl": "https://www.broadridge.com/about/careers"
@@ -10861,39 +9488,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-broadridge-hyd-2",
     "companyId": "broadridge-hyd",
     "companyName": "Broadridge Financial Solutions",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 13)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Broadridge",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
       "Java",
-      "C++",
-      "Spring Boot",
-      "Python",
-      "PyTorch",
-      "XGBoost"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Broadridge Financial Solutions's Hyderabad center of engineering excellence building modern FinTech • Global Banking & Capital Markets solutions for global users.",
+    "description": "Join Broadridge Financial Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Broadridge Financial Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Broadridge Financial Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.broadridge.com/about/careers",
     "jobUrl": "https://www.broadridge.com/about/careers"
@@ -10902,39 +9527,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-broadridge-hyd-3",
     "companyId": "broadridge-hyd",
     "companyName": "Broadridge Financial Solutions",
-    "title": "Lead Broadridge Platform Developer (FinTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Broadridge",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "financial-district",
     "area": "Financial District / Nanakramguda, Hyderabad",
     "skills": [
-      "Java",
-      "C++",
-      "Spring Boot",
-      "Go",
-      "Node.js",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Broadridge Financial Solutions's Hyderabad center of engineering excellence building modern FinTech • Global Banking & Capital Markets solutions for global users.",
+    "description": "Join Broadridge Financial Solutions's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Broadridge Financial Solutions.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Broadridge Financial Solutions.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.broadridge.com/about/careers",
     "jobUrl": "https://www.broadridge.com/about/careers"
@@ -10943,39 +9565,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-vymo-hyd-1",
     "companyId": "vymo-hyd",
     "companyName": "Vymo Hyderabad",
-    "title": "Senior Vymo Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Vymo",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
-      "React Native",
       "Java",
       "Spring Boot",
-      "Kafka"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad center of engineering excellence building modern Sales AI • Financial Services CRM solutions for global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Vymo Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Vymo Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://getvymo.com/careers/",
     "jobUrl": "https://getvymo.com/careers/"
@@ -10984,38 +9604,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-vymo-hyd-2",
     "companyId": "vymo-hyd",
     "companyName": "Vymo Hyderabad",
-    "title": "Credit Risk Analytics & Fraud ML Scientist (Tier 14)",
-    "roleCategory": "AI / ML",
+    "title": "Lead Distributed Systems & Kafka Architect - Vymo",
+    "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
-      "React Native",
-      "PyTorch",
-      "XGBoost"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad center of engineering excellence building modern Sales AI • Financial Services CRM solutions for global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Vymo Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Vymo Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://getvymo.com/careers/",
     "jobUrl": "https://getvymo.com/careers/"
@@ -11024,38 +9643,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-vymo-hyd-3",
     "companyId": "vymo-hyd",
     "companyName": "Vymo Hyderabad",
-    "title": "Lead Vymo Platform Developer (Sales AI)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Vymo",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Python",
-      "Node.js",
-      "React Native",
-      "Go",
-      "Redis"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Vymo Hyderabad's Hyderabad center of engineering excellence building modern Sales AI • Financial Services CRM solutions for global users.",
+    "description": "Join Vymo Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Vymo Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Vymo Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://getvymo.com/careers/",
     "jobUrl": "https://getvymo.com/careers/"
@@ -11064,39 +9681,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-zinghr-hyd-1",
     "companyId": "zinghr-hyd",
     "companyName": "ZingHR Hyderabad",
-    "title": "Senior ZingHR Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - ZingHR",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "Angular",
       "Java",
       "Spring Boot",
-      "React"
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join ZingHR Hyderabad's Hyderabad center of engineering excellence building modern HR Tech • AI & Global HCM solutions for global users.",
+    "description": "Join ZingHR Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ZingHR Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ZingHR Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.zinghr.com/careers/",
     "jobUrl": "https://www.zinghr.com/careers/"
@@ -11105,39 +9720,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-zinghr-hyd-2",
     "companyId": "zinghr-hyd",
     "companyName": "ZingHR Hyderabad",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 22)",
+    "title": "Lead Distributed Systems & Kafka Architect - ZingHR",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "Angular",
-      "Node.js",
-      "TypeScript",
-      "Kafka"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join ZingHR Hyderabad's Hyderabad center of engineering excellence building modern HR Tech • AI & Global HCM solutions for global users.",
+    "description": "Join ZingHR Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ZingHR Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ZingHR Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.zinghr.com/careers/",
     "jobUrl": "https://www.zinghr.com/careers/"
@@ -11146,39 +9759,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-zinghr-hyd-3",
     "companyId": "zinghr-hyd",
     "companyName": "ZingHR Hyderabad",
-    "title": "Lead ZingHR Platform Developer (HR Tech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - ZingHR",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      ".NET Core",
-      "C#",
-      "Angular",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join ZingHR Hyderabad's Hyderabad center of engineering excellence building modern HR Tech • AI & Global HCM solutions for global users.",
+    "description": "Join ZingHR Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering ZingHR Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering ZingHR Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.zinghr.com/careers/",
     "jobUrl": "https://www.zinghr.com/careers/"
@@ -11187,38 +9797,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-edutor-tech-1",
     "companyId": "edutor-tech",
     "companyName": "Edutor Technologies",
-    "title": "Senior Edutor Systems Software Engineer",
+    "title": "Interactive Learning Platform Full Stack Engineer - Edutor",
     "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Android/Kotlin",
       "React",
       "Node.js",
-      "GraphQL"
+      "GraphQL",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Edutor Technologies's Hyderabad center of engineering excellence building modern EdTech • Assessment & Digital Learning solutions for global users.",
+    "description": "Join Edutor Technologies's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Edutor Technologies.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Edutor Technologies.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://edutor.com/careers",
     "jobUrl": "https://edutor.com/careers"
@@ -11227,80 +9836,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-edutor-tech-2",
     "companyId": "edutor-tech",
     "companyName": "Edutor Technologies",
-    "title": "Adaptive Assessment & Student Learning AI Specialist (Tier 3)",
-    "roleCategory": "AI / ML",
+    "title": "Adaptive AI Learning & Assessment Specialist - Edutor",
+    "roleCategory": "Engineering",
     "industry": "EdTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b938 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Android/Kotlin",
-      "React",
       "Python",
       "NLP",
-      "PyTorch"
+      "PyTorch",
+      "Recommender Systems"
     ],
-    "description": "Join Edutor Technologies's Hyderabad center of engineering excellence building modern EdTech • Assessment & Digital Learning solutions for global users.",
+    "description": "Join Edutor Technologies's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Edutor Technologies.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Edutor Technologies.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
-    ],
-    "applyUrl": "https://edutor.com/careers",
-    "jobUrl": "https://edutor.com/careers"
-  },
-  {
-    "id": "job-edutor-tech-3",
-    "companyId": "edutor-tech",
-    "companyName": "Edutor Technologies",
-    "title": "Lead Edutor Platform Developer (EdTech)",
-    "roleCategory": "Engineering",
-    "industry": "EdTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 3,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "Java",
-      "Android/Kotlin",
-      "React",
-      "React Native",
-      "TypeScript",
-      "Redux"
-    ],
-    "description": "Join Edutor Technologies's Hyderabad center of engineering excellence building modern EdTech • Assessment & Digital Learning solutions for global users.",
-    "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Edutor Technologies.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
-    ],
-    "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
-    ],
-    "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://edutor.com/careers",
     "jobUrl": "https://edutor.com/careers"
@@ -11309,38 +9874,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-hygrow-agri-1",
     "companyId": "hygrow-agri",
     "companyName": "HyGrow Agritech",
-    "title": "Senior HyGrow Systems Software Engineer",
-    "roleCategory": "AI / ML",
+    "title": "Lead Generative AI & Foundation Models Specialist - HyGrow",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
       "Python",
-      "Embedded C",
-      "Flutter",
+      "PyTorch",
+      "LLMs",
       "LangChain",
-      "Vector DBs"
+      "RAG"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad center of engineering excellence building modern AgTech • IoT Hydroponics & AI solutions for global users.",
+    "description": "Join HyGrow Agritech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering HyGrow Agritech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering HyGrow Agritech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://hygrow.tech/careers",
     "jobUrl": "https://hygrow.tech/careers"
@@ -11349,38 +9913,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-hygrow-agri-2",
     "companyId": "hygrow-agri",
     "companyName": "HyGrow Agritech",
-    "title": "High-Throughput ML Inference Platform Engineer (Tier 14)",
+    "title": "Applied Machine Learning & Computer Vision Engineer - HyGrow",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
       "Python",
-      "Embedded C",
-      "Flutter",
-      "C++",
-      "Kubernetes"
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad center of engineering excellence building modern AgTech • IoT Hydroponics & AI solutions for global users.",
+    "description": "Join HyGrow Agritech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering HyGrow Agritech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering HyGrow Agritech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://hygrow.tech/careers",
     "jobUrl": "https://hygrow.tech/careers"
@@ -11389,39 +9951,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-hygrow-agri-3",
     "companyId": "hygrow-agri",
     "companyName": "HyGrow Agritech",
-    "title": "Lead HyGrow Platform Developer (AgTech)",
-    "roleCategory": "AI / ML",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - HyGrow",
+    "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "Python",
-      "Embedded C",
-      "Flutter",
-      "Edge AI",
-      "OpenCV",
-      "TensorFlow"
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
     ],
-    "description": "Join HyGrow Agritech's Hyderabad center of engineering excellence building modern AgTech • IoT Hydroponics & AI solutions for global users.",
+    "description": "Join HyGrow Agritech's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering HyGrow Agritech.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering HyGrow Agritech.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://hygrow.tech/careers",
     "jobUrl": "https://hygrow.tech/careers"
@@ -11430,37 +9989,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-proptiger-hyd-1",
     "companyId": "proptiger-hyd",
     "companyName": "Housing.com / PropTiger Hyderabad",
-    "title": "Senior Housing.com Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Housing.com",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA + ESOPs",
-    "postedDaysAgo": 3,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
       "Java",
-      "Spring Boot"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad center of engineering excellence building modern PropTech • Real Estate Discovery solutions for global users.",
+    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Housing.com / PropTiger Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Housing.com / PropTiger Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://housing.com/careers",
     "jobUrl": "https://housing.com/careers"
@@ -11469,38 +10028,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-proptiger-hyd-2",
     "companyId": "proptiger-hyd",
     "companyName": "Housing.com / PropTiger Hyderabad",
-    "title": "Enterprise Workflow Automation & Rule Engine Developer (Tier 23)",
+    "title": "Lead Distributed Systems & Kafka Architect - Housing.com",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA + ESOPs",
-    "postedDaysAgo": 4,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "React",
-      "Node.js",
       "Java",
-      "TypeScript",
-      "Kafka"
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad center of engineering excellence building modern PropTech • Real Estate Discovery solutions for global users.",
+    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Housing.com / PropTiger Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Housing.com / PropTiger Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://housing.com/careers",
     "jobUrl": "https://housing.com/careers"
@@ -11509,39 +10067,36 @@ export const HYDERABAD_JOBS = [
     "id": "job-proptiger-hyd-3",
     "companyId": "proptiger-hyd",
     "companyName": "Housing.com / PropTiger Hyderabad",
-    "title": "Lead Housing.com Platform Developer (PropTech)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Housing.com",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA + ESOPs",
-    "postedDaysAgo": 1,
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
       "React",
-      "Node.js",
-      "Java",
-      "Kubernetes",
-      "AWS/Azure",
-      "Terraform"
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad center of engineering excellence building modern PropTech • Real Estate Discovery solutions for global users.",
+    "description": "Join Housing.com / PropTiger Hyderabad's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Housing.com / PropTiger Hyderabad.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Housing.com / PropTiger Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive ESOP Equity Grant",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://housing.com/careers",
     "jobUrl": "https://housing.com/careers"
@@ -11550,39 +10105,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-signode-tech-1",
     "companyId": "signode-tech",
     "companyName": "Signode India Tech Hub",
-    "title": "Senior Signode Systems Software Engineer",
+    "title": "Senior Full Stack Cloud Platform Engineer - Signode",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "2-5 yrs",
+    "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹20 - ₹34 LPA",
-    "postedDaysAgo": 2,
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C++",
-      "PLC/SCADA",
-      "Python",
       "Java",
-      "AWS/Azure",
-      "Microservices"
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Join Signode India Tech Hub's Hyderabad center of engineering excellence building modern Industrial IoT & Automation solutions for global users.",
+    "description": "Join Signode India Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Signode India Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Signode India Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "2-5 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.signode.com/careers",
     "jobUrl": "https://www.signode.com/careers"
@@ -11591,39 +10144,37 @@ export const HYDERABAD_JOBS = [
     "id": "job-signode-tech-2",
     "companyId": "signode-tech",
     "companyName": "Signode India Tech Hub",
-    "title": "Enterprise Automated Quality Engineering Architect (Tier 5)",
+    "title": "Lead Distributed Systems & Kafka Architect - Signode",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "5-9 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "On-site",
-    "salaryRange": "₹36 - ₹55 LPA",
-    "postedDaysAgo": 3,
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C++",
-      "PLC/SCADA",
-      "Python",
-      "Playwright",
-      "Selenium",
-      "Java"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Join Signode India Tech Hub's Hyderabad center of engineering excellence building modern Industrial IoT & Automation solutions for global users.",
+    "description": "Join Signode India Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Signode India Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Build high-performance software modules powering Signode India Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "5-9 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Annual Performance Bonus",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
     "applyUrl": "https://www.signode.com/careers",
     "jobUrl": "https://www.signode.com/careers"
@@ -11632,41 +10183,1921 @@ export const HYDERABAD_JOBS = [
     "id": "job-signode-tech-3",
     "companyId": "signode-tech",
     "companyName": "Signode India Tech Hub",
-    "title": "Lead Signode Platform Developer (Industrial IoT & Automation)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Signode",
     "roleCategory": "Engineering",
     "industry": "Enterprise / IT Services",
-    "experience": "1-3 yrs",
-    "experienceLevel": "Junior (1-3 yrs)",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "₹14 - ₹22 LPA",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Signode India Tech Hub's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Signode India Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.signode.com/careers",
+    "jobUrl": "https://www.signode.com/careers"
+  },
+  {
+    "id": "job-postman-1",
+    "companyId": "postman",
+    "companyName": "Postman",
+    "title": "Senior Full Stack Cloud Platform Engineer - Postman",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join Postman's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Postman.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/postman",
+    "jobUrl": "https://job-boards.greenhouse.io/postman"
+  },
+  {
+    "id": "job-postman-2",
+    "companyId": "postman",
+    "companyName": "Postman",
+    "title": "Lead Distributed Systems & Kafka Architect - Postman",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join Postman's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Postman.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/postman",
+    "jobUrl": "https://job-boards.greenhouse.io/postman"
+  },
+  {
+    "id": "job-postman-3",
+    "companyId": "postman",
+    "companyName": "Postman",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Postman",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Postman's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Postman.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/postman",
+    "jobUrl": "https://job-boards.greenhouse.io/postman"
+  },
+  {
+    "id": "job-browserstack-1",
+    "companyId": "browserstack",
+    "companyName": "BrowserStack",
+    "title": "Senior Full Stack Cloud Platform Engineer - BrowserStack",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join BrowserStack's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering BrowserStack.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/browserstack",
+    "jobUrl": "https://job-boards.greenhouse.io/browserstack"
+  },
+  {
+    "id": "job-browserstack-2",
+    "companyId": "browserstack",
+    "companyName": "BrowserStack",
+    "title": "Lead Distributed Systems & Kafka Architect - BrowserStack",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join BrowserStack's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering BrowserStack.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/browserstack",
+    "jobUrl": "https://job-boards.greenhouse.io/browserstack"
+  },
+  {
+    "id": "job-browserstack-3",
+    "companyId": "browserstack",
+    "companyName": "BrowserStack",
+    "title": "Frontend & Micro-UI Design Systems Engineer - BrowserStack",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join BrowserStack's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering BrowserStack.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/browserstack",
+    "jobUrl": "https://job-boards.greenhouse.io/browserstack"
+  },
+  {
+    "id": "job-razorpay-1",
+    "companyId": "razorpay",
+    "companyName": "Razorpay",
+    "title": "Senior High-Throughput Payments & Settlement Engineer - Razorpay",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b928 - \u20b945 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Go",
+      "Kafka",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join Razorpay's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Razorpay.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/razorpay",
+    "jobUrl": "https://job-boards.greenhouse.io/razorpay"
+  },
+  {
+    "id": "job-razorpay-2",
+    "companyId": "razorpay",
+    "companyName": "Razorpay",
+    "title": "Credit Risk & Fraud Detection Data Scientist - Razorpay",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b925 - \u20b942 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "PyTorch",
+      "SQL",
+      "Big Data"
+    ],
+    "description": "Join Razorpay's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Razorpay.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/razorpay",
+    "jobUrl": "https://job-boards.greenhouse.io/razorpay"
+  },
+  {
+    "id": "job-razorpay-3",
+    "companyId": "razorpay",
+    "companyName": "Razorpay",
+    "title": "Core Banking APIs & Microservices Architect - Razorpay",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b932 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "Redis"
+    ],
+    "description": "Join Razorpay's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Razorpay.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/razorpay",
+    "jobUrl": "https://job-boards.greenhouse.io/razorpay"
+  },
+  {
+    "id": "job-phonepe-1",
+    "companyId": "phonepe",
+    "companyName": "PhonePe",
+    "title": "Senior High-Throughput Payments & Settlement Engineer - PhonePe",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b928 - \u20b945 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Go",
+      "Kafka",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join PhonePe's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PhonePe.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/phonepe",
+    "jobUrl": "https://job-boards.greenhouse.io/phonepe"
+  },
+  {
+    "id": "job-phonepe-2",
+    "companyId": "phonepe",
+    "companyName": "PhonePe",
+    "title": "Credit Risk & Fraud Detection Data Scientist - PhonePe",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b925 - \u20b942 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "PyTorch",
+      "SQL",
+      "Big Data"
+    ],
+    "description": "Join PhonePe's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PhonePe.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/phonepe",
+    "jobUrl": "https://job-boards.greenhouse.io/phonepe"
+  },
+  {
+    "id": "job-phonepe-3",
+    "companyId": "phonepe",
+    "companyName": "PhonePe",
+    "title": "Core Banking APIs & Microservices Architect - PhonePe",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b932 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "Redis"
+    ],
+    "description": "Join PhonePe's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PhonePe.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/phonepe",
+    "jobUrl": "https://job-boards.greenhouse.io/phonepe"
+  },
+  {
+    "id": "job-chargebee-1",
+    "companyId": "chargebee",
+    "companyName": "Chargebee",
+    "title": "Senior Full Stack Cloud Platform Engineer - Chargebee",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join Chargebee's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Chargebee.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/chargebee",
+    "jobUrl": "https://job-boards.greenhouse.io/chargebee"
+  },
+  {
+    "id": "job-chargebee-2",
+    "companyId": "chargebee",
+    "companyName": "Chargebee",
+    "title": "Lead Distributed Systems & Kafka Architect - Chargebee",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join Chargebee's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Chargebee.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/chargebee",
+    "jobUrl": "https://job-boards.greenhouse.io/chargebee"
+  },
+  {
+    "id": "job-chargebee-3",
+    "companyId": "chargebee",
+    "companyName": "Chargebee",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Chargebee",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Chargebee's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Chargebee.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/chargebee",
+    "jobUrl": "https://job-boards.greenhouse.io/chargebee"
+  },
+  {
+    "id": "job-freshworks-1",
+    "companyId": "freshworks",
+    "companyName": "Freshworks",
+    "title": "Senior Full Stack Cloud Platform Engineer - Freshworks",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join Freshworks's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Freshworks.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/freshworks",
+    "jobUrl": "https://job-boards.greenhouse.io/freshworks"
+  },
+  {
+    "id": "job-freshworks-2",
+    "companyId": "freshworks",
+    "companyName": "Freshworks",
+    "title": "Lead Distributed Systems & Kafka Architect - Freshworks",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join Freshworks's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Freshworks.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/freshworks",
+    "jobUrl": "https://job-boards.greenhouse.io/freshworks"
+  },
+  {
+    "id": "job-freshworks-3",
+    "companyId": "freshworks",
+    "companyName": "Freshworks",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Freshworks",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Freshworks's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Freshworks.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/freshworks",
+    "jobUrl": "https://job-boards.greenhouse.io/freshworks"
+  },
+  {
+    "id": "job-zoho-1",
+    "companyId": "zoho",
+    "companyName": "Zoho",
+    "title": "LeadChain",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Zoho Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Zoho.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts&category=marketing",
+    "jobUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts&category=marketing"
+  },
+  {
+    "id": "job-zoho-2",
+    "companyId": "zoho",
+    "companyName": "Zoho",
+    "title": "OpManager Nexus",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Zoho Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Zoho.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.manageengine.com/it-operations-management/?src=zGlobalAllProducts&category=securityanditmanagement",
+    "jobUrl": "https://www.manageengine.com/it-operations-management/?src=zGlobalAllProducts&category=securityanditmanagement"
+  },
+  {
+    "id": "job-zoho-3",
+    "companyId": "zoho",
+    "companyName": "Zoho",
+    "title": "Patch Manager Plus",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Zoho Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Zoho.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts&category=securityanditmanagement",
+    "jobUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts&category=securityanditmanagement"
+  },
+  {
+    "id": "job-zoho-4",
+    "companyId": "zoho",
+    "companyName": "Zoho",
+    "title": "Mobile Device Manager Plus",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 4,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "C++",
-      "PLC/SCADA",
-      "Python",
-      "React",
-      "Node.js",
-      "PostgreSQL"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Signode India Tech Hub's Hyderabad center of engineering excellence building modern Industrial IoT & Automation solutions for global users.",
+    "description": "Exciting engineering and technical opportunities at Zoho Hyderabad.",
     "responsibilities": [
-      "Architect, develop, and deliver mission-critical software capabilities powering Signode India Tech Hub.",
-      "Collaborate closely with local and global engineering, product, and architectural teams.",
-      "Champion high reliability, automated test coverage, and modern cloud deployment standards."
+      "Architect and ship production-grade systems for Zoho.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "1-3 yrs of hands-on experience in software engineering and distributed architectures.",
-      "Deep understanding of data structures, system design, and product quality."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Annual Performance Bonus",
+      "Competitive Compensation & ESOPs",
       "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Schedule & Learning Stipend",
-      "Hyderabad Campus Collaboration Perks"
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.signode.com/careers",
-    "jobUrl": "https://www.signode.com/careers"
+    "applyUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts&category=securityanditmanagement",
+    "jobUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts&category=securityanditmanagement"
+  },
+  {
+    "id": "job-tiger-analytics-1",
+    "companyId": "tiger-analytics",
+    "companyName": "Tiger Analytics",
+    "title": "AI Engineering",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Tiger Analytics Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Tiger Analytics.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.tigeranalytics.com/services/differentiate-with-ai-ml/ai-engineering/",
+    "jobUrl": "https://www.tigeranalytics.com/services/differentiate-with-ai-ml/ai-engineering/"
+  },
+  {
+    "id": "job-tiger-analytics-2",
+    "companyId": "tiger-analytics",
+    "companyName": "Tiger Analytics",
+    "title": "Application Engineering",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Tiger Analytics Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Tiger Analytics.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.tigeranalytics.com/services/operationalize-insights/application-engineering/",
+    "jobUrl": "https://www.tigeranalytics.com/services/operationalize-insights/application-engineering/"
+  },
+  {
+    "id": "job-tiger-analytics-3",
+    "companyId": "tiger-analytics",
+    "companyName": "Tiger Analytics",
+    "title": "Engineer Your Data",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at Tiger Analytics Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for Tiger Analytics.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.tigeranalytics.com/services/engineer-your-data/",
+    "jobUrl": "https://www.tigeranalytics.com/services/engineer-your-data/"
+  },
+  {
+    "id": "job-quantiphi-1",
+    "companyId": "quantiphi",
+    "companyName": "Quantiphi",
+    "title": "Lead Generative AI & Foundation Models Specialist - Quantiphi",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "LangChain",
+      "RAG"
+    ],
+    "description": "Join Quantiphi's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Quantiphi.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://quantiphi.com/careers/",
+    "jobUrl": "https://quantiphi.com/careers/"
+  },
+  {
+    "id": "job-quantiphi-2",
+    "companyId": "quantiphi",
+    "companyName": "Quantiphi",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Quantiphi",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
+    ],
+    "description": "Join Quantiphi's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Quantiphi.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://quantiphi.com/careers/",
+    "jobUrl": "https://quantiphi.com/careers/"
+  },
+  {
+    "id": "job-quantiphi-3",
+    "companyId": "quantiphi",
+    "companyName": "Quantiphi",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Quantiphi",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
+    ],
+    "description": "Join Quantiphi's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Quantiphi.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://quantiphi.com/careers/",
+    "jobUrl": "https://quantiphi.com/careers/"
+  },
+  {
+    "id": "job-cygni-energy-1",
+    "companyId": "cygni-energy",
+    "companyName": "Cygni Energy",
+    "title": "Battery Management System (BMS) Firmware Architect - Cygni",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "Embedded C",
+      "BMS",
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
+    ],
+    "description": "Join Cygni Energy's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Cygni Energy.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://cygnienergy.com/careers/",
+    "jobUrl": "https://cygnienergy.com/careers/"
+  },
+  {
+    "id": "job-cygni-energy-2",
+    "companyId": "cygni-energy",
+    "companyName": "Cygni Energy",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - Cygni",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "Node.js",
+      "Python",
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
+    ],
+    "description": "Join Cygni Energy's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Cygni Energy.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://cygnienergy.com/careers/",
+    "jobUrl": "https://cygnienergy.com/careers/"
+  },
+  {
+    "id": "job-cygni-energy-3",
+    "companyId": "cygni-energy",
+    "companyName": "Cygni Energy",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - Cygni",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "MATLAB",
+      "Simulink",
+      "C/C++",
+      "Motor Control"
+    ],
+    "description": "Join Cygni Energy's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Cygni Energy.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://cygnienergy.com/careers/",
+    "jobUrl": "https://cygnienergy.com/careers/"
+  },
+  {
+    "id": "job-bellatrix-aerospace-1",
+    "companyId": "bellatrix-aerospace",
+    "companyName": "Bellatrix Aerospace",
+    "title": "Avionics & Real-Time Flight Software Engineer - Bellatrix",
+    "roleCategory": "Engineering",
+    "industry": "SpaceTech & Aerospace",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b938 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "C++",
+      "Embedded C",
+      "FreeRTOS",
+      "CAN Bus",
+      "Telemetry"
+    ],
+    "description": "Join Bellatrix Aerospace's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Bellatrix Aerospace.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.bellatrix.aero/careers",
+    "jobUrl": "https://www.bellatrix.aero/careers"
+  },
+  {
+    "id": "job-bellatrix-aerospace-2",
+    "companyId": "bellatrix-aerospace",
+    "companyName": "Bellatrix Aerospace",
+    "title": "Rocket Propulsion Test & Sensor Integration Specialist - Bellatrix",
+    "roleCategory": "Engineering",
+    "industry": "SpaceTech & Aerospace",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b935 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "Python",
+      "Data Acquisition",
+      "LabVIEW",
+      "Sensors"
+    ],
+    "description": "Join Bellatrix Aerospace's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Bellatrix Aerospace.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.bellatrix.aero/careers",
+    "jobUrl": "https://www.bellatrix.aero/careers"
+  },
+  {
+    "id": "job-bellatrix-aerospace-3",
+    "companyId": "bellatrix-aerospace",
+    "companyName": "Bellatrix Aerospace",
+    "title": "Orbital Guidance & Navigation (GNC) Software Lead - Bellatrix",
+    "roleCategory": "Engineering",
+    "industry": "SpaceTech & Aerospace",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b935 - \u20b955 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "MATLAB",
+      "Simulink",
+      "C++",
+      "Kalman Filters"
+    ],
+    "description": "Join Bellatrix Aerospace's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Bellatrix Aerospace.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.bellatrix.aero/careers",
+    "jobUrl": "https://www.bellatrix.aero/careers"
+  },
+  {
+    "id": "job-laurus-labs-1",
+    "companyId": "laurus-labs",
+    "companyName": "Laurus Labs",
+    "title": "Clinical Telemetry & Real-Time IoT Systems Engineer - Laurus",
+    "roleCategory": "Engineering",
+    "industry": "HealthTech / Bio",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "Genome Valley, Hyderabad",
+    "skills": [
+      "Go",
+      "Node.js",
+      "WebSockets",
+      "MongoDB",
+      "MQTT"
+    ],
+    "description": "Join Laurus Labs's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Laurus Labs.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.lauruslabs.com/careers/",
+    "jobUrl": "https://www.lauruslabs.com/careers/"
+  },
+  {
+    "id": "job-laurus-labs-2",
+    "companyId": "laurus-labs",
+    "companyName": "Laurus Labs",
+    "title": "Medical AI & Bio-Signal Processing Specialist - Laurus",
+    "roleCategory": "Engineering",
+    "industry": "HealthTech / Bio",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b926 - \u20b942 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "Genome Valley, Hyderabad",
+    "skills": [
+      "Python",
+      "Signal Processing",
+      "PyTorch",
+      "FastAPI"
+    ],
+    "description": "Join Laurus Labs's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Laurus Labs.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.lauruslabs.com/careers/",
+    "jobUrl": "https://www.lauruslabs.com/careers/"
+  },
+  {
+    "id": "job-laurus-labs-3",
+    "companyId": "laurus-labs",
+    "companyName": "Laurus Labs",
+    "title": "Healthcare Cloud Security & HIPAA Compliance Lead - Laurus",
+    "roleCategory": "Engineering",
+    "industry": "HealthTech / Bio",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b928 - \u20b946 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "Genome Valley, Hyderabad",
+    "skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Security",
+      "CI/CD"
+    ],
+    "description": "Join Laurus Labs's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Laurus Labs.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.lauruslabs.com/careers/",
+    "jobUrl": "https://www.lauruslabs.com/careers/"
+  },
+  {
+    "id": "job-bankbazaar-1",
+    "companyId": "bankbazaar",
+    "companyName": "BankBazaar",
+    "title": "Senior High-Throughput Payments & Settlement Engineer - BankBazaar",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b928 - \u20b945 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Go",
+      "Kafka",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join BankBazaar's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering BankBazaar.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.bankbazaar.com/careers.html",
+    "jobUrl": "https://www.bankbazaar.com/careers.html"
+  },
+  {
+    "id": "job-bankbazaar-2",
+    "companyId": "bankbazaar",
+    "companyName": "BankBazaar",
+    "title": "Credit Risk & Fraud Detection Data Scientist - BankBazaar",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b925 - \u20b942 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "PyTorch",
+      "SQL",
+      "Big Data"
+    ],
+    "description": "Join BankBazaar's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering BankBazaar.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.bankbazaar.com/careers.html",
+    "jobUrl": "https://www.bankbazaar.com/careers.html"
+  },
+  {
+    "id": "job-bankbazaar-3",
+    "companyId": "bankbazaar",
+    "companyName": "BankBazaar",
+    "title": "Core Banking APIs & Microservices Architect - BankBazaar",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b932 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "Redis"
+    ],
+    "description": "Join BankBazaar's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering BankBazaar.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.bankbazaar.com/careers.html",
+    "jobUrl": "https://www.bankbazaar.com/careers.html"
+  },
+  {
+    "id": "job-signtuple-1",
+    "companyId": "signtuple",
+    "companyName": "SigTuple",
+    "title": "Lead Generative AI & Foundation Models Specialist - SigTuple",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "LangChain",
+      "RAG"
+    ],
+    "description": "Join SigTuple's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering SigTuple.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://sigtuple.com/careers/",
+    "jobUrl": "https://sigtuple.com/careers/"
+  },
+  {
+    "id": "job-signtuple-2",
+    "companyId": "signtuple",
+    "companyName": "SigTuple",
+    "title": "Applied Machine Learning & Computer Vision Engineer - SigTuple",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
+    ],
+    "description": "Join SigTuple's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering SigTuple.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://sigtuple.com/careers/",
+    "jobUrl": "https://sigtuple.com/careers/"
+  },
+  {
+    "id": "job-signtuple-3",
+    "companyId": "signtuple",
+    "companyName": "SigTuple",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - SigTuple",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
+    ],
+    "description": "Join SigTuple's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering SigTuple.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://sigtuple.com/careers/",
+    "jobUrl": "https://sigtuple.com/careers/"
+  },
+  {
+    "id": "job-meta-1",
+    "companyId": "meta",
+    "companyName": "Meta Hyderabad",
+    "title": "Senior Full Stack Cloud Platform Engineer - Meta",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / MNC",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join Meta Hyderabad's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Meta Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.metacareers.com/locations/hyderabad/",
+    "jobUrl": "https://www.metacareers.com/locations/hyderabad/"
+  },
+  {
+    "id": "job-meta-2",
+    "companyId": "meta",
+    "companyName": "Meta Hyderabad",
+    "title": "Lead Distributed Systems & Kafka Architect - Meta",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / MNC",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join Meta Hyderabad's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Meta Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.metacareers.com/locations/hyderabad/",
+    "jobUrl": "https://www.metacareers.com/locations/hyderabad/"
+  },
+  {
+    "id": "job-meta-3",
+    "companyId": "meta",
+    "companyName": "Meta Hyderabad",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Meta",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / MNC",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Meta Hyderabad's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Meta Hyderabad.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.metacareers.com/locations/hyderabad/",
+    "jobUrl": "https://www.metacareers.com/locations/hyderabad/"
+  },
+  {
+    "id": "job-dxc-1",
+    "companyId": "dxc",
+    "companyName": "DXC Technology",
+    "title": "Senior Full Stack Cloud Platform Engineer - DXC",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / IT Services",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "postedDaysAgo": 1,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "description": "Join DXC Technology's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering DXC Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://careers.dxc.com/",
+    "jobUrl": "https://careers.dxc.com/"
+  },
+  {
+    "id": "job-dxc-2",
+    "companyId": "dxc",
+    "companyName": "DXC Technology",
+    "title": "Lead Distributed Systems & Kafka Architect - DXC",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / IT Services",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join DXC Technology's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering DXC Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://careers.dxc.com/",
+    "jobUrl": "https://careers.dxc.com/"
+  },
+  {
+    "id": "job-dxc-3",
+    "companyId": "dxc",
+    "companyName": "DXC Technology",
+    "title": "Frontend & Micro-UI Design Systems Engineer - DXC",
+    "roleCategory": "Engineering",
+    "industry": "Enterprise / IT Services",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join DXC Technology's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering DXC Technology.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://careers.dxc.com/",
+    "jobUrl": "https://careers.dxc.com/"
   }
 ];

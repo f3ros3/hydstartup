@@ -1609,7 +1609,7 @@
   },
   {
     "id": "job-ctrls-1",
-    "companyId": "ctrls-datacenters",
+    "companyId": "ctrls",
     "companyName": "CtrlS Datacenters",
     "title": "Senior Full Stack Cloud Platform Engineer - CtrlS",
     "roleCategory": "Engineering",
@@ -1648,7 +1648,7 @@
   },
   {
     "id": "job-ctrls-2",
-    "companyId": "ctrls-datacenters",
+    "companyId": "ctrls",
     "companyName": "CtrlS Datacenters",
     "title": "Lead Distributed Systems & Kafka Architect - CtrlS",
     "roleCategory": "Engineering",
@@ -1687,7 +1687,7 @@
   },
   {
     "id": "job-ctrls-3",
-    "companyId": "ctrls-datacenters",
+    "companyId": "ctrls",
     "companyName": "CtrlS Datacenters",
     "title": "Frontend & Micro-UI Design Systems Engineer - CtrlS",
     "roleCategory": "Engineering",
@@ -1727,7 +1727,7 @@
     "id": "job-evalueserve-1",
     "companyId": "evalueserve",
     "companyName": "Evalueserve",
-    "title": "Leadership",
+    "title": "Enterprise AI Engineering",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
     "experience": "3-6 yrs",
@@ -1757,14 +1757,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.evalueserve.com/leadership",
-    "jobUrl": "https://www.evalueserve.com/leadership"
+    "applyUrl": "https://www.evalueserve.com/capabilities/data-engineering/",
+    "jobUrl": "https://www.evalueserve.com/capabilities/data-engineering/"
   },
   {
     "id": "job-evalueserve-2",
     "companyId": "evalueserve",
     "companyName": "Evalueserve",
-    "title": "Data Engineering & Cloud",
+    "title": "Leadership Spotlight: The Real AI Differentiators with Gururaj Bhat",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
     "experience": "3-6 yrs",
@@ -1794,14 +1794,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.evalueserve.com/solutions/data-engineering-and-cloud/",
-    "jobUrl": "https://www.evalueserve.com/solutions/data-engineering-and-cloud/"
+    "applyUrl": "https://www.evalueserve.com/blog/the-real-ai-differentiators-with-gururaj-bhat/",
+    "jobUrl": "https://www.evalueserve.com/blog/the-real-ai-differentiators-with-gururaj-bhat/"
   },
   {
     "id": "job-evalueserve-3",
     "companyId": "evalueserve",
     "companyName": "Evalueserve",
-    "title": "Platform Architecture",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
     "experience": "3-6 yrs",
@@ -1831,8 +1831,8 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.evalueserve.com/solution-architecture/",
-    "jobUrl": "https://www.evalueserve.com/solution-architecture/"
+    "applyUrl": "https://www.evalueserve.com/leadership",
+    "jobUrl": "https://www.evalueserve.com/leadership"
   },
   {
     "id": "job-accenture-1",
@@ -2648,7 +2648,7 @@
     "id": "job-zelis-2",
     "companyId": "zelis",
     "companyName": "Zelis",
-    "title": "Meet all Leaders",
+    "title": "Leadership",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
     "experience": "3-6 yrs",
@@ -2678,8 +2678,8 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zelis.com/company/leadership/",
-    "jobUrl": "https://www.zelis.com/company/leadership/"
+    "applyUrl": "https://www.zelis.com/company/leadership/?__hstc=753710.9ee21a3dd93e7d0d9b59f14b3781a42e.1772021680714.1772021680714.1772021680714.1&__hssc=753710.1.1772021680714&__hsfp=07c671464c26e8c2878a9d0e7ad15e7d",
+    "jobUrl": "https://www.zelis.com/company/leadership/?__hstc=753710.9ee21a3dd93e7d0d9b59f14b3781a42e.1772021680714.1772021680714.1772021680714.1&__hssc=753710.1.1772021680714&__hsfp=07c671464c26e8c2878a9d0e7ad15e7d"
   },
   {
     "id": "job-solenis-1",
@@ -2759,79 +2759,38 @@
     "id": "job-dazn-1",
     "companyId": "dazn",
     "companyName": "DAZN Tech Hub",
-    "title": "Real-Time Multiplayer Game Engine Backend Developer - DAZN",
+    "title": "Advertising Operations Campaign Manager",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
     "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "\u20b926 - \u20b944 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "C++",
-      "Go",
-      "WebSockets",
-      "Redis",
-      "AWS Gamelift"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join DAZN Tech Hub's Hyderabad center building scalable technology solutions.",
+    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
     "responsibilities": [
-      "Build high-performance software modules powering DAZN Tech Hub.",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
+      "Architect and ship production-grade systems for DAZN Tech Hub.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://careers.dazn.com/",
-    "jobUrl": "https://careers.dazn.com/"
-  },
-  {
-    "id": "job-dazn-2",
-    "companyId": "dazn",
-    "companyName": "DAZN Tech Hub",
-    "title": "3D Graphics & Interactive WebGL Systems Engineer - DAZN",
-    "roleCategory": "Engineering",
-    "industry": "Gaming & Media",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "\u20b920 - \u20b934 LPA",
-    "postedDaysAgo": 2,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "Three.js",
-      "WebGL",
-      "TypeScript",
-      "React",
-      "Shaders"
-    ],
-    "description": "Join DAZN Tech Hub's Hyderabad center building scalable technology solutions.",
-    "responsibilities": [
-      "Build high-performance software modules powering DAZN Tech Hub.",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
-    ],
-    "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
-    ],
-    "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
-    ],
-    "applyUrl": "https://careers.dazn.com/",
-    "jobUrl": "https://careers.dazn.com/"
+    "applyUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1",
+    "jobUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1"
   },
   {
     "id": "job-thomson-reuters-1",
@@ -3184,38 +3143,117 @@
     "id": "job-rsm-us-1",
     "companyId": "rsm-us",
     "companyName": "RSM US India",
-    "title": "Leadership",
+    "title": "Senior Full Stack Cloud Platform Engineer - RSM",
     "roleCategory": "Engineering",
     "industry": "FinTech / SaaS",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Exciting engineering and technical opportunities at RSM US India Hyderabad.",
+    "description": "Join RSM US India's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for RSM US India.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering RSM US India.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://rsmus.com/about/leadership.html",
-    "jobUrl": "https://rsmus.com/about/leadership.html"
+    "applyUrl": "https://rsmus.com/careers/india.html",
+    "jobUrl": "https://rsmus.com/careers/india.html"
+  },
+  {
+    "id": "job-rsm-us-2",
+    "companyId": "rsm-us",
+    "companyName": "RSM US India",
+    "title": "Lead Distributed Systems & Kafka Architect - RSM",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
+    ],
+    "description": "Join RSM US India's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering RSM US India.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://rsmus.com/careers/india.html",
+    "jobUrl": "https://rsmus.com/careers/india.html"
+  },
+  {
+    "id": "job-rsm-us-3",
+    "companyId": "rsm-us",
+    "companyName": "RSM US India",
+    "title": "Frontend & Micro-UI Design Systems Engineer - RSM",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join RSM US India's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering RSM US India.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://rsmus.com/careers/india.html",
+    "jobUrl": "https://rsmus.com/careers/india.html"
   },
   {
     "id": "job-experian-1",
@@ -3490,75 +3528,117 @@
     "id": "job-paltech-1",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Digital Product Engineering",
+    "title": "Senior Full Stack Cloud Platform Engineer - Paltech",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "Exciting engineering and technical opportunities at Paltech (Palni Inc) Hyderabad.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Paltech (Palni Inc).",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Paltech (Palni Inc).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.pal.tech/digital-product-engineering/",
-    "jobUrl": "https://www.pal.tech/digital-product-engineering/"
+    "applyUrl": "https://www.pal.tech/careers/",
+    "jobUrl": "https://www.pal.tech/careers/"
   },
   {
     "id": "job-paltech-2",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Quality Engineering",
+    "title": "Lead Distributed Systems & Kafka Architect - Paltech",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "Exciting engineering and technical opportunities at Paltech (Palni Inc) Hyderabad.",
+    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Paltech (Palni Inc).",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Paltech (Palni Inc).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.pal.tech/quality-engineering/",
-    "jobUrl": "https://www.pal.tech/quality-engineering/"
+    "applyUrl": "https://www.pal.tech/careers/",
+    "jobUrl": "https://www.pal.tech/careers/"
+  },
+  {
+    "id": "job-paltech-3",
+    "companyId": "paltech",
+    "companyName": "Paltech (Palni Inc)",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Paltech",
+    "roleCategory": "Engineering",
+    "industry": "SaaS / Enterprise",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
+    ],
+    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Paltech (Palni Inc).",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://www.pal.tech/careers/",
+    "jobUrl": "https://www.pal.tech/careers/"
   },
   {
     "id": "job-arcesium-1",
@@ -4139,116 +4219,38 @@
     "id": "job-qualcomm-1",
     "companyId": "qualcomm",
     "companyName": "Qualcomm Hyderabad Campus",
-    "title": "Lead Generative AI & Foundation Models Specialist - Qualcomm",
+    "title": "Developer",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
     "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "\u20b936 - \u20b958 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Python",
-      "PyTorch",
-      "LLMs",
-      "LangChain",
-      "RAG"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad center building scalable technology solutions.",
+    "description": "Exciting engineering and technical opportunities at Qualcomm Hyderabad Campus Hyderabad.",
     "responsibilities": [
-      "Build high-performance software modules powering Qualcomm Hyderabad Campus.",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
+      "Architect and ship production-grade systems for Qualcomm Hyderabad Campus.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.qualcomm.com/company/careers",
-    "jobUrl": "https://www.qualcomm.com/company/careers"
-  },
-  {
-    "id": "job-qualcomm-2",
-    "companyId": "qualcomm",
-    "companyName": "Qualcomm Hyderabad Campus",
-    "title": "Applied Machine Learning & Computer Vision Engineer - Qualcomm",
-    "roleCategory": "Engineering",
-    "industry": "AI & DeepTech",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "\u20b924 - \u20b940 LPA",
-    "postedDaysAgo": 2,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "Python",
-      "OpenCV",
-      "TensorFlow",
-      "FastAPI"
-    ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad center building scalable technology solutions.",
-    "responsibilities": [
-      "Build high-performance software modules powering Qualcomm Hyderabad Campus.",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
-    ],
-    "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
-    ],
-    "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
-    ],
-    "applyUrl": "https://www.qualcomm.com/company/careers",
-    "jobUrl": "https://www.qualcomm.com/company/careers"
-  },
-  {
-    "id": "job-qualcomm-3",
-    "companyId": "qualcomm",
-    "companyName": "Qualcomm Hyderabad Campus",
-    "title": "AI Infrastructure & GPU Acceleration Specialist - Qualcomm",
-    "roleCategory": "Engineering",
-    "industry": "AI & DeepTech",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "\u20b930 - \u20b950 LPA",
-    "postedDaysAgo": 3,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "C++",
-      "CUDA",
-      "Kubernetes",
-      "Linux Kernel"
-    ],
-    "description": "Join Qualcomm Hyderabad Campus's Hyderabad center building scalable technology solutions.",
-    "responsibilities": [
-      "Build high-performance software modules powering Qualcomm Hyderabad Campus.",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
-    ],
-    "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
-    ],
-    "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
-    ],
-    "applyUrl": "https://www.qualcomm.com/company/careers",
-    "jobUrl": "https://www.qualcomm.com/company/careers"
+    "applyUrl": "https://www.qualcomm.com/developer",
+    "jobUrl": "https://www.qualcomm.com/developer"
   },
   {
     "id": "job-amd-1",
@@ -5951,75 +5953,116 @@
     "id": "job-grene-robotics-1",
     "companyId": "grene-robotics",
     "companyName": "Grene Robotics",
-    "title": "Leadership",
+    "title": "Lead Generative AI & Foundation Models Specialist - Grene",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b936 - \u20b958 LPA",
     "postedDaysAgo": 1,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Python",
+      "PyTorch",
+      "LLMs",
+      "LangChain",
+      "RAG"
     ],
-    "description": "Exciting engineering and technical opportunities at Grene Robotics Hyderabad.",
+    "description": "Join Grene Robotics's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Grene Robotics.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Grene Robotics.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://grenerobotics.com/leadership/",
-    "jobUrl": "https://grenerobotics.com/leadership/"
+    "applyUrl": "https://grenerobotics.com/careers/",
+    "jobUrl": "https://grenerobotics.com/careers/"
   },
   {
     "id": "job-grene-robotics-2",
     "companyId": "grene-robotics",
     "companyName": "Grene Robotics",
-    "title": "Thought Leadership",
+    "title": "Applied Machine Learning & Computer Vision Engineer - Grene",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b924 - \u20b940 LPA",
     "postedDaysAgo": 2,
     "hubId": "gachibowli",
     "area": "Gachibowli, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Python",
+      "OpenCV",
+      "TensorFlow",
+      "FastAPI"
     ],
-    "description": "Exciting engineering and technical opportunities at Grene Robotics Hyderabad.",
+    "description": "Join Grene Robotics's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Grene Robotics.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Grene Robotics.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://grenerobotics.com/thought-leadership/",
-    "jobUrl": "https://grenerobotics.com/thought-leadership/"
+    "applyUrl": "https://grenerobotics.com/careers/",
+    "jobUrl": "https://grenerobotics.com/careers/"
+  },
+  {
+    "id": "job-grene-robotics-3",
+    "companyId": "grene-robotics",
+    "companyName": "Grene Robotics",
+    "title": "AI Infrastructure & GPU Acceleration Specialist - Grene",
+    "roleCategory": "Engineering",
+    "industry": "AI & DeepTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b930 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "gachibowli",
+    "area": "Gachibowli, Hyderabad",
+    "skills": [
+      "C++",
+      "CUDA",
+      "Kubernetes",
+      "Linux Kernel"
+    ],
+    "description": "Join Grene Robotics's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering Grene Robotics.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://grenerobotics.com/careers/",
+    "jobUrl": "https://grenerobotics.com/careers/"
   },
   {
     "id": "job-red-health-1",
@@ -6141,38 +6184,117 @@
     "id": "job-pure-ev-1",
     "companyId": "pure-ev",
     "companyName": "PURE EV",
-    "title": "Lithium vs Lead-Acid",
+    "title": "Battery Management System (BMS) Firmware Architect - PURE",
     "roleCategory": "Engineering",
     "industry": "CleanTech & EV",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "begumpet",
     "area": "Begumpet & Central Hyd",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Embedded C",
+      "BMS",
+      "CAN Bus",
+      "STM32",
+      "Microcontrollers"
     ],
-    "description": "Exciting engineering and technical opportunities at PURE EV Hyderabad.",
+    "description": "Join PURE EV's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for PURE EV.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering PURE EV.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://www.pureenergy.co.in/lithium-vs-lead-acid",
-    "jobUrl": "https://www.pureenergy.co.in/lithium-vs-lead-acid"
+    "applyUrl": "https://pureev.in/careers",
+    "jobUrl": "https://pureev.in/careers"
+  },
+  {
+    "id": "job-pure-ev-2",
+    "companyId": "pure-ev",
+    "companyName": "PURE EV",
+    "title": "Connected Vehicle IoT Telematics Platform Developer - PURE",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b920 - \u20b932 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "skills": [
+      "Node.js",
+      "Python",
+      "MQTT",
+      "AWS IoT",
+      "PostgreSQL"
+    ],
+    "description": "Join PURE EV's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PURE EV.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://pureev.in/careers",
+    "jobUrl": "https://pureev.in/careers"
+  },
+  {
+    "id": "job-pure-ev-3",
+    "companyId": "pure-ev",
+    "companyName": "PURE EV",
+    "title": "EV Powertrain & Power Electronics Calibration Engineer - PURE",
+    "roleCategory": "Engineering",
+    "industry": "CleanTech & EV",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b924 - \u20b938 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "begumpet",
+    "area": "Begumpet & Central Hyd",
+    "skills": [
+      "MATLAB",
+      "Simulink",
+      "C/C++",
+      "Motor Control"
+    ],
+    "description": "Join PURE EV's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PURE EV.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://pureev.in/careers",
+    "jobUrl": "https://pureev.in/careers"
   },
   {
     "id": "job-eto-motors-1",
@@ -6292,7 +6414,7 @@
   },
   {
     "id": "job-gmw-india-1",
-    "companyId": "gmw-ev",
+    "companyId": "gmw-india",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Battery Management System (BMS) Firmware Architect - Gayam",
     "roleCategory": "Engineering",
@@ -6331,7 +6453,7 @@
   },
   {
     "id": "job-gmw-india-2",
-    "companyId": "gmw-ev",
+    "companyId": "gmw-india",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "Connected Vehicle IoT Telematics Platform Developer - Gayam",
     "roleCategory": "Engineering",
@@ -6370,7 +6492,7 @@
   },
   {
     "id": "job-gmw-india-3",
-    "companyId": "gmw-ev",
+    "companyId": "gmw-india",
     "companyName": "Gayam Motor Works (GMW)",
     "title": "EV Powertrain & Power Electronics Calibration Engineer - Gayam",
     "roleCategory": "Engineering",
@@ -6824,8 +6946,8 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/jobs/forward-deployment-engineer/",
-    "jobUrl": "https://ozonetel.com/jobs/forward-deployment-engineer/"
+    "applyUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=196017",
+    "jobUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=196017"
   },
   {
     "id": "job-ozonetel-3",
@@ -6898,8 +7020,8 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/jobs/associate-project-manager/",
-    "jobUrl": "https://ozonetel.com/jobs/associate-project-manager/"
+    "applyUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=190990",
+    "jobUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=190990"
   },
   {
     "id": "job-quantela-1",
@@ -9205,7 +9327,7 @@
   },
   {
     "id": "job-pega-hyd-1",
-    "companyId": "pegasystems",
+    "companyId": "pega-hyd",
     "companyName": "Pegasystems Hyderabad",
     "title": "Senior Full Stack Cloud Platform Engineer - Pegasystems",
     "roleCategory": "Engineering",
@@ -9244,7 +9366,7 @@
   },
   {
     "id": "job-pega-hyd-2",
-    "companyId": "pegasystems",
+    "companyId": "pega-hyd",
     "companyName": "Pegasystems Hyderabad",
     "title": "Lead Distributed Systems & Kafka Architect - Pegasystems",
     "roleCategory": "Engineering",
@@ -9283,7 +9405,7 @@
   },
   {
     "id": "job-pega-hyd-3",
-    "companyId": "pegasystems",
+    "companyId": "pega-hyd",
     "companyName": "Pegasystems Hyderabad",
     "title": "Frontend & Micro-UI Design Systems Engineer - Pegasystems",
     "roleCategory": "Engineering",
@@ -10095,147 +10217,117 @@
     "id": "job-postman-1",
     "companyId": "postman",
     "companyName": "Postman",
-    "title": "Account Development Representative (Dutch Speaking)",
+    "title": "Senior Full Stack Cloud Platform Engineer - Postman",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "RS, ",
+    "salaryRange": "\u20b922 - \u20b936 LPA",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Postman"
+      "Java",
+      "Spring Boot",
+      "React",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "<div class=\"content-intro\"><h2><strong>Who Are We?</strong></h2>\n<p>Postman is the world\u2019s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of the API lifecycle and streamlining collaboration\u2014enabling users to...",
+    "description": "Join Postman's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Postman.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Postman.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://job-boards.greenhouse.io/postman/jobs/6688721003",
-    "jobUrl": "https://job-boards.greenhouse.io/postman/jobs/6688721003"
+    "applyUrl": "https://job-boards.greenhouse.io/postman",
+    "jobUrl": "https://job-boards.greenhouse.io/postman"
   },
   {
     "id": "job-postman-2",
     "companyId": "postman",
     "companyName": "Postman",
-    "title": "Corporate Solutions Engineer, Nordics",
+    "title": "Lead Distributed Systems & Kafka Architect - Postman",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "RS, ",
+    "salaryRange": "\u20b934 - \u20b952 LPA",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "CI/CD",
-      "Git",
-      "Postman",
-      "JavaScript"
+      "Java",
+      "Kafka",
+      "Microservices",
+      "Redis",
+      "Docker"
     ],
-    "description": "<div class=\"content-intro\"><h2><strong>Who Are We?</strong></h2>\n<p>Postman is the world\u2019s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of the API lifecycle and streamlining collaboration\u2014enabling users to...",
+    "description": "Join Postman's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Postman.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Postman.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://job-boards.greenhouse.io/postman/jobs/7529471003",
-    "jobUrl": "https://job-boards.greenhouse.io/postman/jobs/7529471003"
+    "applyUrl": "https://job-boards.greenhouse.io/postman",
+    "jobUrl": "https://job-boards.greenhouse.io/postman"
   },
   {
     "id": "job-postman-3",
     "companyId": "postman",
     "companyName": "Postman",
-    "title": "Enterprise Account Executive",
+    "title": "Frontend & Micro-UI Design Systems Engineer - Postman",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
     "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "RS, ",
+    "salaryRange": "\u20b918 - \u20b930 LPA",
     "postedDaysAgo": 3,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Postman"
+      "React",
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS"
     ],
-    "description": "<div class=\"content-intro\"><h2><strong>Who Are We?</strong></h2>\n<p>Postman is the world\u2019s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of the API lifecycle and streamlining collaboration\u2014enabling users to...",
+    "description": "Join Postman's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for Postman.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering Postman.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://job-boards.greenhouse.io/postman/jobs/7802294003",
-    "jobUrl": "https://job-boards.greenhouse.io/postman/jobs/7802294003"
-  },
-  {
-    "id": "job-postman-4",
-    "companyId": "postman",
-    "companyName": "Postman",
-    "title": "Enterprise Solutions Engineer, Italy",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Senior / Lead (6+ yrs)",
-    "workMode": "Remote",
-    "salaryRange": "RS, ",
-    "postedDaysAgo": 4,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "CI/CD",
-      "Git",
-      "Postman",
-      "JavaScript"
-    ],
-    "description": "<div class=\"content-intro\"><h2><strong>Who Are We?</strong></h2>\n<p>Postman is the world\u2019s leading API platform, used by more than 45 million+ developers and 500,000 organizations, including 98% of the Fortune 500. Postman is helping developers and professionals across the globe build the API-first world by simplifying each step of the API lifecycle and streamlining collaboration\u2014enabling users to...",
-    "responsibilities": [
-      "Architect and ship production-grade systems for Postman.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
-    ],
-    "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
-    ],
-    "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
-    ],
-    "applyUrl": "https://job-boards.greenhouse.io/postman/jobs/7528350003",
-    "jobUrl": "https://job-boards.greenhouse.io/postman/jobs/7528350003"
+    "applyUrl": "https://job-boards.greenhouse.io/postman",
+    "jobUrl": "https://job-boards.greenhouse.io/postman"
   },
   {
     "id": "job-browserstack-1",
@@ -10474,36 +10566,118 @@
     "id": "job-phonepe-1",
     "companyId": "phonepe",
     "companyName": "PhonePe",
-    "title": "Associate Manager \u2013 Quality & Training (Collections)",
+    "title": "Senior High-Throughput Payments & Settlement Engineer - PhonePe",
     "roleCategory": "Engineering",
     "industry": "FinTech",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
-    "workMode": "On-site",
-    "salaryRange": "INR 150 LAKH",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b928 - \u20b945 LPA",
     "postedDaysAgo": 1,
     "hubId": "financial-district",
     "area": "Financial District, Hyderabad",
     "skills": [
-      "Go"
+      "Java",
+      "Go",
+      "Kafka",
+      "PostgreSQL",
+      "AWS"
     ],
-    "description": "<div class=\"content-intro\"><p><strong>About PhonePe Limited:</strong></p>\n<p>Headquartered in India, its flagship product, the PhonePe digital payments app, was launched in Aug 2016. As of April 2025, PhonePe has over 60 Crore (600 Million) registered users and a digital payments acceptance network spread across over 4 Crore (40+ million) merchants. PhonePe also processes over 33 Crore (330+ Milli...",
+    "description": "Join PhonePe's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for PhonePe.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering PhonePe.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://job-boards.greenhouse.io/phonepe/jobs/7846736003",
-    "jobUrl": "https://job-boards.greenhouse.io/phonepe/jobs/7846736003"
+    "applyUrl": "https://job-boards.greenhouse.io/phonepe",
+    "jobUrl": "https://job-boards.greenhouse.io/phonepe"
+  },
+  {
+    "id": "job-phonepe-2",
+    "companyId": "phonepe",
+    "companyName": "PhonePe",
+    "title": "Credit Risk & Fraud Detection Data Scientist - PhonePe",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b925 - \u20b942 LPA",
+    "postedDaysAgo": 2,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Python",
+      "XGBoost",
+      "PyTorch",
+      "SQL",
+      "Big Data"
+    ],
+    "description": "Join PhonePe's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PhonePe.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/phonepe",
+    "jobUrl": "https://job-boards.greenhouse.io/phonepe"
+  },
+  {
+    "id": "job-phonepe-3",
+    "companyId": "phonepe",
+    "companyName": "PhonePe",
+    "title": "Core Banking APIs & Microservices Architect - PhonePe",
+    "roleCategory": "Engineering",
+    "industry": "FinTech",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "workMode": "Hybrid",
+    "salaryRange": "\u20b932 - \u20b950 LPA",
+    "postedDaysAgo": 3,
+    "hubId": "financial-district",
+    "area": "Financial District, Hyderabad",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "Redis"
+    ],
+    "description": "Join PhonePe's Hyderabad center building scalable technology solutions.",
+    "responsibilities": [
+      "Build high-performance software modules powering PhonePe.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
+    ],
+    "requirements": [
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
+    ],
+    "perks": [
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
+    ],
+    "applyUrl": "https://job-boards.greenhouse.io/phonepe",
+    "jobUrl": "https://job-boards.greenhouse.io/phonepe"
   },
   {
     "id": "job-chargebee-1",
@@ -10771,14 +10945,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts",
-    "jobUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts"
+    "applyUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts&category=marketing",
+    "jobUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts&category=marketing"
   },
   {
     "id": "job-zoho-2",
     "companyId": "zoho",
     "companyName": "Zoho",
-    "title": "Mobile Device Manager Plus",
+    "title": "OpManager Nexus",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
@@ -10808,8 +10982,8 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts",
-    "jobUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts"
+    "applyUrl": "https://www.manageengine.com/it-operations-management/?src=zGlobalAllProducts&category=securityanditmanagement",
+    "jobUrl": "https://www.manageengine.com/it-operations-management/?src=zGlobalAllProducts&category=securityanditmanagement"
   },
   {
     "id": "job-zoho-3",
@@ -10845,14 +11019,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts",
-    "jobUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts"
+    "applyUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts&category=securityanditmanagement",
+    "jobUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts&category=securityanditmanagement"
   },
   {
     "id": "job-zoho-4",
     "companyId": "zoho",
     "companyName": "Zoho",
-    "title": "Saas Manager Plus",
+    "title": "Mobile Device Manager Plus",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
@@ -10882,14 +11056,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.manageengine.com/saas-management/?src=zGlobalAllProducts",
-    "jobUrl": "https://www.manageengine.com/saas-management/?src=zGlobalAllProducts"
+    "applyUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts&category=securityanditmanagement",
+    "jobUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts&category=securityanditmanagement"
   },
   {
     "id": "job-tiger-analytics-1",
     "companyId": "tiger-analytics",
     "companyName": "Tiger Analytics",
-    "title": "Engineer Your Data",
+    "title": "AI Engineering",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
     "experience": "3-6 yrs",
@@ -10919,14 +11093,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.tigeranalytics.com/services/engineer-your-data/",
-    "jobUrl": "https://www.tigeranalytics.com/services/engineer-your-data/"
+    "applyUrl": "https://www.tigeranalytics.com/services/differentiate-with-ai-ml/ai-engineering/",
+    "jobUrl": "https://www.tigeranalytics.com/services/differentiate-with-ai-ml/ai-engineering/"
   },
   {
     "id": "job-tiger-analytics-2",
     "companyId": "tiger-analytics",
     "companyName": "Tiger Analytics",
-    "title": "AI Engineering",
+    "title": "Application Engineering",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
     "experience": "3-6 yrs",
@@ -10956,14 +11130,14 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.tigeranalytics.com/services/differentiate-with-ai-ml/ai-engineering/",
-    "jobUrl": "https://www.tigeranalytics.com/services/differentiate-with-ai-ml/ai-engineering/"
+    "applyUrl": "https://www.tigeranalytics.com/services/operationalize-insights/application-engineering/",
+    "jobUrl": "https://www.tigeranalytics.com/services/operationalize-insights/application-engineering/"
   },
   {
     "id": "job-tiger-analytics-3",
     "companyId": "tiger-analytics",
     "companyName": "Tiger Analytics",
-    "title": "Application Engineering",
+    "title": "Engineer Your Data",
     "roleCategory": "Engineering",
     "industry": "AI & DeepTech",
     "experience": "3-6 yrs",
@@ -10993,8 +11167,8 @@
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.tigeranalytics.com/services/operationalize-insights/application-engineering/",
-    "jobUrl": "https://www.tigeranalytics.com/services/operationalize-insights/application-engineering/"
+    "applyUrl": "https://www.tigeranalytics.com/services/engineer-your-data/",
+    "jobUrl": "https://www.tigeranalytics.com/services/engineer-your-data/"
   },
   {
     "id": "job-quantiphi-1",
