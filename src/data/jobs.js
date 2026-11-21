@@ -1,6 +1,6 @@
 // Curated Hyderabad Tech Jobs Database
 // Auto-synced and generated from career crawlers.
-// Total Jobs: 315
+// Total Jobs: 319
 
 export const HYDERABAD_JOBS = [
   {
@@ -307,6 +307,43 @@ export const HYDERABAD_JOBS = [
     ],
     "applyUrl": "https://www.highradius.com/about/leadership-team/",
     "jobUrl": "https://www.highradius.com/about/leadership-team/"
+  },
+  {
+    "id": "job-highradius-3",
+    "companyId": "highradius",
+    "companyName": "HighRadius",
+    "title": "Analyst Reports",
+    "roleCategory": "Engineering",
+    "industry": "FinTech / SaaS",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
+    "hubId": "hitec-city",
+    "area": "HITEC City, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at HighRadius Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for HighRadius.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://www.highradius.com/resources/analyst-reports/",
+    "jobUrl": "https://www.highradius.com/resources/analyst-reports/"
   },
   {
     "id": "job-zenoti-1",
@@ -2795,6 +2832,117 @@ export const HYDERABAD_JOBS = [
     ],
     "applyUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1",
     "jobUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1"
+  },
+  {
+    "id": "job-dazn-2",
+    "companyId": "dazn",
+    "companyName": "DAZN Tech Hub",
+    "title": "Advertising Operations Campaign ManagerUK - Leeds MediaPermanent - Full Time",
+    "roleCategory": "Engineering",
+    "industry": "Gaming & Media",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 2,
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for DAZN Tech Hub.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1",
+    "jobUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1"
+  },
+  {
+    "id": "job-dazn-3",
+    "companyId": "dazn",
+    "companyName": "DAZN Tech Hub",
+    "title": "Affiliate Account Manager",
+    "roleCategory": "Engineering",
+    "industry": "Gaming & Media",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 3,
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for DAZN Tech Hub.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593",
+    "jobUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593"
+  },
+  {
+    "id": "job-dazn-4",
+    "companyId": "dazn",
+    "companyName": "DAZN Tech Hub",
+    "title": "Affiliate Account ManagerCeute - Spain MarketingPermanent - Full Time",
+    "roleCategory": "Engineering",
+    "industry": "Gaming & Media",
+    "experience": "3-6 yrs",
+    "experienceLevel": "Fresher (0-1 yr)",
+    "workMode": "Hybrid",
+    "salaryRange": "Not Disclosed",
+    "postedDaysAgo": 4,
+    "hubId": "t-hub-raidurg",
+    "area": "Knowledge City / Raidurg, Hyderabad",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
+    ],
+    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
+    "responsibilities": [
+      "Architect and ship production-grade systems for DAZN Tech Hub.",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
+    ],
+    "requirements": [
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
+    ],
+    "perks": [
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
+    ],
+    "applyUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593",
+    "jobUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593"
   },
   {
     "id": "job-thomson-reuters-1",
