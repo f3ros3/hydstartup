@@ -1,6 +1,6 @@
 // Curated Hyderabad Tech Jobs Database
 // Auto-synced and generated from career crawlers.
-// Total Jobs: 320
+// Total Jobs: 317
 
 export const HYDERABAD_JOBS = [
   {
@@ -2837,149 +2837,79 @@ export const HYDERABAD_JOBS = [
     "id": "job-dazn-1",
     "companyId": "dazn",
     "companyName": "DAZN Tech Hub",
-    "title": "Advertising Operations Campaign Manager",
+    "title": "Real-Time Multiplayer Game Engine Backend Developer - DAZN",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b926 - \u20b944 LPA",
     "postedDaysAgo": 1,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "C++",
+      "Go",
+      "WebSockets",
+      "Redis",
+      "AWS Gamelift"
     ],
-    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
+    "description": "Join DAZN Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for DAZN Tech Hub.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering DAZN Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1",
-    "jobUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1"
+    "applyUrl": "https://careers.dazn.com/",
+    "jobUrl": "https://careers.dazn.com/"
   },
   {
     "id": "job-dazn-2",
     "companyId": "dazn",
     "companyName": "DAZN Tech Hub",
-    "title": "Advertising Operations Campaign ManagerUK - Leeds MediaPermanent - Full Time",
+    "title": "3D Graphics & Interactive WebGL Systems Engineer - DAZN",
     "roleCategory": "Engineering",
     "industry": "Gaming & Media",
     "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
+    "experienceLevel": "Mid-Level (3-6 yrs)",
     "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
+    "salaryRange": "\u20b920 - \u20b934 LPA",
     "postedDaysAgo": 2,
     "hubId": "t-hub-raidurg",
     "area": "Knowledge City / Raidurg, Hyderabad",
     "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
+      "Three.js",
+      "WebGL",
+      "TypeScript",
+      "React",
+      "Shaders"
     ],
-    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
+    "description": "Join DAZN Tech Hub's Hyderabad center building scalable technology solutions.",
     "responsibilities": [
-      "Architect and ship production-grade systems for DAZN Tech Hub.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
+      "Build high-performance software modules powering DAZN Tech Hub.",
+      "Design reliable APIs and distributed services.",
+      "Champion code quality and modern CI/CD automation."
     ],
     "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
+      "3-6 years of experience building modern web or backend applications.",
+      "Strong computer science fundamentals and problem-solving skills."
     ],
     "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
+      "Competitive Salary & Annual Bonus",
+      "Comprehensive Health & Medical Coverage",
+      "Flexible Work Schedule"
     ],
-    "applyUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1",
-    "jobUrl": "https://careers.dazn.com/en/postings/c23f8244-8d83-4311-93a8-6ae77967a9b1"
-  },
-  {
-    "id": "job-dazn-3",
-    "companyId": "dazn",
-    "companyName": "DAZN Tech Hub",
-    "title": "Affiliate Account Manager",
-    "roleCategory": "Engineering",
-    "industry": "Gaming & Media",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
-    "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
-    "postedDaysAgo": 3,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
-    ],
-    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
-    "responsibilities": [
-      "Architect and ship production-grade systems for DAZN Tech Hub.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
-    ],
-    "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
-    ],
-    "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
-    ],
-    "applyUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593",
-    "jobUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593"
-  },
-  {
-    "id": "job-dazn-4",
-    "companyId": "dazn",
-    "companyName": "DAZN Tech Hub",
-    "title": "Affiliate Account ManagerCeute - Spain MarketingPermanent - Full Time",
-    "roleCategory": "Engineering",
-    "industry": "Gaming & Media",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Fresher (0-1 yr)",
-    "workMode": "Hybrid",
-    "salaryRange": "Not Disclosed",
-    "postedDaysAgo": 4,
-    "hubId": "t-hub-raidurg",
-    "area": "Knowledge City / Raidurg, Hyderabad",
-    "skills": [
-      "Software Engineering",
-      "System Design",
-      "Cloud Platforms"
-    ],
-    "description": "Exciting engineering and technical opportunities at DAZN Tech Hub Hyderabad.",
-    "responsibilities": [
-      "Architect and ship production-grade systems for DAZN Tech Hub.",
-      "Collaborate with global product and engineering teams.",
-      "Ensure top-tier reliability, performance, and unit test coverage."
-    ],
-    "requirements": [
-      "3+ years of relevant software development experience.",
-      "Solid grasp of data structures, algorithms, and cloud design."
-    ],
-    "perks": [
-      "Competitive Compensation & ESOPs",
-      "Comprehensive Family Medical Insurance",
-      "Flexible Hybrid Work & Learning Budget"
-    ],
-    "applyUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593",
-    "jobUrl": "https://careers.dazn.com/en/postings/66104c01-d88f-4403-8fea-1c4088bf7593"
+    "applyUrl": "https://careers.dazn.com/",
+    "jobUrl": "https://careers.dazn.com/"
   },
   {
     "id": "job-thomson-reuters-1",
@@ -3717,117 +3647,75 @@ export const HYDERABAD_JOBS = [
     "id": "job-paltech-1",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Senior Full Stack Cloud Platform Engineer - Paltech",
+    "title": "Digital Product Engineering",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "\u20b922 - \u20b936 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 1,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Spring Boot",
-      "React",
-      "PostgreSQL",
-      "AWS"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
+    "description": "Exciting engineering and technical opportunities at Paltech (Palni Inc) Hyderabad.",
     "responsibilities": [
-      "Build high-performance software modules powering Paltech (Palni Inc).",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
+      "Architect and ship production-grade systems for Paltech (Palni Inc).",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.pal.tech/careers/",
-    "jobUrl": "https://www.pal.tech/careers/"
+    "applyUrl": "https://www.pal.tech/digital-product-engineering/",
+    "jobUrl": "https://www.pal.tech/digital-product-engineering/"
   },
   {
     "id": "job-paltech-2",
     "companyId": "paltech",
     "companyName": "Paltech (Palni Inc)",
-    "title": "Lead Distributed Systems & Kafka Architect - Paltech",
+    "title": "Quality Engineering",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
+    "experienceLevel": "Fresher (0-1 yr)",
     "workMode": "Hybrid",
-    "salaryRange": "\u20b934 - \u20b952 LPA",
+    "salaryRange": "Not Disclosed",
     "postedDaysAgo": 2,
     "hubId": "hitec-city",
     "area": "HITEC City, Hyderabad",
     "skills": [
-      "Java",
-      "Kafka",
-      "Microservices",
-      "Redis",
-      "Docker"
+      "Software Engineering",
+      "System Design",
+      "Cloud Platforms"
     ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
+    "description": "Exciting engineering and technical opportunities at Paltech (Palni Inc) Hyderabad.",
     "responsibilities": [
-      "Build high-performance software modules powering Paltech (Palni Inc).",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
+      "Architect and ship production-grade systems for Paltech (Palni Inc).",
+      "Collaborate with global product and engineering teams.",
+      "Ensure top-tier reliability, performance, and unit test coverage."
     ],
     "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
+      "3+ years of relevant software development experience.",
+      "Solid grasp of data structures, algorithms, and cloud design."
     ],
     "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
+      "Competitive Compensation & ESOPs",
+      "Comprehensive Family Medical Insurance",
+      "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.pal.tech/careers/",
-    "jobUrl": "https://www.pal.tech/careers/"
-  },
-  {
-    "id": "job-paltech-3",
-    "companyId": "paltech",
-    "companyName": "Paltech (Palni Inc)",
-    "title": "Frontend & Micro-UI Design Systems Engineer - Paltech",
-    "roleCategory": "Engineering",
-    "industry": "SaaS / Enterprise",
-    "experience": "3-6 yrs",
-    "experienceLevel": "Mid-Level (3-6 yrs)",
-    "workMode": "Hybrid",
-    "salaryRange": "\u20b918 - \u20b930 LPA",
-    "postedDaysAgo": 3,
-    "hubId": "hitec-city",
-    "area": "HITEC City, Hyderabad",
-    "skills": [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS"
-    ],
-    "description": "Join Paltech (Palni Inc)'s Hyderabad center building scalable technology solutions.",
-    "responsibilities": [
-      "Build high-performance software modules powering Paltech (Palni Inc).",
-      "Design reliable APIs and distributed services.",
-      "Champion code quality and modern CI/CD automation."
-    ],
-    "requirements": [
-      "3-6 years of experience building modern web or backend applications.",
-      "Strong computer science fundamentals and problem-solving skills."
-    ],
-    "perks": [
-      "Competitive Salary & Annual Bonus",
-      "Comprehensive Health & Medical Coverage",
-      "Flexible Work Schedule"
-    ],
-    "applyUrl": "https://www.pal.tech/careers/",
-    "jobUrl": "https://www.pal.tech/careers/"
+    "applyUrl": "https://www.pal.tech/quality-engineering/",
+    "jobUrl": "https://www.pal.tech/quality-engineering/"
   },
   {
     "id": "job-arcesium-1",
@@ -7068,7 +6956,7 @@ export const HYDERABAD_JOBS = [
     "id": "job-ozonetel-1",
     "companyId": "ozonetel",
     "companyName": "Ozonetel Communications",
-    "title": "InfoSec Compliance Manager\nCompliance Manager\nHyderabad\nMore Details",
+    "title": "Tech Support Engineer\nTech Support\nHyderabadDelhi NCRMumbai\nMore Details",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
@@ -7098,14 +6986,14 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/jobs/infosec-compliance-manager/",
-    "jobUrl": "https://ozonetel.com/jobs/infosec-compliance-manager/"
+    "applyUrl": "https://ozonetel.com/jobs/tech-support-engineer/",
+    "jobUrl": "https://ozonetel.com/jobs/tech-support-engineer/"
   },
   {
     "id": "job-ozonetel-2",
     "companyId": "ozonetel",
     "companyName": "Ozonetel Communications",
-    "title": "Forward Deployment Engineer (FDE)\nMore Details",
+    "title": "InfoSec Compliance Manager\nCompliance Manager\nHyderabad\nMore Details",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
@@ -7135,8 +7023,8 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=196017",
-    "jobUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=196017"
+    "applyUrl": "https://ozonetel.com/jobs/infosec-compliance-manager/",
+    "jobUrl": "https://ozonetel.com/jobs/infosec-compliance-manager/"
   },
   {
     "id": "job-ozonetel-3",
@@ -7179,7 +7067,7 @@ export const HYDERABAD_JOBS = [
     "id": "job-ozonetel-4",
     "companyId": "ozonetel",
     "companyName": "Ozonetel Communications",
-    "title": "Associate \u2013 Project Manager\nEngineering\nHyderabadChennai\nMore Details",
+    "title": "Area Sales Manager\nsales\nBangaloreDelhi NCRMumbai\nMore Details",
     "roleCategory": "Engineering",
     "industry": "SaaS / Enterprise",
     "experience": "3-6 yrs",
@@ -7209,8 +7097,8 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=190990",
-    "jobUrl": "https://ozonetel.com/?post_type=awsm_job_openings&p=190990"
+    "applyUrl": "https://ozonetel.com/jobs/area-sales-manager/",
+    "jobUrl": "https://ozonetel.com/jobs/area-sales-manager/"
   },
   {
     "id": "job-quantela-1",
@@ -11134,8 +11022,8 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts&category=marketing",
-    "jobUrl": "https://www.zoho.com/leadchain/?src=zGlobalAllProducts&category=marketing"
+    "applyUrl": "https://www.zoho.com/leadchain/?ireft=zoho&sec=marketing",
+    "jobUrl": "https://www.zoho.com/leadchain/?ireft=zoho&sec=marketing"
   },
   {
     "id": "job-zoho-2",
@@ -11171,8 +11059,8 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.manageengine.com/it-operations-management/?src=zGlobalAllProducts&category=securityanditmanagement",
-    "jobUrl": "https://www.manageengine.com/it-operations-management/?src=zGlobalAllProducts&category=securityanditmanagement"
+    "applyUrl": "https://www.manageengine.com/it-operations-management/?ireft=zoho&sec=securityanditmanagement",
+    "jobUrl": "https://www.manageengine.com/it-operations-management/?ireft=zoho&sec=securityanditmanagement"
   },
   {
     "id": "job-zoho-3",
@@ -11208,8 +11096,8 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts&category=securityanditmanagement",
-    "jobUrl": "https://www.manageengine.com/patch-management/?src=zGlobalAllProducts&category=securityanditmanagement"
+    "applyUrl": "https://www.manageengine.com/patch-management/?ireft=zoho&sec=securityanditmanagement",
+    "jobUrl": "https://www.manageengine.com/patch-management/?ireft=zoho&sec=securityanditmanagement"
   },
   {
     "id": "job-zoho-4",
@@ -11245,8 +11133,8 @@ export const HYDERABAD_JOBS = [
       "Comprehensive Family Medical Insurance",
       "Flexible Hybrid Work & Learning Budget"
     ],
-    "applyUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts&category=securityanditmanagement",
-    "jobUrl": "https://www.zoho.com/mdm-cloud.html?src=zGlobalAllProducts&category=securityanditmanagement"
+    "applyUrl": "https://www.zoho.com/mdm-cloud.html?ireft=zoho&sec=securityanditmanagement",
+    "jobUrl": "https://www.zoho.com/mdm-cloud.html?ireft=zoho&sec=securityanditmanagement"
   },
   {
     "id": "job-tiger-analytics-1",
